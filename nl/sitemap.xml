@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://numpy.org/nl/contribute/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://numpy.org/contribute/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="http://numpy.org/nl/contribute/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://numpy.org/nl/arraycomputing/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://numpy.org/arraycomputing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="http://numpy.org/nl/arraycomputing/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://numpy.org/nl/community/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://numpy.org/community/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="http://numpy.org/nl/community/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://numpy.org/nl/learning/</loc>
+  </url>
+  
+  <url>
+    <loc>http://numpy.org/nl/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://numpy.org/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="http://numpy.org/nl/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://numpy.org/nl/install/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://numpy.org/install/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="http://numpy.org/nl/install/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://numpy.org/nl/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://numpy.org/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="http://numpy.org/nl/about/"
+                />
+  </url>
+  
+</urlset>

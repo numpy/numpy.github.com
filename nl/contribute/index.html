@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-162151853-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+<meta name="description" content="Hardcoded description; the author should update :)" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>NumPy</title>
+  
+<link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="/css/style.min.cf5efcb8a6e49b945af419cd8b208a5ae87eb3015995b9afc61218743a0fed3e.css" integrity="sha256-z178uKbkm5Ra9BnNiyCKWuh&#43;swFZlbmvxhIYdDoP7T4=">
+<link rel="stylesheet" type="text/css" href="/css/icons.css">
+
+<link rel="icon" type="image/png" href="/images/favicon.png" />
+
+<link href="https://fonts.googleapis.com/css?family=Lato:400,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="/css/styles.css" />
+<link rel="stylesheet" type="text/css" href="/css/shell.css" />
+<link rel="stylesheet" type="text/css" href="/css/tabs.css" />
+<link rel="stylesheet" type="text/css" href="/css/content.css" />
+<link rel="stylesheet" type="text/css" href="/css/news.css" />
+<link rel="stylesheet" type="text/css" href="/css/keyfeatures.css" />
+<link rel="stylesheet" type="text/css" href="/css/section3.css" />
+
+</head>
+
+<body>
+  
+
+  
+
+
+<nav id="nav" class="navbar is-fresh is-transparent no-shadow" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      
+            <a id="navbar-item" class="navbar-item" href="/">
+                <img src="/images/logos/numpy.svg" alt="Numpy logo. A three-dimensional blue cube with the letter 'N' highlighted in yellow." width="112" height="28" alt="Numpy logo. A three-dimensional blue cube with the letter 'N' highlighted in yellow.">
+            </a>
+      
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+      <div id="navbar-menu" class="navbar-menu is-static">
+
+        <div class="navbar-end">
+          <a href="/nl/install" id="navbar-item" class="navbar-item is-secondary">
+            Install
+          </a>
+          <a href="https://numpy.org/doc/stable" id="navbar-item" class="navbar-item is-secondary">
+            Documentation
+          </a>
+          <a href="/nl/arraycomputing" id="navbar-item" class="navbar-item is-secondary">
+            Array computing
+          </a>
+          <a href="/nl/case-studies/blackhole-image" id="navbar-item" class="navbar-item is-secondary">
+            Case Studies
+          </a>
+          <a href="/nl/learn" id="navbar-item" class="navbar-item is-secondary">
+            Learn
+          </a>
+          <a href="/nl/community" id="navbar-item" class="navbar-item is-secondary">
+            Community
+          </a>
+          <a href="/nl/about" id="navbar-item" class="navbar-item is-secondary">
+            About Us
+          </a>
+          <a href="/nl/contribute" id="navbar-item" class="navbar-item is-secondary">
+            Contribute
+          </a>
+
+          
+        </div>
+      </div>
+  </div>
+</nav>
+
+
+
+
+<nav id="navbar-clone" class="navbar is-fresh is-transparent" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a id="navbar-item" class="navbar-item" href="/">
+        <img src="/images/logos/numpy.svg" alt="" width="112" height="28">
+      </a>
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="cloned-navbar-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="cloned-navbar-menu" class="navbar-menu is-fixed">
+
+      <div class="navbar-end">
+        <a href="/nl/install" id="navbar-item" class="navbar-item is-secondary">
+          Install
+        </a>
+        <a href="https://numpy.org/doc/stable" id="navbar-item" class="navbar-item is-secondary">
+          Documentation
+        </a>
+        <a href="/nl/arraycomputing" id="navbar-item" class="navbar-item is-secondary">
+          Array computing
+        </a>
+        <a href="/nl/case-studies/blackhole-image" id="navbar-item" class="navbar-item is-secondary">
+          Case Studies
+        </a>
+        <a href="/nl/learn" id="navbar-item" class="navbar-item is-secondary">
+          Learn
+        </a>
+        <a href="/nl/community" id="navbar-item" class="navbar-item is-secondary">
+          Community
+        </a>
+        <a href="/nl/about" id="navbar-item" class="navbar-item is-secondary">
+          About Us
+        </a>
+        <a href="/nl/contribute" id="navbar-item" class="navbar-item is-secondary">
+          Contribute
+        </a>
+        
+      </div>
+    </div>
+</div>
+</nav>
+
+<section class="content-padding flex-row">
+    <div class="shortcuts-container">
+        <div class="shortcuts-title">Shortcuts</div>
+        <div id="shortcuts"></div>
+        <div class="sidebar-links">
+            <a href="/gethelp">Get Help</a>
+        </div>
+    </div>
+    <div class="content-container">
+        <div class="columns">
+            <div class="column is-centered-tablet-portrait">
+                <h1 class="title section-title"></h1>
+                <h5 class="subtitle is-5 is-muted"></h5>
+                <div class="divider"></div>
+            </div>
+        </div>
+        <h1 id="to-do---voeg-links-en-logos-toe">TO DO - voeg links en logo&rsquo;s toe</h1>
+<p><strong>CONTRIBUTE</strong></p>
+<p>Bedankt voor het klikken op de knop &ldquo;Bijdragen&rdquo;! U bent ons soort Pythonista!</p>
+<p>Om het nummer-project te kunnen floreren, heeft u uw expertise en enthousiasme nodig. Geen codering? Geen probleem! Er zijn veel manieren om bij te dragen aan NumPy:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Schrijf code</th>
+<th align="left">Bekijk en reageer op pull requests van andere ontwikkelaars</th>
+<th align="left">Bijdragen educatieve materialen (tutorials, presentaties, etc.)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><strong>Bugs en problemen onderzoeken op GitHub</strong></td>
+<td align="left"><strong>Documentatie verbeteren</strong></td>
+<td align="left"><strong>Inhoud vertalen in andere talen</strong></td>
+</tr>
+<tr>
+<td align="left"><strong>Antwoord vragen op Gitter, Stack Overflow en Reddit</strong></td>
+<td align="left"><strong>Neem deel aan de discussie over de mailinglijst</strong></td>
+<td align="left"><strong>Serveer als community coördinator</strong></td>
+</tr>
+<tr>
+<td align="left"><strong>Referentienummer in uw documenten, artikelen en blogs</strong></td>
+<td align="left"><strong>Onze website behouden en verbeteren</strong></td>
+<td align="left"><strong>Onderzoek en help om subsidies aan te vragen</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Onze gemeenschap streeft ernaar iedereen gelijk te behandelen en alle bijdragen te waarderen. Voor informatie over beste praktijken in de numPy-gemeenschap, gelieve onze gedragscode te herzien. Probeer deze code in de geest van de letter te volgen, om een open en gastvrij milieu te bevorderen dat het hele open bronecosysteem verrijkt.</p>
+<p><strong>DONAAR</strong></p>
+<p>Als u NumPy nuttig hebt gevonden in uw werk, kunt u overwegen een donatie te maken. Elk bedrag helpt! Alle donaties zullen strikt worden gebruikt om de ontwikkeling van de software van de openbare source, documentatie en gemeenschap van NumPy te financieren.</p>
+<p>NumPy is een Sponsored Project van NumFOCUS, een 501(c)(3) non-profitliefdadigheid in de Verenigde Staten. NumFOCUS biedt NumPy fiscale, juridische en administratieve steun om de gezondheid en duurzaamheid van het project te waarborgen. Bezoek numfocus.org voor meer informatie. Donaties aan NumPy worden beheerd door NumFOCUS. Voor donoren in de Verenigde Staten is uw cadeau belastingaftrekbaar in de mate die de wet voorschrijft. Net als bij elke donatie moet u met uw belastingadviseur overleggen over uw specifieke belastingsituatie.</p>
+<p>De NumPy Steering Council zal besluiten nemen over hoe het beste gebruik kan worden gemaakt van ontvangen fondsen. De prioriteiten op het gebied van technische en infrastructurele voorzieningen zijn vastgelegd op de routekaart voor NumPy.</p>
+<p><strong>INSTITUTIE PARTNERS</strong></p>
+<p>Institutionele Partners zijn organisaties die het project steunen door de aanwerving van de NumPy-betalers, met een bijdrage aan het project als onderdeel van hun officiële taken.</p>
+<p>Huidige institutionele partners zijn:</p>
+<p>BIDS</p>
+<p>Kwantig</p>
+<p><strong>SPONSORS</strong></p>
+<p>NumPy ontvangt directe financiering uit de volgende bronnen:</p>
+<p>Gordon en Betty Moore Foundation</p>
+<p>Alfred P. Sloan Foundation</p>
+<p>Hemel</p>
+
+    </div>
+  </div>
+</section>
+
+
+
+  
+  <div id="backtotop"><a href="#"></a></div>
+
+  
+
+  
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://unpkg.com/feather-icons"></script>
+<script src="/js/fresh.js"></script>
+<script src="/js/jquery.panelslider.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+<script src="https://kit.fontawesome.com/9e9265cc6d.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.2.7/dist/js/uikit.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.2.7/dist/css/uikit.min.css" />
+
+<script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "joelachance/thebelab-requirements"
+        },
+    }
+</script>
+<script src="https://unpkg.com/thebelab@0.4.0/lib/index.js"></script>
+
+<script src="/js/app.js"></script>
+
+
+  
+  
+<footer id="footer" class="footer">
+  <div class="container">
+    <div id="footer-columns" class="columns">
+      <div class="footer-logo-column">
+        <img id="footer-logo" src="/images/logos/numpy.svg" alt="Numpy logo. A three-dimensional blue cube with the letter 'N' highlighted in yellow.">
+      </div>
+        <div class="link-column">
+          <div class="footer-column">
+            <div class="footer-header">
+            </div>
+            <ul class="link-list">
+              <li class="link-list">
+                <a class="footer-link" href="/nl/install">
+                  Install
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="https://numpy.org/doc/">
+                  Documentation
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/nl/release-notes">
+                  Release notes
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/nl/roadmap">
+                  Roadmap
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="link-column">
+          <div class="footer-column">
+            <div class="footer-header">
+            </div>
+            <ul class="link-list">
+              <li class="link-list">
+                <a class="footer-link" href="/nl/about">
+                  About us
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/community">
+                  Community
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/nl/contribute">
+                  Contribute
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/nl/code-of-conduct">
+                  Code of conduct
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="link-column">
+          <div class="footer-column">
+            <div class="footer-header">
+            </div>
+            <ul class="link-list">
+              <li class="link-list">
+                <a class="footer-link" href="/nl/gethelp">
+                  Get help
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/nl/terms">
+                  Terms of use
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/nl/privacy">
+                  Privacy
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/nl/press-kit">
+                  Press kit
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-actions">
+            <p>Sign up for the latest NumPy news, resources, <br> and more</p>
+            
+            <form action="https://numpy.us4.list-manage.com/subscribe/post?u=5ddd0d1d6e807900a8212481a&amp;id=287fa4253c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate sign-up-container" target="_blank" novalidate>
+                <i class="fal fa-envelope sign-up-image"></i>
+                <input type="email" value="" name="EMAIL" class="required email sign-up-input" id="mce-EMAIL" aria-label="Input for email, press enter to submit" onkeypress="if (event.which === 13 || event.keyCode === 13 || event.key === 'Enter') sendThankYou()" />
+                <div class="submission-instructions">Press Enter</div>
+                <button class="signup-button" onclick="sendThankYou()" aria-label="Submit">
+                    <i class="fal fa-paper-plane"></i>
+                </button>
+                <div id="mce-responses" class="clear">
+                    <div class="response" id="mce-error-response" style="display:none"></div>
+                    <div class="response" id="mce-success-response" style="display:none"></div>
+                </div>
+                
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5ddd0d1d6e807900a8212481a_287fa4253c" tabindex="-1" value=""></div>
+                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" style="display: none;"></div>
+            </form>
+            <div class="thank-you">Thank you! &#127881;</div>
+            
+
+            <nav class="level is-mobile">
+                <div class="social-media-icons">
+                    <a class="level-item" href="https://github.com/numpy/numpy" aria-label="https://github.com/numpy/numpy">
+                    <span class="icon"><i class="fa fa-github"></i></span>
+                    </a>
+                    <a class="level-item" href="https://twitter.com/numpy_team" aria-label="https://twitter.com/numpy_team">
+                    <span class="icon"><i class="fa fa-twitter"></i></span>
+                    </a>
+                </div>
+            </nav>
+            <div class="copyright">&copy; 2019-2020 NumPy. All rights reserved.</div>
+        </div>
+    </div>
+  </div>
+</footer>
+
+  
+</body>
+
+</html>
