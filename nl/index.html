@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-	<meta name="generator" content="Hugo 0.67.1" />
+	<meta name="generator" content="Hugo 0.58.1" />
     
 <script type="application/javascript">
 var doNotTrack = false;
@@ -22,7 +22,7 @@ if (!doNotTrack) {
     <title>NumPy</title>
     
 <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="/css/style.min.cf5efcb8a6e49b945af419cd8b208a5ae87eb3015995b9afc61218743a0fed3e.css" integrity="sha256-z178uKbkm5Ra9BnNiyCKWuh&#43;swFZlbmvxhIYdDoP7T4=">
+<link rel="stylesheet" type="text/css" href="/css/style.min.90e79d931dd7cbbc3a657115e4b0d9b131892ce20e05d1f3176a3dfbe94ef1c4.css" integrity="sha256-kOedkx3Xy7w6ZXEV5LDZsTGJLOIOBdHzF2o9&#43;&#43;lO8cQ=">
 <link rel="stylesheet" type="text/css" href="/css/icons.css">
 
 <link rel="icon" type="image/png" href="/images/favicon.png" />
@@ -249,29 +249,33 @@ if (!doNotTrack) {
 
 <div class="shell-wait shell-content" style="display: none;">
     <div class="shell-title">While we wait...</div>
-    <div class="shell-content-message">Don't forget to check out the <a href="https://numpy.org/doc/stable" target="_blank">docs</a></div>
+    <div class="shell-content-message">
+        <p>Launching container on mybinder.org...</p>
+
+        <p>Don't forget to check out the <a href="https://numpy.org/doc/stable" target="_blank">docs</a></p>
+    </div>
 </div>
 
 <div class="shell-lesson shell-content" style="display: none;">
-    <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#75715e"># The standard way to import NumPy:</span>
-<span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#f92672">import</span> numpy <span style="color:#f92672">as</span> np
+    <pre><code class="language-python">&gt;&gt;&gt; # The standard way to import NumPy:
+&gt;&gt;&gt; import numpy as np
 
-<span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#75715e"># Create a 2-D array, set every second element in</span>
-<span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#75715e"># some rows and find max per row:</span>
+&gt;&gt;&gt; # Create a 2-D array, set every second element in
+&gt;&gt;&gt; # some rows and find max per row:
 
-<span style="color:#f92672">&gt;&gt;&gt;</span> x <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>arange(<span style="color:#ae81ff">15</span>, dtype<span style="color:#f92672">=</span>np<span style="color:#f92672">.</span>int64)<span style="color:#f92672">.</span>reshape(<span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">5</span>)
-<span style="color:#f92672">&gt;&gt;&gt;</span> x[<span style="color:#ae81ff">1</span>:, ::<span style="color:#ae81ff">2</span>] <span style="color:#f92672">=</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">99</span>
-<span style="color:#f92672">&gt;&gt;&gt;</span> x
-array([[  <span style="color:#ae81ff">0</span>,   <span style="color:#ae81ff">1</span>,   <span style="color:#ae81ff">2</span>,   <span style="color:#ae81ff">3</span>,   <span style="color:#ae81ff">4</span>],
-       [<span style="color:#f92672">-</span><span style="color:#ae81ff">99</span>,   <span style="color:#ae81ff">6</span>, <span style="color:#f92672">-</span><span style="color:#ae81ff">99</span>,   <span style="color:#ae81ff">8</span>, <span style="color:#f92672">-</span><span style="color:#ae81ff">99</span>],
-       [<span style="color:#f92672">-</span><span style="color:#ae81ff">99</span>,  <span style="color:#ae81ff">11</span>, <span style="color:#f92672">-</span><span style="color:#ae81ff">99</span>,  <span style="color:#ae81ff">13</span>, <span style="color:#f92672">-</span><span style="color:#ae81ff">99</span>]])
-<span style="color:#f92672">&gt;&gt;&gt;</span> x<span style="color:#f92672">.</span>max(axis<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>)
-array([ <span style="color:#ae81ff">4</span>,  <span style="color:#ae81ff">8</span>, <span style="color:#ae81ff">13</span>])
+&gt;&gt;&gt; x = np.arange(15, dtype=np.int64).reshape(3, 5)
+&gt;&gt;&gt; x[1:, ::2] = -99
+&gt;&gt;&gt; x
+array([[  0,   1,   2,   3,   4],
+       [-99,   6, -99,   8, -99],
+       [-99,  11, -99,  13, -99]])
+&gt;&gt;&gt; x.max(axis=1)
+array([ 4,  8, 13])
 
-<span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#75715e"># Generate normally distributed random numbers:</span>
-<span style="color:#f92672">&gt;&gt;&gt;</span> rng <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>random<span style="color:#f92672">.</span>default_rng()
-<span style="color:#f92672">&gt;&gt;&gt;</span> samples <span style="color:#f92672">=</span> rng<span style="color:#f92672">.</span>normal(size<span style="color:#f92672">=</span><span style="color:#ae81ff">2500</span>)
-</code></pre></div>
+&gt;&gt;&gt; # Generate normally distributed random numbers:
+&gt;&gt;&gt; rng = np.random.default_rng()
+&gt;&gt;&gt; samples = rng.normal(size=2500)
+</code></pre>
 </div>
 
             </div>

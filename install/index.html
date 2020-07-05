@@ -22,7 +22,7 @@ if (!doNotTrack) {
   <title>NumPy</title>
   
 <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="/css/style.min.cf5efcb8a6e49b945af419cd8b208a5ae87eb3015995b9afc61218743a0fed3e.css" integrity="sha256-z178uKbkm5Ra9BnNiyCKWuh&#43;swFZlbmvxhIYdDoP7T4=">
+<link rel="stylesheet" type="text/css" href="/css/style.min.90e79d931dd7cbbc3a657115e4b0d9b131892ce20e05d1f3176a3dfbe94ef1c4.css" integrity="sha256-kOedkx3Xy7w6ZXEV5LDZsTGJLOIOBdHzF2o9&#43;&#43;lO8cQ=">
 <link rel="stylesheet" type="text/css" href="/css/icons.css">
 
 <link rel="icon" type="image/png" href="/images/favicon.png" />
@@ -150,29 +150,48 @@ if (!doNotTrack) {
                 <div class="divider"></div>
             </div>
         </div>
-        <p>The only prerequisite for NumPy is Python itself. If you don&rsquo;t have Python yet and want the simplest way to get started, we recommend you use the <a href="https://www.anaconda.com/distribution">Anaconda Distribution</a> - it includes Python, NumPy, and other commonly used packages for scientific computing and data science.</p>
+        
+
+<p>The only prerequisite for NumPy is Python itself. If you don&rsquo;t have Python yet and want the simplest way to get started, we recommend you use the <a href="https://www.anaconda.com/distribution">Anaconda Distribution</a> - it includes Python, NumPy, and other commonly used packages for scientific computing and data science.</p>
+
 <p>NumPy can be installed with <code>conda</code>, with <code>pip</code>, or with a package manager on macOS and Linux. For more detailed instructions, consult our <a href="#python-numpy-install-guide">Python and NumPy installation guide</a> below.</p>
+
 <h2 id="conda">conda</h2>
+
 <p>If you use <code>conda</code>, you can install it with:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">conda install numpy
-</code></pre></div><h2 id="pip">pip</h2>
+
+<pre><code class="language-bash">conda install numpy
+</code></pre>
+
+<h2 id="pip">pip</h2>
+
 <p>If you use <code>pip</code>, you can install it with:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">pip install numpy
-</code></pre></div><p><a name="python-numpy-install-guide"></a></p>
+
+<pre><code class="language-bash">pip install numpy
+</code></pre>
+
+<p><a name="python-numpy-install-guide"></a></p>
+
 <h1 id="python-and-numpy-installation-guide">Python and NumPy installation guide</h1>
+
 <p>Installing and managing packages in Python is complicated, there are a
 number of alternative solutions for most tasks. This guide tries to give the
 reader a sense of the best (or most popular) solutions, and give clear
 recommendations. It focuses on users of Python, NumPy, and the PyData (or
 numerical computing) stack on common operating systems and hardware.</p>
+
 <h2 id="recommendations">Recommendations</h2>
+
 <p>We&rsquo;ll start with recommendations based on the user&rsquo;s experience level and
 operating system of interest. If you&rsquo;re in between &ldquo;beginning&rdquo; and &ldquo;advanced&rdquo;,
 please go with &ldquo;beginning&rdquo; if you want to keep things simple, and with
 &ldquo;advanced&rdquo; if you want to work according to best practices that go a longer way
 in the future.</p>
+
 <h3 id="beginning-users">Beginning users</h3>
+
 <p>On all of Windows, macOS, and Linux:</p>
+
 <ul>
 <li>Install <a href="https://www.anaconda.com/distribution/">Anaconda</a> (it installs all
 packages you need and all other tools mentioned below).</li>
@@ -184,8 +203,11 @@ for writing scripts and packages.</li>
 <li>Use <a href="https://docs.anaconda.com/anaconda/navigator/">Anaconda Navigator</a> to
 manage your packages and start JupyterLab, Spyder, or Visual Studio Code.</li>
 </ul>
+
 <h3 id="advanced-users">Advanced users</h3>
+
 <h4 id="windows-or-macos">Windows or macOS</h4>
+
 <ul>
 <li>Install <a href="https://docs.conda.io/en/latest/miniconda.html">Miniconda</a>.</li>
 <li>Keep the <code>base</code> conda environment minimal, and use one or more
@@ -194,42 +216,42 @@ to install the package you need for the task or project you&rsquo;re working on.
 <li>Unless you&rsquo;re fine with only the packages in the <code>defaults</code> channel, make <code>conda-forge</code>
 your default channel via <a href="https://conda-forge.org/docs/user/introduction.html#how-can-i-install-packages-from-conda-forge">setting the channel priority</a>.</li>
 </ul>
+
 <h4 id="linux">Linux</h4>
+
 <p>If you&rsquo;re fine with slightly outdated packages and prefer stability over being
-able to use the latest versions of libraries:</p>
-<ul>
-<li>Use your OS package manager for as much as possible (Python itself, NumPy, and
-other libraries).</li>
-<li>Install packages not provided by your package manager with <code>pip install somepackage --user</code>.</li>
-</ul>
-<p>If you use a GPU:</p>
-<ul>
-<li>Install <a href="https://docs.conda.io/en/latest/miniconda.html">Miniconda</a>.</li>
-<li>Keep the <code>base</code> conda environment minimal, and use one or more
-<a href="https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#">conda environments</a>
-to install the package you need for the task or project you&rsquo;re working on.</li>
-<li>Use the <code>defaults</code> conda channel (<code>conda-forge</code> doesn&rsquo;t have good support for
-GPU packages yet).</li>
-</ul>
-<p>Otherwise:</p>
-<ul>
-<li>Install <a href="https://github.com/conda-forge/miniforge">Miniforge</a>.</li>
-<li>Keep the <code>base</code> conda environment minimal, and use one or more
-<a href="https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#">conda environments</a>
-to install the package you need for the task or project you&rsquo;re working on.</li>
-</ul>
-<h4 id="alternative-if-you-prefer-pippypi">Alternative if you prefer pip/PyPI</h4>
+able to use the latest versions of libraries:
+- Use your OS package manager for as much as possible (Python itself, NumPy, and
+  other libraries).
+- Install packages not provided by your package manager with <code>pip install somepackage --user</code>.</p>
+
+<p>If you use a GPU:
+- Install <a href="https://docs.conda.io/en/latest/miniconda.html">Miniconda</a>.
+- Keep the <code>base</code> conda environment minimal, and use one or more
+  <a href="https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#">conda environments</a>
+  to install the package you need for the task or project you&rsquo;re working on.
+- Use the <code>defaults</code> conda channel (<code>conda-forge</code> doesn&rsquo;t have good support for
+  GPU packages yet).</p>
+
+<p>Otherwise:
+- Install <a href="https://github.com/conda-forge/miniforge">Miniforge</a>.
+- Keep the <code>base</code> conda environment minimal, and use one or more
+  <a href="https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#">conda environments</a>
+  to install the package you need for the task or project you&rsquo;re working on.</p>
+
+<h4 id="alternative-if-you-prefer-pip-pypi">Alternative if you prefer pip/PyPI</h4>
+
 <p>For users who know, from personal preference or reading about the main
 differences between conda and pip below, they prefer a pip/PyPI-based solution,
-we recommend:</p>
-<ul>
-<li>Install Python from, for example, <a href="https://www.python.org/downloads/">python.org</a>,
-<a href="https://brew.sh/">Homebrew</a>, or your Linux package manager.</li>
-<li>Use <a href="https://python-poetry.org/">Poetry</a> as the most well-maintained tool
-that provides a dependency resolver and environment management capabilities
-in a similar fashion as conda does.</li>
-</ul>
+we recommend:
+- Install Python from, for example, <a href="https://www.python.org/downloads/">python.org</a>,
+  <a href="https://brew.sh/">Homebrew</a>, or your Linux package manager.
+- Use <a href="https://python-poetry.org/">Poetry</a> as the most well-maintained tool
+  that provides a dependency resolver and environment management capabilities
+  in a similar fashion as conda does.</p>
+
 <h2 id="python-package-management">Python package management</h2>
+
 <p>Managing packages is a challenging problem, and, as a result, there are lots of
 tools. For web and general purpose Python development there&rsquo;s a whole
 <a href="https://packaging.python.org/guides/tool-recommendations/">host of tools</a>
@@ -237,21 +259,26 @@ complementary with pip. For high-performance computing (HPC),
 <a href="https://github.com/spack/spack">Spack</a> is worth considering. For most NumPy
 users though, <a href="https://conda.io/en/latest/">conda</a> and
 <a href="https://pip.pypa.io/en/stable/">pip</a> are the two most popular tools.</p>
-<h3 id="pip--conda">Pip &amp; conda</h3>
+
+<h3 id="pip-conda">Pip &amp; conda</h3>
+
 <p>The two main tools that install Python packages are <code>pip</code> and <code>conda</code>. Their
 functionality partially overlaps (e.g. both can install <code>numpy</code>), however, they
 can also work together. We&rsquo;ll discuss the major differences between pip and
 conda here - this is important to understand if you want to manage packages
 effectively.</p>
+
 <p>The first difference is that conda is cross-language and it can install Python,
 while pip is installed for a particular Python on your system and installs other
 packages to that same Python install only. This also means conda can install
 non-Python libraries and tools you may need (e.g. compilers, CUDA, HDF5), while
 pip can&rsquo;t.</p>
+
 <p>The second difference is that pip installs from the Python Packaging Index
 (PyPI), while conda installs from its own channels (typically &ldquo;defaults&rdquo; or
 &ldquo;conda-forge&rdquo;). PyPI is the largest collection of packages by far, however, all
 popular packages are available for conda as well.</p>
+
 <p>The third difference is that pip does not have a <em>dependency resolver</em> (this is
 expected to change in the near future), while conda does. For simple cases (e.g.
 you just want NumPy, SciPy, Matplotlib, Pandas, Scikit-learn, and a few other
@@ -259,15 +286,20 @@ packages) that doesn&rsquo;t matter, however, for complicated cases conda can be
 expected to do a better job keeping everything working well together. The flip
 side of that coin is that installing with pip is typically a <em>lot</em> faster than
 installing with conda.</p>
+
 <p>The fourth difference is that conda is an integrated solution for managing
 packages, dependencies and environments, while with pip you may need another
 tool (there are many!) for dealing with environments or complex dependencies.</p>
+
 <h3 id="reproducible-installs">Reproducible installs</h3>
+
 <p>Making the installation of all the packages your analysis, library or
 application depends on reproducible is important. Sounds obvious, yet most
 users don&rsquo;t think about doing this (at least until it&rsquo;s too late).</p>
+
 <p>The problem with Python packaging is that sooner or later, something will
 break. It&rsquo;s not often this bad,</p>
+
 <figure><a href="https://xkcd.com/1987/">
     <img src="/images/content_images/python_environment_xkcd.png"
          alt="Python Environment XKCD image" width="400"/> </a><figcaption>
@@ -275,57 +307,62 @@ break. It&rsquo;s not often this bad,</p>
         </figcaption>
 </figure>
 
+
 <p>but it does degrade over time. Hence, it&rsquo;s important to be able to delete and
 reconstruct the set of packages you have installed.</p>
+
 <p>Best practice is to use a different environment per project you&rsquo;re working on,
 and record at least the names (and preferably versions) of the packages you
 directly depend on in a static metadata file. Each packaging tool has its own
-metadata format for this:</p>
-<ul>
-<li>Conda: <a href="https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#">conda environments and environment.yml</a></li>
-<li>Pip: <a href="https://docs.python.org/3/tutorial/venv.html">virtual environments</a> and
-<a href="https://pip.readthedocs.io/en/latest/user_guide/#requirements-files">requirements.txt</a></li>
-<li>Poetry: <a href="https://python-poetry.org/docs/basic-usage/">virtual environments and pyproject.toml</a></li>
-</ul>
+metadata format for this:
+- Conda: <a href="https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#">conda environments and environment.yml</a>
+- Pip: <a href="https://docs.python.org/3/tutorial/venv.html">virtual environments</a> and
+  <a href="https://pip.readthedocs.io/en/latest/user_guide/#requirements-files">requirements.txt</a>
+- Poetry: <a href="https://python-poetry.org/docs/basic-usage/">virtual environments and pyproject.toml</a></p>
+
 <p>Sometimes it&rsquo;s too much overhead to create and switch between new environments
 for small tasks. In that case we encourage you to not install too many packages
 into your base environment, and keep track of versions of packages some other
 way (e.g. comments inside files, or printing <code>numpy.__version__</code> after
 importing it in notebooks).</p>
-<h2 id="numpy-packages--accelerated-linear-algebra-libraries">NumPy packages &amp; accelerated linear algebra libraries</h2>
+
+<h2 id="numpy-packages-accelerated-linear-algebra-libraries">NumPy packages &amp; accelerated linear algebra libraries</h2>
+
 <p>NumPy doesn&rsquo;t depend on any other Python packages, however, it does depend on an
 accelerated linear algebra library - typically
 <a href="https://software.intel.com/en-us/mkl">Intel MKL</a> or
 <a href="https://www.openblas.net/">OpenBLAS</a>. Users don&rsquo;t have to worry about
 installing those, but it may still be important to understand how the packaging
 is done and how it affects performance and behavior users see.</p>
+
 <p>The NumPy wheels on PyPI, which is what pip installs, are built with OpenBLAS.
 The OpenBLAS libraries are shipped within the wheels itself. This makes those
 wheels larger, and if a user installs (for example) SciPy as well, they will
 now have two copies of OpenBLAS on disk.</p>
+
 <p>In the conda defaults channel, NumPy is built against Intel MKL. MKL is a
 separate package that will be installed in the users&rsquo; environment when they
 install NumPy. That MKL package is a lot larger than OpenBLAS, several hundred
 MB. MKL is typically a little faster and more robust than OpenBLAS.</p>
+
 <p>In the conda-forge channel, NumPy is built against a dummy &ldquo;BLAS&rdquo; package. When
 a user installs NumPy from conda-forge, that BLAS package then gets installed
 together with the actual library - this defaults to OpenBLAS, but it can also
 be MKL (from the defaults channel), or even
 <a href="https://github.com/flame/blis">BLIS</a> or reference BLAS.</p>
+
 <p>Besides install sizes, performance and robustness, there are two more things to
-consider:</p>
-<ul>
-<li>Intel MKL is not open source. For normal use this is not a problem, but if
-a user needs to redistribute an application built with NumPy, this could be
-an issue.</li>
-<li>Both MKL and OpenBLAS will use multi-threading for function calls like
-<code>np.dot</code>, with the number of threads being determined by both a build-time
-option and an environment variable. Often all CPU cores will be used. This is
-sometimes unexpected for users; NumPy itself doesn&rsquo;t auto-parallelize any
-function calls. It can also be harmful for performance, for example when
-using another level of parallelization manually or with, e.g. Dask or
-scikit-learn functionality.</li>
-</ul>
+consider:
+- Intel MKL is not open source. For normal use this is not a problem, but if
+  a user needs to redistribute an application built with NumPy, this could be
+  an issue.
+- Both MKL and OpenBLAS will use multi-threading for function calls like
+  <code>np.dot</code>, with the number of threads being determined by both a build-time
+  option and an environment variable. Often all CPU cores will be used. This is
+  sometimes unexpected for users; NumPy itself doesn&rsquo;t auto-parallelize any
+  function calls. It can also be harmful for performance, for example when
+  using another level of parallelization manually or with, e.g. Dask or
+  scikit-learn functionality.</p>
 
     </div>
   </div>
