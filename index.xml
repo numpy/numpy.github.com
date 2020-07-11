@@ -54,6 +54,17 @@ Numerical Python or NumPy is its de-facto standard Python programming language l
     </item>
     
     <item>
+      <title>Case Study: DeepLabCut 3D Pose Estimation</title>
+      <link>http://numpy.org/case-studies/deeplabcut-dnn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://numpy.org/case-studies/deeplabcut-dnn/</guid>
+      <description>Analyzing mice hand-movement using DeepLapCut (Source: www.deeplabcut.org )
+  Open Source Software is accelerating Biomedicine. DeepLabCut enables automated video analysis of animal behavior using Deep Learning.
+—Alexander Mathis, PostDoctoral Fellow, Harvard  About DeepLabCut DeepLabCut is an open source toolbox that empowers researchers at hundreds of institutions worldwide to track behaviour of laboratory animals, with very little training data, at human-level accuracy. With DeepLabCut technology, scientists can delve deeper into the scientific understanding of motor control and behavior across animal species and timescales.</description>
+    </item>
+    
+    <item>
       <title>Case Study: Discovery of Gravitational Waves</title>
       <link>http://numpy.org/case-studies/gw-discov/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -155,8 +166,9 @@ Below is a curated collection of external resources. To contribute, see the end 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://numpy.org/news/</guid>
-      <description>Season of Docs acceptance May 11, 2020 &amp;ndash; NumPy has been accepted as one of the mentor organizations for the Google Season of Docs program. We are excited about the opportunity to work with a technical writer to improve NumPy&amp;rsquo;s documentation once again! For more details, please see the official Season of Docs site and our ideas page.
-NumPy 1.18.0 release Dec 22, 2019 &amp;ndash; NumPy 1.18.0 is now available. After the major changes in 1.</description>
+      <description>The inaugural NumPy survey is live! Jul 2, 2020 &amp;ndash; This survey is meant to guide and set priorities for decision-making about the development of NumPy as software and as a community. The survey is available in 8 additional languages besides English: Bangla, Hindi, Japanese, Mandarin, Portuguese, Russian, Spanish and French. The survey will run till July 17th.
+Please help us make NumPy better and take the survey here.
+NumPy has a new logo!</description>
     </item>
     
     <item>

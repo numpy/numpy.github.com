@@ -22,6 +22,17 @@
     </item>
     
     <item>
+      <title>Case Study: DeepLabCut 3D Pose Estimation</title>
+      <link>http://numpy.org/case-studies/deeplabcut-dnn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://numpy.org/case-studies/deeplabcut-dnn/</guid>
+      <description>Analyzing mice hand-movement using DeepLapCut (Source: www.deeplabcut.org )
+  Open Source Software is accelerating Biomedicine. DeepLabCut enables automated video analysis of animal behavior using Deep Learning.
+—Alexander Mathis, PostDoctoral Fellow, Harvard  About DeepLabCut DeepLabCut is an open source toolbox that empowers researchers at hundreds of institutions worldwide to track behaviour of laboratory animals, with very little training data, at human-level accuracy. With DeepLabCut technology, scientists can delve deeper into the scientific understanding of motor control and behavior across animal species and timescales.</description>
+    </item>
+    
+    <item>
       <title>Case Study: Discovery of Gravitational Waves</title>
       <link>http://numpy.org/case-studies/gw-discov/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
