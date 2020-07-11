@@ -22,7 +22,7 @@ if (!doNotTrack) {
   <title>NumPy</title>
   
 <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="/css/style.min.90e79d931dd7cbbc3a657115e4b0d9b131892ce20e05d1f3176a3dfbe94ef1c4.css" integrity="sha256-kOedkx3Xy7w6ZXEV5LDZsTGJLOIOBdHzF2o9&#43;&#43;lO8cQ=">
+<link rel="stylesheet" type="text/css" href="/css/style.min.cf5efcb8a6e49b945af419cd8b208a5ae87eb3015995b9afc61218743a0fed3e.css" integrity="sha256-z178uKbkm5Ra9BnNiyCKWuh&#43;swFZlbmvxhIYdDoP7T4=">
 <link rel="stylesheet" type="text/css" href="/css/icons.css">
 
 <link rel="icon" type="image/png" href="/images/favicon.png" />
@@ -150,9 +150,7 @@ if (!doNotTrack) {
                 <div class="divider"></div>
             </div>
         </div>
-        
-
-<figure>
+        <figure>
     <img src="/images/content_images/cs/ipl-stadium.png"
          alt="Indian Premier League Cricket cup and stadium"/> <figcaption>
             <p><strong>IPLT20, the biggest Cricket Festival in India</strong>
@@ -160,14 +158,11 @@ if (!doNotTrack) {
         </figcaption>
 </figure>
 
-
 <blockquote cite="https://www.scoopwhoop.com/sports/ms-dhoni/">
     <p>You don't play for the crowd, you play for the country.</p>
     <footer align="right">—M S Dhoni, <cite>International Cricket Player, ex-captain, Indian Team, plays for Chennai Super Kings in IPL</cite></footer>
 </blockquote>
-
 <h2 id="about-cricket">About Cricket</h2>
-
 <p>It would be an understatement to state that Indians love cricket. The game is
 played in just about every nook and cranny of India, rural or urban, popular
 with the young and the old alike, connecting billions in India unlike any other sport.
@@ -176,12 +171,10 @@ Cricket enjoys lots of media attention. There is a significant amount of
 fame at stake. Over the last several years, technology has literally been a game
 changer. Audiences are spoilt for choice with streaming media, tournaments,
 affordable access to mobile based live cricket watching, and more.</p>
-
 <p>The Indian Premier League (IPL) is a professional Twenty20 cricket
 league, founded in 2008. It is one of the most attended cricketing events in
 the world, valued at <a href="https://en.wikipedia.org/wiki/Indian_Premier_League">$6.7 billion</a>
 in 2019.</p>
-
 <p>Cricket is a game of numbers - the runs scored by a batsman, the wickets taken
 by a bowler, the matches won by a cricket team, the number of times a batsman
 responds in a certain way to a kind of bowling attack, etc. The capability to
@@ -190,7 +183,6 @@ the business opportunities, overall market, and economics of cricket via powerfu
 analytics tools, powered by numerical computing software such as NumPy, is a big
 deal. Cricket analytics provides interesting insights into the game and
 predictive intelligence regarding game outcomes.</p>
-
 <p>Today, there are rich and almost infinite troves of cricket game records and
 statistics available, e.g., <a href="https://stats.espncricinfo.com/ci/engine/stats/index.html">ESPN
 cricinfo</a> and
@@ -201,14 +193,12 @@ using the latest machine learning and predictive modelling algorithms.
 Media and entertainment platforms along with professional sports bodies
 associated with the game use technology and analytics for determining key
 metrics for improving match winning chances:</p>
-
 <ul>
 <li>batting performance moving average,</li>
 <li>score forecasting,</li>
 <li>gaining insights into fitness and performance of a player against different opposition,</li>
 <li>player contribution to wins and losses for making strategic decisions on team composition</li>
 </ul>
-
 <figure class="csfigcaption">
     <img src="/images/content_images/cs/cricket-pitch.png"
          alt="A cricket pitch with bowler and batsmen"/> <figcaption>
@@ -217,9 +207,7 @@ metrics for improving match winning chances:</p>
         </figcaption>
 </figure>
 
-
 <h3 id="key-data-analytics-objectives">Key Data Analytics Objectives</h3>
-
 <ul>
 <li>Sports data analytics are used not only in cricket but many <a href="https://adtmag.com/blogs/dev-watch/2017/07/sports-analytics.aspx">other
 sports</a> for
@@ -232,7 +220,6 @@ harnessed to determine the possible match outcomes that require significant
 number crunching and data science know-how, visualization tools and capability
 to include newer observations in the analysis.</li>
 </ul>
-
 <figure class="fig-center">
     <img src="/images/content_images/cs/player-pose-estimator.png"
          alt="pose estimator"/> <figcaption>
@@ -241,71 +228,64 @@ to include newer observations in the analysis.</li>
         </figcaption>
 </figure>
 
-
 <h3 id="the-challenges">The Challenges</h3>
-
 <ul>
-<li><strong>Data Cleaning and preprocessing</strong></li>
-</ul>
-
+<li>
+<p><strong>Data Cleaning and preprocessing</strong></p>
 <p>IPL has expanded cricket beyond the classic test match format to a much
-  larger scale. The number of matches played every season across various
-  formats has increased and so has the data, the algorithms, newer sports data
-  analysis technologies and simulation models. Cricket data analysis requires
-  field mapping, player tracking, ball tracking, player shot analysis, and
-  several other aspects involved in how the ball is delivered, its angle, spin,
-  velocity, and trajectory. All these factors together have increased the
-  complexity of data cleaning and preprocessing.</p>
-
-<ul>
-<li><strong>Dynamic Modeling</strong></li>
-</ul>
-
+larger scale. The number of matches played every season across various
+formats has increased and so has the data, the algorithms, newer sports data
+analysis technologies and simulation models. Cricket data analysis requires
+field mapping, player tracking, ball tracking, player shot analysis, and
+several other aspects involved in how the ball is delivered, its angle, spin,
+velocity, and trajectory. All these factors together have increased the
+complexity of data cleaning and preprocessing.</p>
+</li>
+<li>
+<p><strong>Dynamic Modeling</strong></p>
 <p>In cricket, just like any other sport,
-  there can be a large number of variables related to tracking various numbers
-  of players on the field, their attributes, the ball, and several possibilities
-  of potential actions. The complexity of data analytics and modeling is
-  directly proportional to the kind of predictive questions that are put forth
-  during analysis and are highly dependent on data representation and the
-  model. Things get even more challenging in terms of computation, data
-  comparisons when dynamic cricket play predictions are sought such as what
-  would have happened if the batsman had hit the ball at a different angle or
-  velocity.</p>
-
-<ul>
-<li><strong>Predictive Analytics Complexity</strong></li>
-</ul>
-
+there can be a large number of variables related to tracking various numbers
+of players on the field, their attributes, the ball, and several possibilities
+of potential actions. The complexity of data analytics and modeling is
+directly proportional to the kind of predictive questions that are put forth
+during analysis and are highly dependent on data representation and the
+model. Things get even more challenging in terms of computation, data
+comparisons when dynamic cricket play predictions are sought such as what
+would have happened if the batsman had hit the ball at a different angle or
+velocity.</p>
+</li>
+<li>
+<p><strong>Predictive Analytics Complexity</strong></p>
 <p>Much of the decision making in cricket is based on questions such as &ldquo;how
-  often does a batsman play a certain kind of shot if the ball delivery is of a
-  particular type&rdquo;, or &ldquo;how does a bowler change his line and length if the
-  batsman responds to his delivery in a certain way&rdquo;.
-  This kind of predictive analytics query requires highly granular dataset
-  availability and the capability to synthesize data and create generative
-  models that are highly accurate.</p>
-
-<h2 id="numpy-s-role-in-cricket-analytics">NumPy’s Role in Cricket Analytics</h2>
-
+often does a batsman play a certain kind of shot if the ball delivery is of a
+particular type&rdquo;, or &ldquo;how does a bowler change his line and length if the
+batsman responds to his delivery in a certain way&rdquo;.
+This kind of predictive analytics query requires highly granular dataset
+availability and the capability to synthesize data and create generative
+models that are highly accurate.</p>
+</li>
+</ul>
+<h2 id="numpys-role-in-cricket-analytics">NumPy’s Role in Cricket Analytics</h2>
 <p>Sports Analytics is a thriving field. Many researchers and companies
 <a href="https://adtmag.com/blogs/dev-watch/2017/07/sports-analytics.aspx">use NumPy</a>
 and other PyData packages like Scikit-learn, SciPy, Matplotlib, and Jupyter,
 besides using the latest machine learning and AI techniques.  NumPy has been used
 for various kinds of cricket related sporting analytics such as:</p>
-
 <ul>
-<li><p><strong>Statistical Analysis:</strong> NumPy&rsquo;s numerical capabilities help estimate the
+<li>
+<p><strong>Statistical Analysis:</strong> NumPy&rsquo;s numerical capabilities help estimate the
 statistical significance of observational data or match events in the context
 of various player and game tactics, estimating the game outcome by comparison
 with a generative or static model.
 <a href="https://amplitude.com/blog/2017/01/19/causation-correlation">Causal analysis</a>
 and <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4996805/">big data approaches</a>
-are used for tactical analysis.</p></li>
-
-<li><p><strong>Data Visualization:</strong> Data graphing and <a href="https://towardsdatascience.com/advanced-sports-visualization-with-pandas-matplotlib-and-seaborn-9c16df80a81b">visualization</a> provides useful insights into relationship between various datasets.</p></li>
+are used for tactical analysis.</p>
+</li>
+<li>
+<p><strong>Data Visualization:</strong> Data graphing and <a href="https://towardsdatascience.com/advanced-sports-visualization-with-pandas-matplotlib-and-seaborn-9c16df80a81b">visualization</a> provides useful insights into relationship between various datasets.</p>
+</li>
 </ul>
-
 <h2 id="summary">Summary</h2>
-
 <p>Sports Analytics is a game changer when it comes to how professional games are
 played, especially how strategic decision making happens, which until recently
 was primarily done based on “gut feeling&rdquo; or adherence to past traditions. NumPy
@@ -317,7 +297,6 @@ inferences and drive business around the game of cricket. Finding out the
 hidden parameters, patterns, and attributes that lead to the outcome of a
 cricket match helps the stakeholders to take notice of game insights that are
 otherwise hidden in numbers and statistics.</p>
-
 <figure class="fig-center">
     <img src="/images/content_images/cs/numpy_ca_benefits.png"
          alt="Diagram showing benefits of using NumPy for cricket analytics"/> <figcaption>
