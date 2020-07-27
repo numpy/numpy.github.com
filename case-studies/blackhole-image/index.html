@@ -15,14 +15,14 @@ if (!doNotTrack) {
 <script async src='https://www.google-analytics.com/analytics.js'></script>
 
 
-<meta name="description" content="The fundamental package for scientific computing with Python" />
+<meta name="description" content="Why NumPy? Powerful n-dimensional arrays. Numerical computing tools. Interoperable. Performant. Open source." />
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>NumPy</title>
   
 <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="/css/style.min.cf5efcb8a6e49b945af419cd8b208a5ae87eb3015995b9afc61218743a0fed3e.css" integrity="sha256-z178uKbkm5Ra9BnNiyCKWuh&#43;swFZlbmvxhIYdDoP7T4=">
+<link rel="stylesheet" type="text/css" href="/css/style.min.90e79d931dd7cbbc3a657115e4b0d9b131892ce20e05d1f3176a3dfbe94ef1c4.css" integrity="sha256-kOedkx3Xy7w6ZXEV5LDZsTGJLOIOBdHzF2o9&#43;&#43;lO8cQ=">
 <link rel="stylesheet" type="text/css" href="/css/icons.css">
 
 <link rel="icon" type="image/png" href="/images/favicon.png" />
@@ -150,7 +150,9 @@ if (!doNotTrack) {
                 <div class="divider"></div>
             </div>
         </div>
-        <figure>
+        
+
+<figure>
     <img src="/images/content_images/cs/blackhole.jpg"
          alt="black hole image"/> <figcaption>
             <p><strong>Black Hole M87</strong>
@@ -158,11 +160,14 @@ if (!doNotTrack) {
         </figcaption>
 </figure>
 
+
 <blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs">
     <p>Imaging the M87 Black Hole is like trying to see something that is by definition impossible to see.</p>
     <footer align="right">—Katie Bouman, <cite>Assistant Professor, Computing & Mathematical Sciences, Caltech</cite></footer>
 </blockquote>
+
 <h2 id="about-the-event-horizon-telescope">About The Event Horizon Telescope</h2>
+
 <p>The <a href="https://eventhorizontelescope.org">Event Horizon telescope (EHT)</a>, is an
 array of eight ground-based radio telescopes forming a computational telescope
 the size of the earth, designed to study extreme objects in the
@@ -172,17 +177,17 @@ called very-long-baseline interferometry (VLBI).
 Using this technique, the EHT is able to achieve an angular resolution of
 <a href="https://eventhorizontelescope.org/press-release-april-10-2019-astronomers-capture-first-image-black-hole">20 micro-arcseconds</a> — enough to read a newspaper in New York
 from a sidewalk café in Paris!</p>
+
 <h3 id="key-goals-and-results">Key Goals and Results</h3>
+
 <ul>
-<li>
-<p><strong>A New View of the Universe:</strong>
+<li><p><strong>A New View of the Universe:</strong>
 The EHT is an exciting new tool for studying the most extreme objects in the
 universe. The EHT&rsquo;s groundbreaking image was published 100 years
 after <a href="https://en.wikipedia.org/wiki/Eddington_experiment">Sir Arthur Eddington&rsquo;s experiment</a> yielded the first
-observational evidence in support of Einstein&rsquo;s theory of general relativity.</p>
-</li>
-<li>
-<p><strong>Investigating Black Holes:</strong>
+observational evidence in support of Einstein&rsquo;s theory of general relativity.</p></li>
+
+<li><p><strong>Investigating Black Holes:</strong>
 The EHT&rsquo;s first image focuses on the supermassive black hole at the center
 of the galaxy Messier 87 (M87), located in the Virgo galaxy cluster.
 This black hole resides approximately 55 million light-years from Earth and
@@ -190,41 +195,41 @@ has a mass equal  to 6.5 billion times that of the Sun. It has been a
 subject of astronomical study for
 <a href="https://www.jpl.nasa.gov/news/news.php?feature=7385">over a 100 years</a>.
 Black holes have long been the object of intense study but the EHT provides
-the first direct visual evidence of these extreme phenomena.</p>
-</li>
-<li>
-<p><strong>Comparing Observations to Theory:</strong>
+the first direct visual evidence of these extreme phenomena.</p></li>
+
+<li><p><strong>Comparing Observations to Theory:</strong>
 Based on Einstein’s general theory of relativity, scientists expected
 to see a dark region similar to a shadow, caused by the gravitational bending
 and capture of light by the event horizon. By studying this shadow
 scientists could measure the enormous mass of M87’s central supermassive
-black hole.</p>
-</li>
+black hole.</p></li>
 </ul>
+
 <h3 id="the-challenges">The Challenges</h3>
+
 <ul>
-<li>
-<p><strong>Scale</strong></p>
+<li><p><strong>Scale</strong></p>
+
 <p>The observations from Event Horizon Telescope (EHT) present challenges for
 existing data processing tools, arising from the rapid atmospheric phase
-fluctuations, wide recording bandwidth, and highly heterogeneous array.</p>
-</li>
-<li>
-<p><strong>Calibration and Correlation</strong></p>
+fluctuations, wide recording bandwidth, and highly heterogeneous array.</p></li>
+
+<li><p><strong>Calibration and Correlation</strong></p>
+
 <p>Besides scheduling all of these coordinated observations of EHT, reducing
 the overall volume and complexity of data to aid analysis is a really hard
 problem to solve. To put things in perspective, EHT generates over 350
 Terabytes worth of observed data per day, stored on high-performance
-helium filled hard drives.</p>
-</li>
-<li>
-<p><strong>Image Reconstruction</strong></p>
+helium filled hard drives.</p></li>
+
+<li><p><strong>Image Reconstruction</strong></p>
+
 <p>How are the calibrated data processed to produce an image of something that
 has never before been directly imaged? How can scientists be confident
 that the image is correct? These are some of the challenges overcome in
-the analysis to produce the image.</p>
-</li>
+the analysis to produce the image.</p></li>
 </ul>
+
 <figure class="csfigcaption">
     <img src="/images/content_images/cs/dataprocessbh.png"
          alt="data pipeline"/> <figcaption>
@@ -233,7 +238,9 @@ the analysis to produce the image.</p>
         </figcaption>
 </figure>
 
-<h2 id="numpys-role-in-black-hole-imaging">NumPy’s Role in Black Hole Imaging</h2>
+
+<h2 id="numpy-s-role-in-black-hole-imaging">NumPy’s Role in Black Hole Imaging</h2>
+
 <p>While collecting, curating, and processing the data from the EHT facilities
 represents a monumental challenge, it is only the first step in generating
 an image from the data.
@@ -253,6 +260,7 @@ This approach is a powerful example of the importance of reproducibility and
 collaboration to modern scientific discovery and illustrates the role that
 the scientific Python ecosystem plays in supporting scientific advancement
 through collaborative data analysis.</p>
+
 <figure class="fig-center">
     <img src="/images/content_images/cs/bh_numpy_role.png"
          alt="role of numpy"/> <figcaption>
@@ -260,17 +268,20 @@ through collaborative data analysis.</p>
         </figcaption>
 </figure>
 
+
 <p>For example, the <a href="https://github.com/achael/eht-imaging"><code>eht-imaging</code></a> Python package provides tools for
 simulating and performing image reconstruction on VLBI data.
 NumPy is at the core of array data processing used
 in this package as illustrated by the partial software
 dependency chart below.</p>
+
 <figure class="fig-center">
     <img src="/images/content_images/cs/ehtim_numpy.png"
          alt="ehtim dependency map highlighting numpy"/> <figcaption>
             <p><strong>Software dependency chart of ehtim package highlighting NumPy</strong></p>
         </figcaption>
 </figure>
+
 
 <p>Besides NumPy, many other packages such as
 <a href="https://www.scipy.org">SciPy</a> and <a href="https://pandas.io">Pandas</a> were used in the
@@ -279,7 +290,9 @@ The standard astronomical file formats and time/coordinate transformations
 were handled by <a href="https://www.astropy.org/">Astropy</a> while <a href="https://matplotlib.org/">Matplotlib</a> was used
 in visualizing data throughout the analysis pipeline, including the generation
 of the final image of the black hole.</p>
+
 <h2 id="summary">Summary</h2>
+
 <p>NumPy enabled researchers to manipulate large numerical datasets through its
 efficient and generic n-dimensional array, providing a foundation for the
 software used to generate the first ever image of
@@ -291,6 +304,7 @@ between over 200 scientists and some of the world&rsquo;s best radio observatori
 They used
 innovative algorithms and data processing techniques improving upon existing
 astronomical models to help unfold some of the mysteries of the universe.</p>
+
 <figure class="fig-center">
     <img src="/images/content_images/cs/numpy_bh_benefits.png"
          alt="numpy benefits"/> <figcaption>
