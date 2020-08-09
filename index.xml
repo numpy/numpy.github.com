@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>NumPy</title>
@@ -155,7 +155,7 @@ NumPy can be installed with conda, with pip, or with a package manager on macOS 
       <guid>http://numpy.org/learn/</guid>
       <description>The official NumPy documentation lives here.
 Below is a curated collection of external resources. To contribute, see the end of this page.
-Beginners There&amp;rsquo;s a ton of information about NumPy out there. If you are new, we&amp;rsquo;d strongly recommend these:
+ Beginners There&amp;rsquo;s a ton of information about NumPy out there. If you are new, we&amp;rsquo;d strongly recommend these:
  Tutorials
  NumPy Quickstart Tutorial SciPy Lectures Besides covering NumPy, these lectures offer a broader introduction to the scientific Python ecosystem. NumPy: the absolute basics for beginners Machine Learning Plus - Introduction to ndarray Edureka - Learn NumPy Arrays with Examples  Dataquest - NumPy Tutorial: Data Analysis with Python NumPy tutorial by Nicolas Rougier Stanford CS231 by Justin Johnson NumPy User Guide   Books</description>
     </item>
@@ -199,7 +199,7 @@ Enforcing the Code of Conduct impacts our community today and for the future. It
       
       <guid>http://numpy.org/press-kit/</guid>
       <description>We would like to make it easy for you to include the NumPy project identity in your next academic paper, course materials, or presentation.
-You will find a high resolution logo of NumPy here. Note that by using the numpy.org resources, you accept the NumPy Code of Conduct.</description>
+You will find several high-resolution versions of the NumPy logo here. Note that by using the numpy.org resources, you accept the NumPy Code of Conduct.</description>
     </item>
     
     <item>
@@ -219,7 +219,7 @@ If you have any questions about the policy or NumFOCUS’s data collection, use,
       
       <guid>http://numpy.org/terms/</guid>
       <description>Last updated January 4, 2020
-AGREEMENT TO TERMS These Terms of Use constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and NumPy (&amp;rdquo;Project&amp;rdquo;, “we”, “us”, or “our”), concerning your access to and use of the numpy.org website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto (collectively, the “Site”). You agree that by accessing the Site, you have read, understood, and agreed to be bound by all of these Terms of Use.</description>
+AGREEMENT TO TERMS These Terms of Use constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and NumPy (&amp;quot;Project&amp;rdquo;, “we”, “us”, or “our”), concerning your access to and use of the numpy.org website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto (collectively, the “Site”). You agree that by accessing the Site, you have read, understood, and agreed to be bound by all of these Terms of Use.</description>
     </item>
     
   </channel>
