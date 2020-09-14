@@ -150,7 +150,29 @@ if (!doNotTrack) {
                 <div class="divider"></div>
             </div>
         </div>
-        <h3 id="the-inaugural-numpy-survey-is-live">The inaugural NumPy survey is live!</h3>
+        <h3 id="python-39-is-coming-when-will-numpy-release-binary-wheels">Python 3.9 is coming, when will NumPy release binary wheels?</h3>
+<p><em>Sept 14, 2020</em> &ndash; Python 3.9 will be released in a few weeks. If you are an
+early adopter of Python versions, you may be dissapointed to find that NumPy
+(and other binary packages like SciPy) will not have binary wheels ready on the
+day of the release. It is a major effort to adapt the build infrastructure to a
+new Python version and it typically takes a few weeks for the packages to appear
+on PyPI and conda-forge. In preparation for this event, please make sure to</p>
+<ul>
+<li>update your <code>pip</code> to version 20.1 at least to support <code>manylinux2010</code> and
+<code>manylinux2014</code></li>
+<li>use <a href="https://pip.pypa.io/en/stable/reference/pip_install/#cmdoption-only-binary"><code>--only-binary=numpy</code></a> or <code>--only-binary=:all:</code> to prevent <code>pip</code> from
+trying to build from source.</li>
+</ul>
+<h3 id="numpy-1192-release">Numpy 1.19.2 release</h3>
+<p><em>Sept 10, 2020</em> &ndash; <a href="https://numpy.org/devdocs/release/1.19.2-notes.html">NumPy
+1.19.2</a> is now available.
+This latest release in the 1.19 series fixes several bugs, prepares for the
+<a href="http://docs.cython.org/en/latest/src/changes.html">upcoming Cython 3.x
+release</a> and pins
+setuptools to keep distutils working while upstream modifications are ongoing.
+The aarch64 wheels are built with the latest manylinux2014 release that fixes
+the problem of differing page sizes used by different linux distros.</p>
+<h3 id="the-inaugural-numpy-survey-is-live">The inaugural NumPy survey is live!</h3>
 <p><em>Jul 2, 2020</em> &ndash; This survey is meant to guide and set priorities for
 decision-making about the development of NumPy as software and as a community.
 The survey is available in 8 additional languages besides English:

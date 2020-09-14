@@ -166,9 +166,7 @@ Below is a curated collection of external resources. To contribute, see the end 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://numpy.org/news/</guid>
-      <description>The inaugural NumPy survey is live! Jul 2, 2020 &amp;ndash; This survey is meant to guide and set priorities for decision-making about the development of NumPy as software and as a community. The survey is available in 8 additional languages besides English: Bangla, Hindi, Japanese, Mandarin, Portuguese, Russian, Spanish and French.
-Please help us make NumPy better and take the survey here.
-NumPy has a new logo! Jun 24, 2020 &amp;ndash; NumPy now has a new logo:</description>
+      <description>Python 3.9 is coming, when will NumPy release binary wheels? Sept 14, 2020 &amp;ndash; Python 3.9 will be released in a few weeks. If you are an early adopter of Python versions, you may be dissapointed to find that NumPy (and other binary packages like SciPy) will not have binary wheels ready on the day of the release. It is a major effort to adapt the build infrastructure to a new Python version and it typically takes a few weeks for the packages to appear on PyPI and conda-forge.</description>
     </item>
     
     <item>
