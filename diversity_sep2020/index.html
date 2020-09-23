@@ -145,100 +145,88 @@ if (!doNotTrack) {
     <div class="content-container">
         <div class="columns">
             <div class="column is-centered-tablet-portrait">
-                <h1 class="title section-title">News</h1>
+                <h1 class="title section-title">NumPy Diversity and Inclusion Statement</h1>
                 <h5 class="subtitle is-5 is-muted"></h5>
                 <div class="divider"></div>
             </div>
         </div>
-        <h3 id="diversity-in-the-numpy-project">Diversity in the NumPy project</h3>
-<p><em>Sep 20, 2020</em> &ndash; We wrote a <a href="/diversity_sep2020">statement on the state of, and discussion on social media around, diversity and inclusion in the NumPy project</a>.</p>
-<h3 id="first-official-numpy-paper-published-in-nature">First official NumPy paper published in Nature!</h3>
-<p><em>Sep 16, 2020</em> &ndash; We are pleased to announce the publication of
-<a href="https://www.nature.com/articles/s41586-020-2649-2">the first official paper on NumPy</a>
-as a review article in Nature. This comes 14 years after the release of NumPy 1.0.
-The paper covers applications and fundamental concepts of array programming,
-the rich scientific Python ecosystem built on top of NumPy, and the recently added
-array protocols to facilitate interoperability with external array and tensor
-libraries like CuPy, Dask, and JAX.</p>
-<h3 id="python-39-is-coming-when-will-numpy-release-binary-wheels">Python 3.9 is coming, when will NumPy release binary wheels?</h3>
-<p><em>Sept 14, 2020</em> &ndash; Python 3.9 will be released in a few weeks. If you are an
-early adopter of Python versions, you may be dissapointed to find that NumPy
-(and other binary packages like SciPy) will not have binary wheels ready on the
-day of the release. It is a major effort to adapt the build infrastructure to a
-new Python version and it typically takes a few weeks for the packages to appear
-on PyPI and conda-forge. In preparation for this event, please make sure to</p>
+        <p><em>In light of the foregoing discussion on social media after publication of the
+NumPy paper in Nature and to respond to the concerns raised about the state of
+diversity and inclusion on the NumPy team, we would like to issue the following
+statement:</em></p>
+<p>It is our strong belief that we are at our best, as a team and community, when
+we are inclusive and equitable. Being an international team from the onset, we
+recognize the value of collaborating with individuals from diverse backgrounds
+and expertise. A culture where everyone is welcomed, supported, and valued is
+at the core of the NumPy project.</p>
+<h2 id="the-past">The Past</h2>
+<p>Contributing to open source has always been a pastime in which most
+historically marginalized groups, especially women, faced more obstacles to
+participate due to a number of societal constraints and expectations.
+Open source has a severe diversity gap that is well documented (see, e.g., the
+<a href="https://opensourcesurvey.org/2017/">2017 GitHub Open Source Survey</a> and
+<a href="https://medium.com/tech-diversity-files/if-you-think-women-in-tech-is-just-a-pipeline-problem-you-haven-t-been-paying-attention-cb7a2073b996">this blog post</a>).</p>
+<p>Since its inception and until 2018, NumPy was maintained by a handful of
+volunteers often working nights and weekends outside of their day jobs. At any
+one time, the number of active core developers, the ones doing most of the
+heavy lifting as well as code review and integration of contributions from the
+community, was in the range of 4 to 8. The project didn&rsquo;t have a roadmap or
+mechanism for directing resources, being driven by individual efforts to work
+on what seemed needed. The authors on the NumPy paper are the individuals who
+made the most significant and sustained contributions to the project over a
+period of 15 years (2005 - 2019). The lack of diversity on this author list is
+a reflection of the formative years of the Python and SciPy ecosystems.</p>
+<p>2018 has marked an important milestone in the history of the NumPy project.
+Receiving funding from The Gordon and Betty Moore Foundation and Alfred P.
+Sloan Foundation allowed us to provide full-time employment for two software
+engineers with years of experience contributing to the Python ecosystem. Those
+efforts brought NumPy to a much healthier technical state.</p>
+<p>This funding also created space for NumPy maintainers to focus on project
+governance, community development, and outreach to underrepresented groups.
+<a href="https://figshare.com/articles/online_resource/Diversity_and_Inclusion_Statement_NumPy_for_Chan_Zuckerberg_Initiative_EOSS_2019_round_1/12980852">The diversity statement</a>
+written in mid 2019 for the CZI EOSS program grant application details some of
+the challenges as well as the advances in our efforts to bring in more diverse
+talent to the NumPy team.</p>
+<h2 id="the-present">The Present</h2>
+<p>Offering employment opportunities is an effective way to attract and retain
+diverse talent in OSS. Therefore, we used two-thirds of our second grant that
+became available in Dec 2019 to employ Melissa Weber Mendonça and Mars Lee.</p>
+<p>As a result of several initiatives aimed at community development and
+engagement led by Inessa Pawson and Ralf Gommers, the NumPy project has
+received a number of valuable contributions from women and other
+underrepresented groups in open source in 2020:</p>
 <ul>
-<li>update your <code>pip</code> to version 20.1 at least to support <code>manylinux2010</code> and
-<code>manylinux2014</code></li>
-<li>use <a href="https://pip.pypa.io/en/stable/reference/pip_install/#cmdoption-only-binary"><code>--only-binary=numpy</code></a> or <code>--only-binary=:all:</code> to prevent <code>pip</code> from
-trying to build from source.</li>
+<li>Melissa Weber Mendonça gained commit rights, is maintaining numpy.f2py and is
+leading the documentation team,</li>
+<li>Shaloo Shalini created all case studies on numpy.org,</li>
+<li>Mars Lee contributed web design and led our accessibility improvements work,</li>
+<li>Isabela Presedo-Floyd designed our new logo,</li>
+<li>Stephanie Mendoza, Xiayoi Deng, Deji Suolang, and Mame Fatou Thiam have
+designed and fielded the first NumPy user survey,</li>
+<li>Yuki Dunn, Dayane Machado, Mahfuza Humayra Mohona, Sumera Priyadarsini,
+Shaloo Shalini, and Kriti Singh (former Outreachy intern) have helped the
+survey team to reach out to non-English speaking NumPy users and developers
+by translating the questionnaire into their native languages,</li>
+<li>Sayed Adel, Raghuveer Devulapalli, and Chunlin Fang are driving the work on
+SIMD optimizations in the core of NumPy.</li>
 </ul>
-<h3 id="numpy-1192-release">Numpy 1.19.2 release</h3>
-<p><em>Sept 10, 2020</em> &ndash; <a href="https://numpy.org/devdocs/release/1.19.2-notes.html">NumPy
-1.19.2</a> is now available.
-This latest release in the 1.19 series fixes several bugs, prepares for the
-<a href="http://docs.cython.org/en/latest/src/changes.html">upcoming Cython 3.x
-release</a> and pins
-setuptools to keep distutils working while upstream modifications are ongoing.
-The aarch64 wheels are built with the latest manylinux2014 release that fixes
-the problem of differing page sizes used by different linux distros.</p>
-<h3 id="the-inaugural-numpy-survey-is-live">The inaugural NumPy survey is live!</h3>
-<p><em>Jul 2, 2020</em> &ndash; This survey is meant to guide and set priorities for
-decision-making about the development of NumPy as software and as a community.
-The survey is available in 8 additional languages besides English:
-Bangla, Hindi, Japanese, Mandarin, Portuguese, Russian, Spanish and French.</p>
-<p>Please help us make NumPy better and take the survey
-<a href="https://umdsurvey.umd.edu/jfe/form/SV_8bJrXjbhXf7saAl">here</a>.</p>
-<h3 id="numpy-has-a-new-logo">NumPy has a new logo!</h3>
-<p><em>Jun 24, 2020</em> &ndash; NumPy now has a new logo:</p>
-<p><img
-src="/images/logos/numpy_logo.svg"
-alt="NumPy logo"
-title="The new NumPy logo"
-width=300></p>
-<p>The logo is a modern take on the old one, with a cleaner design. Thanks to
-Isabela Presedo-Floyd for designing the new logo, as well as to Travis Vaught
-for the old logo that served us well for 15+ years.</p>
-<h3 id="numpy-1190-release">NumPy 1.19.0 release</h3>
-<p><em>Jun 20, 2020</em> &ndash; NumPy 1.19.0 is now available. This is the first release
-without Python 2 support, hence it was a &ldquo;clean-up release&rdquo;. The minimum
-supported Python version is now Python 3.6. An important new feature is that
-the random number generation infrastructure that was introduced in NumPy 1.17.0
-is now accessible from Cython.</p>
-<h3 id="season-of-docs-acceptance">Season of Docs acceptance</h3>
-<p><em>May 11, 2020</em> &ndash; NumPy has been accepted as one of the mentor organizations for
-the Google Season of Docs program. We are excited about the opportunity to
-work with a technical writer to improve NumPy&rsquo;s documentation once again! For more
-details, please see
-<a href="https://developers.google.com/season-of-docs/">the official Season of Docs site</a> and our
-<a href="https://github.com/numpy/numpy/wiki/Google-Season-of-Docs-2020-Project-Ideas">ideas page</a>.</p>
-<h3 id="numpy-1180-release">NumPy 1.18.0 release</h3>
-<p><em>Dec 22, 2019</em> &ndash; NumPy 1.18.0 is now available. After the major changes in
-1.17.0, this is a consolidation release. It is the last minor release that will
-support Python 3.5. Highlights of the release includes the addition of basic
-infrastructure for linking with 64-bit BLAS and LAPACK libraries, and a new C-API for <code>numpy.random</code>.</p>
-<p>Please see the <a href="https://github.com/numpy/numpy/releases/tag/v1.18.0">release notes</a> for more details.</p>
-<h3 id="numpy-receives-a-grant-from-the-chan-zuckerberg-initiative">NumPy receives a grant from the Chan Zuckerberg Initiative</h3>
-<p><em>Nov 15, 2019</em> &ndash; We are pleased to announce that NumPy and OpenBLAS, one of NumPy&rsquo;s key dependencies, have received a joint grant for $195,000 from the Chan Zuckerberg Initiative through their <a href="https://chanzuckerberg.com/eoss/">Essential Open Source Software for Science program</a> that supports software maintenance, growth, development, and community engagement for open source tools critical to science.</p>
-<p>This grant will be used to ramp up the efforts in improving NumPy documentation, website redesign, and community development to better serve our large and rapidly growing user base, and ensure the long-term sustainability of the project. While the OpenBLAS team will focus on addressing sets of key technical issues, in particular thread-safety, AVX-512, and thread-local storage (TLS) issues, as well as algorithmic improvements in ReLAPACK (Recursive LAPACK) on which OpenBLAS depends.</p>
-<p>More details on our proposed initiatives and deliverables can be found in the <a href="https://figshare.com/articles/Proposal_NumPy_OpenBLAS_for_Chan_Zuckerberg_Initiative_EOSS_2019_round_1/10302167">full grant proposal</a>. The work is scheduled to start on Dec 1st, 2019 and continue for the next 12 months.</p>
-<h2 id="releases">Releases</h2>
-<p>Here is a list of NumPy releases, with links to release notes. All bugfix
-releases (only the <code>z</code> changes in the <code>x.y.z</code> version number) have no new
-features; minor releases (the <code>y</code> increases) do.</p>
-<ul>
-<li>NumPy 1.18.4 (<a href="https://github.com/numpy/numpy/releases/tag/v1.18.4">release notes</a>) &ndash; <em>3 May 2020</em>.</li>
-<li>NumPy 1.18.3 (<a href="https://github.com/numpy/numpy/releases/tag/v1.18.3">release notes</a>) &ndash; <em>19 Apr 2020</em>.</li>
-<li>NumPy 1.18.2 (<a href="https://github.com/numpy/numpy/releases/tag/v1.18.2">release notes</a>) &ndash; <em>17 Mar 2020</em>.</li>
-<li>NumPy 1.18.1 (<a href="https://github.com/numpy/numpy/releases/tag/v1.18.1">release notes</a>) &ndash; <em>6 Jan 2020</em>.</li>
-<li>NumPy 1.17.5 (<a href="https://github.com/numpy/numpy/releases/tag/v1.17.5">release notes</a>) &ndash; <em>1 Jan 2020</em>.</li>
-<li>NumPy 1.18.0 (<a href="https://github.com/numpy/numpy/releases/tag/v1.18.0">release notes</a>) &ndash; <em>22 Dec 2019</em>.</li>
-<li>NumPy 1.17.4 (<a href="https://github.com/numpy/numpy/releases/tag/v1.17.4">release notes</a>) &ndash; <em>11 Nov 2019</em>.</li>
-<li>NumPy 1.17.0 (<a href="https://github.com/numpy/numpy/releases/tag/v1.17.0">release notes</a>) &ndash; <em>26 Jul 2019</em>.</li>
-<li>NumPy 1.16.0 (<a href="https://github.com/numpy/numpy/releases/tag/v1.16.0">release notes</a>) &ndash; <em>14 Jan 2019</em>.</li>
-<li>NumPy 1.15.0 (<a href="https://github.com/numpy/numpy/releases/tag/v1.15.0">release notes</a>) &ndash; <em>23 Jul 2018</em>.</li>
-<li>NumPy 1.14.0 (<a href="https://github.com/numpy/numpy/releases/tag/v1.14.0">release notes</a>) &ndash; <em>7 Jan 2018</em>.</li>
-</ul>
+<p>While we still have much more work to do, the NumPy team is starting to look
+much more representative of our user base. And we can assure you that the next
+NumPy paper will certainly have a more diverse group of authors.</p>
+<h2 id="the-future">The Future</h2>
+<p>We are fully committed to fostering inclusion and diversity on our team and in
+our community, and to do our part in building a more just and equitable future.</p>
+<p>We are open to dialogue and welcome every opportunity to connect with
+organizations representing and supporting women and minorities in tech and
+science. We are ready to listen, learn, and support.</p>
+<p>Please get in touch with us on <a href="https://scipy.org/scipylib/mailing-lists.html#mailing-lists">our mailing list</a>,
+<a href="https://github.com/numpy/numpy/issues">GitHub</a>, <a href="https://numpy.org/contribute/">Slack</a>,
+in private at <a href="mailto:numpy-team@googlegroups.com">numpy-team@googlegroups.com</a>, or join our
+<a href="https://hackmd.io/76o-IxCjQX2mOXO_wwkcpg">bi-weekly community meeting</a>.</p>
+<p><em>Sayed Adel, Sebastian Berg, Raghuveer Devulapalli, Chunlin Fang, Ralf Gommers,
+Allan Haldane, Stephan Hoyer, Mars Lee, Melissa Weber Mendonça, Jarrod Millman,
+Inessa Pawson, Matti Picus, Nathaniel Smith, Julian Taylor, Pauli Virtanen,
+Stéfan van der Walt, Eric Wieser, on behalf of the NumPy team</em></p>
 
     </div>
   </div>

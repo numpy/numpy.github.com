@@ -166,7 +166,8 @@ Below is a curated collection of external resources. To contribute, see the end 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://numpy.org/news/</guid>
-      <description>Python 3.9 is coming, when will NumPy release binary wheels? Sept 14, 2020 &amp;ndash; Python 3.9 will be released in a few weeks. If you are an early adopter of Python versions, you may be dissapointed to find that NumPy (and other binary packages like SciPy) will not have binary wheels ready on the day of the release. It is a major effort to adapt the build infrastructure to a new Python version and it typically takes a few weeks for the packages to appear on PyPI and conda-forge.</description>
+      <description>Diversity in the NumPy project Sep 20, 2020 &amp;ndash; We wrote a statement on the state of, and discussion on social media around, diversity and inclusion in the NumPy project.
+First official NumPy paper published in Nature! Sep 16, 2020 &amp;ndash; We are pleased to announce the publication of the first official paper on NumPy as a review article in Nature. This comes 14 years after the release of NumPy 1.</description>
     </item>
     
     <item>
@@ -188,6 +189,16 @@ This Code of Conduct should be honored by everyone who participates in the NumPy
       <description>This is the manual followed by NumPy’s Code of Conduct Committee. It’s used when we respond to an issue to make sure we’re consistent and fair.
 Enforcing the Code of Conduct impacts our community today and for the future. It’s an action that we do not take lightly. When reviewing enforcement measures, the Code of Conduct Committee will keep the following values and guidelines in mind:
  Act in a personal manner rather than impersonal.</description>
+    </item>
+    
+    <item>
+      <title>NumPy Diversity and Inclusion Statement</title>
+      <link>http://numpy.org/diversity_sep2020/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://numpy.org/diversity_sep2020/</guid>
+      <description>In light of the foregoing discussion on social media after publication of the NumPy paper in Nature and to respond to the concerns raised about the state of diversity and inclusion on the NumPy team, we would like to issue the following statement:
+It is our strong belief that we are at our best, as a team and community, when we are inclusive and equitable. Being an international team from the onset, we recognize the value of collaborating with individuals from diverse backgrounds and expertise.</description>
     </item>
     
     <item>
