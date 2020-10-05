@@ -5,11 +5,7 @@
     <link>http://numpy.org/</link>
     <description>Recent content on NumPy</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="http://numpy.org/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="http://numpy.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>404</title>
       <link>http://numpy.org/404/</link>
@@ -92,8 +88,9 @@ David Shoemaker, LIGO Scientific Collaboration  About Gravitational Waves and LI
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://numpy.org/citing-numpy/</guid>
-      <description>If NumPy has been significant in your research, and you would like to acknowledge the project in your academic publication, we suggest citing the following papers:
- Travis E, Oliphant. A guide to NumPy, USA: Trelgol Publishing, (2006). Stéfan van der Walt, S. Chris Colbert, and Gaël Varoquaux. The NumPy Array: A Structure for Efficient Numerical Computation, Computing in Science &amp;amp; Engineering, 13, 22-30 (2011),DOI:10.1109/MCSE.2011.37 (publisher link)  In BibTeX format:</description>
+      <description>If NumPy has been significant in your research, and you would like to acknowledge the project in your academic publication, we suggest citing the following paper:
+ Harris, C.R., Millman, K.J., van der Walt, S.J. et al. Array programming with NumPy. Nature 585, 357–362 (2020). DOI: 0.1038/s41586-020-2649-2. (Publisher link).  In BibTeX format:
+@Article{ harris2020array, title = {Array programming with {NumPy}}, author = {Charles R. Harris and K. Jarrod Millman and St{&#39;{e}}fan J.</description>
     </item>
     
     <item>
@@ -197,7 +194,7 @@ Enforcing the Code of Conduct impacts our community today and for the future. It
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://numpy.org/diversity_sep2020/</guid>
-      <description>In light of the foregoing discussion on social media after publication of the NumPy paper in Nature and to respond to the concerns raised about the state of diversity and inclusion on the NumPy team, we would like to issue the following statement:
+      <description>In light of the foregoing discussion on social media after publication of the NumPy paper in Nature and the concerns raised about the state of diversity and inclusion on the NumPy team, we would like to issue the following statement:
 It is our strong belief that we are at our best, as a team and community, when we are inclusive and equitable. Being an international team from the onset, we recognize the value of collaborating with individuals from diverse backgrounds and expertise.</description>
     </item>
     
@@ -228,7 +225,7 @@ If you have any questions about the policy or NumFOCUS’s data collection, use,
       
       <guid>http://numpy.org/terms/</guid>
       <description>Last updated January 4, 2020
-AGREEMENT TO TERMS These Terms of Use constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and NumPy (&amp;quot;Project&amp;rdquo;, “we”, “us”, or “our”), concerning your access to and use of the numpy.org website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto (collectively, the “Site”). You agree that by accessing the Site, you have read, understood, and agreed to be bound by all of these Terms of Use.</description>
+AGREEMENT TO TERMS These Terms of Use constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and NumPy (&amp;quot;Project&amp;quot;, “we”, “us”, or “our”), concerning your access to and use of the numpy.org website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto (collectively, the “Site”). You agree that by accessing the Site, you have read, understood, and agreed to be bound by all of these Terms of Use.</description>
     </item>
     
   </channel>

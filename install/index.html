@@ -22,7 +22,7 @@ if (!doNotTrack) {
   <title>NumPy</title>
   
 <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="/css/style.min.cf5efcb8a6e49b945af419cd8b208a5ae87eb3015995b9afc61218743a0fed3e.css" integrity="sha256-z178uKbkm5Ra9BnNiyCKWuh&#43;swFZlbmvxhIYdDoP7T4=">
+<link rel="stylesheet" type="text/css" href="/css/style.min.39ef608293b71585ec5407017f053ee7686f0e2c9462ea8fba4782c49870a23f.css" integrity="sha256-Oe9ggpO3FYXsVAcBfwU&#43;52hvDiyUYuqPukeCxJhwoj8=">
 <link rel="stylesheet" type="text/css" href="/css/icons.css">
 
 <link rel="icon" type="image/png" href="/images/favicon.png" />
@@ -229,6 +229,15 @@ we recommend:</p>
 that provides a dependency resolver and environment management capabilities
 in a similar fashion as conda does.</li>
 </ul>
+<h2 id="troubleshooting-importerror">Troubleshooting ImportError</h2>
+<p>If your installation fails with the message below, see <a href="https://numpy.org/doc/stable/user/troubleshooting-importerror.html">Troubleshooting
+ImportError</a>.</p>
+<pre><code>IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy c-extensions failed. This error can happen for
+different reasons, often due to issues with your setup.
+</code></pre><h2 id="building-from-source">Building from source</h2>
+<p>See <a href="https://numpy.org/devdocs/user/building.html">Building from source</a>.</p>
 <h2 id="python-package-management">Python package management</h2>
 <p>Managing packages is a challenging problem, and, as a result, there are lots of
 tools. For web and general purpose Python development there&rsquo;s a whole
@@ -304,7 +313,7 @@ The OpenBLAS libraries are shipped within the wheels itself. This makes those
 wheels larger, and if a user installs (for example) SciPy as well, they will
 now have two copies of OpenBLAS on disk.</p>
 <p>In the conda defaults channel, NumPy is built against Intel MKL. MKL is a
-separate package that will be installed in the users&rsquo; environment when they
+separate package that will be installed in the users' environment when they
 install NumPy. That MKL package is a lot larger than OpenBLAS, several hundred
 MB. MKL is typically a little faster and more robust than OpenBLAS.</p>
 <p>In the conda-forge channel, NumPy is built against a dummy &ldquo;BLAS&rdquo; package. When
