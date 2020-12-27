@@ -150,15 +150,33 @@ if (!doNotTrack) {
                 <div class="divider"></div>
             </div>
         </div>
-        <p>The only prerequisite for NumPy is Python itself. If you don&rsquo;t have Python yet and want the simplest way to get started, we recommend you use the <a href="https://www.anaconda.com/distribution">Anaconda Distribution</a> - it includes Python, NumPy, and other commonly used packages for scientific computing and data science.</p>
-<p>NumPy can be installed with <code>conda</code>, with <code>pip</code>, or with a package manager on macOS and Linux. For more detailed instructions, consult our <a href="#python-numpy-install-guide">Python and NumPy installation guide</a> below.</p>
-<h2 id="conda">conda</h2>
-<p>If you use <code>conda</code>, you can install it with:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">conda install numpy
-</code></pre></div><h2 id="pip">pip</h2>
-<p>If you use <code>pip</code>, you can install it with:</p>
+        <p>The only prerequisite for installing NumPy is Python itself. If you don&rsquo;t have
+Python yet and want the simplest way to get started, we recommend you use the
+<a href="https://www.anaconda.com/distribution">Anaconda Distribution</a> - it includes
+Python, NumPy, and many other commonly used packages for scientific computing
+and data science.</p>
+<p>NumPy can be installed with <code>conda</code>, with <code>pip</code>, with a package manager on
+macOS and Linux, or <a href="https://numpy.org/devdocs/user/building.html">from source</a>.
+For more detailed instructions, consult our <a href="#python-numpy-install-guide">Python and NumPy
+installation guide</a> below.</p>
+<p><strong>CONDA</strong></p>
+<p>If you use <code>conda</code>, you can install NumPy from the <code>defaults</code> or <code>conda-forge</code>
+channels:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># Best practice, use an environment rather than install in the base env</span>
+conda create -n my-env
+conda activate my-env
+<span style="color:#75715e"># If you want to install from conda-forge</span>
+conda config --env --add channels conda-forge
+<span style="color:#75715e"># The actual install command</span>
+conda install numpy
+</code></pre></div><p><strong>PIP</strong></p>
+<p>If you use <code>pip</code>, you can install NumPy with:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">pip install numpy
-</code></pre></div><p><a name="python-numpy-install-guide"></a></p>
+</code></pre></div><p>Also when using pip, it&rsquo;s good practice to use a virtual environment -
+see  <a href="#reproducible-installs">Reproducible Installs</a> below for why, and
+<a href="https://dev.to/bowmanjd/python-tools-for-managing-virtual-environments-3bko#howto">this guide</a>
+for details on using virtual environments.</p>
+<p><a name="python-numpy-install-guide"></a></p>
 <h1 id="python-and-numpy-installation-guide">Python and NumPy installation guide</h1>
 <p>Installing and managing packages in Python is complicated, there are a
 number of alternative solutions for most tasks. This guide tries to give the
@@ -229,15 +247,6 @@ we recommend:</p>
 that provides a dependency resolver and environment management capabilities
 in a similar fashion as conda does.</li>
 </ul>
-<h2 id="troubleshooting-importerror">Troubleshooting ImportError</h2>
-<p>If your installation fails with the message below, see <a href="https://numpy.org/doc/stable/user/troubleshooting-importerror.html">Troubleshooting
-ImportError</a>.</p>
-<pre><code>IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
-
-Importing the numpy c-extensions failed. This error can happen for
-different reasons, often due to issues with your setup.
-</code></pre><h2 id="building-from-source">Building from source</h2>
-<p>See <a href="https://numpy.org/devdocs/user/building.html">Building from source</a>.</p>
 <h2 id="python-package-management">Python package management</h2>
 <p>Managing packages is a challenging problem, and, as a result, there are lots of
 tools. For web and general purpose Python development there&rsquo;s a whole
@@ -261,66 +270,60 @@ pip can&rsquo;t.</p>
 (PyPI), while conda installs from its own channels (typically &ldquo;defaults&rdquo; or
 &ldquo;conda-forge&rdquo;). PyPI is the largest collection of packages by far, however, all
 popular packages are available for conda as well.</p>
-<p>The third difference is that pip does not have a <em>dependency resolver</em> (this is
-expected to change in the near future), while conda does. For simple cases (e.g.
-you just want NumPy, SciPy, Matplotlib, Pandas, Scikit-learn, and a few other
-packages) that doesn&rsquo;t matter, however, for complicated cases conda can be
-expected to do a better job keeping everything working well together. The flip
-side of that coin is that installing with pip is typically a <em>lot</em> faster than
-installing with conda.</p>
-<p>The fourth difference is that conda is an integrated solution for managing
+<p>The third difference is that conda is an integrated solution for managing
 packages, dependencies and environments, while with pip you may need another
 tool (there are many!) for dealing with environments or complex dependencies.</p>
 <h3 id="reproducible-installs">Reproducible installs</h3>
-<p>Making the installation of all the packages your analysis, library or
-application depends on reproducible is important. Sounds obvious, yet most
-users don&rsquo;t think about doing this (at least until it&rsquo;s too late).</p>
-<p>The problem with Python packaging is that sooner or later, something will
-break. It&rsquo;s not often this bad,</p>
-<figure><a href="https://xkcd.com/1987/">
-    <img src="/images/content_images/python_environment_xkcd.png"
-         alt="Python Environment XKCD image" width="400"/> </a><figcaption>
-            <p><em>XKCD illustration - Python environment degradation</em></p>
-        </figcaption>
-</figure>
-
-<p>but it does degrade over time. Hence, it&rsquo;s important to be able to delete and
-reconstruct the set of packages you have installed.</p>
-<p>Best practice is to use a different environment per project you&rsquo;re working on,
-and record at least the names (and preferably versions) of the packages you
-directly depend on in a static metadata file. Each packaging tool has its own
-metadata format for this:</p>
+<p>As libraries get updated, results from running your code can change, or your
+code can break completely. It&rsquo;s important to be able to reconstruct the set
+of packages and versions you&rsquo;re using. Best practice is to:</p>
+<ol>
+<li>use a different environment per project you&rsquo;re working on,</li>
+<li>record package names and versions using your package installer;
+each has its own metadata format for this:
 <ul>
 <li>Conda: <a href="https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#">conda environments and environment.yml</a></li>
 <li>Pip: <a href="https://docs.python.org/3/tutorial/venv.html">virtual environments</a> and
 <a href="https://pip.readthedocs.io/en/latest/user_guide/#requirements-files">requirements.txt</a></li>
 <li>Poetry: <a href="https://python-poetry.org/docs/basic-usage/">virtual environments and pyproject.toml</a></li>
 </ul>
-<p>Sometimes it&rsquo;s too much overhead to create and switch between new environments
-for small tasks. In that case we encourage you to not install too many packages
-into your base environment, and keep track of versions of packages some other
-way (e.g. comments inside files, or printing <code>numpy.__version__</code> after
-importing it in notebooks).</p>
+</li>
+</ol>
 <h2 id="numpy-packages--accelerated-linear-algebra-libraries">NumPy packages &amp; accelerated linear algebra libraries</h2>
 <p>NumPy doesn&rsquo;t depend on any other Python packages, however, it does depend on an
 accelerated linear algebra library - typically
 <a href="https://software.intel.com/en-us/mkl">Intel MKL</a> or
 <a href="https://www.openblas.net/">OpenBLAS</a>. Users don&rsquo;t have to worry about
-installing those, but it may still be important to understand how the packaging
-is done and how it affects performance and behavior users see.</p>
+installing those (they&rsquo;re automatically included in all NumPy install methods).
+Power users may still want to know the details, because the used BLAS can
+affect performance, behavior and size on disk:</p>
+<ul>
+<li>
 <p>The NumPy wheels on PyPI, which is what pip installs, are built with OpenBLAS.
-The OpenBLAS libraries are shipped within the wheels itself. This makes those
-wheels larger, and if a user installs (for example) SciPy as well, they will
-now have two copies of OpenBLAS on disk.</p>
+The OpenBLAS libraries are included in the wheel. This makes the wheel
+larger, and if a user installs (for example) SciPy as well, they will now
+have two copies of OpenBLAS on disk.</p>
+</li>
+<li>
 <p>In the conda defaults channel, NumPy is built against Intel MKL. MKL is a
 separate package that will be installed in the users' environment when they
-install NumPy. That MKL package is a lot larger than OpenBLAS, several hundred
-MB. MKL is typically a little faster and more robust than OpenBLAS.</p>
+install NumPy.</p>
+</li>
+<li>
 <p>In the conda-forge channel, NumPy is built against a dummy &ldquo;BLAS&rdquo; package. When
 a user installs NumPy from conda-forge, that BLAS package then gets installed
 together with the actual library - this defaults to OpenBLAS, but it can also
 be MKL (from the defaults channel), or even
 <a href="https://github.com/flame/blis">BLIS</a> or reference BLAS.</p>
+</li>
+<li>
+<p>The MKL package is a lot larger than OpenBLAS, it&rsquo;s about 700 MB on disk
+while OpenBLAS is about 30 MB.</p>
+</li>
+<li>
+<p>MKL is typically a little faster and more robust than OpenBLAS.</p>
+</li>
+</ul>
 <p>Besides install sizes, performance and robustness, there are two more things to
 consider:</p>
 <ul>
@@ -331,11 +334,18 @@ an issue.</li>
 <code>np.dot</code>, with the number of threads being determined by both a build-time
 option and an environment variable. Often all CPU cores will be used. This is
 sometimes unexpected for users; NumPy itself doesn&rsquo;t auto-parallelize any
-function calls. It can also be harmful for performance, for example when
-using another level of parallelization manually or with, e.g. Dask or
-scikit-learn functionality.</li>
+function calls. It typically yields better performance, but can also be
+harmful - for example when using another level of parallelization with Dask,
+scikit-learn or multiprocessing.</li>
 </ul>
+<h2 id="troubleshooting">Troubleshooting</h2>
+<p>If your installation fails with the message below, see <a href="https://numpy.org/doc/stable/user/troubleshooting-importerror.html">Troubleshooting
+ImportError</a>.</p>
+<pre><code>IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
 
+Importing the numpy c-extensions failed. This error can happen for
+different reasons, often due to issues with your setup.
+</code></pre>
     </div>
   </div>
 </section>

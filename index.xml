@@ -72,14 +72,14 @@ David Shoemaker, LIGO Scientific Collaboration  About Gravitational Waves and LI
     </item>
     
     <item>
-      <title>Case Study: The First Image of a Black Hole</title>
+      <title>Case Study: First Image of a Black Hole</title>
       <link>http://numpy.org/case-studies/blackhole-image/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://numpy.org/case-studies/blackhole-image/</guid>
       <description>Black Hole M87 (Image Credits: Event Horizon Telescope Collaboration)
   Imaging the M87 Black Hole is like trying to see something that is by definition impossible to see.
-—Katie Bouman, Assistant Professor, Computing &amp; Mathematical Sciences, Caltech  About The Event Horizon Telescope The Event Horizon telescope (EHT), is an array of eight ground-based radio telescopes forming a computational telescope the size of the earth, designed to study extreme objects in the universe with unprecedented sensitivity and resolution.</description>
+Katie Bouman, Assistant Professor, Computing &amp; Mathematical Sciences, Caltech  A telescope the size of the earth The Event Horizon telescope (EHT) is an array of eight ground-based radio telescopes forming a computational telescope the size of the earth, studing the universe with unprecedented sensitivity and resolution.</description>
     </item>
     
     <item>
@@ -109,9 +109,9 @@ We offer several communication channels to learn, share your knowledge and conne
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://numpy.org/contribute/</guid>
-      <description>Thanks so much for being interested in contributing to NumPy! You are our kind of Pythonista!
-To thrive, the NumPy project needs your expertise and enthusiasm. Not a coder? Not a problem! There are many ways to contribute to NumPy:
- Writing code Reviewing pull requests from other developers Developing educational materials (tutorials, presentations, etc.) Improving the documentation Triaging bugs and issues on GitHub Maintaining and enhancing our website Graphic design Translating website content into other languages Answering questions on Gitter, Stack Overflow, and Reddit Participating in discussions on the mailing list Serving as a community coordinator Grant writing and other fundraising activities  Our community aspires to treat everyone equally, and to value all contributions.</description>
+      <description>The NumPy project welcomes your expertise and enthusiasm! Your choices aren&amp;rsquo;t limited to programming &amp;ndash; in addition to
+ Writing code  you can
+ Review pull requests Develop tutorials, presentations, and other educational material Triage issues Work on our website Contribute graphic design Translate website content Serve as a community coordinator Write grant proposals and help with other fundraising  If you&amp;rsquo;re unsure where to start or how your skills fit in, reach out!</description>
     </item>
     
     <item>
@@ -140,8 +140,8 @@ StackOverflow A forum for asking usage questions, e.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://numpy.org/install/</guid>
-      <description>The only prerequisite for NumPy is Python itself. If you don&amp;rsquo;t have Python yet and want the simplest way to get started, we recommend you use the Anaconda Distribution - it includes Python, NumPy, and other commonly used packages for scientific computing and data science.
-NumPy can be installed with conda, with pip, or with a package manager on macOS and Linux. For more detailed instructions, consult our Python and NumPy installation guide below.</description>
+      <description>The only prerequisite for installing NumPy is Python itself. If you don&amp;rsquo;t have Python yet and want the simplest way to get started, we recommend you use the Anaconda Distribution - it includes Python, NumPy, and many other commonly used packages for scientific computing and data science.
+NumPy can be installed with conda, with pip, with a package manager on macOS and Linux, or from source. For more detailed instructions, consult our Python and NumPy installation guide below.</description>
     </item>
     
     <item>

@@ -145,7 +145,7 @@ if (!doNotTrack) {
     <div class="content-container">
         <div class="columns">
             <div class="column is-centered-tablet-portrait">
-                <h1 class="title section-title">Case Study: The First Image of a Black Hole</h1>
+                <h1 class="title section-title">Case Study: First Image of a Black Hole</h1>
                 <h5 class="subtitle is-5 is-muted"></h5>
                 <div class="divider"></div>
             </div>
@@ -160,69 +160,57 @@ if (!doNotTrack) {
 
 <blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs">
     <p>Imaging the M87 Black Hole is like trying to see something that is by definition impossible to see.</p>
-    <footer align="right">—Katie Bouman, <cite>Assistant Professor, Computing & Mathematical Sciences, Caltech</cite></footer>
+    <footer align="right">Katie Bouman, <cite>Assistant Professor, Computing & Mathematical Sciences, Caltech</cite></footer>
 </blockquote>
-<h2 id="about-the-event-horizon-telescope">About The Event Horizon Telescope</h2>
-<p>The <a href="https://eventhorizontelescope.org">Event Horizon telescope (EHT)</a>, is an
+<h2 id="a-telescope-the-size-of-the-earth">A telescope the size of the earth</h2>
+<p>The <a href="https://eventhorizontelescope.org">Event Horizon telescope (EHT)</a> is an
 array of eight ground-based radio telescopes forming a computational telescope
-the size of the earth, designed to study extreme objects in the
-universe with unprecedented sensitivity and resolution.  The worldwide
-network of radio telescopes comprises a virtual telescope based on a technique
-called very-long-baseline interferometry (VLBI).
-Using this technique, the EHT is able to achieve an angular resolution of
+the size of the earth, studing the universe with unprecedented
+sensitivity and resolution.  The huge virtual telescope,  which uses a technique
+called very-long-baseline interferometry (VLBI), has an angular resolution of
 <a href="https://eventhorizontelescope.org/press-release-april-10-2019-astronomers-capture-first-image-black-hole">20 micro-arcseconds</a> — enough to read a newspaper in New York
 from a sidewalk café in Paris!</p>
 <h3 id="key-goals-and-results">Key Goals and Results</h3>
 <ul>
 <li>
 <p><strong>A New View of the Universe:</strong>
-The EHT is an exciting new tool for studying the most extreme objects in the
-universe. The EHT&rsquo;s groundbreaking image was published 100 years
-after <a href="https://en.wikipedia.org/wiki/Eddington_experiment">Sir Arthur Eddington&rsquo;s experiment</a> yielded the first
-observational evidence in support of Einstein&rsquo;s theory of general relativity.</p>
+The groundwork for the EHT&rsquo;s groundbreaking image had been laid 100 years
+earlier when <a href="https://en.wikipedia.org/wiki/Eddington_experiment">Sir Arthur Eddington</a> yielded the first
+observational support of Einstein&rsquo;s theory of general relativity.</p>
 </li>
 <li>
-<p><strong>Investigating Black Holes:</strong>
-The EHT&rsquo;s first image focuses on the supermassive black hole at the center
-of the galaxy Messier 87 (M87), located in the Virgo galaxy cluster.
-This black hole resides approximately 55 million light-years from Earth and
-has a mass equal  to 6.5 billion times that of the Sun. It has been a
-subject of astronomical study for
-<a href="https://www.jpl.nasa.gov/news/news.php?feature=7385">over a 100 years</a>.
-Black holes have long been the object of intense study but the EHT provides
-the first direct visual evidence of these extreme phenomena.</p>
+<p><strong>The Black Hole:</strong> EHT was trained on a supermassive black hole
+approximately 55 million light-years from Earth, lying at the center
+of the galaxy Messier 87 (M87) in the Virgo galaxy cluster. Its mass is
+6.5 billion times the Sun&rsquo;s. It had been studied for
+<a href="https://www.jpl.nasa.gov/news/news.php?feature=7385">over 100 years</a>, but never before
+had a black hole been visually observed.</p>
 </li>
 <li>
-<p><strong>Comparing Observations to Theory:</strong>
-Based on Einstein’s general theory of relativity, scientists expected
-to see a dark region similar to a shadow, caused by the gravitational bending
-and capture of light by the event horizon. By studying this shadow
-scientists could measure the enormous mass of M87’s central supermassive
-black hole.</p>
+<p><strong>Comparing Observations to Theory:</strong> From Einstein’s general theory of
+relativity, scientists expected to find a shadow-like region caused by
+gravitational bending and capture of light. Scientists could
+use it to measure the black hole&rsquo;s enormous mass.</p>
 </li>
 </ul>
 <h3 id="the-challenges">The Challenges</h3>
 <ul>
 <li>
-<p><strong>Scale</strong></p>
-<p>The observations from Event Horizon Telescope (EHT) present challenges for
-existing data processing tools, arising from the rapid atmospheric phase
-fluctuations, wide recording bandwidth, and highly heterogeneous array.</p>
+<p><strong>Computational scale</strong></p>
+<p>EHT poses massive data-processing challenges, including rapid atmospheric
+phase fluctuations, large recording bandwidth, and telescopes that are
+widely dissimilar and geographically dispersed.</p>
 </li>
 <li>
-<p><strong>Calibration and Correlation</strong></p>
-<p>Besides scheduling all of these coordinated observations of EHT, reducing
-the overall volume and complexity of data to aid analysis is a really hard
-problem to solve. To put things in perspective, EHT generates over 350
-Terabytes worth of observed data per day, stored on high-performance
-helium filled hard drives.</p>
+<p><strong>Too much information</strong></p>
+<p>Each day EHT generates over 350 terabytes of observations, stored on
+helium-filled hard drives. Reducing the volume and complexity of this much
+data is enormously difficult.</p>
 </li>
 <li>
-<p><strong>Image Reconstruction</strong></p>
-<p>How are the calibrated data processed to produce an image of something that
-has never before been directly imaged? How can scientists be confident
-that the image is correct? These are some of the challenges overcome in
-the analysis to produce the image.</p>
+<p><strong>Into the unknown</strong></p>
+<p>When the goal is to see something never before seen, how can scientists be
+confident the image is correct?</p>
 </li>
 </ul>
 <figure class="csfigcaption">
@@ -233,26 +221,16 @@ the analysis to produce the image.</p>
         </figcaption>
 </figure>
 
-<h2 id="numpys-role-in-black-hole-imaging">NumPy’s Role in Black Hole Imaging</h2>
-<p>While collecting, curating, and processing the data from the EHT facilities
-represents a monumental challenge, it is only the first step in generating
-an image from the data.
-There are many approaches to image reconstruction, each incorporating unique
-assumptions and constraints in order to solve the ill-posed problem of
-recovering an image of the black hole from the collected data.
-But how can anyone be confident that the image that&rsquo;s produced is correct?
-What if there&rsquo;s a problem with the data? Or perhaps an algorithm relies too
-heavily on a particular assumption? Will the image change drastically if a
-single parameter is changed?
-The EHT collaboration met these challenges by having independent teams
-evaluate the data using both established and cutting-edge image reconstruction
-techniques to verify that the resulting images were consistent.
-Results from these independent teams of researchers were combined to yield the
-first-of-a-kind image of the black hole.
-This approach is a powerful example of the importance of reproducibility and
-collaboration to modern scientific discovery and illustrates the role that
-the scientific Python ecosystem plays in supporting scientific advancement
-through collaborative data analysis.</p>
+<h2 id="numpys-role">NumPy’s Role</h2>
+<p>What if there&rsquo;s a problem with the data? Or perhaps an algorithm relies too
+heavily on a particular assumption. Will the image change drastically if a
+single parameter is changed?</p>
+<p>The EHT collaboration met these challenges by having independent teams
+evaluate the data, using both established and cutting-edge image reconstruction
+techniques. When results proved consistent, they were combined to yield the
+first-of-a-kind image of the black hole.</p>
+<p>Their work illustrates the role the scientific Python ecosystem plays in
+advancing science through collaborative data analysis.</p>
 <figure class="fig-center">
     <img src="/images/content_images/cs/bh_numpy_role.png"
          alt="role of numpy"/> <figcaption>
@@ -263,7 +241,7 @@ through collaborative data analysis.</p>
 <p>For example, the <a href="https://github.com/achael/eht-imaging"><code>eht-imaging</code></a> Python package provides tools for
 simulating and performing image reconstruction on VLBI data.
 NumPy is at the core of array data processing used
-in this package as illustrated by the partial software
+in this package, as illustrated by the partial software
 dependency chart below.</p>
 <figure class="fig-center">
     <img src="/images/content_images/cs/ehtim_numpy.png"
@@ -272,25 +250,23 @@ dependency chart below.</p>
         </figcaption>
 </figure>
 
-<p>Besides NumPy, many other packages such as
-<a href="https://www.scipy.org">SciPy</a> and <a href="https://pandas.io">Pandas</a> were used in the
+<p>Besides NumPy, many other packages, such as
+<a href="https://www.scipy.org">SciPy</a> and <a href="https://pandas.io">Pandas</a>, are part of the
 data processing pipeline for imaging the black hole.
 The standard astronomical file formats and time/coordinate transformations
-were handled by <a href="https://www.astropy.org/">Astropy</a> while <a href="https://matplotlib.org/">Matplotlib</a> was used
+were handled by <a href="https://www.astropy.org/">Astropy</a>, while <a href="https://matplotlib.org/">Matplotlib</a> was used
 in visualizing data throughout the analysis pipeline, including the generation
 of the final image of the black hole.</p>
 <h2 id="summary">Summary</h2>
-<p>NumPy enabled researchers to manipulate large numerical datasets through its
-efficient and generic n-dimensional array, providing a foundation for the
-software used to generate the first ever image of
-a black hole. The direct imaging of a black hole is
-a major scientific accomplishment providing stunning, visual evidence of Einstein’s
-general theory of relativity. This achievement encompasses not only
-technological breakthroughs, but international-scale scientific collaboration
-between over 200 scientists and some of the world&rsquo;s best radio observatories.
-They used
-innovative algorithms and data processing techniques improving upon existing
-astronomical models to help unfold some of the mysteries of the universe.</p>
+<p>The efficient and adaptable n-dimensional array that is NumPy&rsquo;s central feature
+enabled researchers to manipulate large numerical datasets, providing a
+foundation for the first-ever image of a black hole. A landmark moment in
+science, it gives stunning visual evidence of Einstein’s theory. The
+achievement encompasses not only technological breakthroughs but also
+international collaboration among over 200 scientists and some of the world&rsquo;s
+best radio observatories.  Innovative algorithms and data processing
+techniques, improving upon existing astronomical models, helped unfold a
+mystery of the universe.</p>
 <figure class="fig-center">
     <img src="/images/content_images/cs/numpy_bh_benefits.png"
          alt="numpy benefits"/> <figcaption>
