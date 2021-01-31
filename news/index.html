@@ -150,7 +150,21 @@ if (!doNotTrack) {
                 <div class="divider"></div>
             </div>
         </div>
-        <h3 id="diversity-in-the-numpy-project">Diversity in the NumPy project</h3>
+        <h3 id="numpy-1200-release">Numpy 1.20.0 release</h3>
+<p><em>Jan 30, 2021</em> &ndash; <a href="https://numpy.org/doc/stable/release/1.20.0-notes.html">NumPy 1.20.0</a>
+is now available. This is the largest NumPy release to date, thanks to 180+
+contributors. The two most exciting new features are:</p>
+<ul>
+<li>Type annotations for large parts of NumPy, and a new <code>numpy.typing</code> submodule
+containing <code>ArrayLike</code> and <code>DtypeLike</code> aliases that users and downstream
+libraries can use when adding type annotations in their own code.</li>
+<li>Multi-platform SIMD compiler optimizations, with support for x86 (SSE,
+AVX), ARM64 (Neon), and PowerPC (VSX) instructions. This yielded significant
+performance improvements for many functions (examples:
+<a href="https://github.com/numpy/numpy/pull/17587">sin/cos</a>,
+<a href="https://github.com/numpy/numpy/pull/18194">einsum</a>).</li>
+</ul>
+<h3 id="diversity-in-the-numpy-project">Diversity in the NumPy project</h3>
 <p><em>Sep 20, 2020</em> &ndash; We wrote a <a href="/diversity_sep2020">statement on the state of, and discussion on social media around, diversity and inclusion in the NumPy project</a>.</p>
 <h3 id="first-official-numpy-paper-published-in-nature">First official NumPy paper published in Nature!</h3>
 <p><em>Sep 16, 2020</em> &ndash; We are pleased to announce the publication of
@@ -174,7 +188,7 @@ on PyPI and conda-forge. In preparation for this event, please make sure to</p>
 trying to build from source.</li>
 </ul>
 <h3 id="numpy-1192-release">Numpy 1.19.2 release</h3>
-<p><em>Sept 10, 2020</em> &ndash; <a href="https://numpy.org/devdocs/release/1.19.2-notes.html">NumPy
+<p><em>Sep 10, 2020</em> &ndash; <a href="https://numpy.org/devdocs/release/1.19.2-notes.html">NumPy
 1.19.2</a> is now available.
 This latest release in the 1.19 series fixes several bugs, prepares for the
 <a href="http://docs.cython.org/en/latest/src/changes.html">upcoming Cython 3.x
@@ -259,7 +273,8 @@ features; minor releases (the <code>y</code> increases) do.</p>
 <script src="/js/jquery.panelslider.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 
-<script src="https://kit.fontawesome.com/9e9265cc6d.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.2.7/dist/js/uikit.min.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.2.7/dist/css/uikit.min.css" />
@@ -373,11 +388,13 @@ features; minor releases (the <code>y</code> increases) do.</p>
             <p>Sign up for the latest NumPy news, resources, <br> and more</p>
             
             <form action="https://numpy.us4.list-manage.com/subscribe/post?u=5ddd0d1d6e807900a8212481a&amp;id=287fa4253c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate sign-up-container" target="_blank" novalidate>
-                <i class="fal fa-envelope sign-up-image"></i>
+                <div class="sign-up-image">
+                    <i class="far fa-envelope"></i>
+                </div>
                 <input type="email" value="" name="EMAIL" class="required email sign-up-input" id="mce-EMAIL" aria-label="Input for email, press enter to submit" onkeypress="if (event.which === 13 || event.keyCode === 13 || event.key === 'Enter') sendThankYou()" />
                 <div class="submission-instructions">Press Enter</div>
                 <button class="signup-button" onclick="sendThankYou()" aria-label="Submit">
-                    <i class="fal fa-paper-plane"></i>
+                    <i class="far fa-paper-plane"></i>
                 </button>
                 <div id="mce-responses" class="clear">
                     <div class="response" id="mce-error-response" style="display:none"></div>
@@ -393,10 +410,10 @@ features; minor releases (the <code>y</code> increases) do.</p>
             <nav class="level is-mobile">
                 <div class="social-media-icons">
                     <a class="level-item" href="https://github.com/numpy/numpy" aria-label="https://github.com/numpy/numpy">
-                    <span class="icon"><i class="fa fa-github"></i></span>
+                    <span class="icon"><i class="fab fa-github"></i></span>
                     </a>
                     <a class="level-item" href="https://twitter.com/numpy_team" aria-label="https://twitter.com/numpy_team">
-                    <span class="icon"><i class="fa fa-twitter"></i></span>
+                    <span class="icon"><i class="fab fa-twitter"></i></span>
                     </a>
                 </div>
             </nav>

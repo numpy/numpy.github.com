@@ -163,8 +163,8 @@ Below is a curated collection of external resources. To contribute, see the end 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://numpy.org/news/</guid>
-      <description>Diversity in the NumPy project Sep 20, 2020 &amp;ndash; We wrote a statement on the state of, and discussion on social media around, diversity and inclusion in the NumPy project.
-First official NumPy paper published in Nature! Sep 16, 2020 &amp;ndash; We are pleased to announce the publication of the first official paper on NumPy as a review article in Nature. This comes 14 years after the release of NumPy 1.</description>
+      <description>Numpy 1.20.0 release Jan 30, 2021 &amp;ndash; NumPy 1.20.0 is now available. This is the largest NumPy release to date, thanks to 180+ contributors. The two most exciting new features are:
+ Type annotations for large parts of NumPy, and a new numpy.typing submodule containing ArrayLike and DtypeLike aliases that users and downstream libraries can use when adding type annotations in their own code. Multi-platform SIMD compiler optimizations, with support for x86 (SSE, AVX), ARM64 (Neon), and PowerPC (VSX) instructions.</description>
     </item>
     
     <item>
