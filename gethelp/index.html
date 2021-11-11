@@ -12,17 +12,19 @@
 <link rel=stylesheet type=text/css href=/css/style.min.973539e55bb9a3b263afa3bea3a5c42c6bc9388ce23c69a67bf0e629f1a941a0.css integrity="sha256-lzU55Vu5o7Jjr6O+o6XELGvJOIziPGmme/DmKfGpQaA=">
 <link rel=stylesheet type=text/css href=/css/icons.css>
 <link rel=icon href=/images/favicon.ico>
-<link rel=stylesheet type=text/css href=/css/styles.css>
-<link rel=stylesheet type=text/css href=/css/shell.css>
-<link rel=stylesheet type=text/css href=/css/content.css>
-<link rel=stylesheet type=text/css href=/css/news.css>
-<link rel=stylesheet type=text/css href=/css/keyfeatures.css>
-<link rel=stylesheet type=text/css href=/css/tables.css>
-<link rel=stylesheet type=text/css href=/css/videos.css>
-<link rel=stylesheet type=text/css href=/css/posts.css>
-<link rel=stylesheet href=/css/casestudies.css>
-<link rel=stylesheet href=/css/shell.css>
-<link rel=stylesheet href=/css/tabs.css>
+<link rel=stylesheet href=/css/scientific-python-hugo-theme/vars.css>
+<link rel=stylesheet href=/css/scientific-python-hugo-theme/styles.css>
+<link rel=stylesheet href=/css/scientific-python-hugo-theme/content.css>
+<link rel=stylesheet href=/css/scientific-python-hugo-theme/news.css>
+<link rel=stylesheet href=/css/scientific-python-hugo-theme/keyfeatures.css>
+<link rel=stylesheet href=/css/scientific-python-hugo-theme/tables.css>
+<link rel=stylesheet href=/css/scientific-python-hugo-theme/videos.css>
+<link rel=stylesheet href=/css/scientific-python-hugo-theme/posts.css>
+<link rel=stylesheet href=/css/scientific-python-hugo-theme/teams.css>
+<link rel=stylesheet href=/css/user/casestudies.css>
+<link rel=stylesheet href=/css/user/mailchimp.css>
+<link rel=stylesheet href=/css/user/shell.css>
+<link rel=stylesheet href=/css/user/tabs.css>
 <meta name=twitter:card content="summary_large_image">
 <meta name=twitter:image content="https://numpy.org/images/logo.svg">
 <meta name=twitter:title content="Get Help">
@@ -35,7 +37,8 @@ StackOverflow A forum for asking usage questions, e.">
 <div class=container>
 <div class=navbar-brand>
 <a id=navbar-item class=navbar-item href=/>
-<img src=/images/logo.svg alt="NumPy logo. " width=112 height=28 alt="NumPy logo. ">
+<img id=navbar-logo src=/images/logo.svg alt="NumPy logo">
+<div id=navbar-logo-text></div>
 </a>
 <a role=button class=navbar-burger aria-label=menu aria-expanded=false data-target=navbar-menu>
 <span aria-hidden=true></span>
@@ -71,7 +74,8 @@ Contribute
 <div class=container>
 <div class=navbar-brand>
 <a id=navbar-item class=navbar-item href=/>
-<img src=/images/logo.svg alt="NumPy logo. " width=112 height=28>
+<img id=navbar-logo src=/images/logo.svg alt="NumPy logo">
+<div id=navbar-logo-text></div>
 </a>
 <a role=button class=navbar-burger aria-label=menu aria-expanded=false data-target=cloned-navbar-menu>
 <span aria-hidden=true></span>
@@ -119,6 +123,9 @@ Contribute
 <div class=divider></div>
 </div>
 </div>
+<div class=post_meta>
+</div>
+<div class=post_content>
 <p><strong>User questions:</strong> The best way to get help is to post your question to a site
 like <a href=http://stackoverflow.com/questions/tagged/numpy>StackOverflow</a>, with
 thousands of users available to answer. Smaller alternatives include
@@ -141,6 +148,7 @@ see <a href=/community>Community</a>.</p>
 <h3 id=irchttpswebchatfreenodenetchannels23numpy><a href="https://webchat.freenode.net/?channels=%23numpy">IRC</a></h3>
 <p>Another real-time chat room where users and community members help each other.</p>
 <hr>
+</div>
 </div>
 </div>
 </section>
@@ -282,7 +290,6 @@ Press kit
 <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js></script>
 <script src=https://unpkg.com/feather-icons></script>
 <script src=/js/fresh.js></script>
-<script src=/js/shortcuts.js></script>
 <script src=/js/jquery.panelslider.min.js></script>
 <script src=https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js></script>
 <script src=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js></script>
@@ -299,6 +306,8 @@ Press kit
 </script>
 <script src=https://unpkg.com/thebe@0.8.2/lib/index.js></script>
 <script src=/js/app.js></script>
+<script src=/js/shortcuts.js></script>
+<script type=text/javascript>setupShortcuts(maxLevel=2)</script>
 <script type=text/javascript src=/js/app.js></script>
 <script type=application/javascript>var doNotTrack=!1;doNotTrack||(window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga('create','UA-162151853-1','auto'),ga('send','pageview'))</script>
 <script async src=https://www.google-analytics.com/analytics.js></script>
