@@ -1,0 +1,811 @@
+<!doctype html><html lang=en-us>
+<head>
+<script type=application/javascript>var doNotTrack=!1;doNotTrack||(window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga('create','UA-162151853-1','auto'),ga('send','pageview'))</script>
+<script async src=https://www.google-analytics.com/analytics.js></script>
+<meta name=description content="Why NumPy? Powerful n-dimensional arrays. Numerical computing tools. Interoperable. Performant. Open source.">
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<meta http-equiv=x-ua-compatible content="ie=edge">
+<title>NumPy</title>
+<link rel=icon type=image/png href=/images/favicon.png>
+<link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel=stylesheet>
+<link rel=stylesheet type=text/css href=/css/style.min.973539e55bb9a3b263afa3bea3a5c42c6bc9388ce23c69a67bf0e629f1a941a0.css integrity="sha256-lzU55Vu5o7Jjr6O+o6XELGvJOIziPGmme/DmKfGpQaA=">
+<link rel=stylesheet type=text/css href=/css/icons.css>
+<link rel=icon href=/images/favicon.ico>
+<link rel=stylesheet href=/css/scientific-python-hugo-theme/vars.css>
+<link rel=stylesheet href=/css/scientific-python-hugo-theme/styles.css>
+<link rel=stylesheet href=/css/scientific-python-hugo-theme/content.css>
+<link rel=stylesheet href=/css/scientific-python-hugo-theme/news.css>
+<link rel=stylesheet href=/css/scientific-python-hugo-theme/keyfeatures.css>
+<link rel=stylesheet href=/css/scientific-python-hugo-theme/tables.css>
+<link rel=stylesheet href=/css/scientific-python-hugo-theme/videos.css>
+<link rel=stylesheet href=/css/scientific-python-hugo-theme/posts.css>
+<link rel=stylesheet href=/css/scientific-python-hugo-theme/teams.css>
+<link rel=stylesheet href=/css/scientific-python-hugo-theme/code-highlight.css>
+<link rel=stylesheet href=/css/user/casestudies.css>
+<link rel=stylesheet href=/css/user/mailchimp.css>
+<link rel=stylesheet href=/css/user/shell.css>
+<link rel=stylesheet href=/css/user/tabs.css>
+<meta name=twitter:card content="summary_large_image">
+<meta name=twitter:image content="https://numpy.org/images/logo.svg">
+<meta name=twitter:title content="NumPy Teams">
+<meta name=twitter:description content="We are an international team on a mission to support scientific and research communities worldwide by building quality, open-source software. Join us!
+Maintainers  Bas van Beek    Charles Harris    Eric Wieser    Ganesh Kathiresan    Rohit Goswami    Matthew Brett    Matti Picus    Melissa Weber Mendonça    Marten van Kerkwijk    Pearu Peterson    Josh Wilson    Pauli Virtanen    Chunlin    Ralf Gommers    Robert Kern    Ross Barnowski    Sebastian Berg    Sayed Adel    Stephan Hoyer    Stefan van der Walt    Tyler Reddy    Warren Weckesser     Web team  Inessa Pawson    Jarrod Millman    Joe LaChance    MarsBarLee    Ralf Gommers    shalz    Shekhar Prasad Rajak    Stefan van der Walt     Triage team  Anirudh Subramanian    Aaron Meurer    Atsushi Sakai    Ben Nathanson    Anne Bonner    Brigitta Sipőcz    Ryan C Cooper    Gagandeep Singh    Hameer Abbasi    Inessa Pawson    jbrockmendel    Yuji Kanagawa    Kriti Singh    Christopher Albert    Mukulika    Raghuveer Devulapalli    shalz    Tina Oberoi    Rakesh Vasudevan    Zijie (ZJ) Poh     Survey team  Inessa Pawson    Ralf Gommers    Ross Barnowski     Emeritus maintainers  Allan Haldane    Ondřej Čertík    David Cournapeau    Jaime    Jarrod Millman    Julian Taylor    Mark Wiebe    Nathaniel J.">
+</head>
+<body>
+<nav id=nav class="navbar is-fresh is-transparent no-shadow" role=navigation aria-label="main navigation">
+<div class=container>
+<div class=navbar-brand>
+<a id=navbar-item class=navbar-item href=/>
+<img id=navbar-logo src=/images/logo.svg alt="NumPy logo">
+<div id=navbar-logo-text></div>
+</a>
+<a role=button class=navbar-burger aria-label=menu aria-expanded=false data-target=navbar-menu>
+<span aria-hidden=true></span>
+<span aria-hidden=true></span>
+<span aria-hidden=true></span>
+</a>
+</div>
+<div id=navbar-menu class="navbar-menu is-static">
+<div class=navbar-end>
+<a href=/install id=navbar-item class="navbar-item is-secondary">
+Install
+</a>
+<a href=https://numpy.org/doc/stable id=navbar-item class="navbar-item is-secondary">
+Documentation
+</a>
+<a href=/learn id=navbar-item class="navbar-item is-secondary">
+Learn
+</a>
+<a href=/community id=navbar-item class="navbar-item is-secondary">
+Community
+</a>
+<a href=/about id=navbar-item class="navbar-item is-secondary">
+About Us
+</a>
+<a href=/contribute id=navbar-item class="navbar-item is-secondary">
+Contribute
+</a>
+</div>
+</div>
+</div>
+</nav>
+<nav id=navbar-clone class="navbar is-fresh is-transparent" role=navigation aria-label="main navigation">
+<div class=container>
+<div class=navbar-brand>
+<a id=navbar-item class=navbar-item href=/>
+<img id=navbar-logo src=/images/logo.svg alt="NumPy logo">
+<div id=navbar-logo-text></div>
+</a>
+<a role=button class=navbar-burger aria-label=menu aria-expanded=false data-target=cloned-navbar-menu>
+<span aria-hidden=true></span>
+<span aria-hidden=true></span>
+<span aria-hidden=true></span>
+</a>
+</div>
+<div id=cloned-navbar-menu class="navbar-menu is-fixed">
+<div class=navbar-end>
+<a href=/install id=navbar-item class="navbar-item is-secondary">
+Install
+</a>
+<a href=https://numpy.org/doc/stable id=navbar-item class="navbar-item is-secondary">
+Documentation
+</a>
+<a href=/learn id=navbar-item class="navbar-item is-secondary">
+Learn
+</a>
+<a href=/community id=navbar-item class="navbar-item is-secondary">
+Community
+</a>
+<a href=/about id=navbar-item class="navbar-item is-secondary">
+About Us
+</a>
+<a href=/contribute id=navbar-item class="navbar-item is-secondary">
+Contribute
+</a>
+</div>
+</div>
+</div>
+</nav>
+<section class="content-padding flex-row">
+<div class=shortcuts-container>
+<div class=shortcuts-title>Shortcuts</div>
+<div id=shortcuts></div>
+<div class=sidebar-links>
+<a href=/gethelp/>Get Help</a>
+</div>
+</div>
+<div class=content-container>
+<div class=columns>
+<div class="column is-centered-tablet-portrait">
+<h1 class="title section-title">NumPy Teams</h1>
+<h5 class="subtitle is-5 is-muted"></h5>
+<div class=divider></div>
+</div>
+</div>
+<div class=post_meta>
+</div>
+<div class=post_content>
+<p>We are an international team on a mission to support scientific and research
+communities worldwide by building quality, open-source software.
+<a href=/contribute/>Join us</a>!</p>
+<div class=team>
+<h6 class="name title">Maintainers</h6>
+<div class=members>
+<div class=member>
+<a href=https://github.com/BvB93 class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/43369155?u=1f1fcabf979a2f00f403c60b816ba9f573026181&v=4" loading=lazy alt="Avatar of Bas van Beek">
+</div>
+Bas van Beek
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/charris class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/77272?v=4" loading=lazy alt="Avatar of Charles Harris">
+</div>
+Charles Harris
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/eric-wieser class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/425260?v=4" loading=lazy alt="Avatar of Eric Wieser">
+</div>
+Eric Wieser
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/ganesh-k13 class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/20969920?u=5936776fd9e6ba81ad7e58d6459d380849d2476b&v=4" loading=lazy alt="Avatar of Ganesh Kathiresan">
+</div>
+Ganesh Kathiresan
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/HaoZeke class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/4336207?u=564d623a8c9d710c3520841b83458b0bf1eae010&v=4" loading=lazy alt="Avatar of Rohit Goswami">
+</div>
+Rohit Goswami
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/matthew-brett class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/67612?v=4" loading=lazy alt="Avatar of Matthew Brett">
+</div>
+Matthew Brett
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/mattip class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/823911?u=1dd52e6dcca6a7a35b6644935cdd33a6e166a596&v=4" loading=lazy alt="Avatar of Matti Picus">
+</div>
+Matti Picus
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/melissawm class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/3949932?u=aacac68df60d2cf64c17c7e5aa17adf8b738aa7b&v=4" loading=lazy alt="Avatar of Melissa Weber Mendonça">
+</div>
+Melissa Weber Mendonça
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/mhvk class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/2789820?v=4" loading=lazy alt="Avatar of Marten van Kerkwijk">
+</div>
+Marten van Kerkwijk
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/pearu class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/402156?u=288a1f206a151f9e2b69f3c0ce11848d3381943e&v=4" loading=lazy alt="Avatar of Pearu Peterson">
+</div>
+Pearu Peterson
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/person142 class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/15134881?v=4" loading=lazy alt="Avatar of Josh Wilson">
+</div>
+Josh Wilson
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/pv class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/35046?v=4" loading=lazy alt="Avatar of Pauli Virtanen">
+</div>
+Pauli Virtanen
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/Qiyu8 class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/15245051?u=54810990f0fdb11ecaade02762c09d5549d72a11&v=4" loading=lazy alt="Avatar of Chunlin">
+</div>
+Chunlin
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/rgommers class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/98330?u=22a023f8d191ba200ab13d476c83860d015cc9fe&v=4" loading=lazy alt="Avatar of Ralf Gommers">
+</div>
+Ralf Gommers
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/rkern class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/46135?u=305a96a4778daecacbc8ec97ac25a48099a239cc&v=4" loading=lazy alt="Avatar of Robert Kern">
+</div>
+Robert Kern
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/rossbar class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/1268991?u=974707b96081a9705f3a239c0773320f353ee02f&v=4" loading=lazy alt="Avatar of Ross Barnowski">
+</div>
+Ross Barnowski
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/seberg class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/61977?v=4" loading=lazy alt="Avatar of Sebastian Berg">
+</div>
+Sebastian Berg
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/seiko2plus class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/12713707?u=83eef8f74afa980c1169c64a4b4297b29a8864ea&v=4" loading=lazy alt="Avatar of Sayed Adel">
+</div>
+Sayed Adel
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/shoyer class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/1217238?u=b61e7e0085405ce6d7d53f8f39a1360ef9723f72&v=4" loading=lazy alt="Avatar of Stephan Hoyer">
+</div>
+Stephan Hoyer
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/stefanv class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/45071?u=c779b5e06448fbc638bc987cdfe305c7f9a7175e&v=4" loading=lazy alt="Avatar of Stefan van der Walt">
+</div>
+Stefan van der Walt
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/tylerjereddy class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/7903078?u=2762d9ff13b992dc635f8f190a17f9a90cddfae1&v=4" loading=lazy alt="Avatar of Tyler Reddy">
+</div>
+Tyler Reddy
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/WarrenWeckesser class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/321463?v=4" loading=lazy alt="Avatar of Warren Weckesser">
+</div>
+Warren Weckesser
+</a>
+</div>
+</div>
+</div>
+<div class=team>
+<h6 class="name title">Web team</h6>
+<div class=members>
+<div class=member>
+<a href=https://github.com/InessaPawson class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/43481325?u=abd6a16d90a864bde887199e0375699e3d05d915&v=4" loading=lazy alt="Avatar of Inessa Pawson">
+</div>
+Inessa Pawson
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/jarrodmillman class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/123428?v=4" loading=lazy alt="Avatar of Jarrod Millman">
+</div>
+Jarrod Millman
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/joelachance class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/3891660?u=5de0ba1f1adad6f041f6dde1affef5d05bbed80a&v=4" loading=lazy alt="Avatar of Joe LaChance">
+</div>
+Joe LaChance
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/MarsBarLee class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/46167686?u=529b2953f1c11efa4639df47ef6d403ba684163b&v=4" loading=lazy alt="Avatar of MarsBarLee">
+</div>
+MarsBarLee
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/rgommers class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/98330?u=22a023f8d191ba200ab13d476c83860d015cc9fe&v=4" loading=lazy alt="Avatar of Ralf Gommers">
+</div>
+Ralf Gommers
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/shaloo class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/5890484?u=feb15a24e010a434ded00e41d8bd030a2cc31bdb&v=4" loading=lazy alt="Avatar of shalz">
+</div>
+shalz
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/Shekharrajak class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/5774448?u=af1d8beea7d3c37d064e0dcb42d96c41e1318934&v=4" loading=lazy alt="Avatar of Shekhar Prasad Rajak">
+</div>
+Shekhar Prasad Rajak
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/stefanv class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/45071?u=c779b5e06448fbc638bc987cdfe305c7f9a7175e&v=4" loading=lazy alt="Avatar of Stefan van der Walt">
+</div>
+Stefan van der Walt
+</a>
+</div>
+</div>
+</div>
+<div class=team>
+<h6 class="name title">Triage team</h6>
+<div class=members>
+<div class=member>
+<a href=https://github.com/anirudh2290 class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/1522319?v=4" loading=lazy alt="Avatar of Anirudh Subramanian">
+</div>
+Anirudh Subramanian
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/asmeurer class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/71486?u=cc88e2a4e4c6c496dcb9dd88cead5c0dab496c89&v=4" loading=lazy alt="Avatar of Aaron Meurer">
+</div>
+Aaron Meurer
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/AtsushiSakai class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/3813847?v=4" loading=lazy alt="Avatar of Atsushi Sakai">
+</div>
+Atsushi Sakai
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/bjnath class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/6691888?v=4" loading=lazy alt="Avatar of Ben Nathanson">
+</div>
+Ben Nathanson
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/bonn0062 class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/35413198?u=e67bd9ebc361fb207f914979d935fd1956eb626c&v=4" loading=lazy alt="Avatar of Anne Bonner">
+</div>
+Anne Bonner
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/bsipocz class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/6788290?u=d9a388224b87d55106cb3e6199d02ebc1d8e0553&v=4" loading=lazy alt="Avatar of Brigitta Sipőcz">
+</div>
+Brigitta Sipőcz
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/cooperrc class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/11371428?u=9b425a337d076ec86b75ebc759724283f0970d9a&v=4" loading=lazy alt="Avatar of Ryan C Cooper">
+</div>
+Ryan C Cooper
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/czgdp1807 class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/36567889?u=2b791e0c4a52f37637c6566bfdf5efdaebee3554&v=4" loading=lazy alt="Avatar of Gagandeep Singh">
+</div>
+Gagandeep Singh
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/hameerabbasi class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/2190658?u=b85e13f985d0bf87eeb3a7a146b61dcc9586019b&v=4" loading=lazy alt="Avatar of Hameer Abbasi">
+</div>
+Hameer Abbasi
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/InessaPawson class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/43481325?u=abd6a16d90a864bde887199e0375699e3d05d915&v=4" loading=lazy alt="Avatar of Inessa Pawson">
+</div>
+Inessa Pawson
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/jbrockmendel class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/8078968?v=4" loading=lazy alt="Avatar of jbrockmendel">
+</div>
+jbrockmendel
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/kngwyu class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/16046705?u=004f8bafac7073deba6da06042fe18c73fc4d6df&v=4" loading=lazy alt="Avatar of Yuji Kanagawa">
+</div>
+Yuji Kanagawa
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/kritisingh1 class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/22004158?u=2ebb3919ebaa3d7e0865ea5583032bc08bd0f526&v=4" loading=lazy alt="Avatar of Kriti Singh">
+</div>
+Kriti Singh
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/krystophny class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/149655?u=249f7995c486de232c34e7970fbea505f518a1be&v=4" loading=lazy alt="Avatar of Christopher Albert">
+</div>
+Christopher Albert
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/Mukulikaa class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/60316606?u=51b76f6e7968340eec48cbc2f35a581cc43f4450&v=4" loading=lazy alt="Avatar of Mukulika">
+</div>
+Mukulika
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/r-devulap class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/44766858?u=fcb771cdeac5320fa0c8f40db39c5afb071fdfb0&v=4" loading=lazy alt="Avatar of Raghuveer Devulapalli">
+</div>
+Raghuveer Devulapalli
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/shaloo class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/5890484?u=feb15a24e010a434ded00e41d8bd030a2cc31bdb&v=4" loading=lazy alt="Avatar of shalz">
+</div>
+shalz
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/tinaoberoi class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/55803680?u=bb727a0da1f33ed5f2feb58dc0333943430d2318&v=4" loading=lazy alt="Avatar of Tina Oberoi">
+</div>
+Tina Oberoi
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/vrakesh class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/13260794?u=5421923c831b67c4ef290bbdeb31ebfbdd906abc&v=4" loading=lazy alt="Avatar of Rakesh Vasudevan">
+</div>
+Rakesh Vasudevan
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/zjpoh class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/8103276?v=4" loading=lazy alt="Avatar of Zijie (ZJ) Poh">
+</div>
+Zijie (ZJ) Poh
+</a>
+</div>
+</div>
+</div>
+<div class=team>
+<h6 class="name title">Survey team</h6>
+<div class=members>
+<div class=member>
+<a href=https://github.com/InessaPawson class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/43481325?u=abd6a16d90a864bde887199e0375699e3d05d915&v=4" loading=lazy alt="Avatar of Inessa Pawson">
+</div>
+Inessa Pawson
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/rgommers class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/98330?u=22a023f8d191ba200ab13d476c83860d015cc9fe&v=4" loading=lazy alt="Avatar of Ralf Gommers">
+</div>
+Ralf Gommers
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/rossbar class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/1268991?u=974707b96081a9705f3a239c0773320f353ee02f&v=4" loading=lazy alt="Avatar of Ross Barnowski">
+</div>
+Ross Barnowski
+</a>
+</div>
+</div>
+</div>
+<div class=team>
+<h6 class="name title">Emeritus maintainers</h6>
+<div class=members>
+<div class=member>
+<a href=https://github.com/ahaldane class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/9040124?v=4" loading=lazy alt="Avatar of Allan Haldane">
+</div>
+Allan Haldane
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/certik class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/20568?v=4" loading=lazy alt="Avatar of Ondřej Čertík">
+</div>
+Ondřej Čertík
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/cournape class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/25111?v=4" loading=lazy alt="Avatar of David Cournapeau">
+</div>
+David Cournapeau
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/jaimefrio class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/3343990?v=4" loading=lazy alt="Avatar of Jaime">
+</div>
+Jaime
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/jarrodmillman class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/123428?v=4" loading=lazy alt="Avatar of Jarrod Millman">
+</div>
+Jarrod Millman
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/juliantaylor class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/542663?v=4" loading=lazy alt="Avatar of Julian Taylor">
+</div>
+Julian Taylor
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/mwiebe class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/399551?u=d4a592a0763568448a8eaa06b680ee9584a8c6e0&v=4" loading=lazy alt="Avatar of Mark Wiebe">
+</div>
+Mark Wiebe
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/njsmith class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/609896?u=935a2bf5f98be8c08d87eaac095f1f3bc3332490&v=4" loading=lazy alt="Avatar of Nathaniel J. Smith">
+</div>
+Nathaniel J. Smith
+</a>
+</div>
+<div class=member>
+<a href=https://github.com/teoliphant class=name>
+<div class=photo>
+<img src="https://avatars.githubusercontent.com/u/254880?v=4" loading=lazy alt="Avatar of Travis E. Oliphant">
+</div>
+Travis E. Oliphant
+</a>
+</div>
+</div>
+</div>
+<h1 id=governance>Governance</h1>
+<p>For the list of people on the Steering Council, please see <a href=https://numpy.org/devdocs/dev/governance/people.html>here</a>.</p>
+</div>
+</div>
+</div>
+</section>
+<div id=backtotop><a href=# id=backtotop-color></a></div>
+<footer id=footer class=footer>
+<div class=container>
+<div id=footer-columns class=columns>
+<div class=footer-logo-column>
+<img id=footer-logo src=/images/logo.svg alt="NumPy logo. ">
+</div>
+<div class=link-column>
+<div class=footer-column>
+<div class=footer-header>
+</div>
+<ul class=link-list>
+<li class=link-list>
+<a class=footer-link href=/install>
+Install
+</a>
+</li>
+<li class=link-list>
+<a class=footer-link href=https://numpy.org/doc/stable>
+Documentation
+</a>
+</li>
+<li class=link-list>
+<a class=footer-link href=/learn>
+Learn
+</a>
+</li>
+<li class=link-list>
+<a class=footer-link href=/citing-numpy>
+Citing Numpy
+</a>
+</li>
+<li class=link-list>
+<a class=footer-link href=https://numpy.org/neps/roadmap.html>
+Roadmap
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div class=link-column>
+<div class=footer-column>
+<div class=footer-header>
+</div>
+<ul class=link-list>
+<li class=link-list>
+<a class=footer-link href=/about>
+About us
+</a>
+</li>
+<li class=link-list>
+<a class=footer-link href=/community>
+Community
+</a>
+</li>
+<li class=link-list>
+<a class=footer-link href=/user-surveys>
+User surveys
+</a>
+</li>
+<li class=link-list>
+<a class=footer-link href=/contribute>
+Contribute
+</a>
+</li>
+<li class=link-list>
+<a class=footer-link href=/code-of-conduct>
+Code of conduct
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div class=link-column>
+<div class=footer-column>
+<div class=footer-header>
+</div>
+<ul class=link-list>
+<li class=link-list>
+<a class=footer-link href=/gethelp>
+Get help
+</a>
+</li>
+<li class=link-list>
+<a class=footer-link href=/terms>
+Terms of use
+</a>
+</li>
+<li class=link-list>
+<a class=footer-link href=/privacy>
+Privacy
+</a>
+</li>
+<li class=link-list>
+<a class=footer-link href=/press-kit>
+Press kit
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div class=footer-actions>
+<p>Sign up for the latest NumPy news, resources, <br> and more</p>
+<form action="https://numpy.us4.list-manage.com/subscribe/post?u=5ddd0d1d6e807900a8212481a&id=287fa4253c" method=post id=mc-embedded-subscribe-form name=mc-embedded-subscribe-form class="validate sign-up-container" target=_blank novalidate>
+<div class=sign-up-image>
+<i class="far fa-envelope"></i>
+</div>
+<input type=email name=EMAIL class="required email sign-up-input" id=mce-EMAIL aria-label="Input for email, press enter to submit" onkeypress="(event.which===13||event.keyCode===13||event.key==='Enter')&&sendThankYou()">
+<div class=submission-instructions>Press Enter</div>
+<button class=signup-button onclick=sendThankYou() aria-label=Submit>
+<i class="far fa-paper-plane"></i>
+</button>
+<div id=mce-responses class=clear>
+<div class=response id=mce-error-response style=display:none></div>
+<div class=response id=mce-success-response style=display:none></div>
+</div>
+<div style=position:absolute;left:-5000px aria-hidden=true><input type=text name=b_5ddd0d1d6e807900a8212481a_287fa4253c tabindex=-1></div>
+<div class=clear><input type=submit value=Subscribe name=subscribe id=mc-embedded-subscribe class=button style=display:none></div>
+</form>
+<div class=thank-you>Thank you! &#127881;</div>
+<nav class="level is-mobile">
+<div class=social-media-icons>
+<a class=level-item href=https://github.com/numpy/numpy aria-label=https://github.com/numpy/numpy>
+<span class=icon><i class="fab fa-github"></i></span>
+</a>
+<a class=level-item href=https://twitter.com/numpy_team aria-label=https://twitter.com/numpy_team>
+<span class=icon><i class="fab fa-twitter"></i></span>
+</a>
+</div>
+</nav>
+<div class=copyright>&copy; 2021 NumPy. All rights reserved.</div>
+</div>
+</div>
+</div>
+</footer>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js></script>
+<script src=https://unpkg.com/feather-icons></script>
+<script src=/js/fresh.js></script>
+<script src=/js/jquery.panelslider.min.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css></script>
+<script src=https://cdn.jsdelivr.net/npm/uikit@3.7.6/dist/js/uikit.min.js></script>
+<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/uikit@3.7.6/dist/css/uikit.min.css>
+<script src=https://unpkg.com/thebe@0.8.2/lib/index.js></script>
+<script src=/js/shortcuts.js></script>
+<script type=text/javascript>setupShortcuts(maxLevel=2)</script>
+<script type=text/javascript src=/js/app.js></script>
+<script type=text/javascript src=/js/thebe.js></script>
+<script type=application/javascript>var doNotTrack=!1;doNotTrack||(window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga('create','UA-162151853-1','auto'),ga('send','pageview'))</script>
+<script async src=https://www.google-analytics.com/analytics.js></script>
+</body>
+</html>
