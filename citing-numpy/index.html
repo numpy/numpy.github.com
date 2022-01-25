@@ -7,11 +7,10 @@
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
 <meta http-equiv=x-ua-compatible content="ie=edge">
 <title>NumPy</title>
-<link rel=icon type=image/png href=/images/favicon.png>
 <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel=stylesheet>
-<link rel=stylesheet type=text/css href=/css/style.min.973539e55bb9a3b263afa3bea3a5c42c6bc9388ce23c69a67bf0e629f1a941a0.css integrity="sha256-lzU55Vu5o7Jjr6O+o6XELGvJOIziPGmme/DmKfGpQaA=">
-<link rel=stylesheet type=text/css href=/css/icons.css>
+<link rel=stylesheet type=text/css href=/css/fresh/core.min.7097c05f6ddce3b1a8766e3f1936b81fe055d0835ace0f66e5c00e17e93d2ec1.css integrity="sha256-cJfAX23c47Godm4/GTa4H+BV0INazg9m5cAOF+k9LsE=">
 <link rel=icon href=/images/favicon.ico>
+<link rel=stylesheet href=/css/scientific-python-hugo-theme/bulma.css>
 <link rel=stylesheet href=/css/scientific-python-hugo-theme/vars.css>
 <link rel=stylesheet href=/css/scientific-python-hugo-theme/styles.css>
 <link rel=stylesheet href=/css/scientific-python-hugo-theme/content.css>
@@ -22,10 +21,19 @@
 <link rel=stylesheet href=/css/scientific-python-hugo-theme/posts.css>
 <link rel=stylesheet href=/css/scientific-python-hugo-theme/teams.css>
 <link rel=stylesheet href=/css/scientific-python-hugo-theme/code-highlight.css>
-<link rel=stylesheet href=/css/user/casestudies.css>
-<link rel=stylesheet href=/css/user/mailchimp.css>
-<link rel=stylesheet href=/css/user/shell.css>
-<link rel=stylesheet href=/css/user/tabs.css>
+<link rel=stylesheet href=/css/user/casestudies.min.62be4a9853ed7cc0e0aef0523c1c6f6b0e8c21b24459cf425310d03779f7c4bf.css integrity="sha256-Yr5KmFPtfMDgrvBSPBxvaw6MIbJEWc9CUxDQN3n3xL8=">
+<link rel=stylesheet href=/css/user/mailchimp.min.61f09cb06835033f12daae5ff5ba7b3d4f86ec7ddccf7523ea6093ef79bd84ca.css integrity="sha256-YfCcsGg1Az8S2q5f9bp7PU+G7H3cz3Uj6mCT73m9hMo=">
+<link rel=stylesheet href=/css/user/shell.min.0416e78c418ee1c1a39873105f032926111ce5a51461fafbdc936ef4ef78794f.css integrity="sha256-BBbnjEGO4cGjmHMQXwMpJhEc5aUUYfr73JNu9O94eU8=">
+<link rel=stylesheet href=/css/user/tabs.min.96924996dbf5cd31d28ae036f0ba9ede7c429c46c71b331c68856fbfd928bb80.css integrity="sha256-lpJJltv1zTHSiuA28Lqe3nxCnEbHGzMcaIVvv9kou4A=">
+<script src=https://unpkg.com/thebe@0.8.2/lib/index.js></script>
+<script type=text/x-thebe-config>
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "joelachance/thebelab-requirements"
+        },
+    }
+</script>
 <meta name=twitter:card content="summary_large_image">
 <meta name=twitter:image content="https://numpy.org/images/logo.svg">
 <meta name=twitter:title content="Citing NumPy">
@@ -35,7 +43,7 @@
 </head>
 <body>
 <nav id=nav class="navbar is-fresh is-transparent no-shadow" role=navigation aria-label="main navigation">
-<div class=container>
+<div class="container is-max-widescreen">
 <div class=navbar-brand>
 <a id=navbar-item class=navbar-item href=/>
 <img id=navbar-logo src=/images/logo.svg alt="NumPy logo">
@@ -72,7 +80,7 @@ Contribute
 </div>
 </nav>
 <nav id=navbar-clone class="navbar is-fresh is-transparent" role=navigation aria-label="main navigation">
-<div class=container>
+<div class="container is-max-widescreen">
 <div class=navbar-brand>
 <a id=navbar-item class=navbar-item href=/>
 <img id=navbar-logo src=/images/logo.svg alt="NumPy logo">
@@ -112,9 +120,6 @@ Contribute
 <div class=shortcuts-container>
 <div class=shortcuts-title>Shortcuts</div>
 <div id=shortcuts></div>
-<div class=sidebar-links>
-<a href=/gethelp/>Get Help</a>
-</div>
 </div>
 <div class=content-container>
 <div class=columns>
@@ -161,7 +166,7 @@ Contribute
 </section>
 <div id=backtotop><a href=# id=backtotop-color></a></div>
 <footer id=footer class=footer>
-<div class=container>
+<div class="container is-max-widescreen">
 <div id=footer-columns class=columns>
 <div class=footer-logo-column>
 <img id=footer-logo src=/images/logo.svg alt="NumPy logo. ">
@@ -303,11 +308,9 @@ Press kit
 <script src=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css></script>
 <script src=https://cdn.jsdelivr.net/npm/uikit@3.7.6/dist/js/uikit.min.js></script>
 <link rel=stylesheet href=https://cdn.jsdelivr.net/npm/uikit@3.7.6/dist/css/uikit.min.css>
-<script src=https://unpkg.com/thebe@0.8.2/lib/index.js></script>
 <script src=/js/shortcuts.js></script>
 <script type=text/javascript>setupShortcuts(maxLevel=2)</script>
 <script type=text/javascript src=/js/app.js></script>
-<script type=text/javascript src=/js/thebe.js></script>
 <script type=application/javascript>var doNotTrack=!1;doNotTrack||(window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga('create','UA-162151853-1','auto'),ga('send','pageview'))</script>
 <script async src=https://www.google-analytics.com/analytics.js></script>
 </body>
