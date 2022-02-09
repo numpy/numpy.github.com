@@ -24,17 +24,8 @@
 <link rel=stylesheet href=/css/scientific-python-hugo-theme/code-highlight.css>
 <link rel=stylesheet href=/css/user/casestudies.min.62be4a9853ed7cc0e0aef0523c1c6f6b0e8c21b24459cf425310d03779f7c4bf.css integrity="sha256-Yr5KmFPtfMDgrvBSPBxvaw6MIbJEWc9CUxDQN3n3xL8=">
 <link rel=stylesheet href=/css/user/mailchimp.min.61f09cb06835033f12daae5ff5ba7b3d4f86ec7ddccf7523ea6093ef79bd84ca.css integrity="sha256-YfCcsGg1Az8S2q5f9bp7PU+G7H3cz3Uj6mCT73m9hMo=">
-<link rel=stylesheet href=/css/user/shell.min.0416e78c418ee1c1a39873105f032926111ce5a51461fafbdc936ef4ef78794f.css integrity="sha256-BBbnjEGO4cGjmHMQXwMpJhEc5aUUYfr73JNu9O94eU8=">
+<link rel=stylesheet href=/css/user/shell.min.8545aacf1ccd1caf5a5c8d83058776a763f3bc6029d1c20c8ed64d8ffcd0e546.css integrity="sha256-hUWqzxzNHK9aXI2DBYd2p2PzvGAp0cIMjtZNj/zQ5UY=">
 <link rel=stylesheet href=/css/user/tabs.min.96924996dbf5cd31d28ae036f0ba9ede7c429c46c71b331c68856fbfd928bb80.css integrity="sha256-lpJJltv1zTHSiuA28Lqe3nxCnEbHGzMcaIVvv9kou4A=">
-<script src=https://unpkg.com/thebe@0.8.2/lib/index.js></script>
-<script type=text/x-thebe-config>
-    {
-        requestKernel: true,
-        binderOptions: {
-            repo: "joelachance/thebelab-requirements"
-        },
-    }
-</script>
 <meta name=twitter:card content="summary_large_image">
 <meta name=twitter:image content="https://numpy.org/images/logo.svg">
 <meta name=twitter:title content="NumPy">
@@ -182,7 +173,6 @@ The fundamental package for scientific computing with Python
 <div class="flex-column shell-title-container">
 <div class="shell-intro shell-content">
 <div class=shell-title>Try NumPy</div>
-<div class=shell-content-message>Enable the interactive shell</div>
 </div>
 <div class="shell-wait shell-content" style=display:none>
 <div class=shell-title>While we wait...</div>
@@ -191,30 +181,40 @@ The fundamental package for scientific computing with Python
 <p>Don&rsquo;t forget to check out the <a href=https://numpy.org/doc/stable target=_blank>docs</a>.</p>
 </div>
 </div>
-<div class="shell-lesson shell-content" style=display:none>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=color:#f92672>&gt;&gt;&gt;</span> <span style=color:#75715e># The standard way to import NumPy:</span>
-<span style=color:#f92672>&gt;&gt;&gt;</span> <span style=color:#f92672>import</span> numpy <span style=color:#66d9ef>as</span> np
+<div class="shell-lesson shell-content">
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=color:#e6db74>&#34;&#34;&#34;
+</span><span style=color:#e6db74>Enable the interactive code console
+</span><span style=color:#e6db74>to try the examples in the browser:
+</span><span style=color:#e6db74>1. Type code in the input cell and press
+</span><span style=color:#e6db74>   Shift + Enter to execute
+</span><span style=color:#e6db74>2. Or copy paste the code, and click on
+</span><span style=color:#e6db74>   the &#34;Run&#34; button in the toolbar
+</span><span style=color:#e6db74>&#34;&#34;&#34;</span>
 
-<span style=color:#f92672>&gt;&gt;&gt;</span> <span style=color:#75715e># Create a 2-D array, set every second element in</span>
-<span style=color:#f92672>&gt;&gt;&gt;</span> <span style=color:#75715e># some rows and find max per row:</span>
+<span style=color:#75715e># The standard way to import NumPy:</span>
+<span style=color:#f92672>import</span> numpy <span style=color:#66d9ef>as</span> np
 
-<span style=color:#f92672>&gt;&gt;&gt;</span> x <span style=color:#f92672>=</span> np<span style=color:#f92672>.</span>arange(<span style=color:#ae81ff>15</span>, dtype<span style=color:#f92672>=</span>np<span style=color:#f92672>.</span>int64)<span style=color:#f92672>.</span>reshape(<span style=color:#ae81ff>3</span>, <span style=color:#ae81ff>5</span>)
-<span style=color:#f92672>&gt;&gt;&gt;</span> x[<span style=color:#ae81ff>1</span>:, ::<span style=color:#ae81ff>2</span>] <span style=color:#f92672>=</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>99</span>
-<span style=color:#f92672>&gt;&gt;&gt;</span> x
-array([[  <span style=color:#ae81ff>0</span>,   <span style=color:#ae81ff>1</span>,   <span style=color:#ae81ff>2</span>,   <span style=color:#ae81ff>3</span>,   <span style=color:#ae81ff>4</span>],
-       [<span style=color:#f92672>-</span><span style=color:#ae81ff>99</span>,   <span style=color:#ae81ff>6</span>, <span style=color:#f92672>-</span><span style=color:#ae81ff>99</span>,   <span style=color:#ae81ff>8</span>, <span style=color:#f92672>-</span><span style=color:#ae81ff>99</span>],
-       [<span style=color:#f92672>-</span><span style=color:#ae81ff>99</span>,  <span style=color:#ae81ff>11</span>, <span style=color:#f92672>-</span><span style=color:#ae81ff>99</span>,  <span style=color:#ae81ff>13</span>, <span style=color:#f92672>-</span><span style=color:#ae81ff>99</span>]])
-<span style=color:#f92672>&gt;&gt;&gt;</span> x<span style=color:#f92672>.</span>max(axis<span style=color:#f92672>=</span><span style=color:#ae81ff>1</span>)
-array([ <span style=color:#ae81ff>4</span>,  <span style=color:#ae81ff>8</span>, <span style=color:#ae81ff>13</span>])
+<span style=color:#75715e># Create a 2-D array, set every second element in</span>
+<span style=color:#75715e># some rows and find max per row:</span>
 
-<span style=color:#f92672>&gt;&gt;&gt;</span> <span style=color:#75715e># Generate normally distributed random numbers:</span>
-<span style=color:#f92672>&gt;&gt;&gt;</span> rng <span style=color:#f92672>=</span> np<span style=color:#f92672>.</span>random<span style=color:#f92672>.</span>default_rng()
-<span style=color:#f92672>&gt;&gt;&gt;</span> samples <span style=color:#f92672>=</span> rng<span style=color:#f92672>.</span>normal(size<span style=color:#f92672>=</span><span style=color:#ae81ff>2500</span>)
+x <span style=color:#f92672>=</span> np<span style=color:#f92672>.</span>arange(<span style=color:#ae81ff>15</span>, dtype<span style=color:#f92672>=</span>np<span style=color:#f92672>.</span>int64)<span style=color:#f92672>.</span>reshape(<span style=color:#ae81ff>3</span>, <span style=color:#ae81ff>5</span>)
+x[<span style=color:#ae81ff>1</span>:, ::<span style=color:#ae81ff>2</span>] <span style=color:#f92672>=</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>99</span>
+x
+<span style=color:#75715e># array([[  0,   1,   2,   3,   4],</span>
+<span style=color:#75715e>#        [-99,   6, -99,   8, -99],</span>
+<span style=color:#75715e>#        [-99,  11, -99,  13, -99]])</span>
+
+x<span style=color:#f92672>.</span>max(axis<span style=color:#f92672>=</span><span style=color:#ae81ff>1</span>)
+<span style=color:#75715e># array([ 4,  8, 13])</span>
+
+<span style=color:#75715e># Generate normally distributed random numbers:</span>
+rng <span style=color:#f92672>=</span> np<span style=color:#f92672>.</span>random<span style=color:#f92672>.</span>default_rng()
+samples <span style=color:#f92672>=</span> rng<span style=color:#f92672>.</span>normal(size<span style=color:#f92672>=</span><span style=color:#ae81ff>2500</span>)
+samples
 </code></pre></div>
 </div>
 </div>
-<div class=fake-shell id=demo-code>
-<div class=demo-caret aria-label="interactive shell prompt">></div>
+<div id=fake-shell>
 <button class="shell-enable-button shell-button" onclick=loadShell() aria-label="Enables the interactive tutorial shell">
 Enable
 <div class=loader-container>
@@ -222,9 +222,7 @@ Enable
 </div>
 </button>
 </div>
-<div class=real-shell id=numpy-shell style=display:none>
-<pre id=demo-code data-executable=true data-language=python style=white-space:pre-line>import numpy as np</pre>
-</div>
+<iframe id=numpy-shell style=display:none src="https://replite.vercel.app/retro/consoles/?toolbar=1&kernel=python&code=import%20numpy%20as%20np" width=100% height=100%></iframe>
 </div>
 </div>
 </div>
