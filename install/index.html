@@ -46,15 +46,7 @@ packages you need and all other tools mentioned below).</li><li>For writing and 
 exploratory and interactive computing, and
 <a href=https://www.spyder-ide.org/>Spyder</a> or <a href=https://code.visualstudio.com/>Visual Studio Code</a>
 for writing scripts and packages.</li><li>Use <a href=https://docs.anaconda.com/anaconda/navigator/>Anaconda Navigator</a> to
-manage your packages and start JupyterLab, Spyder, or Visual Studio Code.</li></ul><h3 id=advanced-users>Advanced users</h3><h4 id=windows-or-macos>Windows or macOS</h4><ul><li>Install <a href=https://docs.conda.io/en/latest/miniconda.html>Miniconda</a>.</li><li>Keep the <code>base</code> conda environment minimal, and use one or more
-<a href=https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html>conda environments</a>
-to install the package you need for the task or project you&rsquo;re working on.</li><li>Unless you&rsquo;re fine with only the packages in the <code>defaults</code> channel, make <code>conda-forge</code>
-your default channel via <a href=https://conda-forge.org/docs/user/introduction.html#how-can-i-install-packages-from-conda-forge>setting the channel priority</a>.</li></ul><h4 id=linux>Linux</h4><p>If you&rsquo;re fine with slightly outdated packages and prefer stability over being
-able to use the latest versions of libraries:</p><ul><li>Use your OS package manager for as much as possible (Python itself, NumPy, and
-other libraries).</li><li>Install packages not provided by your package manager with <code>pip install somepackage --user</code>.</li></ul><p>If you use a GPU:</p><ul><li>Install <a href=https://docs.conda.io/en/latest/miniconda.html>Miniconda</a>.</li><li>Keep the <code>base</code> conda environment minimal, and use one or more
-<a href=https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html>conda environments</a>
-to install the package you need for the task or project you&rsquo;re working on.</li><li>Use the <code>defaults</code> conda channel (<code>conda-forge</code> doesn&rsquo;t have good support for
-GPU packages yet).</li></ul><p>Otherwise:</p><ul><li>Install <a href=https://github.com/conda-forge/miniforge>Miniforge</a>.</li><li>Keep the <code>base</code> conda environment minimal, and use one or more
+manage your packages and start JupyterLab, Spyder, or Visual Studio Code.</li></ul><h3 id=advanced-users>Advanced users</h3><h4 id=conda>Conda</h4><ul><li>Install <a href=https://github.com/conda-forge/miniforge>Miniforge</a>.</li><li>Keep the <code>base</code> conda environment minimal, and use one or more
 <a href=https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html>conda environments</a>
 to install the package you need for the task or project you&rsquo;re working on.</li></ul><h4 id=alternative-if-you-prefer-pippypi>Alternative if you prefer pip/PyPI</h4><p>For users who know, from personal preference or reading about the main
 differences between conda and pip below, they prefer a pip/PyPI-based solution,
