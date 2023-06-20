@@ -75,7 +75,7 @@ pip can&rsquo;t.</p><p>The second difference is that pip installs from the Pytho
 &ldquo;conda-forge&rdquo;). PyPI is the largest collection of packages by far, however, all
 popular packages are available for conda as well.</p><p>The third difference is that conda is an integrated solution for managing
 packages, dependencies and environments, while with pip you may need another
-tool (there are many!) for dealing with environments or complex dependencies.</p><h3 id=reproducible-installs>Reproducible installs</h3><p>As libraries get updated, results from running your code can change, or your
+tool (there are many!) for dealing with environments or complex dependencies.</p><p><a name=reproducible-installs></a></p><h3 id=reproducible-installs>Reproducible installs</h3><p>As libraries get updated, results from running your code can change, or your
 code can break completely. It&rsquo;s important to be able to reconstruct the set
 of packages and versions you&rsquo;re using. Best practice is to:</p><ol><li>use a different environment per project you&rsquo;re working on,</li><li>record package names and versions using your package installer;
 each has its own metadata format for this:<ul><li>Conda: <a href=https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html>conda environments and environment.yml</a></li><li>Pip: <a href=https://docs.python.org/3/tutorial/venv.html>virtual environments</a> and
