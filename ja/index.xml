@@ -32,7 +32,7 @@ Anaconda をインストールします（必要な パッケージと以下に�
 以下は、Numpyへの貢献者とコミュニティによって開発された、NumPyの自己学習と他人への教育のための資料です。
 初心者向け NumPyについての資料は多数存在しています。 初心者の方にはこちらの資料を強くお勧めします：
 動画
-NumPy Quickstart チュートリアル NumPyチュートリアルで、いくつかのチュートリアルと教育的資料を見ることができます。 このページのゴールは、NumPyプロジェクトによる質のいい資料を提供することです。 自習と講義形式の両方を想定しており、Jupyterノートブック形式で提供されます。 もしあなた自身の資料を追加することに興味がある場合、Github上のnumpy-tutorialsリポジトリをチェックしてみて下さい。 イラストで学ぶNumPy by Lev Maximov SciPyレクチャー NumPyだけでなく、科学的なPythonソフトウェアエコシステムを広く紹介しています。 NumPy: 初心者のための基本 NumPy チュートリアル by Nicolas Rougier スタンフォード大学 CS231 by Justin Johnson NumPyユーザーガイド チュートリアル
+NumPy Quickstart チュートリアル NumPyチュートリアルで、いくつかのチュートリアルと教育的資料を見ることができます。 このページのゴールは、NumPyプロジェクトによる質のいい資料を提供することです。 自習と講義形式の両方を想定しており、Jupyterノートブック形式で提供されます。 もしあなた自身の資料を追加することに興味がある場合、Github上のnumpy-tutorialsリポジトリをチェックしてみて下さい。 イラストで学ぶNumPy by Lev Maximov Scientific Pythonレクチャー NumPyだけでなく、科学的なPythonソフトウェアエコシステムを広く紹介しています。 NumPy: 初心者のための基本 NumPy チュートリアル by Nicolas Rougier スタンフォード大学 CS231 by Justin Johnson NumPyユーザーガイド チュートリアル
 NumPガイド Travelis E. Oliphant著 これは2006年の無料版の初版です 最新版(2015年)については、こちら を参照ください. PythonにおけるNumPy (発展編) エレガントなSciPy Juan Nunez-Iglesias・Stefan van der Walt・Harriet Dashnow 著 また、「Python+SciPy」を題材にした推薦本リスト もチェックしてみてください。 ほとんどの本にはNumPyを核とした「SciPyエコシステム」が説明されています。
 動画
 NumPy を使った数値計算入門 by Alex Chabot-Leclerc 上級者向け 高度なインデックス指定、分割、スタッキング、線形代数など、NumPyの概念をより深く理解するためには、これらの上級者向け資料を試してみてください。
