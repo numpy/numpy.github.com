@@ -1,55 +1,199 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Case-Studies on NumPy</title><link>https://numpy.org/ja/case-studies/</link><description>Recent content in Case-Studies on NumPy</description><generator>Hugo</generator><language>ja</language><atom:link href="https://numpy.org/ja/case-studies/index.xml" rel="self" type="application/rss+xml"/><item><title>ケーススタディ: DeepLabCut 三次元姿勢推定</title><link>https://numpy.org/ja/case-studies/deeplabcut-dnn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/ja/case-studies/deeplabcut-dnn/</guid><description>DeepLapCutを用いたマウスの手の動きの解析#
-(Source: www.deeplabcut.org ) オープンソースソフトウェアは生体臨床医学を加速させています。 DeepLabCut を使用すると、深層学習を使用して動物の行動を自動的にビデオ解析することができます。 —Alexander Mathis、 准教授、École polytechnology fe’rale de Lausanne (EPFL)
-DeepLabCut について# DeepLabCutは、ごくわずかなトレーニングデータで人間レベルの精度で実験動物の行動を追跡可能にするオープンソースのツールボックスです。 DeepLabCutの技術を使うことで、科学者は動物の種類と時系列のデータをもとに、運動制御と行動に関する科学的な理解を深めることができるようになりました。
-神経科学、医学、生体力学などのいくつかの研究分野では、動物の動きを追跡したデータを使用しています。 DeepLabCutは、動画に記録された動きを解析することで、人間やその他の動物が何をしているのかを理解することができます。 タグ付けや監視などの、手間のかかる作業を自動化し、深層学習ベースのデータ解析を実施します。 DeepLabCutは、霊長類、マウス、魚、ハエなどの動物を観察する科学研究をより速く正確にしています。
-色のついた点は競走馬の体の位置を追跡#
-(Source: Mackenzie Mathis) DeepLabCutは、動物の姿勢を抽出することで非侵襲的な行動追跡を行います。 これは、生体力学、遺伝学、倫理学、神経科学などの分野での研究に必要不可欠です。 動的に変化する背景の中で、動物の姿勢をビデオデータから非侵襲的に測定することは、技術的にも、必要な計算リソースやトレーニングデータの点でも、非常に困難な計算処理です。
-DeepLabCutは、研究者が対象の姿勢を推定し、Pythonベースのソフトウェアを使って効率的に対象の行動を定量化することを可能にします。 DeepLabCutを使用すると、研究者は動画から異なるフレームを識別し、数十個のフレームの特定の身体部位を、よくできたGUIによってラベルづけできます。 すると、DeepLabCutの深層学習ベースのポーズ推定アーキテクチャにより、動画の残りの部分や動物の他の類似した動画から同じ特徴を抽出する方法を学習できます。 ハエやマウスなどの一般的な実験動物から チーターのようなより珍しい動物まで、動物の種類を問わず利用できます。
-DeepLabCutでは転移学習という技術を使用しています。 これにより必要な学習データの量を大幅に削減し、学習の収束を加速させることができます。 必要に応じて、より高速な推論を提供するさまざまなネットワークアーキテクチャ(MobileNetV2など)を選択することができ、リアルタイムの実験データフィードバックと組み合わせることもできます。 DeepLabCutはもともとDeeperCutと呼ばれるパフォーマンスのよい人用のポーズ推定アーキテクチャの特徴検出器を使用しており、これが名前の由来になりました。 今ではこのパッケージは大幅に変更され、追加のアーキテクチャ・データの水増し・一通りのユーザー用フロントエンドを含んでいます。 さらに、 大規模な生物学的実験をサポートするため、DeepLabCutはオンライン学習の機能を提供しています。 これにより、動画の時間をこえて学習データを増やすことができ、エッジケースをカバーしたり、特定のコンテキスト内でポーズ推定アルゴリズムを堅牢にしたりできます。
-最近、DeepLabCut model zooが発表されました。 これは、霊長類の顔分析から犬の姿勢まで、様々な種や実験条件に対応した事前訓練済みモデルを提供しています。 これにより、例えば、新しいデータのラベルを付けることなくクラウドで予測を実行することができたり、ニューラルネットワークの学習を実行することができます。 プログラミング経験は必要ありません。
-主な目標と結果# 科学研究のための動物姿勢解析の自動化:
-DeepLabCutという技術の主な目的は、多様な環境で動物の姿勢を測定し追跡することです。 このデータは例えば神経科学の研究において、脳がどのように運動を制御しているかを理解するためのや、動物がどのように社会的に交流しているかを明らかにするために利用することができます。 研究者はDeepLabCutで 10倍のパフォーマンス向上 が可能であると発表しています。 オフラインでは最大1200フレーム/秒(FPS) で姿勢を推定することができます。
-姿勢推定のための使いやすいPythonツールキットの作成:
-DeepLabCutは、動物の姿勢推定技術を研究者が簡単に利用できるツールとして共有したいという考えから開発されています。 そこで開発者らはプロジェクト管理機能を備えた、単独で機能し、使いやすいPythonツールボックスとしてこのツールを作成しました。 これにより、姿勢推定を自動化するだけでなく、DeepLabCutツールキットユーザーをデータセット収集段階から共有可能・再利用可能な分析パイプラインを作成する段階まで補助し、プロジェクトをエンドツーエンドで管理することも可能になりました。
-このツールキット はオープンソースとして利用できます。
-典型的なDeepLabCutワークフローは以下のようになります。
-オンライン学習によるトレーニングセットの作成と調整 特定の動物やシナリオに合わせたニューラルネットワークの構築 動画における大規模推論のためのコード作成 統合された可視化ツールを使用した推論の描画 DeepLabCutによる姿勢推定のステップ#</description></item><item><title>ケーススタディ: クリケット分析、ゲームチェンジャー!</title><link>https://numpy.org/ja/case-studies/cricket-analytics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/ja/case-studies/cricket-analytics/</guid><description>IPLT20、インド最大のクリケットフェスティバル#
-(Image credits: IPLT20 (cup and logo) &amp;amp; Akash Yadav (stadium)) 観客のために競技をするのではなく、国のために競技するのです。 —M S Dhoni、 インディアンチームの元キャプテン、インターナショナル・クリケットプレイヤー、チェンナイ・スーパー・キングスのためにIPLでプレイ
-クリケットについて# インド人はクリケットが大好きだと言っても過言ではないでしょう。 この競技は、他のスポーツと異なり、インドの農村部や都市部を問わず、あらゆる場所でプレイされており、若者から年配の方まで広く人気があり、インドでは何十億人もの人々を結びつける役割を担っています。 クリケットは多くのメディアの注目を集めています。 クリケットは多くのメディアの注目を集め、非常に多額のお金と名声がかかっています。 過去数年間、テクノロジーは文字通りクリケットの試合を変えてきました。 視聴者はストリーミングメディア、トーナメント、モバイルベースの手頃なアクセスによるライブクリケット視聴などを享受しています。
-インドプレミアリーグ (IPL) は、2008年に設立された20チームから成るプロクリケットリーグです。 これは世界で最も参加者が多いクリケットイベントの1つで、2019年の市場規模は67億ドルだと評価されています。
-クリケットは数のゲームです。 バッツマンによってスコアされたランの数、ボウラーによって取られたウィケットの数、クリケットチームによって獲得した試合の数、バッツマンがボウリング攻撃に特定の方法で応答する回数。 クリケットの数字を掘り下げてパフォーマンスを向上させるとともに、NumPyなどの数値計算ソフトウェアを利用した強力な分析ツールを介して、クリケットのビジネスチャンス、市場全体、経済性を研究することは、大きな意味を持ちます。 クリケット分析は、試合に関する興味深い洞察と、ゲームの結果に関する予測AIを提供します。
-現在では、クリケットゲームの記録と 利用可能な統計データは豊富で、ほぼ無限の宝の山だと言えます。 : ESPN cricinfo や cricsheet. これらのクリケットデータベースは、最新の機械学習と予測モデリングアルゴリズムを使用して、 クリケット 分析 に使用されています。 メディアやプロスポーツ団体のエンターテインメントプラットフォームは、技術や分析を利用し、試合勝率を向上させるために、下記のような要素が主要なメトリックだと考え始めています。
-バッティング成績の移動平均 スコア予測 プレイヤーの体力や、異なる相手に対するパフォーマンスについての洞察 チーム構成に戦略的な決定を下すための、各勝敗へのプレイヤーの貢献 フィールドのフォーカルポイントとなるクリケットピッチ#
-(Image credit: Debarghya Das) データ分析の主要な目標# スポーツデータ分析はクリケットだけでなく、チーム全体のパフォーマンスを向上させ、勝利率を最大限に高めるために、 他のスポーツでも使用されています。 リアルタイムデータ分析は、ゲーム中の洞察を得ることができ、チームや関連ビジネスが経済的利益と成長のために戦術を変更するためも役立ちます。 履歴分析に加えて、予測モデルは可能性のある結果を求めることができますが、かなりの数のナンバークランチングとデータサイエンスのノウハウ、可視化ツール、および分析に新しい観測データを含める機能などが必要になります。 クリケットの姿勢推定#
-(Image credit: connect.vin) 課題# データのクリーニングと前処理
-IPLは、クリケットを古典的なテストマッチ形式から、はるかに大規模に拡大させました。 毎シーズン、様々なフォーマットで行われる試合の数は増加しており、データ、アルゴリズム、最新のスポーツデータ分析技術、シミュレーションモデルも増加しています。 クリケットのデータ分析には、フィールドマッピング、プレイヤートラッキング、ボールトラッキング、プレイヤーショット分析、およびボールがどのように動くのか、その角度、スピン、速度、軌道など、他の沢山の種類のデータを必要とします。 これらの要因により、データクリーニングと前処理の複雑さが増してしまいました。
-動的モデリング
-クリケットでは、他のスポーツと同様、フィールド上の選手の様々な数字を追跡するために、関連する変数の数が多くなってしまいがちです。 たとえば、ボールやその属性情報、およびいくつかの行動をとるアクションのいくつかの可能性などの変数です。 データ分析とモデリングの複雑さは、分析中に必要となる予測のための質問の種類に正比例しており、データ表現とモデルにも大きく依存しています。 バッツマンが異なる角度や速度でボールを打った場合に何が起こるのかのような、動的なクリケットのプレーの予測が必要な場合、計算量やデータ比較が更に困難になります。</description></item><item><title>ケーススタディ: 重力波の発見</title><link>https://numpy.org/ja/case-studies/gw-discov/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/ja/case-studies/gw-discov/</guid><description>重力波#
-(Image Credits: The Simulating eXtreme Spacetimes (SXS) Project at LIGO) 科学計算のためのPythonエコシステムはLIGOで行われている研究のための重要なインフラです。 —David Shoemaker, LIGOサイエンティフィック・コラボレーション
-重力波 と LIGO について# 重力波は、空間と時間の基本構造の波紋です。 2つのブラックホールの衝突や合体、2連星や超新星の合体など、大きな変動現象によって生成されます。 重力波の観測は、重力を研究する上で重要なだけでなく、遠い宇宙におけるいくつかの不明瞭な現象と、その影響を理解するためにも役立ちます。
-[レーザー干渉計重力波天文台(LIGO)](https://www. ligo. caltech. edu)は、アインシュタインの一般相対性理論によって予測された重力波の直接検出を通して、重力波天体物理学の分野を切り開くために設計されました。 このシステムは、アメリカのワシントン州ハンフォードとルイジアナ州リビングストンにある2つの干渉計が一体となって構成され、重力波を検出します。 それぞれのシステムには、レーザー干渉法を用いた数キロ規模の重力波検出器が設置されています。 LIGO Scientific Collaboration（LSC）は、米国をはじめとする14カ国の大学から1000人以上の科学者が集まり、90以上の大学・研究機関によって支援されています。 また、約250人の学生も参加しています。 今回のLIGOの発見は、重力波が地球を通過する際に生じる空間と時間の微小な乱れの測定により、重力波そのものを初めて観測しました。 これにより、新しい天体物理学のフロンティアが開かれました。 これは、宇宙の歪んだ側面、つまり歪んだ時空から作られた物体とそれに現象を切り拓くものです。
-主な目的# LIGOのミッションは、宇宙で最も激しくエネルギーに満ちたプロセスからの重力波を検出することですが、LIGOが収集するデータは、重力、相対性理論、天体物理学、宇宙論、素粒子物理学、原子核物理学など、物理学の多くの分野に広く影響を与える可能性があります。 複雑な数学を含む相対性理論の数値計算によって観測データを解析し、信号とノイズを識別し、関連性のある信号をフィルタリングし、観測データの有意性を統計的に推定することで、宇宙の始まりのクランチを観測できるようになります。 バイナリや数値の結果を理解しやすいようにデータを可視化することも必要です。 課題# 計算
-合成により放出される重力波は、スーパーコンピュータを用いて数値相対性を手あたり次第に試すような方法では計算できません。 LIGOが収集するデータ量は、重力波の信号が少ないのと同じくらい不可解です。
-データの氾濫
-観測装置がより高感度で信頼性を持つようになると、データの大洪水によって、干し草の中から針を探すような問題が、多重に発生することがわかります。 LIGOは毎日テラバイトのデータを生成しているのです！ この大量のデータを解釈するには、各検出ごとに多大な労力が必要です。 例えば、LIGOによって収集される信号は、数十万個の重力波シグネチャのテンプレートで構成されており、スーパーコンピュータでしか解析できません。
-可視化
-アインシュタイン方程式を元にスーパーコンピュータでデータを解析できるようになったら、次はデータを人間の脳で理解できるようにしなければなりません。 シミュレーションのモデリングや信号の検出には、わかりやすい可視化技術が必要です。 画像処理やシミュレーションによって、解析結果をより多くの人に理解してもらえる状態になる前の段階において、可視化は、数値相対性を十分に重要視していなかった純粋な科学愛好家の目に、数値相対性が、より信頼性の高いものとして映るようにするという役割も果たしています。 複雑な計算と描画を行い、また最新の実験結果と洞察に基づいてシミュレーションと再描画を行う作業は時間のかかるもので、この分野の研究者にとっての課題です。
-GW150914から推定される重力波の歪みの振幅#
-(Graph Credits: Observation of Gravitational Waves from a Binary Black Hole Merger, ResearchGate Publication) 重力波の検出におけるNumPyの役割# ブラックホール合成により放出される重力波は、スーパーコンピュータを用いたブルートフォースの数値相対性処理以外の手法では計算できません。 重力波は非常に小さい効果を生み、物質と微小な相互作用を持つため、検出が困難です。 LIGOのすべてのデータを処理・分析するには、膨大な計算インフラが必要です。 信号の数十億倍のノイズを除去した後も、非常に複雑な相対性理論の方程式と膨大な量のデータがあり、計算上の課題となっています。</description></item><item><title>ケーススタディ：世界初のブラックホール画像</title><link>https://numpy.org/ja/case-studies/blackhole-image/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/ja/case-studies/blackhole-image/</guid><description>Black Hole M87#
-(Image Credits: Event Horizon Telescope Collaboration) M87ブラックホールを画像化することは、見ることのできないものを、あえて見ようとするようなものです。 —カリフォルニア工科大学 計算・数理学部のKatie Bouman助教授
-地球大の望遠鏡# Event Horizon telescope(EHT)は、地球サイズの解析望遠鏡を形成する8台の地上型電波望遠鏡から成るシステムで、これまでに前例のない感度と解像度で宇宙を研究することができます。 超長基線干渉法(VLBI) と呼ばれる手法を用いた巨大な仮想望遠鏡の角度分解能は、20マイクロ秒で、ニューヨークにある新聞をパリの歩道のカフェから読むのに十分な解像度です!
-主な目標と結果# 宇宙の新しい見方: EHTの画期的な考え方の基礎が築かれたのは、100年前に Sir Arthur Eddingtonがアインシュタインの一般相対性理論に沿った最初の観測を実施したことが始まりでした。
-ブラックホール: EHTは、おとめ座銀河団のメシエ87銀河 (M87) の中心にある、地球から約5500万光年の距離にある超巨大ブラックホールを観測しました。 その質量は、太陽の65億倍です。 100年以上に渡る研究が行われてもなお、これまでに視覚的にブラックホールを観測できたことはありませんでした。
-観測と理論の比較: 科学者たちの間で、アインシュタインの一般相対性理論から、重力による光の曲げや光の捕獲による影のような領域が観測できるのではないかと期待されていました。 これはブラックホールの巨大な質量を測定するために利用することができます。
-課題# 大規模な計算
-EHTは膨大なデータ処理の課題を抱えていました。 大気の位相変動は急速で、記録帯域の幅は大きく、望遠鏡はそれぞれ異なっていて地理的にも分散しています。
-大量のデータ
-EHTは一日で350テラバイトを超える観測データを生成し、ヘリウムで満たされたハードドライブに保存しています。 この大量のデータとデータの複雑さを軽減することは非常に難しいことです。
-よくわからないものを観測する
-今までに見たことのないものを見るのが研究の目標なら、どうやって科学者はその画像が正しいと確信することができるのでしょうか?
-EHTのデータ処理パイプライン#
-(Diagram Credits: The Astrophysical Journal, Event Horizon Telescope Collaboration) NumPyが果たした役割# データに問題がある場合はどうなるでしょう？ あるいは、アルゴリズムが特定の仮定に あまりにも大きく依存しているかもしれません。 もしあるパラメータを変更した場合、画像は大きく変化するのでしょうか？
-EHTの共同研究では、最先端の画像再構成技術を使用して、それぞれのチームがデータを評価することによって、これらの課題に対処しました。 それぞれのチームの解析結果が同じであることが証明されると、それらの結果を組み合わせることで、ブラックホール画像を得ることができました。
-彼らの研究は、共同のデータ解析を通じて科学を進歩させる、科学的なPythonエコシステムが果たす役割を如実に表しています。
-ブラックホール画像化でNumPyが果たした役割#
-例えば、 eht-imaging というPython パッケージは VLBI データで画像の再構築をシミュレートし、実行するためのツールです。 NumPyは、以下のソフトウェア依存関係チャートで示されているように、このパッケージで使用される配列データ処理の中核を担っています。</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Case-Studies on NumPy</title><link>https://numpy.org/ja/case-studies/</link><description>Recent content in Case-Studies on NumPy</description><generator>Hugo</generator><language>ja</language><atom:link href="https://numpy.org/ja/case-studies/index.xml" rel="self" type="application/rss+xml"/><item><title>ケーススタディ: DeepLabCut 三次元姿勢推定</title><link>https://numpy.org/ja/case-studies/deeplabcut-dnn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/ja/case-studies/deeplabcut-dnn/</guid><description>&lt;figure class="align-default" id="id000">&lt;img src="https://numpy.org/images/content_images/cs/mice-hand.gif" alt="micehandanim" class="align-center">
+
+
+
+&lt;figcaption>&lt;strong class="caption-title">DeepLapCutを用いたマウスの手の動きの解析&lt;/strong>&lt;a class="headerlink" href="#id000" title="Link to this image">#&lt;/a>&lt;br>&lt;a href="http://www.mousemotorlab.org/deeplabcut">(Source: www.deeplabcut.org )&lt;/a>
+&lt;p>&lt;span class="caption-text">&lt;/span>
+&lt;/figcaption>
+&lt;/figure>
+
+&lt;blockquote cite="https://news.harvard.edu/gazette/story/newsplus/harvard-researchers-awarded-czi-open-source-award/">
+ &lt;p>
+オープンソースソフトウェアは生体臨床医学を加速させています。 DeepLabCut を使用すると、深層学習を使用して動物の行動を自動的にビデオ解析することができます。 
+&lt;/p>
+ &lt;p class="attribution">—Alexander Mathis、 &lt;em>准教授、École polytechnology fe’rale de Lausanne&lt;/em> (&lt;a href="https://www.epfl.ch/en/">EPFL&lt;/a>)&lt;/p>
+&lt;/blockquote>
+
+&lt;h2 id="deeplabcut-について">DeepLabCut について&lt;a class="headerlink" href="#deeplabcut-について" title="Link to this heading">#&lt;/a>&lt;/h2>
+&lt;p>&lt;a href="https://github.com/DeepLabCut/DeepLabCut">DeepLabCut&lt;/a>は、ごくわずかなトレーニングデータで人間レベルの精度で実験動物の行動を追跡可能にするオープンソースのツールボックスです。 DeepLabCutの技術を使うことで、科学者は動物の種類と時系列のデータをもとに、運動制御と行動に関する科学的な理解を深めることができるようになりました。&lt;/p>
+&lt;p>神経科学、医学、生体力学などのいくつかの研究分野では、動物の動きを追跡したデータを使用しています。 DeepLabCutは、動画に記録された動きを解析することで、人間やその他の動物が何をしているのかを理解することができます。 タグ付けや監視などの、手間のかかる作業を自動化し、深層学習ベースのデータ解析を実施します。 DeepLabCutは、霊長類、マウス、魚、ハエなどの動物を観察する科学研究をより速く正確にしています。&lt;/p>
+&lt;figure class="align-default" id="id002">&lt;img src="https://numpy.org/images/content_images/cs/race-horse.gif" alt="horserideranim" class="align-center">
+
+
+
+&lt;figcaption>&lt;strong class="caption-title">色のついた点は競走馬の体の位置を追跡&lt;/strong>&lt;a class="headerlink" href="#id002" title="Link to this image">#&lt;/a>&lt;br>(Source: Mackenzie Mathis)
+&lt;p>&lt;span class="caption-text">&lt;/span>
+&lt;/figcaption>
+&lt;/figure>
+
+&lt;p>DeepLabCutは、動物の姿勢を抽出することで非侵襲的な行動追跡を行います。 これは、生体力学、遺伝学、倫理学、神経科学などの分野での研究に必要不可欠です。 動的に変化する背景の中で、動物の姿勢をビデオデータから非侵襲的に測定することは、技術的にも、必要な計算リソースやトレーニングデータの点でも、非常に困難な計算処理です。&lt;/p>
+&lt;p>DeepLabCutは、研究者が対象の姿勢を推定し、Pythonベースのソフトウェアを使って効率的に対象の行動を定量化することを可能にします。 DeepLabCutを使用すると、研究者は動画から異なるフレームを識別し、数十個のフレームの特定の身体部位を、よくできたGUIによってラベルづけできます。 すると、DeepLabCutの深層学習ベースのポーズ推定アーキテクチャにより、動画の残りの部分や動物の他の類似した動画から同じ特徴を抽出する方法を学習できます。 ハエやマウスなどの一般的な実験動物から &lt;a href="https://www.technologynetworks.com/neuroscience/articles/interview-a-deeper-cut-into-behavior-with-mackenzie-mathis-327618">チーター&lt;/a>のようなより珍しい動物まで、動物の種類を問わず利用できます。&lt;/p>
+&lt;p>DeepLabCutでは&lt;a href="https://arxiv.org/pdf/1909.11229">転移学習&lt;/a>という技術を使用しています。 これにより必要な学習データの量を大幅に削減し、学習の収束を加速させることができます。 必要に応じて、より高速な推論を提供するさまざまなネットワークアーキテクチャ(MobileNetV2など)を選択することができ、リアルタイムの実験データフィードバックと組み合わせることもできます。 DeepLabCutはもともと&lt;a href="https://arxiv.org/abs/1605.03170">DeeperCut&lt;/a>と呼ばれるパフォーマンスのよい人用のポーズ推定アーキテクチャの特徴検出器を使用しており、これが名前の由来になりました。 今ではこのパッケージは大幅に変更され、追加のアーキテクチャ・データの水増し・一通りのユーザー用フロントエンドを含んでいます。 さらに、 大規模な生物学的実験をサポートするため、DeepLabCutはオンライン学習の機能を提供しています。 これにより、動画の時間をこえて学習データを増やすことができ、エッジケースをカバーしたり、特定のコンテキスト内でポーズ推定アルゴリズムを堅牢にしたりできます。&lt;/p>
+&lt;p>最近、&lt;a href="http://www.mousemotorlab.org/dlc-modelzoo">DeepLabCut model zoo&lt;/a>が発表されました。 これは、霊長類の顔分析から犬の姿勢まで、様々な種や実験条件に対応した事前訓練済みモデルを提供しています。 これにより、例えば、新しいデータのラベルを付けることなくクラウドで予測を実行することができたり、ニューラルネットワークの学習を実行することができます。 プログラミング経験は必要ありません。&lt;/p>
+&lt;h3 id="主な目標と結果">主な目標と結果&lt;a class="headerlink" href="#主な目標と結果" title="Link to this heading">#&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>科学研究のための動物姿勢解析の自動化:&lt;/strong>&lt;/p>
+&lt;p>DeepLabCutという技術の主な目的は、多様な環境で動物の姿勢を測定し追跡することです。 このデータは例えば神経科学の研究において、脳がどのように運動を制御しているかを理解するためのや、動物がどのように社会的に交流しているかを明らかにするために利用することができます。 研究者はDeepLabCutで &lt;a href="https://www.biorxiv.org/content/10.1101/457242v1">10倍のパフォーマンス向上&lt;/a> が可能であると発表しています。 オフラインでは最大1200フレーム/秒(FPS) で姿勢を推定することができます。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>姿勢推定のための使いやすいPythonツールキットの作成:&lt;/strong>&lt;/p>
+&lt;p>DeepLabCutは、動物の姿勢推定技術を研究者が簡単に利用できるツールとして共有したいという考えから開発されています。 そこで開発者らはプロジェクト管理機能を備えた、単独で機能し、使いやすいPythonツールボックスとしてこのツールを作成しました。 これにより、姿勢推定を自動化するだけでなく、DeepLabCutツールキットユーザーをデータセット収集段階から共有可能・再利用可能な分析パイプラインを作成する段階まで補助し、プロジェクトをエンドツーエンドで管理することも可能になりました。&lt;/p></description></item><item><title>ケーススタディ: クリケット分析、ゲームチェンジャー!</title><link>https://numpy.org/ja/case-studies/cricket-analytics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/ja/case-studies/cricket-analytics/</guid><description>&lt;figure class="align-default" id="id000">&lt;img src="https://numpy.org/images/content_images/cs/ipl-stadium.png" alt="Indian Premier League Cricket cup and stadium" class="align-center">
+
+
+
+&lt;figcaption>&lt;strong class="caption-title"> IPLT20、インド最大のクリケットフェスティバル&lt;/strong>&lt;a class="headerlink" href="#id000" title="Link to this image">#&lt;/a>&lt;br>&lt;a href="https://unsplash.com/@aksh1802">(Image credits: IPLT20 (cup and logo) &amp;amp; Akash Yadav (stadium))&lt;/a>
+&lt;p>&lt;span class="caption-text">&lt;/span>
+&lt;/figcaption>
+&lt;/figure>
+
+&lt;blockquote cite="https://www.scoopwhoop.com/sports/ms-dhoni/">
+ &lt;p>
+観客のために競技をするのではなく、国のために競技するのです。 
+&lt;/p>
+ &lt;p class="attribution">—M S Dhoni、 &lt;em>インディアンチームの元キャプテン、インターナショナル・クリケットプレイヤー、チェンナイ・スーパー・キングスのためにIPLでプレイ&lt;/em>&lt;/p>
+&lt;/blockquote>
+
+&lt;h2 id="クリケットについて">クリケットについて&lt;a class="headerlink" href="#クリケットについて" title="Link to this heading">#&lt;/a>&lt;/h2>
+&lt;p>インド人はクリケットが大好きだと言っても過言ではないでしょう。 この競技は、他のスポーツと異なり、インドの農村部や都市部を問わず、あらゆる場所でプレイされており、若者から年配の方まで広く人気があり、インドでは何十億人もの人々を結びつける役割を担っています。 クリケットは多くのメディアの注目を集めています。 クリケットは多くのメディアの注目を集め、非常に&lt;a href="https://www.statista.com/topics/4543/indian-premier-league-ipl/">多額のお金&lt;/a>と名声がかかっています。 過去数年間、テクノロジーは文字通りクリケットの試合を変えてきました。 視聴者はストリーミングメディア、トーナメント、モバイルベースの手頃なアクセスによるライブクリケット視聴などを享受しています。&lt;/p>
+&lt;p>インドプレミアリーグ (IPL) は、2008年に設立された20チームから成るプロクリケットリーグです。 これは世界で最も参加者が多いクリケットイベントの1つで、2019年の市場規模は&lt;a href="https://en.wikipedia.org/wiki/Indian_Premier_League">67億ドル&lt;/a>だと評価されています。&lt;/p>
+&lt;p>クリケットは数のゲームです。 バッツマンによってスコアされたランの数、ボウラーによって取られたウィケットの数、クリケットチームによって獲得した試合の数、バッツマンがボウリング攻撃に特定の方法で応答する回数。 クリケットの数字を掘り下げてパフォーマンスを向上させるとともに、NumPyなどの数値計算ソフトウェアを利用した強力な分析ツールを介して、クリケットのビジネスチャンス、市場全体、経済性を研究することは、大きな意味を持ちます。 クリケット分析は、試合に関する興味深い洞察と、ゲームの結果に関する予測AIを提供します。&lt;/p>
+&lt;p>現在では、クリケットゲームの記録と 利用可能な統計データは豊富で、ほぼ無限の宝の山だと言えます。 : &lt;a href="https://stats.espncricinfo.com/ci/engine/stats/index.html">ESPN cricinfo や&lt;/a> &lt;a href="https://cricsheet.org">cricsheet&lt;/a>. これらのクリケットデータベースは、最新の機械学習と予測モデリングアルゴリズムを使用して、 &lt;a href="https://www.researchgate.net/publication/336886516_Data_visualization_and_toss_related_analysis_of_IPL_teams_and_batsmen_performances">クリケット 分析&lt;/a> に使用されています。 メディアやプロスポーツ団体のエンターテインメントプラットフォームは、技術や分析を利用し、試合勝率を向上させるために、下記のような要素が主要なメトリックだと考え始めています。&lt;/p>
+&lt;ul>
+&lt;li>バッティング成績の移動平均&lt;/li>
+&lt;li>スコア予測&lt;/li>
+&lt;li>プレイヤーの体力や、異なる相手に対するパフォーマンスについての洞察&lt;/li>
+&lt;li>チーム構成に戦略的な決定を下すための、各勝敗へのプレイヤーの貢献&lt;/li>
+&lt;/ul>
+&lt;figure class="align-center" id="id002">&lt;img src="https://numpy.org/images/content_images/cs/cricket-pitch.png" alt="A cricket pitch with bowler and batsmen" class="align-center">
+
+
+
+&lt;figcaption>&lt;strong class="caption-title"> フィールドのフォーカルポイントとなるクリケットピッチ&lt;/strong>&lt;a class="headerlink" href="#id002" title="Link to this image">#&lt;/a>&lt;br>&lt;a href="http://debarghyadas.com/files/IPLpaper.pdf">(Image credit: Debarghya Das)&lt;/a>
+&lt;p>&lt;span class="caption-text">&lt;/span>
+&lt;/figcaption>
+&lt;/figure>
+
+&lt;h3 id="データ分析の主要な目標">データ分析の主要な目標&lt;a class="headerlink" href="#データ分析の主要な目標" title="Link to this heading">#&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>スポーツデータ分析はクリケットだけでなく、チーム全体のパフォーマンスを向上させ、勝利率を最大限に高めるために、 &lt;a href="https://adtmag.com/blogs/dev-watch/2017/07/sports-analytics.aspx">他のスポーツ&lt;/a>でも使用されています。&lt;/li>
+&lt;li>リアルタイムデータ分析は、ゲーム中の洞察を得ることができ、チームや関連ビジネスが経済的利益と成長のために戦術を変更するためも役立ちます。&lt;/li>
+&lt;li>履歴分析に加えて、予測モデルは可能性のある結果を求めることができますが、かなりの数のナンバークランチングとデータサイエンスのノウハウ、可視化ツール、および分析に新しい観測データを含める機能などが必要になります。&lt;/li>
+&lt;/ul>
+&lt;figure class="align-default" id="id003">&lt;img src="https://numpy.org/images/content_images/cs/player-pose-estimator.png" alt="pose estimator" class="align-center">
+
+
+
+&lt;figcaption>&lt;strong class="caption-title">クリケットの姿勢推定&lt;/strong>&lt;a class="headerlink" href="#id003" title="Link to this image">#&lt;/a>&lt;br>&lt;a href="https://connect.vin/2019/05/ai-for-cricket-batsman-pose-analysis/">(Image credit: connect.vin)&lt;/a>
+&lt;p>&lt;span class="caption-text">&lt;/span>
+&lt;/figcaption>
+&lt;/figure>
+
+&lt;h3 id="課題">課題&lt;a class="headerlink" href="#課題" title="Link to this heading">#&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>データのクリーニングと前処理&lt;/strong>&lt;/p></description></item><item><title>ケーススタディ: 重力波の発見</title><link>https://numpy.org/ja/case-studies/gw-discov/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/ja/case-studies/gw-discov/</guid><description>&lt;figure class="align-default" id="id000">&lt;img src="https://numpy.org/images/content_images/cs/gw_sxs_image.png" alt="binary coalesce black hole generating gravitational waves" class="align-center">
+
+
+
+&lt;figcaption>&lt;strong class="caption-title">重力波&lt;/strong>&lt;a class="headerlink" href="#id000" title="Link to this image">#&lt;/a>&lt;br>&lt;a href="https://youtu.be/Zt8Z_uzG71o">(Image Credits: The Simulating eXtreme Spacetimes (SXS) Project at LIGO)&lt;/a>
+&lt;p>&lt;span class="caption-text">&lt;/span>
+&lt;/figcaption>
+&lt;/figure>
+
+&lt;blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs">
+ &lt;p> 科学計算のためのPythonエコシステムはLIGOで行われている研究のための重要なインフラです。
+&lt;/p>
+ &lt;p class="attribution">—David Shoemaker, &lt;em>LIGOサイエンティフィック・コラボレーション&lt;/em>&lt;/p>
+&lt;/blockquote>
+
+&lt;h2 id="重力波httpswwwnationalgeographiccomnews201710what-are-gravitational-waves-ligo-astronomy-science-と-ligohttpswwwligocaltechedu-について">&lt;a href="https://www.nationalgeographic.com/news/2017/10/what-are-gravitational-waves-ligo-astronomy-science/">重力波&lt;/a> と &lt;a href="https://www.ligo.caltech.edu">LIGO&lt;/a> について&lt;a class="headerlink" href="#重力波httpswwwnationalgeographiccomnews201710what-are-gravitational-waves-ligo-astronomy-science-と-ligohttpswwwligocaltechedu-について" title="Link to this heading">#&lt;/a>&lt;/h2>
+&lt;p>重力波は、空間と時間の基本構造の波紋です。 2つのブラックホールの衝突や合体、2連星や超新星の合体など、大きな変動現象によって生成されます。 重力波の観測は、重力を研究する上で重要なだけでなく、遠い宇宙におけるいくつかの不明瞭な現象と、その影響を理解するためにも役立ちます。&lt;/p>
+&lt;p>[レーザー干渉計重力波天文台(LIGO)](https://www. ligo. caltech. edu)は、アインシュタインの一般相対性理論によって予測された重力波の直接検出を通して、重力波天体物理学の分野を切り開くために設計されました。 このシステムは、アメリカのワシントン州ハンフォードとルイジアナ州リビングストンにある2つの干渉計が一体となって構成され、重力波を検出します。 それぞれのシステムには、レーザー干渉法を用いた数キロ規模の重力波検出器が設置されています。 LIGO Scientific Collaboration（LSC）は、米国をはじめとする14カ国の大学から1000人以上の科学者が集まり、90以上の大学・研究機関によって支援されています。 また、約250人の学生も参加しています。 今回のLIGOの発見は、重力波が地球を通過する際に生じる空間と時間の微小な乱れの測定により、重力波そのものを初めて観測しました。 これにより、新しい天体物理学のフロンティアが開かれました。 これは、宇宙の歪んだ側面、つまり歪んだ時空から作られた物体とそれに現象を切り拓くものです。&lt;/p>
+&lt;h3 id="主な目的">主な目的&lt;a class="headerlink" href="#主な目的" title="Link to this heading">#&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>LIGOの&lt;a href="https://www.ligo.caltech.edu/page/what-is-ligo">ミッション&lt;/a>は、宇宙で最も激しくエネルギーに満ちたプロセスからの重力波を検出することですが、LIGOが収集するデータは、重力、相対性理論、天体物理学、宇宙論、素粒子物理学、原子核物理学など、物理学の多くの分野に広く影響を与える可能性があります。&lt;/li>
+&lt;li>複雑な数学を含む相対性理論の数値計算によって観測データを解析し、信号とノイズを識別し、関連性のある信号をフィルタリングし、観測データの有意性を統計的に推定することで、宇宙の始まりのクランチを観測できるようになります。&lt;/li>
+&lt;li>バイナリや数値の結果を理解しやすいようにデータを可視化することも必要です。&lt;/li>
+&lt;/ul>
+&lt;h3 id="課題">課題&lt;a class="headerlink" href="#課題" title="Link to this heading">#&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>計算&lt;/strong>&lt;/p>
+&lt;p>合成により放出される重力波は、スーパーコンピュータを用いて数値相対性を手あたり次第に試すような方法では計算できません。 LIGOが収集するデータ量は、重力波の信号が少ないのと同じくらい不可解です。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>データの氾濫&lt;/strong>&lt;/p>
+&lt;p>観測装置がより高感度で信頼性を持つようになると、データの大洪水によって、干し草の中から針を探すような問題が、多重に発生することがわかります。 LIGOは毎日テラバイトのデータを生成しているのです！ この大量のデータを解釈するには、各検出ごとに多大な労力が必要です。 例えば、LIGOによって収集される信号は、数十万個の重力波シグネチャのテンプレートで構成されており、スーパーコンピュータでしか解析できません。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>可視化&lt;/strong>&lt;/p>
+&lt;p>アインシュタイン方程式を元にスーパーコンピュータでデータを解析できるようになったら、次はデータを人間の脳で理解できるようにしなければなりません。 シミュレーションのモデリングや信号の検出には、わかりやすい可視化技術が必要です。 画像処理やシミュレーションによって、解析結果をより多くの人に理解してもらえる状態になる前の段階において、可視化は、数値相対性を十分に重要視していなかった純粋な科学愛好家の目に、数値相対性が、より信頼性の高いものとして映るようにするという役割も果たしています。 複雑な計算と描画を行い、また最新の実験結果と洞察に基づいてシミュレーションと再描画を行う作業は時間のかかるもので、この分野の研究者にとっての課題です。&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;figure class="align-default" id="id002">&lt;img src="https://numpy.org/images/content_images/cs/gw_strain_amplitude.png" alt="gravitational waves strain amplitude" class="align-center">
+
+
+
+&lt;figcaption>&lt;strong class="caption-title">GW150914から推定される重力波の歪みの振幅&lt;/strong>&lt;a class="headerlink" href="#id002" title="Link to this image">#&lt;/a>&lt;br>&lt;a href="https://www.researchgate.net/publication/293886905_Observation_of_Gravitational_Waves_from_a_Binary_Black_Hole_Merger">(Graph Credits: Observation of Gravitational Waves from a Binary Black Hole Merger, ResearchGate Publication)&lt;/a>
+&lt;p>&lt;span class="caption-text">&lt;/span>
+&lt;/figcaption>
+&lt;/figure>
+
+&lt;h2 id="重力波の検出におけるnumpyの役割">重力波の検出におけるNumPyの役割&lt;a class="headerlink" href="#重力波の検出におけるnumpyの役割" title="Link to this heading">#&lt;/a>&lt;/h2>
+&lt;p>ブラックホール合成により放出される重力波は、スーパーコンピュータを用いたブルートフォースの数値相対性処理以外の手法では計算できません。 重力波は非常に小さい効果を生み、物質と微小な相互作用を持つため、検出が困難です。 LIGOのすべてのデータを処理・分析するには、膨大な計算インフラが必要です。 信号の数十億倍のノイズを除去した後も、非常に複雑な相対性理論の方程式と膨大な量のデータがあり、計算上の課題となっています。&lt;/p></description></item><item><title>ケーススタディ：世界初のブラックホール画像</title><link>https://numpy.org/ja/case-studies/blackhole-image/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/ja/case-studies/blackhole-image/</guid><description>&lt;figure class="align-default" id="id000">&lt;img src="https://numpy.org/images/content_images/cs/blackhole.jpg" alt="black hole image" class="align-center">
+
+
+
+&lt;figcaption>&lt;strong class="caption-title">Black Hole M87&lt;/strong>&lt;a class="headerlink" href="#id000" title="Link to this image">#&lt;/a>&lt;br>&lt;a href="https://www.jpl.nasa.gov/images/universe/90410/blackhole20190410.jpg">(Image Credits: Event Horizon Telescope Collaboration)&lt;/a>
+&lt;p>&lt;span class="caption-text">&lt;/span>
+&lt;/figcaption>
+&lt;/figure>
+
+&lt;blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs">
+ &lt;p>
+M87ブラックホールを画像化することは、見ることのできないものを、あえて見ようとするようなものです。 
+&lt;/p>
+ &lt;p class="attribution">—&lt;em>カリフォルニア工科大学 計算・数理学部&lt;/em>のKatie Bouman助教授&lt;/p>
+&lt;/blockquote>
+
+&lt;h2 id="地球大の望遠鏡">地球大の望遠鏡&lt;a class="headerlink" href="#地球大の望遠鏡" title="Link to this heading">#&lt;/a>&lt;/h2>
+&lt;p>&lt;a href="https:/eventhorizontelescope.org">Event Horizon telescope(EHT)&lt;/a>は、地球サイズの解析望遠鏡を形成する8台の地上型電波望遠鏡から成るシステムで、これまでに前例のない感度と解像度で宇宙を研究することができます。 超長基線干渉法(VLBI) と呼ばれる手法を用いた巨大な仮想望遠鏡の角度分解能は、&lt;a href="https://eventhorizontelescope.org/press-release-april-10-2019-astronomers-capture-first-image-black-hole">20マイクロ秒&lt;/a>で、ニューヨークにある新聞をパリの歩道のカフェから読むのに十分な解像度です!&lt;/p>
+&lt;h3 id="主な目標と結果">主な目標と結果&lt;a class="headerlink" href="#主な目標と結果" title="Link to this heading">#&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>宇宙の新しい見方:&lt;/strong> EHTの画期的な考え方の基礎が築かれたのは、100年前に &lt;a href="https://en.wikipedia.org/wiki/Eddington_experiment">Sir Arthur Eddington&lt;/a>がアインシュタインの一般相対性理論に沿った最初の観測を実施したことが始まりでした。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>ブラックホール:&lt;/strong> EHTは、おとめ座銀河団のメシエ87銀河 (M87) の中心にある、地球から約5500万光年の距離にある超巨大ブラックホールを観測しました。 その質量は、太陽の65億倍です。 &lt;a href="https://www.jpl.nasa.gov/news/news.php?feature=7385">100年以上&lt;/a>に渡る研究が行われてもなお、これまでに視覚的にブラックホールを観測できたことはありませんでした。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>観測と理論の比較:&lt;/strong> 科学者たちの間で、アインシュタインの一般相対性理論から、重力による光の曲げや光の捕獲による影のような領域が観測できるのではないかと期待されていました。 これはブラックホールの巨大な質量を測定するために利用することができます。&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="課題">課題&lt;a class="headerlink" href="#課題" title="Link to this heading">#&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>大規模な計算&lt;/strong>&lt;/p>
+&lt;p>EHTは膨大なデータ処理の課題を抱えていました。 大気の位相変動は急速で、記録帯域の幅は大きく、望遠鏡はそれぞれ異なっていて地理的にも分散しています。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>大量のデータ&lt;/strong>&lt;/p>
+&lt;p>EHTは一日で350テラバイトを超える観測データを生成し、ヘリウムで満たされたハードドライブに保存しています。 この大量のデータとデータの複雑さを軽減することは非常に難しいことです。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>よくわからないものを観測する&lt;/strong>&lt;/p>
+&lt;p>今までに見たことのないものを見るのが研究の目標なら、どうやって科学者はその画像が正しいと確信することができるのでしょうか?&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;figure class="align-center" id="id002">&lt;img src="https://numpy.org/images/content_images/cs/dataprocessbh.png" alt="data pipeline" class="align-center">
+
+
+
+&lt;figcaption>&lt;strong class="caption-title">EHTのデータ処理パイプライン&lt;/strong>&lt;a class="headerlink" href="#id002" title="Link to this image">#&lt;/a>&lt;br>&lt;a href="https://iopscience.iop.org/article/10.3847/2041-8213/ab0c57">(Diagram Credits: The Astrophysical Journal, Event Horizon Telescope Collaboration)&lt;/a>
+&lt;p>&lt;span class="caption-text">&lt;/span>
+&lt;/figcaption>
+&lt;/figure>
+
+&lt;h2 id="numpyが果たした役割">NumPyが果たした役割&lt;a class="headerlink" href="#numpyが果たした役割" title="Link to this heading">#&lt;/a>&lt;/h2>
+&lt;p>データに問題がある場合はどうなるでしょう？ あるいは、アルゴリズムが特定の仮定に あまりにも大きく依存しているかもしれません。 もしあるパラメータを変更した場合、画像は大きく変化するのでしょうか？&lt;/p></description></item></channel></rss>

@@ -1,9 +1,69 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Case-Studies on NumPy</title><link>https://numpy.org/pt/case-studies/</link><description>Recent content in Case-Studies on NumPy</description><generator>Hugo</generator><language>pt</language><atom:link href="https://numpy.org/pt/case-studies/index.xml" rel="self" type="application/rss+xml"/><item><title>Estudo de Caso: A Primeira Imagem de um Buraco Negro</title><link>https://numpy.org/pt/case-studies/blackhole-image/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/case-studies/blackhole-image/</guid><description>Black Hole M87#
-(Créditos: Event Horizon Telescope Collaboration) Criar uma imagem do Buraco Negro M87 é como tentar ver algo que, por definição, é impossível de se ver. —Katie Bouman, Professora Assistente, Ciências da Computação e Matemática, Caltech
-Um telescópio do tamanho da Terra# O telescópio Event Horizon (EHT), é um conjunto de oito telescópios em solo formando um telescópio computacional do tamanho da Terra, projetado para estudar o universo com sensibilidade e resolução sem precedentes.</description></item><item><title>Estudo de Caso: Análise de Críquete, a revolução!</title><link>https://numpy.org/pt/case-studies/cricket-analytics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/case-studies/cricket-analytics/</guid><description>IPLT20, o maior festival de Críquete da Índia#
-(Image credits: IPLT20 (cup and logo) &amp;amp; Akash Yadav (stadium)) Você não joga para a torcida, joga para o país. —M S Dhoni, Jogador Internacional de Críquete, ex-capitão, Time Indiano, joga pelo Chennai Super Kings na IPL
-Sobre Críquete# Dizer que os indianos adoram o críquete seria subestimar este sentimento. O jogo é jogado praticamente em todas as localidades da Índia, rurais ou urbanas, e é popular com os jovens e os anciões, conectando bilhões de pessoas na Índia como nenhum outro esporte.</description></item><item><title>Estudo de Caso: Descoberta de Ondas Gravitacionais</title><link>https://numpy.org/pt/case-studies/gw-discov/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/case-studies/gw-discov/</guid><description>Ondas gravitacionais#
-(Créditos de imagem: O projeto Simulating eXtreme Spacetimes (SXS) no LIGO) O ecossistema científico Python é uma infraestrutura crítica para a pesquisa feita no LIGO. —David Shoemaker, Colaborador Científico no LIGO
-Sobre Ondas Gravitacionais e o LIGO# Ondas gravitacionais são ondulações no tecido espaço-tempo, gerado por eventos cataclísmicos no universo, como colisão e fusão de dois buracos negros ou a coalescência de estrelas binárias ou supernovas. A observação de ondas gravitacionais pode ajudar não só no estudo da gravidade, mas também no entendimento de alguns dos fenômenos obscuros existentes no universo distante e seu impacto.</description></item><item><title>Estudo de Caso: Estimativa de Pose 3D com DeepLabCut</title><link>https://numpy.org/pt/case-studies/deeplabcut-dnn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/case-studies/deeplabcut-dnn/</guid><description>Análise de movimentos de mãos de camundongos usando DeepLapCut#
-(Fonte: www.deeplabcut.org ) Software de código aberto está acelerando a Biomedicina. DeepLabCut permite a análise automática de vídeos de comportamento animal usando Deep Learning. —Alexander Mathis, Professor Assistente, École polytechnique fédérale de Lausanne (EPFL)
-Sobre o DeepLabCut# DeepLabCut é uma toolbox de código aberto que permite que pesquisadores de centenas de instituições em todo o mundo rastreiem o comportamento de animais de laboratório, com muito poucos dados de treinamento, mas com precisão no nível humano.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Case-Studies on NumPy</title><link>https://numpy.org/pt/case-studies/</link><description>Recent content in Case-Studies on NumPy</description><generator>Hugo</generator><language>pt</language><atom:link href="https://numpy.org/pt/case-studies/index.xml" rel="self" type="application/rss+xml"/><item><title>Estudo de Caso: A Primeira Imagem de um Buraco Negro</title><link>https://numpy.org/pt/case-studies/blackhole-image/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/case-studies/blackhole-image/</guid><description>&lt;figure class="align-default" id="id000">&lt;img src="https://numpy.org/images/content_images/cs/blackhole.jpg" alt="black hole image" class="align-center">
+
+
+
+&lt;figcaption>&lt;strong class="caption-title">Black Hole M87&lt;/strong>&lt;a class="headerlink" href="#id000" title="Link to this image">#&lt;/a>&lt;br>&lt;a href="https://www.jpl.nasa.gov/images/universe/20190410/blackhole20190410.jpg">(Créditos: Event Horizon Telescope Collaboration)&lt;/a>
+&lt;p>&lt;span class="caption-text">&lt;/span>
+&lt;/figcaption>
+&lt;/figure>
+
+&lt;blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs">
+ &lt;p>
+Criar uma imagem do Buraco Negro M87 é como tentar ver algo que, por definição, é impossível de se ver.
+&lt;/p>
+ &lt;p class="attribution">—Katie Bouman, &lt;em>Professora Assistente, Ciências da Computação e Matemática, Caltech&lt;/em>&lt;/p>
+&lt;/blockquote>
+
+&lt;h2 id="um-telescópio-do-tamanho-da-terra">Um telescópio do tamanho da Terra&lt;a class="headerlink" href="#um-telescópio-do-tamanho-da-terra" title="Link to this heading">#&lt;/a>&lt;/h2>
+&lt;p>O &lt;a href="https://eventhorizontelescope.org">telescópio Event Horizon (EHT)&lt;/a>, é um conjunto de oito telescópios em solo formando um telescópio computacional do tamanho da Terra, projetado para estudar o universo com sensibilidade e resolução sem precedentes. O enorme telescópio virtual, que usa uma técnica chamada interferometria de longa linha de base (VLBI), tem uma resolução angular de &lt;a href="https://eventhorizontelescope.org/press-release-april-10-2019-astronomers-capture-first-image-black-hole">20 micro-arcossegundos&lt;/a> — o suficiente para ler um jornal em Nova Iorque a partir de um café em uma calçada de Paris!&lt;/p></description></item><item><title>Estudo de Caso: Análise de Críquete, a revolução!</title><link>https://numpy.org/pt/case-studies/cricket-analytics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/case-studies/cricket-analytics/</guid><description>&lt;figure class="align-default" id="id000">&lt;img src="https://numpy.org/images/content_images/cs/ipl-stadium.png" alt="Copa e estádio da Indian Premier League Cricket" class="align-center">
+
+
+
+&lt;figcaption>&lt;strong class="caption-title">IPLT20, o maior festival de Críquete da Índia&lt;/strong>&lt;a class="headerlink" href="#id000" title="Link to this image">#&lt;/a>&lt;br>&lt;a href="https://unsplash.com/@aksh1802">(Image credits: IPLT20 (cup and logo) &amp;amp; Akash Yadav (stadium))&lt;/a>
+&lt;p>&lt;span class="caption-text">&lt;/span>
+&lt;/figcaption>
+&lt;/figure>
+
+&lt;blockquote cite="https://www.scoopwhoop.com/sports/ms-dhoni/">
+ &lt;p>
+Você não joga para a torcida, joga para o país.
+&lt;/p>
+ &lt;p class="attribution">—M S Dhoni, &lt;em>Jogador Internacional de Críquete, ex-capitão, Time Indiano, joga pelo Chennai Super Kings na IPL&lt;/em>&lt;/p>
+&lt;/blockquote>
+
+&lt;h2 id="sobre-críquete">Sobre Críquete&lt;a class="headerlink" href="#sobre-críquete" title="Link to this heading">#&lt;/a>&lt;/h2>
+&lt;p>Dizer que os indianos adoram o críquete seria subestimar este sentimento. O jogo é jogado praticamente em todas as localidades da Índia, rurais ou urbanas, e é popular com os jovens e os anciões, conectando bilhões de pessoas na Índia como nenhum outro esporte. O cricket também recebe muita atenção da mídia. Há uma quantidade significativa de &lt;a href="https://www.statista.com/topics/4543/indian-premier-league-ipl/">dinheiro&lt;/a> e fama em jogo. Ao longo dos últimos anos, a tecnologia foi literalmente uma revolução. As audiências tem uma ampla possibilidade de escolha, com mídias de streaming, torneios, acesso barato a jogos de críquete ao vivo em dispositivos móveis, e mais.&lt;/p></description></item><item><title>Estudo de Caso: Descoberta de Ondas Gravitacionais</title><link>https://numpy.org/pt/case-studies/gw-discov/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/case-studies/gw-discov/</guid><description>&lt;figure class="align-default" id="id000">&lt;img src="https://numpy.org/images/content_images/cs/gw_sxs_image.png" alt="binary coalesce black hole generating gravitational waves" class="align-center">
+
+
+
+&lt;figcaption>&lt;strong class="caption-title">Ondas gravitacionais&lt;/strong>&lt;a class="headerlink" href="#id000" title="Link to this image">#&lt;/a>&lt;br>&lt;a href="https://youtu.be/Zt8Z_uzG71o">(Créditos de imagem: O projeto Simulating eXtreme Spacetimes (SXS) no LIGO)&lt;/a>
+&lt;p>&lt;span class="caption-text">&lt;/span>
+&lt;/figcaption>
+&lt;/figure>
+
+&lt;blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs">
+ &lt;p>
+O ecossistema científico Python é uma infraestrutura crítica para a pesquisa feita no LIGO.
+&lt;/p>
+ &lt;p class="attribution">—David Shoemaker, &lt;em>Colaborador Científico no LIGO&lt;/em>&lt;/p>
+&lt;/blockquote>
+
+&lt;h2 id="sobre-ondas-gravitacionaishttpswwwnationalgeographiccomnews201710what-are-gravitational-waves-ligo-astronomy-science-e-o-ligohttpswwwligocaltechedu">Sobre &lt;a href="https://www.nationalgeographic.com/news/2017/10/what-are-gravitational-waves-ligo-astronomy-science/">Ondas Gravitacionais&lt;/a> e o &lt;a href="https://www.ligo.caltech.edu">LIGO&lt;/a>&lt;a class="headerlink" href="#sobre-ondas-gravitacionaishttpswwwnationalgeographiccomnews201710what-are-gravitational-waves-ligo-astronomy-science-e-o-ligohttpswwwligocaltechedu" title="Link to this heading">#&lt;/a>&lt;/h2>
+&lt;p>Ondas gravitacionais são ondulações no tecido espaço-tempo, gerado por eventos cataclísmicos no universo, como colisão e fusão de dois buracos negros ou a coalescência de estrelas binárias ou supernovas. A observação de ondas gravitacionais pode ajudar não só no estudo da gravidade, mas também no entendimento de alguns dos fenômenos obscuros existentes no universo distante e seu impacto.&lt;/p></description></item><item><title>Estudo de Caso: Estimativa de Pose 3D com DeepLabCut</title><link>https://numpy.org/pt/case-studies/deeplabcut-dnn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/case-studies/deeplabcut-dnn/</guid><description>&lt;figure class="align-default" id="id000">&lt;img src="https://numpy.org/images/content_images/cs/mice-hand.gif" alt="micehandanim" class="align-center">
+
+
+
+&lt;figcaption>&lt;strong class="caption-title">Análise de movimentos de mãos de camundongos usando DeepLapCut&lt;/strong>&lt;a class="headerlink" href="#id000" title="Link to this image">#&lt;/a>&lt;br>&lt;a href="http://www.mousemotorlab.org/deeplabcut">(Fonte: www.deeplabcut.org )&lt;/a>
+&lt;p>&lt;span class="caption-text">&lt;/span>
+&lt;/figcaption>
+&lt;/figure>
+
+&lt;blockquote cite="https://news.harvard.edu/gazette/story/newsplus/harvard-researchers-awarded-czi-open-source-award/">
+ &lt;p>
+Software de código aberto está acelerando a Biomedicina. DeepLabCut permite a análise automática de vídeos de comportamento animal usando Deep Learning.
+&lt;/p>
+ &lt;p class="attribution">—Alexander Mathis, &lt;em>Professor Assistente, École polytechnique fédérale de Lausanne&lt;/em> (&lt;a href="https://www.epfl.ch/en/">EPFL&lt;/a>)&lt;/p>
+&lt;/blockquote>
+
+&lt;h2 id="sobre-o-deeplabcut">Sobre o DeepLabCut&lt;a class="headerlink" href="#sobre-o-deeplabcut" title="Link to this heading">#&lt;/a>&lt;/h2>
+&lt;p>&lt;a href="https://github.com/DeepLabCut/DeepLabCut">DeepLabCut&lt;/a> é uma toolbox de código aberto que permite que pesquisadores de centenas de instituições em todo o mundo rastreiem o comportamento de animais de laboratório, com muito poucos dados de treinamento, mas com precisão no nível humano. Com a tecnologia DeepLabCut, cientistas podem aprofundar a compreensão científica do controle motor e do comportamento em diversas espécies animais e escalas temporais.&lt;/p></description></item></channel></rss>
