@@ -1,13 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NumPy</title><link>https://numpy.org/pt/</link><description>Recent content on NumPy</description><generator>Hugo</generator><language>pt</language><lastBuildDate>Sat, 16 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://numpy.org/pt/index.xml" rel="self" type="application/rss+xml"/><item><title>Notícias</title><link>https://numpy.org/pt/news/</link><pubDate>Sat, 16 Sep 2023 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/news/</guid><description>&lt;h3 id="numpy-220-released">NumPy 2.2.0 released&lt;a class="headerlink" href="#numpy-220-released" title="Link to this heading">#&lt;/a>&lt;/h3>
-&lt;p>&lt;em>8 Dec, 2024&lt;/em> &amp;ndash; The NumPy 2.2.0 release is a quick release that brings us back into sync with the usual twice yearly release cycle. There have been a number of small cleanups, improvements to the StringDType, and better support for free threaded Python. Highlights are:&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NumPy</title><link>https://numpy.org/pt/</link><description>Recent content on NumPy</description><generator>Hugo</generator><language>pt</language><lastBuildDate>Sat, 16 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://numpy.org/pt/index.xml" rel="self" type="application/rss+xml"/><item><title>Notícias</title><link>https://numpy.org/pt/news/</link><pubDate>Sat, 16 Sep 2023 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/news/</guid><description>&lt;h3 id="lançado-o-numpy-versão-1260">Lançado o NumPy versão 1.26.0&lt;a class="headerlink" href="#lançado-o-numpy-versão-1260" title="Link to this heading">#&lt;/a>&lt;/h3>
+&lt;p>&lt;em>16 de setembro de 2023&lt;/em> &amp;ndash; &lt;a href="https://numpy.org/doc/stable/release/1.26.0-notes.html">NumPy 1.26.0&lt;/a> está disponível. Os destaques desta versão são:&lt;/p>
 &lt;ul>
-&lt;li>New functions &lt;code>matvec&lt;/code> and &lt;code>vecmat&lt;/code>,&lt;/li>
-&lt;li>Many improved annotations,&lt;/li>
-&lt;li>Improved support for the new StringDType,&lt;/li>
-&lt;li>Improved support for free threaded Python,&lt;/li>
-&lt;li>Fixes for f2py.&lt;/li>
+&lt;li>Suporte ao Python 3.12.0.&lt;/li>
+&lt;li>Compatibilidade com Cython 3.0.0.&lt;/li>
+&lt;li>Utilização do sistema Meson para compilação&lt;/li>
+&lt;li>Suport a SIMD atualizado&lt;/li>
+&lt;li>Melhorias para f2py, suporte a meson e bind(x)&lt;/li>
+&lt;li>Suporte à versão mais recente da biblioteca Accelerate BLAS/LAPACK&lt;/li>
 &lt;/ul>
-&lt;p>This release supports Python versions 3.10-3.13.&lt;/p></description></item><item><title>404</title><link>https://numpy.org/pt/404/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/404/</guid><description>&lt;p>Oops! Você atingiu um beco sem saída.&lt;/p>
+&lt;p>A versão 1.26.0 é uma continuação da série de versões 1.25.x que marcam a transição para o sistema de compilação Meson e oferecem suporte preliminar para o Cython 3.0.0. Um total de 20 pessoas contribuíram para este lançamento e 59 pull requests foram incorporadas.&lt;/p></description></item><item><title>404</title><link>https://numpy.org/pt/404/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/404/</guid><description>&lt;p>Oops! Você atingiu um beco sem saída.&lt;/p>
 &lt;p>Se você acha que algo deveria estar aqui, você pode &lt;a href="https://github.com/numpy/numpy.org/issues">abrir uma issue&lt;/a> no GitHub.&lt;/p></description></item><item><title>Aprenda</title><link>https://numpy.org/pt/learn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/learn/</guid><description>&lt;p>Para a &lt;strong>documentação oficial do NumPy&lt;/strong> visite &lt;a href="https://numpy.org/doc/stable">numpy.org/doc/stable&lt;/a>.&lt;/p>
 &lt;hr>
 &lt;p>Abaixo está uma coleção de recursos educacionais, tanto para autoaprendizado como para ensinar outras pessoas, desenvolvidos pelos colaboradores do NumPy e selecionados pela comunidade.&lt;/p>

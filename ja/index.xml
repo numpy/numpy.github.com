@@ -1,13 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NumPy</title><link>https://numpy.org/ja/</link><description>Recent content on NumPy</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sat, 16 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://numpy.org/ja/index.xml" rel="self" type="application/rss+xml"/><item><title>ニュース</title><link>https://numpy.org/ja/news/</link><pubDate>Sat, 16 Sep 2023 00:00:00 +0000</pubDate><guid>https://numpy.org/ja/news/</guid><description>&lt;h3 id="numpy-220-released">NumPy 2.2.0 released&lt;a class="headerlink" href="#numpy-220-released" title="Link to this heading">#&lt;/a>&lt;/h3>
-&lt;p>&lt;em>8 Dec, 2024&lt;/em> &amp;ndash; The NumPy 2.2.0 release is a quick release that brings us back into sync with the usual twice yearly release cycle. There have been a number of small cleanups, improvements to the StringDType, and better support for free threaded Python. Highlights are:&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NumPy</title><link>https://numpy.org/ja/</link><description>Recent content on NumPy</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sun, 18 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://numpy.org/ja/index.xml" rel="self" type="application/rss+xml"/><item><title>ニュース</title><link>https://numpy.org/ja/news/</link><pubDate>Sun, 18 Aug 2024 00:00:00 +0000</pubDate><guid>https://numpy.org/ja/news/</guid><description>&lt;h3 id="numpy-1260-がリリースされました">NumPy 1.26.0 がリリースされました。&lt;a class="headerlink" href="#numpy-1260-がリリースされました" title="Link to this heading">#&lt;/a>&lt;/h3>
+&lt;p>&lt;em>2024 Aug, 2024&lt;/em> &amp;ndash; Numpy 2.1.0 は Python 3.13 をサポートし、Python 3.9をサポート外としました。 今回のリリースは通常のバグ修正やPythonサポートの更新に加えて、NumPyが2.0の長期開発を経て、通常のリリースサイクルに戻るためのリリースでもあります。 今回のリリースのハイライトは下記の通りです。&lt;/p>
 &lt;ul>
-&lt;li>New functions &lt;code>matvec&lt;/code> and &lt;code>vecmat&lt;/code>,&lt;/li>
-&lt;li>Many improved annotations,&lt;/li>
-&lt;li>Improved support for the new StringDType,&lt;/li>
-&lt;li>Improved support for free threaded Python,&lt;/li>
-&lt;li>Fixes for f2py.&lt;/li>
+&lt;li>Python 3.12.0 のサポート&lt;/li>
+&lt;li>多くの期限切れの非推奨(Deprecation)の削除&lt;/li>
+&lt;li>Array-api 2023.12 標準のサポート&lt;/li>
 &lt;/ul>
-&lt;p>This release supports Python versions 3.10-3.13.&lt;/p></description></item><item><title>2020年 NumPyコミュニティ調査</title><link>https://numpy.org/ja/user-survey-2020/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/ja/user-survey-2020/</guid><description>&lt;p>2020年に、NumPyの調査チームは、ミシガン大学とメリーランド大学が共同で開催した、調査方法学の修士コースの学生と教員と共同で、初めて公式のNumPyコミュニティ調査を実施しました。 75カ国から1,200人以上のNumPyユーザーが参加してくれました。 NumPyコミュニティの全体像を描き、プロジェクトの未来像についての意見を述べてもらいました。&lt;/p>
+&lt;p>このリリースでは、Pythonのバージョン 3.10-3.13 がサポートされています。&lt;/p>
+&lt;h3 id="多くの新しい非推奨deprecationの追加">多くの新しい非推奨(Deprecation)の追加&lt;a class="headerlink" href="#多くの新しい非推奨deprecationの追加" title="Link to this heading">#&lt;/a>&lt;/h3>
+&lt;p>&lt;em>2024年6月16日&lt;/em> &amp;ndash; Numpy 2.0.0 は2006年以来のメジャーリリースです。 これは、前回の機能リリースから11か月間の開発の成果であり、1078件のプルリクエストにわたる212人の貢献者の成果となります。 このリリースには、大きく、エキサイティングな新機能と、PythonとCの両方のAPIへの変更が含まれています。 今回のリリースが、通常のマイナーリリースでは実施できなかった互換性を破壊する変更を含んでいます。これには、ABIの破壊、型昇格ルールの変更、および1.26.xでは非推奨警告が出されていなかった可能性のあるAPIの変更が含まれています。 NumPy 2.0の変更に対応する方法に関する主要なドキュメントは次のとおりです。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://numpy.org/devdocs/numpy_2_0_migration_guide.html">NumPy 2.0移行ガイド&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://numpy.org/devdocs/release/2.0.0-notes.html">2.0.0 リリース ノート&lt;/a>&lt;/li>
+&lt;li>ステータスアップデートお知らせに関する問題: &lt;a href="https://github.com/numpy/numpy/issues/24300">numpy#24300&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>ブログ記事 &lt;a href="https://blog.scientific-python.org/numpy/numpy2/">&amp;ldquo;NumPy 2.0: 進化のマイルストーン&amp;rdquo;&lt;/a> は、今回のメジャーバージョンリリースがどのようにして決定されたかについてのストーリーを少し伝えています。&lt;/p>
+&lt;h3 id="numpy-1250-リリース">NumPy 1.25.0 リリース&lt;a class="headerlink" href="#numpy-1250-リリース" title="Link to this heading">#&lt;/a>&lt;/h3>
+&lt;p>_ 2024年5月23日_ &amp;ndash; NumPy 2.0が2024年6月16日にリリースされる予定になりました！ このリリースは1年以上かけて我々が準備してきたもので、2006年以来のメジャーリリースとなります。 このリリースで重要なことは、多くの新機能とパフォーマンスの向上に加えて、 このリリースは、 &lt;strong>破壊的な変更&lt;/strong> である Python と C API を含む、ABI への変更 が含まれています。 NumPyに依存しているパッケージやエンドユーザーのコードがこのは破壊的変更に適応する必要がある可能性があります。可能であれば、あなたのコードがNumPy &lt;code>2.0.0rc2&lt;/code>で動作するかどうか確認をお願いします。 &lt;strong>詳細は下記をご覧ください:&lt;/strong>&lt;/p></description></item><item><title>2020年 NumPyコミュニティ調査</title><link>https://numpy.org/ja/user-survey-2020/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/ja/user-survey-2020/</guid><description>&lt;p>2020年に、NumPyの調査チームは、ミシガン大学とメリーランド大学が共同で開催した、調査方法学の修士コースの学生と教員と共同で、初めて公式のNumPyコミュニティ調査を実施しました。 75カ国から1,200人以上のNumPyユーザーが参加してくれました。 NumPyコミュニティの全体像を描き、プロジェクトの未来像についての意見を述べてもらいました。&lt;/p>
 &lt;figure class="align-default" id="id000">&lt;img src="https://numpy.org/surveys/NumPy_usersurvey_2020_report_cover.png" alt="Cover page of the 2020 Numpy User survey report, titled &amp;#34;Numpyコミュニティ調査2020 - 結果&amp;#34;" class="align-center" width="250">
 
 
