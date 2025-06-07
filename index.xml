@@ -1,16 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NumPy</title><link>https://numpy.org/</link><description>Recent content on NumPy</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sun, 08 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://numpy.org/index.xml" rel="self" type="application/rss+xml"/><item><title>News</title><link>https://numpy.org/news/</link><pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate><guid>https://numpy.org/news/</guid><description>&lt;h3 id="numpy-220-released">NumPy 2.2.0 released&lt;a class="headerlink" href="#numpy-220-released" title="Link to this heading">#&lt;/a>&lt;/h3>
-&lt;p>&lt;em>8 Dec, 2024&lt;/em> &amp;ndash; The NumPy 2.2.0 release is a quick release that brings us back
-into sync with the usual twice yearly release cycle. There have been a number
-of small cleanups, improvements to the StringDType, and better support for free
-threaded Python. Highlights are:&lt;/p>
-&lt;ul>
-&lt;li>New functions &lt;code>matvec&lt;/code> and &lt;code>vecmat&lt;/code>,&lt;/li>
-&lt;li>Many improved annotations,&lt;/li>
-&lt;li>Improved support for the new StringDType,&lt;/li>
-&lt;li>Improved support for free threaded Python,&lt;/li>
-&lt;li>Fixes for f2py.&lt;/li>
-&lt;/ul>
-&lt;p>This release supports Python versions 3.10-3.13.&lt;/p></description></item><item><title>2020 NUMPY COMMUNITY SURVEY</title><link>https://numpy.org/user-survey-2020/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/user-survey-2020/</guid><description>&lt;p>In 2020, the NumPy survey team in partnership with students and faculty from a
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NumPy</title><link>https://numpy.org/</link><description>Recent content on NumPy</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sun, 08 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://numpy.org/index.xml" rel="self" type="application/rss+xml"/><item><title>News</title><link>https://numpy.org/news/</link><pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate><guid>https://numpy.org/news/</guid><description>&lt;h3 id="numpy-230-released">NumPy 2.3.0 released&lt;a class="headerlink" href="#numpy-230-released" title="Link to this heading">#&lt;/a>&lt;/h3>
+&lt;p>&lt;em>7 Jun, 2025&lt;/em> &amp;ndash; The NumPy 2.3.0 release improves free threaded Python support
+and annotations together with the usual set of bug fixes. It is unusual in the
+number of expired deprecations, code modernizations, and style cleanups. The
+latter may not be visible to users, but is important for code maintenance over
+the long term. Note that we have also upgraded from manylinux2014 to
+manylinux_2_28. Highlights are:&lt;/p></description></item><item><title>2020 NUMPY COMMUNITY SURVEY</title><link>https://numpy.org/user-survey-2020/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/user-survey-2020/</guid><description>&lt;p>In 2020, the NumPy survey team in partnership with students and faculty from a
 Master’s course in Survey Methodology jointly hosted by the University of
 Michigan and the University of Maryland conducted the first official NumPy
 community survey. Over 1,200 users from 75 countries participated to help us
