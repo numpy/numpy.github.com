@@ -185,18 +185,25 @@ and data science.
 
 &lt;p>The recommended method of installing NumPy depends on your preferred workflow. Below, we break down the installation methods into the following categories:&lt;/p></description></item><item><title>Learn</title><link>https://numpy.org/learn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/learn/</guid><description>&lt;p>For the &lt;strong>official NumPy documentation&lt;/strong> visit &lt;a href="https://numpy.org/doc/stable">numpy.org/doc/stable&lt;/a>.&lt;/p>
 &lt;hr>
-&lt;p>Below is a curated collection of educational resources, both for self-learning and teaching others, developed by NumPy contributors and vetted by the community.&lt;/p>
+&lt;p>Below is a curated collection of educational resources, both for self-learning and
+teaching others, developed by NumPy contributors and vetted by the community.&lt;/p>
 &lt;h2 id="beginners">Beginners&lt;a class="headerlink" href="#beginners" title="Link to this heading">#&lt;/a>&lt;/h2>
-&lt;p>There&amp;rsquo;s a ton of information about NumPy out there. If you are just starting, we&amp;rsquo;d strongly recommend the following:&lt;/p>
+&lt;p>There&amp;rsquo;s a ton of information about NumPy out there. If you are just starting, we&amp;rsquo;d
+strongly recommend the following:&lt;/p>
 &lt;p>&lt;i class="fas fa-chalkboard">&lt;/i> &lt;strong>Tutorials&lt;/strong>&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://numpy.org/devdocs/user/quickstart.html">NumPy Quickstart Tutorial&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://numpy.org/numpy-tutorials">NumPy Tutorials&lt;/a> A collection of tutorials and educational materials in the format of Jupyter Notebooks developed and maintained by the NumPy Documentation team. To submit your own content, visit the &lt;a href="https://github.com/numpy/numpy-tutorials">numpy-tutorials repository on GitHub&lt;/a>.&lt;/li>
-&lt;li>&lt;a href="https://betterprogramming.pub/3b1d4976de1d?sk=57b908a77aa44075a49293fa1631dd9b">NumPy Illustrated: The Visual Guide to NumPy &lt;em>by Lev Maximov&lt;/em>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://lectures.scientific-python.org/">Scientific Python Lectures&lt;/a> Besides covering NumPy, these lectures offer a broader introduction to the scientific Python ecosystem.&lt;/li>
+&lt;li>&lt;a href="https://numpy.org/numpy-tutorials">NumPy Tutorials&lt;/a> A collection of tutorials and
+educational materials in the format of Jupyter Notebooks developed and maintained by
+the NumPy Documentation team. To submit your own content, visit the
+&lt;a href="https://github.com/numpy/numpy-tutorials">numpy-tutorials repository on GitHub&lt;/a>.&lt;/li>
+&lt;li>&lt;a href="https://betterprogramming.pub/3b1d4976de1d?sk=57b908a77aa44075a49293fa1631dd9b">NumPy Illustrated: The Visual Guide to NumPy&lt;/a>
+&lt;em>by Lev Maximov&lt;/em>&lt;/li>
+&lt;li>&lt;a href="https://lectures.scientific-python.org/">Scientific Python Lectures&lt;/a> Besides covering
+NumPy, these lectures offer a broader introduction to the scientific Python ecosystem.&lt;/li>
 &lt;li>&lt;a href="https://numpy.org/devdocs/user/absolute_beginners.html">NumPy: the absolute basics for beginners&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rougier/numpy-tutorial">NumPy tutorial &lt;em>by Nicolas Rougier&lt;/em>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="http://cs231n.github.io/python-numpy-tutorial/">Stanford CS231 &lt;em>by Justin Johnson&lt;/em>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rougier/numpy-tutorial">NumPy tutorial&lt;/a> &lt;em>by Nicolas Rougier&lt;/em>&lt;/li>
+&lt;li>&lt;a href="http://cs231n.github.io/python-numpy-tutorial/">Stanford CS231&lt;/a> &lt;em>by Justin Johnson&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://numpy.org/devdocs">NumPy User Guide&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;p>&lt;i class="fas fa-book">&lt;/i> &lt;strong>Books&lt;/strong>&lt;/p></description></item><item><title>NumPy Code of Conduct</title><link>https://numpy.org/code-of-conduct/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/code-of-conduct/</guid><description>&lt;h3 id="introduction">Introduction&lt;a class="headerlink" href="#introduction" title="Link to this heading">#&lt;/a>&lt;/h3>
