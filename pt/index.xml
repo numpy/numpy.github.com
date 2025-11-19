@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NumPy</title><link>https://numpy.org/pt/</link><description>Recent content on NumPy</description><generator>Hugo</generator><language>pt</language><lastBuildDate>Sat, 16 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://numpy.org/pt/index.xml" rel="self" type="application/rss+xml"/><item><title>Notícias</title><link>https://numpy.org/pt/news/</link><pubDate>Sat, 16 Sep 2023 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/news/</guid><description>&lt;h3 id="lançado-o-numpy-versão-1260">Lançado o NumPy versão 1.26.0&lt;a class="headerlink" href="#lançado-o-numpy-versão-1260" title="Link to this heading">#&lt;/a>&lt;/h3>
-&lt;p>&lt;em>16 de setembro de 2023&lt;/em> &amp;ndash; &lt;a href="https://numpy.org/doc/stable/release/1.26.0-notes.html">NumPy 1.26.0&lt;/a> está disponível. Os destaques desta versão são:&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NumPy</title><link>https://numpy.org/pt/</link><description>Recent content on NumPy</description><generator>Hugo</generator><language>pt</language><lastBuildDate>Sun, 08 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://numpy.org/pt/index.xml" rel="self" type="application/rss+xml"/><item><title>Notícias</title><link>https://numpy.org/pt/news/</link><pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/news/</guid><description>&lt;h3 id="lançado-o-numpy-versão-220">Lançado o NumPy versão 2.2.0&lt;a class="headerlink" href="#lançado-o-numpy-versão-220" title="Link to this heading">#&lt;/a>&lt;/h3>
+&lt;p>&lt;em>8 de dezembro de 2024&lt;/em> &amp;ndash; A NumPy 2.2.0 é uma versão que nos traz de volta para o calendário habitual de lançamento duas vezes por ano. Ela inclui um número de pequenas limpezas, melhorias para o StringDType, e melhor suporte para
+o free-threaded Python. Alguns dos destaques são:&lt;/p>
 &lt;ul>
-&lt;li>Suporte ao Python 3.12.0.&lt;/li>
-&lt;li>Compatibilidade com Cython 3.0.0.&lt;/li>
-&lt;li>Utilização do sistema Meson para compilação&lt;/li>
-&lt;li>Suport a SIMD atualizado&lt;/li>
-&lt;li>Melhorias para f2py, suporte a meson e bind(x)&lt;/li>
-&lt;li>Suporte à versão mais recente da biblioteca Accelerate BLAS/LAPACK&lt;/li>
+&lt;li>Novas funções &lt;code>matvec&lt;/code> e &lt;code>vecmat&lt;/code>,&lt;/li>
+&lt;li>Várias melhorias nas anotações de tipos,&lt;/li>
+&lt;li>Suporte melhorado para o novo StringDType,&lt;/li>
+&lt;li>Suporte aprimorado para Python free-threaded,&lt;/li>
+&lt;li>Correções para o f2py.&lt;/li>
 &lt;/ul>
-&lt;p>A versão 1.26.0 é uma continuação da série de versões 1.25.x que marcam a transição para o sistema de compilação Meson e oferecem suporte preliminar para o Cython 3.0.0. Um total de 20 pessoas contribuíram para este lançamento e 59 pull requests foram incorporadas.&lt;/p></description></item><item><title>404</title><link>https://numpy.org/pt/404/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/404/</guid><description>&lt;p>Oops! Você atingiu um beco sem saída.&lt;/p>
+&lt;p>Esta versão suporta as versões 3.10-3.13 do Python.&lt;/p></description></item><item><title>404</title><link>https://numpy.org/pt/404/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/404/</guid><description>&lt;p>Oops! Você atingiu um beco sem saída.&lt;/p>
 &lt;p>Se você acha que algo deveria estar aqui, você pode &lt;a href="https://github.com/numpy/numpy.org/issues">abrir uma issue&lt;/a> no GitHub.&lt;/p></description></item><item><title>Aprenda</title><link>https://numpy.org/pt/learn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/learn/</guid><description>&lt;p>Para a &lt;strong>documentação oficial do NumPy&lt;/strong> visite &lt;a href="https://numpy.org/doc/stable">numpy.org/doc/stable&lt;/a>.&lt;/p>
 &lt;hr>
 &lt;p>Abaixo está uma coleção de recursos educacionais, tanto para autoaprendizado como para ensinar outras pessoas, desenvolvidos pelos colaboradores do NumPy e selecionados pela comunidade.&lt;/p>
@@ -19,29 +19,29 @@
 &lt;li>&lt;a href="https://numpy.org/devdocs/user/quickstart.html">NumPy Quickstart Tutorial (Tutorial de Início Rápido)&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://numpy.org/numpy-tutorials">NumPy Tutorials&lt;/a> Uma coleção de tutoriais e materiais educacionais no formato de Notebooks Jupyter desenvolvidos e mantidos pelo time de documentação do NumPy. Se você tiver interesse em adicionar o seu próprio conteúdo, verifique o repositório &lt;a href="https://github.com/numpy/numpy-tutorials">numpy-tutorials no GitHub&lt;/a>.&lt;/li>
 &lt;li>&lt;a href="https://betterprogramming.pub/3b1d4976de1d?sk=57b908a77aa44075a49293fa1631dd9b">NumPy Illustrated: The Visual Guide to NumPy &lt;em>por Lev Maximov&lt;/em>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://lectures.scientific-python.org/">Scientific Python Lectures&lt;/a> Além de incluir conteúdo sobre a NumPy, estas aulas oferecem uma introdução mais ampla ao ecossistema científico do Python.&lt;/li>
+&lt;li>&lt;a href="https://lectures.scientific-python.org/">Scientific Python Lectures&lt;/a> Além de incluir conteúdo sobre o NumPy, estas aulas oferecem uma introdução mais ampla ao ecossistema científico do Python.&lt;/li>
 &lt;li>&lt;a href="https://numpy.org/devdocs/user/absolute_beginners.html">NumPy: the absolute basics for beginners (&amp;ldquo;o básico absoluto para inciantes&amp;rdquo;)&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rougier/numpy-tutorial">NumPy tutorial &lt;em>por Nicolas Rougier&lt;/em>&lt;/a>&lt;/li>
 &lt;li>&lt;a href="http://cs231n.github.io/python-numpy-tutorial/">Stanford CS231 &lt;em>por Justin Johnson&lt;/em>&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://numpy.org/devdocs">NumPy User Guide (Guia de Usuário NumPy)&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;p>&lt;i class="fas fa-book">&lt;/i> &lt;strong>Livros&lt;/strong>&lt;/p></description></item><item><title>Citando a NumPy</title><link>https://numpy.org/pt/citing-numpy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/citing-numpy/</guid><description>&lt;p>Se a NumPy é importante na sua pesquisa, e você gostaria de dar reconhecimento ao projeto na sua publicação acadêmica, sugerimos citar os seguintes documentos:&lt;/p>
+&lt;p>&lt;i class="fas fa-book">&lt;/i> &lt;strong>Livros&lt;/strong>&lt;/p></description></item><item><title>Citando o Numpy</title><link>https://numpy.org/pt/citing-numpy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/citing-numpy/</guid><description>&lt;p>Se a NumPy é importante na sua pesquisa, e você gostaria de dar reconhecimento ao projeto na sua publicação acadêmica, sugerimos citar o seguinte artigo:&lt;/p>
 &lt;ul>
-&lt;li>Harris, C.R., Millman, K.J., van der Walt, S.J. Harris, C.R., Millman, K.J., van der Walt, S.J. et al. &lt;em>Array programming with NumPy&lt;/em>. Nature 585, 357–362 (2020). DOI: &lt;a href="https://doi.org/10.1038/s41586-020-2649-2">10.1038/s41586-020-2649-2&lt;/a>. (&lt;a href="https://www.nature.com/articles/s41586-020-2649-2">Link da editora&lt;/a>).&lt;/li>
+&lt;li>Harris, C.R., Millman, K.J., van der Walt, S.J. et al. &lt;em>Array programming with NumPy&lt;/em>. Nature 585, 357–362 (2020). DOI: &lt;a href="https://doi.org/10.1038/s41586-020-2649-2">10.1038/s41586-020-2649-2&lt;/a>. (&lt;a href="https://www.nature.com/articles/s41586-020-2649-2">Link da editora&lt;/a>).&lt;/li>
 &lt;/ul>
 &lt;p>&lt;em>Em formato BibTeX:&lt;/em>&lt;/p>
 
 &lt;div class="highlight">
  &lt;pre>@Article{ harris2020array,
  title = {Array programming with {NumPy}},
- author = {Charles R. Harris and K. Jarrod Millman and St{&amp;#39;{e}}fan J.
+ author = {Charles R. Harris and K. Jarrod Millman and St{\&amp;#39;{e}}fan J.
  van der Walt and Ralf Gommers and Pauli Virtanen and David
  Cournapeau and Eric Wieser and Julian Taylor and Sebastian
  Berg and Nathaniel J. Smith and Robert Kern and Matti Picus
  and Stephan Hoyer and Marten H. van Kerkwijk and Matthew
- Brett and Allan Haldane and Jaime Fern{&amp;#39;{a}}ndez del
- R{&amp;#39;{\i}}o and Mark Wiebe and Pearu Peterson and Pierre
- G{&amp;#39;{e}}rard-Marchant and Kevin Sheppard and Tyler Reddy and
+ Brett and Allan Haldane and Jaime Fern{\&amp;#39;{a}}ndez del
+ R{\&amp;#39;{i}}o and Mark Wiebe and Pearu Peterson and Pierre
+ G{\&amp;#39;{e}}rard-Marchant and Kevin Sheppard and Tyler Reddy and
  Warren Weckesser and Hameer Abbasi and Christoph Gohlke and
  Travis E. Oliphant},
  year = {2020},
@@ -55,24 +55,28 @@
  url = {https://doi.org/10.1038/s41586-020-2649-2}
 }&lt;/pre>
 &lt;/div></description></item><item><title>Código de Conduta NumPy</title><link>https://numpy.org/pt/code-of-conduct/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/code-of-conduct/</guid><description>&lt;h3 id="introdução">Introdução&lt;a class="headerlink" href="#introdução" title="Link to this heading">#&lt;/a>&lt;/h3>
-&lt;p>Este código de conduta aplica-se a todos os espaços gerenciados pelo projeto NumPy, incluindo todas as listas de discussão públicas e privadas, &lt;em>issue tracker&lt;/em>, wikis, blogs, Twitter e qualquer outro canal de comunicação usado pela nossa comunidade. O projeto NumPy não organiza eventos presenciais. No entanto, os eventos relacionados à nossa comunidade devem ter um código de conduta semelhante ao atual.&lt;/p>
+&lt;p>Este código de conduta aplica-se a todos os espaços gerenciados pelo projeto NumPy, incluindo todas as listas de discussão públicas e privadas, &lt;em x-id="3">issue tracker&lt;/em>, wikis, blogs, Twitter e qualquer outro canal de comunicação usado pela nossa comunidade. O projeto NumPy não organiza eventos presenciais. No entanto, os eventos relacionados à nossa comunidade devem ter um código de conduta semelhante ao atual.&lt;/p>
 &lt;p>Este Código de Conduta deve ser honrado por todas as pessoas que participam da comunidade NumPy formal ou informalmente, ou que reivindicam qualquer afiliação com o projeto, em qualquer atividade relacionada ao projeto, especialmente ao representar o projeto, em qualquer função.&lt;/p></description></item><item><title>Código de Conduta NumPy - Como dar seguimento a um relatório</title><link>https://numpy.org/pt/report-handling-manual/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/report-handling-manual/</guid><description>&lt;p>Este é o manual seguido pelo Comitê do Código de Conduta do NumPy. É usado quando respondemos a um incidente para nos certificarmos de que somos pessoas consistentes e justas.&lt;/p>
-&lt;p>Garantir que o &lt;a href="https://numpy.org/pt/code-of-conduct/">Código de Conduta&lt;/a> seja respeitado afeta nossa comunidade hoje e no futuro. É uma ação que levamos muito a sério. Ao analisar medidas de aplicação do Código de Conduta, o Comitê terá em mente os seguintes valores e orientações:&lt;/p></description></item><item><title>Computação com Arrays</title><link>https://numpy.org/pt/arraycomputing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/arraycomputing/</guid><description>&lt;p>&lt;em>A computação com arrays é a base para estatística e matemática computacionais, computação científica e suas várias aplicações em ciência e análise de dados, tais como visualização de dados, processamento de sinais digitais, processamento de imagens, bioinformática, aprendizagem de máquina, IA e muitas outras.&lt;/em>&lt;/p>
-&lt;p>A manipulação e a transformação de dados de grande escala dependem de computação eficiente de alta performance com arrays. A linguagem mais escolhida para análise de dados, aprendizagem de máquina e computação numérica produtiva é &lt;strong>Python.&lt;/strong>&lt;/p></description></item><item><title>Comunidade</title><link>https://numpy.org/pt/community/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/community/</guid><description>&lt;p>NumPy é um projeto de código aberto impulsionado pela comunidade desenvolvido por um grupo muito diversificado de &lt;a href="https://numpy.org/pt/teams/">contribuidores&lt;/a>. A liderança do NumPy assumiu um forte compromisso de criar uma comunidade aberta, inclusiva e positiva. Por favor, leia &lt;a href="https://numpy.org/pt/code-of-conduct">o Código de Conduta NumPy&lt;/a> para orientações sobre como interagir com os outros de uma forma que faça a comunidade prosperar.&lt;/p>
-&lt;p>Oferecemos vários canais de comunicação para aprender, compartilhar seu conhecimento e se conectar com outros dentro da comunidade NumPy.&lt;/p></description></item><item><title>Contribua com o NumPy</title><link>https://numpy.org/pt/contribute/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/contribute/</guid><description>&lt;p>O projeto NumPy precisa de sua experiência e entusiasmo! Suas opções de não são limitadas à programação &amp;ndash; além de&lt;/p>
+&lt;p>Garantir que o &lt;a href="https://numpy.org/pt/code-of-conduct/">Código de Conduta&lt;/a> seja respeitado afeta nossa comunidade hoje e no futuro. É uma ação que levamos muito a sério. Ao analisar medidas de aplicação do Código de Conduta, o Comitê terá em mente os seguintes valores e orientações:&lt;/p></description></item><item><title>Computação com Arrays</title><link>https://numpy.org/pt/arraycomputing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/arraycomputing/</guid><description>&lt;p>&lt;em>A computação com matrizes é a base para estatística e matemática computacionais, computação científica e suas várias aplicações em ciência e análise de dados, tais como visualização de dados, processamento de sinais digitais, processamento de imagens, bioinformática, aprendizagem de máquina, IA e muitas outras.&lt;/em>&lt;/p>
+&lt;p>A manipulação e a transformação de dados de grande escala dependem de computação eficiente de alto desempenho com arrays. A linguagem mais escolhida para análise de dados, aprendizagem de máquina e computação numérica produtiva é &lt;strong>Python.&lt;/strong>&lt;/p></description></item><item><title>Comunidade</title><link>https://numpy.org/pt/community/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/community/</guid><description>&lt;p>NumPy é um projeto de código aberto impulsionado pela comunidade desenvolvido por um grupo muito diversificado de &lt;a href="https://numpy.org/pt/teams/">contribuidores&lt;/a>. A liderança do NumPy assumiu um forte compromisso de criar uma comunidade aberta, inclusiva e positiva. A liderança do NumPy assumiu um forte compromisso de criar uma comunidade aberta, inclusiva e positiva.&lt;/p>
+&lt;p>Oferecemos vários canais de comunicação para aprender, compartilhar seu conhecimento e se conectar com outros na comunidade NumPy.&lt;/p>
+&lt;h2 id="participar-online">Participar online&lt;a class="headerlink" href="#participar-online" title="Link to this heading">#&lt;/a>&lt;/h2>
+&lt;p>Abaixo, listamos algumas formas de se envolver diretamente com o projeto e a comunidade NumPy.
+&lt;em>Por favor, note que encorajamos os usuários e membros da comunidade a apoiarem-se uns aos outros para perguntas sobre utilização - veja &lt;a href="https://numpy.org/pt/gethelp">Obter Ajuda&lt;/a>.&lt;/em>&lt;/p></description></item><item><title>Contribua com o NumPy</title><link>https://numpy.org/pt/contribute/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/contribute/</guid><description>&lt;p>O projeto NumPy precisa de sua experiência e entusiasmo!
+Suas opções não são limitadas à programação. Como pode ver a seguir, há várias áreas em que precisamos da &lt;strong>sua&lt;/strong> ajuda.&lt;/p>
 &lt;p>Se você não sabe por onde começar ou como suas habilidades podem ajudar, &lt;em>fale conosco!&lt;/em> Você pode perguntar na nossa &lt;a href="https://mail.python.org/mailman/listinfo/numpy-discussion">lista de emails&lt;/a> ou &lt;a href="http://github.com/numpy/numpy">GitHub&lt;/a> (abrindo uma &lt;a href="https://github.com/numpy/numpy/issues">issue&lt;/a> ou comentando em uma issue relevante).&lt;/p>
-&lt;p>Estes são os nossos canais de comunicação preferidos (projetos de código aberto são abertos por natureza!). No entanto, se você preferir discutir em privado, entre em contato com os coordenadores da comunidade em &lt;a href="mailto:numpy-team@googlegroups.com">numpy-team@googlegroups.com&lt;/a> ou no &lt;a href="https://numpy-team.slack.com">Slack&lt;/a> (envie um e-mail para &lt;a href="mailto:numpy-team@googlegroups.com">numpy-team@googlegroups.com&lt;/a> para obter um convite antes de entrar).&lt;/p></description></item><item><title>Estudo de Caso: A Primeira Imagem de um Buraco Negro</title><link>https://numpy.org/pt/case-studies/blackhole-image/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/case-studies/blackhole-image/</guid><description>&lt;figure class="align-default" id="id000">&lt;img src="https://numpy.org/images/content_images/cs/blackhole.jpg" alt="black hole image" class="align-center">
+&lt;p>Estes são os nossos canais de comunicação preferidos (projetos de código aberto são abertos por natureza!). No entanto, se você preferir discutir em privado, entre em contato com os coordenadores da comunidade em &lt;a href="mailto:numpy-team@googlegroups.com">numpy-team@googlegroups.com&lt;/a> ou no &lt;a href="https://numpy-team.slack.com">Slack&lt;/a> (envie um e-mail para &lt;a href="mailto:numpy-team@googlegroups.com">numpy-team@googlegroups.com&lt;/a> para obter um convite antes de entrar).&lt;/p></description></item><item><title>Estudo de Caso: A Primeira Imagem de um Buraco Negro</title><link>https://numpy.org/pt/case-studies/blackhole-image/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/case-studies/blackhole-image/</guid><description>&lt;figure class="align-center" id="id000">&lt;img src="https://numpy.org/images/content_images/cs/blackhole.jpg" alt="black hole image" class="align-center">
 
 
 
-&lt;figcaption>&lt;strong class="caption-title">Black Hole M87&lt;/strong>&lt;a class="headerlink" href="#id000" title="Link to this image">#&lt;/a>&lt;br>&lt;a href="https://www.jpl.nasa.gov/images/universe/20190410/blackhole20190410.jpg">(Créditos: Event Horizon Telescope Collaboration)&lt;/a>
+&lt;figcaption>&lt;strong class="caption-title">Black Hole M87&lt;/strong>&lt;a class="headerlink" href="#id000" title="Link to this image">#&lt;/a>&lt;br>&lt;a href="https://www.jpl.nasa.gov/images/universe/20190410/blackhole20190410.jpg">(Image Credits: Event Horizon Telescope Collaboration)&lt;/a>
 &lt;p>&lt;span class="caption-text">&lt;/span>
 &lt;/figcaption>
 &lt;/figure>
 
 &lt;blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs">
  &lt;p>
-Criar uma imagem do Buraco Negro M87 é como tentar ver algo que, por definição, é impossível de se ver.
+Imaging the M87 Black Hole is like trying to see something that is by definition impossible to see.
 &lt;/p>
  &lt;p class="attribution">—Katie Bouman, &lt;em>Professora Assistente, Ciências da Computação e Matemática, Caltech&lt;/em>&lt;/p>
 &lt;/blockquote>
@@ -82,62 +86,81 @@ Criar uma imagem do Buraco Negro M87 é como tentar ver algo que, por definiçã
 
 
 
-&lt;figcaption>&lt;strong class="caption-title">IPLT20, o maior festival de Críquete da Índia&lt;/strong>&lt;a class="headerlink" href="#id000" title="Link to this image">#&lt;/a>&lt;br>&lt;a href="https://unsplash.com/@aksh1802">(Image credits: IPLT20 (cup and logo) &amp;amp; Akash Yadav (stadium))&lt;/a>
+&lt;figcaption>&lt;strong class="caption-title">IPLT20, the biggest Cricket Festival in India&lt;/strong>&lt;a class="headerlink" href="#id000" title="Link to this image">#&lt;/a>&lt;br>&lt;a href="https://unsplash.com/@aksh1802">(Image credits: IPLT20 (cup and logo) &amp;amp; Akash Yadav (stadium))&lt;/a>
 &lt;p>&lt;span class="caption-text">&lt;/span>
 &lt;/figcaption>
 &lt;/figure>
 
 &lt;blockquote cite="https://www.scoopwhoop.com/sports/ms-dhoni/">
  &lt;p>
-Você não joga para a torcida, joga para o país.
+ You don't play for the crowd, you play for the country.
 &lt;/p>
  &lt;p class="attribution">—M S Dhoni, &lt;em>Jogador Internacional de Críquete, ex-capitão, Time Indiano, joga pelo Chennai Super Kings na IPL&lt;/em>&lt;/p>
 &lt;/blockquote>
 
 &lt;h2 id="sobre-críquete">Sobre Críquete&lt;a class="headerlink" href="#sobre-críquete" title="Link to this heading">#&lt;/a>&lt;/h2>
-&lt;p>Dizer que os indianos adoram o críquete seria subestimar este sentimento. O jogo é jogado praticamente em todas as localidades da Índia, rurais ou urbanas, e é popular com os jovens e os anciões, conectando bilhões de pessoas na Índia como nenhum outro esporte. O cricket também recebe muita atenção da mídia. Há uma quantidade significativa de &lt;a href="https://www.statista.com/topics/4543/indian-premier-league-ipl/">dinheiro&lt;/a> e fama em jogo. Ao longo dos últimos anos, a tecnologia foi literalmente uma revolução. As audiências tem uma ampla possibilidade de escolha, com mídias de streaming, torneios, acesso barato a jogos de críquete ao vivo em dispositivos móveis, e mais.&lt;/p></description></item><item><title>Estudo de Caso: Descoberta de Ondas Gravitacionais</title><link>https://numpy.org/pt/case-studies/gw-discov/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/case-studies/gw-discov/</guid><description>&lt;figure class="align-default" id="id000">&lt;img src="https://numpy.org/images/content_images/cs/gw_sxs_image.png" alt="binary coalesce black hole generating gravitational waves" class="align-center">
+&lt;p>Dizer que os indianos adoram o críquete seria subestimar este sentimento. O jogo é jogado praticamente em todas as localidades da Índia, rurais ou urbanas, e é popular com os jovens e os anciões, conectando bilhões de pessoas na Índia como nenhum outro esporte.
+O cricket também recebe muita atenção da mídia. Há uma quantidade significativa de &lt;a href="https://www.statista.com/topics/4543/indian-premier-league-ipl/">dinheiro&lt;/a> e fama em jogo. Ao longo dos últimos anos, a tecnologia foi literalmente uma revolução. As audiências tem uma ampla possibilidade de escolha, com mídias de streaming, torneios, acesso barato a jogos de críquete ao vivo em dispositivos móveis, e mais.&lt;/p></description></item><item><title>Estudo de Caso: Descoberta de Ondas Gravitacionais</title><link>https://numpy.org/pt/case-studies/gw-discov/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/case-studies/gw-discov/</guid><description>&lt;figure class="align-center" id="id000">&lt;img src="https://numpy.org/images/content_images/cs/gw_sxs_image.png" alt="binary coalesce black hole generating gravitational waves" class="align-center">
 
 
 
-&lt;figcaption>&lt;strong class="caption-title">Ondas gravitacionais&lt;/strong>&lt;a class="headerlink" href="#id000" title="Link to this image">#&lt;/a>&lt;br>&lt;a href="https://youtu.be/Zt8Z_uzG71o">(Créditos de imagem: O projeto Simulating eXtreme Spacetimes (SXS) no LIGO)&lt;/a>
+&lt;figcaption>&lt;strong class="caption-title">Gravitational Waves&lt;/strong>&lt;a class="headerlink" href="#id000" title="Link to this image">#&lt;/a>&lt;br>&lt;a href="https://youtu.be/Zt8Z_uzG71o">(Image Credits: The Simulating eXtreme Spacetimes (SXS) Project at LIGO)&lt;/a>
 &lt;p>&lt;span class="caption-text">&lt;/span>
 &lt;/figcaption>
 &lt;/figure>
 
 &lt;blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs">
  &lt;p>
-O ecossistema científico Python é uma infraestrutura crítica para a pesquisa feita no LIGO.
+The scientific Python ecosystem is critical infrastructure for the research done at LIGO.
 &lt;/p>
  &lt;p class="attribution">—David Shoemaker, &lt;em>Colaborador Científico no LIGO&lt;/em>&lt;/p>
 &lt;/blockquote>
 
 &lt;h2 id="sobre-ondas-gravitacionaishttpswwwnationalgeographiccomnews201710what-are-gravitational-waves-ligo-astronomy-science-e-o-ligohttpswwwligocaltechedu">Sobre &lt;a href="https://www.nationalgeographic.com/news/2017/10/what-are-gravitational-waves-ligo-astronomy-science/">Ondas Gravitacionais&lt;/a> e o &lt;a href="https://www.ligo.caltech.edu">LIGO&lt;/a>&lt;a class="headerlink" href="#sobre-ondas-gravitacionaishttpswwwnationalgeographiccomnews201710what-are-gravitational-waves-ligo-astronomy-science-e-o-ligohttpswwwligocaltechedu" title="Link to this heading">#&lt;/a>&lt;/h2>
-&lt;p>Ondas gravitacionais são ondulações no tecido espaço-tempo, gerado por eventos cataclísmicos no universo, como colisão e fusão de dois buracos negros ou a coalescência de estrelas binárias ou supernovas. A observação de ondas gravitacionais pode ajudar não só no estudo da gravidade, mas também no entendimento de alguns dos fenômenos obscuros existentes no universo distante e seu impacto.&lt;/p></description></item><item><title>Estudo de Caso: Estimativa de Pose 3D com DeepLabCut</title><link>https://numpy.org/pt/case-studies/deeplabcut-dnn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/case-studies/deeplabcut-dnn/</guid><description>&lt;figure class="align-default" id="id000">&lt;img src="https://numpy.org/images/content_images/cs/mice-hand.gif" alt="micehandanim" class="align-center">
+&lt;p>Ondas gravitacionais são ondulações no tecido espaço-tempo, gerado por eventos cataclísmicos no universo, como colisão e fusão de dois buracos negros ou a coalescência de estrelas binárias ou supernovas. A observação de ondas gravitacionais pode ajudar não só no estudo da gravidade, mas também no entendimento de alguns dos fenômenos obscuros existentes no universo distante e seu impacto.&lt;/p></description></item><item><title>Estudo de Caso: Estimativa de Pose 3D com DeepLabCut</title><link>https://numpy.org/pt/case-studies/deeplabcut-dnn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/case-studies/deeplabcut-dnn/</guid><description>&lt;figure class="align-center" id="id000">&lt;img src="https://numpy.org/images/content_images/cs/mice-hand.gif" alt="micehandanim" class="align-center">
 
 
 
-&lt;figcaption>&lt;strong class="caption-title">Análise de movimentos de mãos de camundongos usando DeepLapCut&lt;/strong>&lt;a class="headerlink" href="#id000" title="Link to this image">#&lt;/a>&lt;br>&lt;a href="http://www.mousemotorlab.org/deeplabcut">(Fonte: www.deeplabcut.org )&lt;/a>
+&lt;figcaption>&lt;strong class="caption-title">Analyzing mice hand-movement using DeepLapCut&lt;/strong>&lt;a class="headerlink" href="#id000" title="Link to this image">#&lt;/a>&lt;br>&lt;a href="http://www.mousemotorlab.org/deeplabcut">(Source: www.deeplabcut.org )&lt;/a>
 &lt;p>&lt;span class="caption-text">&lt;/span>
 &lt;/figcaption>
 &lt;/figure>
 
 &lt;blockquote cite="https://news.harvard.edu/gazette/story/newsplus/harvard-researchers-awarded-czi-open-source-award/">
  &lt;p>
-Software de código aberto está acelerando a Biomedicina. DeepLabCut permite a análise automática de vídeos de comportamento animal usando Deep Learning.
+Open Source Software is accelerating Biomedicine. DeepLabCut enables automated video analysis of animal behavior using Deep Learning.
 &lt;/p>
  &lt;p class="attribution">—Alexander Mathis, &lt;em>Professor Assistente, École polytechnique fédérale de Lausanne&lt;/em> (&lt;a href="https://www.epfl.ch/en/">EPFL&lt;/a>)&lt;/p>
 &lt;/blockquote>
 
 &lt;h2 id="sobre-o-deeplabcut">Sobre o DeepLabCut&lt;a class="headerlink" href="#sobre-o-deeplabcut" title="Link to this heading">#&lt;/a>&lt;/h2>
-&lt;p>&lt;a href="https://github.com/DeepLabCut/DeepLabCut">DeepLabCut&lt;/a> é uma toolbox de código aberto que permite que pesquisadores de centenas de instituições em todo o mundo rastreiem o comportamento de animais de laboratório, com muito poucos dados de treinamento, mas com precisão no nível humano. Com a tecnologia DeepLabCut, cientistas podem aprofundar a compreensão científica do controle motor e do comportamento em diversas espécies animais e escalas temporais.&lt;/p></description></item><item><title>Histórico do NumPy</title><link>https://numpy.org/pt/history/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/history/</guid><description>&lt;p>NumPy é uma biblioteca Python fundamental que fornece estruturas de &lt;em>arrays&lt;/em> de dados e rotinas numéricas rápidas relacionadas a estas arrays. Quando começou, a biblioteca tinha pouco financiamento e foi escrita principalmente por estudantes de pós-graduação—muitos deles sem educação em ciência da computação e, muitas vezes, sem autorização dos seus orientadores. Imaginar que um pequeno grupo de programadores estudantis &amp;ldquo;desobedientes&amp;rdquo; poderiam subverter o já bem estabelecido ecossistema de software de pesquisa - apoiado por milhões em financiamento e muitas centenas de engenheiros altamente qualificados - era absurdo. No entanto, as motivações filosóficas por trás de uma ferramenta totalmente aberta, em combinação com a vibrante, amigável comunidade com foco singular, provaram ser auspiciosas a longo prazo. Hoje em dia, cientistas, engenheiros e muitos outros profissionais ao redor do mundo confiam no NumPy. Por exemplo, os scripts usados e publicados na análise de ondas gravitacionais importam o NumPy, e o projeto de imagem para buraco negro M87 cita diretamente o NumPy.&lt;/p></description></item><item><title>Instalando o NumPy</title><link>https://numpy.org/pt/install/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/install/</guid><description>&lt;p>O único pré-requisito para instalar o NumPy é o próprio Python. Se você ainda não tem o Python e quer começar do jeito mais simples, nós recomendamos que você use a &lt;a href="https://www.anaconda.com/distribution">Distribuição Anaconda&lt;/a> - inclui Python, NumPy e outros pacotes comumente usados para computação científica e ciência de dados.&lt;/p>
-&lt;p>O NumPy pode ser instalado com &lt;code>conda&lt;/code>, com &lt;code>pip&lt;/code>, com um gerenciador de pacotes no macOS e Linux, ou &lt;a href="https://numpy.org/devdocs/building">da fonte&lt;/a>. Para obter instruções mais detalhadas, consulte nosso &lt;a href="https://numpy.org/pt/install/#python-numpy-install-guide">guia de instalação do Python e do NumPy&lt;/a> abaixo.&lt;/p></description></item><item><title>Kit de imprensa</title><link>https://numpy.org/pt/press-kit/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/press-kit/</guid><description>&lt;p>Gostaríamos de facilitar a inclusão da identidade do projeto NumPy em seu próximo documento acadêmico, materiais educacionais ou apresentação.&lt;/p>
-&lt;p>Você encontrará várias versões de alta resolução do logo do NumPy &lt;a href="https://github.com/numpy/numpy/tree/main/branding/logo">aqui&lt;/a>. Note que usando os recursos numpy.org, você aceita o &lt;a href="https://numpy.org/pt/code-of-conduct/">Código de Conduta do NumPy&lt;/a>.&lt;/p></description></item><item><title>Obter ajuda</title><link>https://numpy.org/pt/gethelp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/gethelp/</guid><description>&lt;p>&lt;strong>Perguntas de usuários:&lt;/strong> A melhor maneira de obter ajuda é postar sua pergunta em um site como &lt;a href="http://stackoverflow.com/questions/tagged/numpy">StackOverflow&lt;/a>, com milhares de usuários disponíveis para responder. Outras alternativas incluem &lt;a href="https://webchat.freenode.net/?channels=%23numpy">IRC&lt;/a>, &lt;a href="https://gitter.im/numpy/numpy">Gitter&lt;/a>e &lt;a href="https://www.reddit.com/r/Numpy/">Reddit&lt;/a>. Gostaríamos de poder ficar de olho nestes sites, ou responder perguntas diretamente, mas o volume é imenso!&lt;/p>
-&lt;p>&lt;strong>Issues sobre desenvolvimento:&lt;/strong> Para assuntos relacionados ao desenvolvimento do NumPy (por exemplo, relatórios de bugs), veja a &lt;a href="https://numpy.org/pt/community/">Comunidade&lt;/a>.&lt;/p>
+&lt;p>&lt;a href="https://github.com/DeepLabCut/DeepLabCut">DeepLabCut&lt;/a> é uma toolbox de código aberto que permite que pesquisadores de centenas de instituições em todo o mundo rastreiem o comportamento de animais de laboratório, com muito poucos dados de treinamento, mas com precisão no nível humano. Com a tecnologia DeepLabCut, cientistas podem aprofundar a compreensão científica do controle motor e do comportamento em diversas espécies animais e escalas temporais.&lt;/p></description></item><item><title>Histórico do NumPy</title><link>https://numpy.org/pt/history/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/history/</guid><description>&lt;p>NumPy é uma biblioteca Python fundamental que fornece estruturas de &lt;em x-id="3">arrays&lt;/em> de dados e rotinas numéricas rápidas relacionadas a estas arrays. Quando começou, a biblioteca tinha pouco financiamento e foi escrita principalmente por estudantes de pós-graduação—muitos deles sem educação em ciência da computação e, muitas vezes, sem autorização dos seus orientadores. Imaginar que um pequeno grupo de programadores estudantis &amp;ldquo;desobedientes&amp;rdquo; poderiam subverter o já bem estabelecido ecossistema de software de pesquisa - apoiado por milhões em financiamento e muitas centenas de engenheiros altamente qualificados - era absurdo. No entanto, as motivações filosóficas por trás de uma ferramenta totalmente aberta, em combinação com a vibrante, amigável comunidade com foco singular, provaram ser auspiciosas a longo prazo. Hoje em dia, cientistas, engenheiros e muitos outros profissionais ao redor do mundo confiam no NumPy. Por exemplo, os scripts usados e publicados na análise de ondas gravitacionais importam o NumPy, e o projeto de imagem para buraco negro M87 cita diretamente o NumPy.&lt;/p></description></item><item><title>Instalando o NumPy</title><link>https://numpy.org/pt/install/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/install/</guid><description>&lt;div class="admonition tip">
+ &lt;div class="admonition-title"> Tip&lt;/div>
+ &lt;p>
+ Esta página assume que você está confortável usando um terminal e está familiarizado com gerenciadores de pacotes.
+O único pré-requisito para instalar o NumPy é o próprio Python. Se você ainda não tem
+Python e quer a maneira mais simples de começar, recomendamos que use a
+&lt;a href="https://www.anaconda.com/download">Distribuição Anaconda&lt;/a> - ela inclui
+Python, NumPy e muitos outros pacotes comumente usados para computação científica
+e ciência de dados.
+ &lt;/p>
+&lt;/div>
+
+&lt;p>O método recomendado de instalar o NumPy depende do seu fluxo de trabalho preferido. A seguir, dividimos os métodos de instalação entre as seguintes categorias:&lt;/p></description></item><item><title>Kit de imprensa</title><link>https://numpy.org/pt/press-kit/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/press-kit/</guid><description>&lt;p>Gostaríamos de facilitar a inclusão da identidade do projeto NumPy em seu próximo documento acadêmico, materiais educacionais ou apresentação.&lt;/p>
+&lt;p>Você encontrará várias versões de alta resolução do logo do NumPy &lt;a href="https://github.com/numpy/numpy/tree/main/branding/logo">aqui&lt;/a>. Note que usando os recursos numpy.org, você aceita o &lt;a href="https://numpy.org/pt/code-of-conduct/">Código de Conduta do NumPy&lt;/a>.&lt;/p></description></item><item><title>NumPy Diversity and Inclusion Statement</title><link>https://numpy.org/pt/diversity_sep2020/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/diversity_sep2020/</guid><description>&lt;p>&lt;em>In light of the foregoing discussion on social media after publication of the
+NumPy paper in Nature and the concerns raised about the state of diversity and
+inclusion on the NumPy team, we would like to issue the following statement:&lt;/em>&lt;/p>
+&lt;p>It is our strong belief that we are at our best, as a team and community, when
+we are inclusive and equitable. Being an international team from the onset, we
+recognize the value of collaborating with individuals from diverse backgrounds
+and expertise. A culture where everyone is welcomed, supported, and valued is
+at the core of the NumPy project.&lt;/p></description></item><item><title>Obter ajuda</title><link>https://numpy.org/pt/gethelp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/gethelp/</guid><description>&lt;p>&lt;strong>Issues sobre desenvolvimento:&lt;/strong> Para assuntos relacionados ao desenvolvimento do NumPy (por exemplo, relatórios de bugs), veja a &lt;a href="https://numpy.org/pt/community/">Comunidade&lt;/a>.&lt;/p>
+&lt;p>&lt;strong>Perguntas de usuários:&lt;/strong> A melhor maneira de obter ajuda é postar sua pergunta em um site como &lt;a href="http://stackoverflow.com/questions/tagged/numpy">StackOverflow&lt;/a> ou &lt;a href="https://www.reddit.com/r/Numpy/">Reddit&lt;/a>. Gostaríamos de poder ficar de olho nestes sites, ou responder perguntas diretamente, mas o volume é imenso!&lt;/p>
 &lt;h3 id="stackoverflowhttpstackoverflowcomquestionstaggednumpy">&lt;a href="http://stackoverflow.com/questions/tagged/numpy">StackOverflow&lt;/a>&lt;a class="headerlink" href="#stackoverflowhttpstackoverflowcomquestionstaggednumpy" title="Link to this heading">#&lt;/a>&lt;/h3>
 &lt;p>Um fórum para fazer perguntas sobre a utilização da biblioteca, por exemplo: &amp;ldquo;Como faço X no NumPy?&amp;rdquo;. Por favor &lt;a href="https://stackoverflow.com/help/tagging">use a tag &lt;code>#numpy&lt;/code>&lt;/a>&lt;/p></description></item><item><title>PESQUISA DE USUÁRIOS NUMPY</title><link>https://numpy.org/pt/user-surveys/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/user-surveys/</guid><description>&lt;p>&lt;strong>2020&lt;/strong> O time de pesquisas da NumPy, em parceria com estudantes e professores da Universidade de Michigan e da Universidade de Maryland, conduziram a primeira pesquisa oficial sobre a comunidade NumPy. Você pode encontrar os resultados da pesquisa &lt;a href="https://numpy.org/user-survey-2020/">aqui (em inglês)&lt;/a>.&lt;/p>
 &lt;p>&lt;strong>2021&lt;/strong> Os dados coletados estão em análise.&lt;/p>
 &lt;p>Se você tem dúvidas ou sugestões sobre as pesquisas já realizadas ou futuras, por favor crie uma issue &lt;a href="https://github.com/numpy/numpy-surveys/issues">aqui&lt;/a>.&lt;/p></description></item><item><title>PESQUISA SOBRE A COMUNIDADE NUMPY 2020</title><link>https://numpy.org/pt/user-survey-2020/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/user-survey-2020/</guid><description>&lt;p>Em 2020, o time de pesquisas do NumPy realizou a primeira pesquisa oficial sobre a comunidade NumPy, em parceria com alunos e docentes de um Mestrado em metodologia de pesquisa realizado conjuntamente pela Universidade de Michigan e pela Universidade da Maryland. Mais de 1200 usuários de 75 países participaram para nos ajudar a mapear uma paisagem da comunidade NumPy e expressaram seus pensamentos sobre o futuro do projeto.&lt;/p>
-&lt;figure class="align-default" id="id000">&lt;img src="https://numpy.org/surveys/NumPy_usersurvey_2020_report_cover.png" alt="Página de capa do relatório da pesquisa de usuários do NumPy 2020, chamado &amp;#34;NumPy Community Survey 2020 - results&amp;#34;" class="align-center" width="250">
+&lt;figure class="align-center" id="id000">&lt;img src="https://numpy.org/surveys/NumPy_usersurvey_2020_report_cover.png" alt="Cover page of the 2020 NumPy user survey report, titled &amp;#34;NumPy Community Survey 2020 - results&amp;#34;" class="align-center" width="250">
 
 
 
@@ -147,11 +170,12 @@ Software de código aberto está acelerando a Biomedicina. DeepLabCut permite a 
 &lt;/figure>
 
 &lt;p>&lt;strong>&lt;a href="https://numpy.org/surveys/NumPy_usersurvey_2020_report.pdf">Faça o download do relatório&lt;/a>&lt;/strong> para ver os detalhes sobre os resultados encontrados.&lt;/p></description></item><item><title>Política de privacidade</title><link>https://numpy.org/pt/privacy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/privacy/</guid><description>&lt;p>&lt;strong>numpy.org&lt;/strong> é operado por &lt;a href="https://numfocus.org">NumFOCUS, Inc.&lt;/a>, o patrocinador fiscal do projeto NumPy. Para a Política de Privacidade deste site, consulte &lt;a href="https://numfocus.org/privacy-policy">https://numfocus.org/privacy-policy&lt;/a>.&lt;/p>
-&lt;p>Se você tiver alguma dúvida sobre a política ou as práticas de coleta de dados do NumFOCUS, uso e divulgação, entre em contato com a equipe do NumFOCUS em &lt;a href="mailto:privacy@numfocus.org">privacy@numfocus.org&lt;/a>.&lt;/p></description></item><item><title>Quem Somos</title><link>https://numpy.org/pt/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/about/</guid><description>&lt;p>NumPy é um projeto de código aberto que visa possibilitar a computação numérica com Python. Foi criado em 2005, com base no trabalho inicial das bibliotecas Numeric e Numarray. O NumPy sempre será 100% software de código aberto, livre para que todos usem. É lançado sob os termos liberais da &lt;a href="https://github.com/numpy/numpy/blob/main/LICENSE.txt">licença BSD modificada&lt;/a>.&lt;/p>
-&lt;p>O NumPy é desenvolvido no GitHub, através do consenso da comunidade NumPy e de uma comunidade mais ampla de Python científico. Para obter mais informações sobre nossa abordagem de governança, por favor, consulte nosso &lt;a href="https://www.numpy.org/devdocs/dev/governance/index.html">Documento de Governança&lt;/a>.&lt;/p></description></item><item><title>Termos de Uso</title><link>https://numpy.org/pt/terms/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/terms/</guid><description>&lt;p>&lt;em>Última atualização em 4 de janeiro de 2020&lt;/em>&lt;/p>
+&lt;p>Se você tiver alguma dúvida sobre a política ou as práticas de coleta de dados do NumFOCUS, uso e divulgação, entre em contato com a equipe do NumFOCUS em &lt;a href="mailto:privacy@numfocus.org">privacy@numfocus.org&lt;/a>.&lt;/p></description></item><item><title>Sobre</title><link>https://numpy.org/pt/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/about/</guid><description>&lt;p>NumPy é um projeto de código aberto visando habilitar a computação numérica com Python. Foi criado em 2005, com base no trabalho inicial das bibliotecas Numeric e Numarray. O NumPy sempre será 100% software de código aberto, livre para que todos usem. É lançado sob os termos liberais da &lt;a href="https://github.com/numpy/numpy/blob/main/LICENSE.txt">licença BSD modificada&lt;/a>.&lt;/p>
+&lt;p>O NumPy é desenvolvido abertamente no GitHub, através do consenso da comunidade NumPy e de uma comunidade mais ampla de Python científico. Para obter mais informações sobre nossa abordagem de governança, por favor, consulte nosso &lt;a href="https://www.numpy.org/devdocs/dev/governance/index.html">Documento de Governança&lt;/a>.&lt;/p></description></item><item><title>Terms of Use</title><link>https://numpy.org/pt/terms/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/terms/</guid><description>&lt;p>&lt;em>Last updated January 4, 2020&lt;/em>&lt;/p>
 &lt;h2 id="agreement-to-terms">AGREEMENT TO TERMS&lt;a class="headerlink" href="#agreement-to-terms" title="Link to this heading">#&lt;/a>&lt;/h2>
-&lt;p>These Terms of Use constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and NumPy (&amp;quot;&lt;strong>Project&lt;/strong>&amp;quot;, “&lt;strong>we&lt;/strong>”, “&lt;strong>us&lt;/strong>”, or “&lt;strong>our&lt;/strong>”), concerning your access to and use of the numpy.org website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto (collectively, the “Site”). You agree that by accessing the Site, you have read, understood, and agreed to be bound by all of these Terms of Use. IF YOU DO NOT AGREE WITH ALL OF THESE TERMS OF USE, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SITE AND YOU MUST DISCONTINUE USE IMMEDIATELY.&lt;/p></description></item><item><title>Times NumPy</title><link>https://numpy.org/pt/teams/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/teams/</guid><description>&lt;p>Somos uma equipe internacional com a missão de apoiar comunidades científicas e de pesquisa em todo o mundo construindo software de código aberto de qualidade. &lt;a href="https://numpy.org/pt/contribute/">Junte-se a nós&lt;/a>!&lt;/p>
-&lt;h3 id="maintainers">Maintainers&lt;a class="headerlink" href="#maintainers" title="Link to this heading">#&lt;/a>&lt;/h3>
+&lt;p>These Terms of Use constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and NumPy (&amp;quot;&lt;strong>Project&lt;/strong>&amp;quot;, “&lt;strong>we&lt;/strong>”, “&lt;strong>us&lt;/strong>”, or “&lt;strong>our&lt;/strong>”), concerning your access to and use of the numpy.org website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto (collectively, the “Site”). You agree that by accessing the Site, you have read, understood, and agreed to be bound by all of these Terms of Use. IF YOU DO NOT AGREE WITH ALL OF THESE TERMS OF USE, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SITE AND YOU MUST DISCONTINUE USE IMMEDIATELY.&lt;/p></description></item><item><title>Times NumPy</title><link>https://numpy.org/pt/teams/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/teams/</guid><description>&lt;p>Somos uma equipe internacional com a missão de apoiar comunidades científicas e de pesquisa em todo o mundo construindo software de código aberto de qualidade.
+&lt;a href="https://numpy.org/pt/contribute/">Junte-se a nós&lt;/a>!&lt;/p>
+&lt;h3 id="pessoas-mantenedoras">Pessoas Mantenedoras&lt;a class="headerlink" href="#pessoas-mantenedoras" title="Link to this heading">#&lt;/a>&lt;/h3>
 &lt;div class="sd-container-fluid sd-mb-4 false">
  &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-3 sd-g-md-4 sd-g-lg-5">
  &lt;div class="sd-col sd-d-flex-row">
@@ -592,7 +616,7 @@ Warren Weckesser
  &lt;/div>
 &lt;/div>
 
-&lt;h3 id="docs-team">Docs team&lt;a class="headerlink" href="#docs-team" title="Link to this heading">#&lt;/a>&lt;/h3>
+&lt;h3 id="time-de-documentacão">Time de documentacão&lt;a class="headerlink" href="#time-de-documentacão" title="Link to this heading">#&lt;/a>&lt;/h3>
 &lt;div class="sd-container-fluid sd-mb-4 false">
  &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-3 sd-g-md-4 sd-g-lg-5">
  &lt;div class="sd-col sd-d-flex-row">
@@ -703,7 +727,7 @@ Ross Barnowski
  &lt;/div>
 &lt;/div>
 
-&lt;h3 id="web-team">Web team&lt;a class="headerlink" href="#web-team" title="Link to this heading">#&lt;/a>&lt;/h3>
+&lt;h3 id="time-web">Time Web&lt;a class="headerlink" href="#time-web" title="Link to this heading">#&lt;/a>&lt;/h3>
 &lt;div class="sd-container-fluid sd-mb-4 false">
  &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-3 sd-g-md-4 sd-g-lg-5">
  &lt;div class="sd-col sd-d-flex-row">
@@ -844,7 +868,7 @@ Albert Steppi
  &lt;/div>
 &lt;/div>
 
-&lt;h3 id="triage-team">Triage team&lt;a class="headerlink" href="#triage-team" title="Link to this heading">#&lt;/a>&lt;/h3>
+&lt;h3 id="time-de-triagem">Time de Triagem&lt;a class="headerlink" href="#time-de-triagem" title="Link to this heading">#&lt;/a>&lt;/h3>
 &lt;div class="sd-container-fluid sd-mb-4 false">
  &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-3 sd-g-md-4 sd-g-lg-5">
  &lt;div class="sd-col sd-d-flex-row">
@@ -1270,7 +1294,7 @@ Zijie (ZJ) Poh
  &lt;/div>
 &lt;/div>
 
-&lt;h3 id="survey-team">Survey team&lt;a class="headerlink" href="#survey-team" title="Link to this heading">#&lt;/a>&lt;/h3>
+&lt;h3 id="time-de-pesquisa">Time de Pesquisa&lt;a class="headerlink" href="#time-de-pesquisa" title="Link to this heading">#&lt;/a>&lt;/h3>
 &lt;div class="sd-container-fluid sd-mb-4 false">
  &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-3 sd-g-md-4 sd-g-lg-5">
  &lt;div class="sd-col sd-d-flex-row">
@@ -1321,7 +1345,163 @@ Ross Barnowski
  &lt;/div>
 &lt;/div>
 
-&lt;h3 id="emeritus-maintainers">Emeritus maintainers&lt;a class="headerlink" href="#emeritus-maintainers" title="Link to this heading">#&lt;/a>&lt;/h3>
+&lt;h3 id="time-de-traduções">Time de traduções&lt;a class="headerlink" href="#time-de-traduções" title="Link to this heading">#&lt;/a>&lt;/h3>
+&lt;div class="sd-container-fluid sd-mb-4 false">
+ &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-3 sd-g-md-4 sd-g-lg-5">
+ &lt;div class="sd-col sd-d-flex-row">
+ 
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ 
+ &lt;div class="sd-card-body">
+ &lt;img src="https://avatars.githubusercontent.com/u/3949932?u=aacac68df60d2cf64c17c7e5aa17adf8b738aa7b&amp;amp;v=4%22" alt="Avatar of Melissa Weber Mendonça">
+
+
+
+Melissa Weber Mendonça
+ &lt;/div>
+ &lt;a class="sd-stretched-link" href="https://github.com/melissawm">&lt;/a>
+ &lt;/div>
+&lt;/div>
+
+ &lt;div class="sd-col sd-d-flex-row">
+ 
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ 
+ &lt;div class="sd-card-body">
+ &lt;img src="https://raw.githubusercontent.com/numpy/numpy.org/refs/heads/main/static/images/logo.svg" alt="Avatar of Juan Pablo Duque">
+
+
+
+Juan Pablo Duque (@juanpabloduqueo)
+ &lt;/div>
+ &lt;a class="sd-stretched-link" href="https://scientific-python.crowdin.com">&lt;/a>
+ &lt;/div>
+&lt;/div>
+
+ &lt;div class="sd-col sd-d-flex-row">
+ 
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ 
+ &lt;div class="sd-card-body">
+ &lt;img src="https://raw.githubusercontent.com/numpy/numpy.org/refs/heads/main/static/images/logo.svg" alt="Avatar of Yeimi Pena">
+
+
+
+Yeimi Pena (@yeimiyaz)
+ &lt;/div>
+ &lt;a class="sd-stretched-link" href="https://www.linkedin.com/in/yeimipena/">&lt;/a>
+ &lt;/div>
+&lt;/div>
+
+ &lt;div class="sd-col sd-d-flex-row">
+ 
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ 
+ &lt;div class="sd-card-body">
+ &lt;img src="https://avatars.githubusercontent.com/u/3813847?v=4" alt="Avatar of Atsushi Sakai">
+
+
+
+Atsushi Sakai (@AtsushiSakai)
+ &lt;/div>
+ &lt;a class="sd-stretched-link" href="https://github.com/AtsushiSakai">&lt;/a>
+ &lt;/div>
+&lt;/div>
+
+ &lt;div class="sd-col sd-d-flex-row">
+ 
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ 
+ &lt;div class="sd-card-body">
+ &lt;img src="https://raw.githubusercontent.com/numpy/numpy.org/refs/heads/main/static/images/logo.svg" alt="Avatar of Getúlio Silva">
+
+
+
+Getúlio Silva (@getuliosilva)
+ &lt;/div>
+ &lt;a class="sd-stretched-link" href="https://scientific-python.crowdin.com">&lt;/a>
+ &lt;/div>
+&lt;/div>
+
+ &lt;div class="sd-col sd-d-flex-row">
+ 
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ 
+ &lt;div class="sd-card-body">
+ &lt;img src="https://raw.githubusercontent.com/numpy/numpy.org/refs/heads/main/static/images/logo.svg" alt="Oriol Abril-Pla">
+
+
+
+Oriol Abril-Pla (@OriolAbril)
+ &lt;/div>
+ &lt;a class="sd-stretched-link" href="https://scientific-python.crowdin.com">&lt;/a>
+ &lt;/div>
+&lt;/div>
+
+ &lt;div class="sd-col sd-d-flex-row">
+ 
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ 
+ &lt;div class="sd-card-body">
+ &lt;img src="https://raw.githubusercontent.com/numpy/numpy.org/refs/heads/main/static/images/logo.svg" alt="Avatar of @julio">
+
+
+
+@julio
+ &lt;/div>
+ &lt;a class="sd-stretched-link" href="https://scientific-python.crowdin.com">&lt;/a>
+ &lt;/div>
+&lt;/div>
+
+ &lt;div class="sd-col sd-d-flex-row">
+ 
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ 
+ &lt;div class="sd-card-body">
+ &lt;img src="https://raw.githubusercontent.com/numpy/numpy.org/refs/heads/main/static/images/logo.svg" alt="Avatar of Ali Faraji">
+
+
+
+Ali Faraji (@ali)
+ &lt;/div>
+ &lt;a class="sd-stretched-link" href="https://scientific-python.crowdin.com">&lt;/a>
+ &lt;/div>
+&lt;/div>
+
+ &lt;div class="sd-col sd-d-flex-row">
+ 
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ 
+ &lt;div class="sd-card-body">
+ &lt;img src="https://raw.githubusercontent.com/numpy/numpy.org/refs/heads/main/static/images/logo.svg" alt="Avatar of Saeed Foroutan">
+
+
+
+Saeed Foroutan (@SaeedForoutan)
+ &lt;/div>
+ &lt;a class="sd-stretched-link" href="https://scientific-python.crowdin.com">&lt;/a>
+ &lt;/div>
+&lt;/div>
+
+ &lt;div class="sd-col sd-d-flex-row">
+ 
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ 
+ &lt;div class="sd-card-body">
+ &lt;img src="https://raw.githubusercontent.com/numpy/numpy.org/refs/heads/main/static/images/logo.svg" alt="Avatar of @pyjavo">
+
+
+
+@pyjavo
+ &lt;/div>
+ &lt;a class="sd-stretched-link" href="https://scientific-python.crowdin.com">&lt;/a>
+ &lt;/div>
+&lt;/div>
+
+ &lt;/div>
+&lt;/div>
+
+&lt;h3 id="mantenedores-eméritos">Mantenedores Eméritos&lt;a class="headerlink" href="#mantenedores-eméritos" title="Link to this heading">#&lt;/a>&lt;/h3>
 &lt;div class="sd-container-fluid sd-mb-4 false">
  &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-3 sd-g-md-4 sd-g-lg-5">
  &lt;div class="sd-col sd-d-flex-row">
