@@ -1,71 +1,73 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NumPy</title><link>https://numpy.org/es/</link><description>Recent content on NumPy</description><generator>Hugo</generator><language>es</language><lastBuildDate>Mon, 17 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://numpy.org/es/index.xml" rel="self" type="application/rss+xml"/><item><title>Noticias</title><link>https://numpy.org/es/news/</link><pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate><guid>https://numpy.org/es/news/</guid><description>&lt;h3 id="lanzamiento-de-numpy-210">Lanzamiento de NumPy 2.1.0&lt;a class="headerlink" href="#lanzamiento-de-numpy-210" title="Link to this heading">#&lt;/a>&lt;/h3>
-&lt;p>&lt;em>18 de agosto 2024&lt;/em> &amp;ndash; NumPy 2.1.0 provides support for Python 3.13 and drops support for Python 3.9. Además de las habituales correcciones de errores y soporte actualizado de Python, ayuda a que NumPy vuelva a su ciclo de publicación habitual después del extenso desarrollo de 2.0. Los aspectos más destacados son:&lt;/p>
-&lt;ul>
-&lt;li>Soporte para Python 3.13.&lt;/li>
-&lt;li>Soporte preliminar para Python 3.13 de hilos libres.&lt;/li>
-&lt;li>Compatibilidad con la norma array-api 2023.12.&lt;/li>
-&lt;/ul>
-&lt;p>Esta versión es compatible con las versiones 3.10-3.13 de Python.&lt;/p></description></item><item><title>404</title><link>https://numpy.org/es/404/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/es/404/</guid><description>&lt;p>¡Oh, oh! Has llegado a un callejón sin salida.&lt;/p>
-&lt;p>Si crees que algo debería estar aquí, puedes &lt;a href="https://github.com/numpy/numpy.org/issues">reportar este problema&lt;/a> en GitHub.&lt;/p></description></item><item><title>Aprende</title><link>https://numpy.org/es/learn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/es/learn/</guid><description>&lt;p>Para la &lt;strong>documentación oficial de NumPy&lt;/strong> visita &lt;a href="https://numpy.org/doc/stable">numpy.org/doc/stable&lt;/a>.&lt;/p>
-&lt;hr>
-&lt;p>A continuación se muestra una colección de recursos educativos, tanto para el autoaprendizaje como para enseñar a otros, desarrollados por colaboradores de NumPy y aprobados por la comunidad.&lt;/p>
-&lt;h2 id="principiantes">Principiantes&lt;a class="headerlink" href="#principiantes" title="Link to this heading">#&lt;/a>&lt;/h2>
-&lt;p>Hay un montón de información sobre NumPy allá afuera. Si eres nuevo, te recomendamos encarecidamente estos:&lt;/p>
-&lt;p>&lt;i class="fas fa-chalkboard">&lt;/i> &lt;strong>Tutoriales&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://numpy.org/devdocs/user/quickstart.html">Tutorial de inicio rápido de NumPy&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://numpy.org/numpy-tutorials">NumPy Tutorials&lt;/a> Una colección de tutoriales y materiales educativos en formato de cuadernos Jupyter desarrollados y mantenidos por el equipo de documentación de NumPy. Para enviar tu propio contenido, visita el repositorio &lt;a href="https://github.com/numpy/numpy-tutorials">numpy-tutorials en GitHub&lt;/a>.&lt;/li>
-&lt;li>&lt;a href="https://betterprogramming.pub/3b1d4976de1d?sk=57b908a77aa44075a49293fa1631dd9b">NumPy Illustrated: La Guía Visual de NumPy &lt;em>por Lev Maximov&lt;/em>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://scipy-lectures.org/">Scientific Python Lectures&lt;/a> Además de cubrir NumPy, estas conferencias ofrecen una introducción más amplia al ecosistema científico de Python.&lt;/li>
-&lt;li>&lt;a href="https://numpy.org/devdocs/user/absolute_beginners.html">NumPy: the absolute basics for beginners.&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rougier/numpy-tutorial">NumPy tutorial &lt;em>por Nicolas Rougier&lt;/em>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="http://cs231n.github.io/python-numpy-tutorial/">Stanford CS231 &lt;em>por Justin Johnson&lt;/em>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://numpy.org/devdocs">NumPy User Guide.&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>&lt;i class="fas fa-book">&lt;/i> &lt;strong>Libros&lt;/strong>&lt;/p></description></item><item><title>Buscar Ayuda</title><link>https://numpy.org/es/gethelp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/es/gethelp/</guid><description>&lt;p>&lt;strong>Problemas de desarrollo:&lt;/strong> Para asuntos relacionados con el desarrollo de NumPy (por ejemplo, informes de errores), por favor consulte la sección de &lt;a href="https://numpy.org/es/community/">Comunidad&lt;/a>.&lt;/p>
-&lt;p>&lt;strong>Preguntas de los usuarios:&lt;/strong> La mejor manera de obtener ayuda es publicar tu pregunta en un sitio como &lt;a href="http://stackoverflow.com/questions/tagged/numpy">StackOverflow&lt;/a> o &lt;a href="https://www.reddit.com/r/Numpy/">Reddit&lt;/a>. Nos gustaría poder estar al tanto de estos sitios, o responder preguntas de manera directa, ¡pero el volumen es algo abrumador!&lt;/p>
-&lt;h3 id="stackoverflowhttpstackoverflowcomquestionstaggednumpy">&lt;a href="http://stackoverflow.com/questions/tagged/numpy">StackOverflow&lt;/a>&lt;a class="headerlink" href="#stackoverflowhttpstackoverflowcomquestionstaggednumpy" title="Link to this heading">#&lt;/a>&lt;/h3>
-&lt;p>Un foro para hacer preguntas de uso, como por ejemplo: &amp;ldquo;¿Cómo hago X cosa en NumPy?&amp;rdquo;. Por favor &lt;a href="https://stackoverflow.com/help/tagging">usa la etiqueta &lt;code>#numpy&lt;/code>&lt;/a>&lt;/p></description></item><item><title>Caso de estudio: DeepLabCut Estimación de Postura 3D</title><link>https://numpy.org/es/case-studies/deeplabcut-dnn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/es/case-studies/deeplabcut-dnn/</guid><description>&lt;figure class="align-default" id="id000">&lt;img src="https://numpy.org/images/content_images/cs/mice-hand.gif" alt="micehandanim" class="align-center">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NumPy</title><link>https://numpy.org/es/</link><description>Recent content on NumPy</description><generator>Hugo</generator><language>es</language><lastBuildDate>Mon, 17 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://numpy.org/es/index.xml" rel="self" type="application/rss+xml"/><item><title>Noticias</title><link>https://numpy.org/es/news/</link><pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate><guid>https://numpy.org/es/news/</guid><description>&lt;h3 id="lanzamiento-de-numpy-210"&gt;Lanzamiento de NumPy 2.1.0&lt;a class="headerlink" href="#lanzamiento-de-numpy-210" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;18 de agosto 2024&lt;/em&gt; &amp;ndash; NumPy 2.1.0 provides support for Python 3.13 and drops support for Python 3.9. Además de las habituales correcciones de errores y soporte actualizado de Python, ayuda a que NumPy vuelva a su ciclo de publicación habitual después del extenso desarrollo de 2.0. Los aspectos más destacados son:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Soporte para Python 3.13.&lt;/li&gt;
+&lt;li&gt;Soporte preliminar para Python 3.13 de hilos libres.&lt;/li&gt;
+&lt;li&gt;Compatibilidad con la norma array-api 2023.12.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Esta versión es compatible con las versiones 3.10-3.13 de Python.&lt;/p&gt;</description></item><item><title>404</title><link>https://numpy.org/es/404/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/es/404/</guid><description>&lt;p&gt;¡Oh, oh! Has llegado a un callejón sin salida.&lt;/p&gt;
+&lt;p&gt;Si crees que algo debería estar aquí, puedes &lt;a href="https://github.com/numpy/numpy.org/issues"&gt;reportar este problema&lt;/a&gt; en GitHub.&lt;/p&gt;</description></item><item><title>Aprende</title><link>https://numpy.org/es/learn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/es/learn/</guid><description>&lt;p&gt;Para la &lt;strong&gt;documentación oficial de NumPy&lt;/strong&gt; visita &lt;a href="https://numpy.org/doc/stable"&gt;numpy.org/doc/stable&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;A continuación se muestra una colección de recursos educativos, tanto para el autoaprendizaje como para enseñar a otros, desarrollados por colaboradores de NumPy y aprobados por la comunidad.&lt;/p&gt;
+&lt;h2 id="principiantes"&gt;Principiantes&lt;a class="headerlink" href="#principiantes" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Hay un montón de información sobre NumPy allá afuera. Si eres nuevo, te recomendamos encarecidamente estos:&lt;/p&gt;
+&lt;p&gt;&lt;i class="fas fa-chalkboard"&gt;&lt;/i&gt; &lt;strong&gt;Tutoriales&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://numpy.org/devdocs/user/quickstart.html"&gt;Tutorial de inicio rápido de NumPy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://numpy.org/numpy-tutorials"&gt;NumPy Tutorials&lt;/a&gt; Una colección de tutoriales y materiales educativos en formato de cuadernos Jupyter desarrollados y mantenidos por el equipo de documentación de NumPy. Para enviar tu propio contenido, visita el repositorio &lt;a href="https://github.com/numpy/numpy-tutorials"&gt;numpy-tutorials en GitHub&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://betterprogramming.pub/3b1d4976de1d?sk=57b908a77aa44075a49293fa1631dd9b"&gt;NumPy Illustrated: La Guía Visual de NumPy &lt;em&gt;por Lev Maximov&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://scipy-lectures.org/"&gt;Scientific Python Lectures&lt;/a&gt; Además de cubrir NumPy, estas conferencias ofrecen una introducción más amplia al ecosistema científico de Python.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://numpy.org/devdocs/user/absolute_beginners.html"&gt;NumPy: the absolute basics for beginners.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/rougier/numpy-tutorial"&gt;NumPy tutorial &lt;em&gt;por Nicolas Rougier&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://cs231n.github.io/python-numpy-tutorial/"&gt;Stanford CS231 &lt;em&gt;por Justin Johnson&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://numpy.org/devdocs"&gt;NumPy User Guide.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;i class="fas fa-book"&gt;&lt;/i&gt; &lt;strong&gt;Libros&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Buscar Ayuda</title><link>https://numpy.org/es/gethelp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/es/gethelp/</guid><description>&lt;p&gt;&lt;strong&gt;Problemas de desarrollo:&lt;/strong&gt; Para asuntos relacionados con el desarrollo de NumPy (por ejemplo, informes de errores), por favor consulte la sección de &lt;a href="https://numpy.org/es/community/"&gt;Comunidad&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Preguntas de los usuarios:&lt;/strong&gt; La mejor manera de obtener ayuda es publicar tu pregunta en un sitio como &lt;a href="http://stackoverflow.com/questions/tagged/numpy"&gt;StackOverflow&lt;/a&gt; o &lt;a href="https://www.reddit.com/r/Numpy/"&gt;Reddit&lt;/a&gt;. Nos gustaría poder estar al tanto de estos sitios, o responder preguntas de manera directa, ¡pero el volumen es algo abrumador!&lt;/p&gt;
+&lt;h3 id="stackoverflow"&gt;&lt;a href="http://stackoverflow.com/questions/tagged/numpy"&gt;StackOverflow&lt;/a&gt;&lt;a class="headerlink" href="#stackoverflow" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Un foro para hacer preguntas de uso, como por ejemplo: &amp;ldquo;¿Cómo hago X cosa en NumPy?&amp;rdquo;. Por favor &lt;a href="https://stackoverflow.com/help/tagging"&gt;usa la etiqueta &lt;code&gt;#numpy&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Caso de estudio: DeepLabCut Estimación de Postura 3D</title><link>https://numpy.org/es/case-studies/deeplabcut-dnn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/es/case-studies/deeplabcut-dnn/</guid><description>&lt;figure class="align-default" id="id000"&gt;
+&lt;img src="https://numpy.org/images/content_images/cs/mice-hand.gif" alt="micehandanim" class="align-center"&gt;
 
 
 
-&lt;figcaption>&lt;strong class="caption-title">Analizar movimiento de las manos de los ratones usando DeepLapCut&lt;/strong>&lt;a class="headerlink" href="#id000" title="Link to this image">#&lt;/a>&lt;br>&lt;a href="http://www.mousemASElab.org/deeplabcut">(Fuente: www.deeplabcut.org )&lt;/a>
-&lt;p>&lt;span class="caption-text">&lt;/span>
-&lt;/figcaption>
-&lt;/figure>
+&lt;figcaption&gt;&lt;strong class="caption-title"&gt;Analizar movimiento de las manos de los ratones usando DeepLapCut&lt;/strong&gt;&lt;a class="headerlink" href="#id000" title="Link to this image"&gt;#&lt;/a&gt;&lt;br&gt;&lt;a href="http://www.mousemASElab.org/deeplabcut"&gt;(Fuente: www.deeplabcut.org)&lt;/a&gt;
+&lt;p&gt;&lt;span class="caption-text"&gt;&lt;/span&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
 
-&lt;blockquote cite="https://news.harvard.edu/gazette/story/newsplus/harvard-researchers-awarded-czi-open-source-award/">
- &lt;p> El software de código abierto está acelerando la biomedicina. DeepLabCut permite el análisis automatizado de video del comportamiento animal utilizando Aprendizaje Profundo. 
-&lt;/p>
- &lt;p class="attribution">—Alexander Mathis, &lt;em>Profesor Asistente, Escuela Politécnica Federal de Lausana&lt;/em> (&lt;a href="https://www.epfl.ch/en/">EPFL&lt;/a>)&lt;/p>
-&lt;/blockquote>
+&lt;blockquote cite="https://news.harvard.edu/gazette/story/newsplus/harvard-researchers-awarded-czi-open-source-award/"&gt;
+ &lt;p&gt; El software de código abierto está acelerando la biomedicina. DeepLabCut permite el análisis automatizado de video del comportamiento animal utilizando Aprendizaje Profundo. 
+&lt;/p&gt;
+ &lt;p class="attribution"&gt;—Alexander Mathis, &lt;em&gt;Profesor Asistente, Escuela Politécnica Federal de Lausana&lt;/em&gt; (&lt;a href="https://www.epfl.ch/en/"&gt;EPFL&lt;/a&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;h2 id="acerca-de-deeplabcut">Acerca de DeepLabCut&lt;a class="headerlink" href="#acerca-de-deeplabcut" title="Link to this heading">#&lt;/a>&lt;/h2>
-&lt;p>&lt;a href="https://github.com/DeepLabCut/DeepLabCut">DeepLabCut&lt;/a> es una caja de herramientas de código abierto que permite a los investigadores de cientos de instituciones de todo el mundo rastrear el comportamiento de animales de laboratorio, con muy pocos datos de entrenamiento, con una precisión de nivel humana. Con la tecnología DeepLabCut, los científicos pueden profundizar en la comprensión científica del control motriz y el comportamiento a través de especies animales y escalas temporales.&lt;/p></description></item><item><title>Caso de estudio: La primera imagen de un Agujero Negro</title><link>https://numpy.org/es/case-studies/blackhole-image/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/es/case-studies/blackhole-image/</guid><description>&lt;figure class="align-default" id="id000">&lt;img src="https://numpy.org/images/content_images/cs/blackhole.jpg" alt="Imagen de agujero negro" class="align-center">
+&lt;h2 id="acerca-de-deeplabcut"&gt;Acerca de DeepLabCut&lt;a class="headerlink" href="#acerca-de-deeplabcut" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://github.com/DeepLabCut/DeepLabCut"&gt;DeepLabCut&lt;/a&gt; es una caja de herramientas de código abierto que permite a los investigadores de cientos de instituciones de todo el mundo rastrear el comportamiento de animales de laboratorio, con muy pocos datos de entrenamiento, con una precisión de nivel humana. Con la tecnología DeepLabCut, los científicos pueden profundizar en la comprensión científica del control motriz y el comportamiento a través de especies animales y escalas temporales.&lt;/p&gt;</description></item><item><title>Caso de estudio: La primera imagen de un Agujero Negro</title><link>https://numpy.org/es/case-studies/blackhole-image/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/es/case-studies/blackhole-image/</guid><description>&lt;figure class="align-default" id="id000"&gt;
+&lt;img src="https://numpy.org/images/content_images/cs/blackhole.jpg" alt="Imagen de agujero negro" class="align-center"&gt;
 
 
 
-&lt;figcaption>&lt;strong class="caption-title">Agujero Negro M87&lt;/strong>&lt;a class="headerlink" href="#id000" title="Link to this image">#&lt;/a>&lt;br>&lt;a href="https://www.jpl.nasa.gov/images/universe/20190410/blackhole20190410.jpg">(Créditos de la imagen: Colaboración del telescopio del Horizonte de Sucesos)&lt;/a>
-&lt;p>&lt;span class="caption-text">&lt;/span>
-&lt;/figcaption>
-&lt;/figure>
+&lt;figcaption&gt;&lt;strong class="caption-title"&gt;Agujero Negro M87&lt;/strong&gt;&lt;a class="headerlink" href="#id000" title="Link to this image"&gt;#&lt;/a&gt;&lt;br&gt;&lt;a href="https://www.jpl.nasa.gov/images/universe/20190410/blackhole20190410.jpg"&gt;(Créditos de la imagen: Colaboración del telescopio del Horizonte de Sucesos)&lt;/a&gt;
+&lt;p&gt;&lt;span class="caption-text"&gt;&lt;/span&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
 
-&lt;blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs">
- &lt;p>
+&lt;blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs"&gt;
+ &lt;p&gt;
 Capturar imágenes del Agujero Negro M87 es como intentar ver algo que por definición es imposible de ver. 
-&lt;/p>
- &lt;p class="attribution">—Katie Bouman, &lt;em>Profesora Asistente, Ciencias de la Computación &amp;amp; Matemáticas, Caltech&lt;/em>&lt;/p>
-&lt;/blockquote>
+&lt;/p&gt;
+ &lt;p class="attribution"&gt;—Katie Bouman, &lt;em&gt;Profesora Asistente, Ciencias de la Computación &amp;amp; Matemáticas, Caltech&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;h2 id="un-telescopio-del-tamaño-de-la-tierra">Un telescopio del tamaño de la Tierra&lt;a class="headerlink" href="#un-telescopio-del-tamaño-de-la-tierra" title="Link to this heading">#&lt;/a>&lt;/h2>
-&lt;p>El &lt;a href="https://eventhorizontelescope.org"> Telescopio Event Horizon (EHT) &lt;/a>, es un conjunto de ocho radiotelescopios terrestres que forman un telescopio computacional del tamaño de la Tierra, estudiando al universo con una sensibilidad y resolución sin precedente. El enorme telescopio virtual, que utiliza una técnica llamada Interferometría de línea de base muy larga (VLBI), tiene una resolución angular de &lt;a href="https://eventhorizontelescope.org/press-release-april-10-2019-astronomers-capture-first-image-black-hole">20 microsegundos de arco&lt;/a> — ¡suficiente para leer un periódico en Nueva York desde un café en la acera en París!&lt;/p></description></item><item><title>Citando a NumPy</title><link>https://numpy.org/es/citing-numpy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/es/citing-numpy/</guid><description>&lt;p>Si NumPy ha sido importante en tu investigación y deseas reconocer el proyecto en tu publicación académica, te sugerimos que cites el siguiente documento:&lt;/p>
-&lt;ul>
-&lt;li>Harris, C.R., Millman, K.J., van der Walt, S.J. et al. _ Array programming with NumPy_. Nature 585, 357–362 (2020). DOI: &lt;a href="https://doi.org/10.1038/s41586-020-2649-2">10.1038/s41586-020-2649-2&lt;/a>. (&lt;a href="https://www.nature.com/articles/s41586-020-2649-2">Publisher link&lt;/a>).&lt;/li>
-&lt;/ul>
-&lt;p>&lt;em>En formato BibTeX:&lt;/em>&lt;/p>
+&lt;h2 id="un-telescopio-del-tamaño-de-la-tierra"&gt;Un telescopio del tamaño de la Tierra&lt;a class="headerlink" href="#un-telescopio-del-tamaño-de-la-tierra" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;El &lt;a href="https://eventhorizontelescope.org"&gt; Telescopio Event Horizon (EHT) &lt;/a&gt;, es un conjunto de ocho radiotelescopios terrestres que forman un telescopio computacional del tamaño de la Tierra, estudiando al universo con una sensibilidad y resolución sin precedente. El enorme telescopio virtual, que utiliza una técnica llamada Interferometría de línea de base muy larga (VLBI), tiene una resolución angular de &lt;a href="https://eventhorizontelescope.org/press-release-april-10-2019-astronomers-capture-first-image-black-hole"&gt;20 microsegundos de arco&lt;/a&gt; — ¡suficiente para leer un periódico en Nueva York desde un café en la acera en París!&lt;/p&gt;</description></item><item><title>Citando a NumPy</title><link>https://numpy.org/es/citing-numpy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/es/citing-numpy/</guid><description>&lt;p&gt;Si NumPy ha sido importante en tu investigación y deseas reconocer el proyecto en tu publicación académica, te sugerimos que cites el siguiente documento:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Harris, C.R., Millman, K.J., van der Walt, S.J. et al. _ Array programming with NumPy_. Nature 585, 357–362 (2020). DOI: &lt;a href="https://doi.org/10.1038/s41586-020-2649-2"&gt;10.1038/s41586-020-2649-2&lt;/a&gt;. (&lt;a href="https://www.nature.com/articles/s41586-020-2649-2"&gt;Publisher link&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;En formato BibTeX:&lt;/em&gt;&lt;/p&gt;
 
-&lt;div class="highlight">
- &lt;pre>@Article{ harris2020array,
+&lt;div class="highlight"&gt;
+ &lt;pre&gt;@Article{ harris2020array,
  title = { Array programming with {NumPy}},
  author = {Charles R. Harris and K. Jarrod Millman and St{\&amp;#39;{e}}fan J.
  van der Walt and Ralf Gommers and Pauli Virtanen and David
@@ -86,1365 +88,1367 @@ Capturar imágenes del Agujero Negro M87 es como intentar ver algo que por defin
  doi = {10.1038/s41586-020-2649-2},
  publisher = {Springer Science and Business Media {LLC}},
  url = {https://doi.org/10.1038/s41586-020-2649-2}
-}&lt;/pre>
-&lt;/div></description></item><item><title>Código de conducta de NumPy</title><link>https://numpy.org/es/code-of-conduct/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/es/code-of-conduct/</guid><description>&lt;h3 id="introducción">Introducción&lt;a class="headerlink" href="#introducción" title="Link to this heading">#&lt;/a>&lt;/h3>
-&lt;p>Este Código de Conducta aplica en todos los espacios gestionados por el proyecto NumPy, incluyendo todas las listas de correo públicas y privadas, gestores de incidencias, wikis, blogs, X (antes llamado Twitter) y cualquier otro canal de comunicación utilizado por nuestra comunidad. El proyecto NumPy no organiza eventos en persona; sin embargo, los eventos relacionados con nuestra comunidad deben tener un código de conducta similar a este.&lt;/p></description></item><item><title>Código de Conducta de NumPy - Cómo hacer el seguimiento de un informe</title><link>https://numpy.org/es/report-handling-manual/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/es/report-handling-manual/</guid><description>&lt;p>Este es el manual que sigue el Comité de Código de Conducta de NumPy. Se utiliza cuando respondemos a un problema, para asegurarnos de que seamos consistentes y justos.&lt;/p>
-&lt;p>Hacer cumplir el &lt;a href="https://numpy.org/es/code-of-conduct/">Código de Conducta&lt;/a> impacta a nuestra comunidad hoy y en el futuro. Es una acción que no tomamos a la ligera. Al revisar las medidas de cumplimiento, el Comité de Código de Conducta tendrá en cuenta los siguientes valores y directrices:&lt;/p></description></item><item><title>Computación con Arreglos</title><link>https://numpy.org/es/arraycomputing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/es/arraycomputing/</guid><description>&lt;p>&lt;em>La computación con arreglos es la base del cómputo estadístico, matemático y científico en varias aplicaciones contemporáneas de ciencia de datos y aplicaciones de analíticas, tales como la visualización de datos, el procesamiento digital de señales, el procesamiento de imágenes, la bioinformática, el aprendizaje automático, la inteligencia artificial, entre muchas otras.&lt;/em>&lt;/p>
-&lt;p>La manipulación y transformación de datos a gran escala depende de una computación con arreglos eficiente y de alto rendimiento. El lenguaje de elección para la analítica de datos, el aprendizaje automático y el cómputo numérico productivo es &lt;strong>Python.&lt;/strong>&lt;/p></description></item><item><title>Comunidad</title><link>https://numpy.org/es/community/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/es/community/</guid><description>&lt;p>NumPy es un proyecto de código abierto impulsado por la comunidad y desarrollado por un grupo diverso de &lt;a href="https://numpy.org/es/teams/">colaboradores&lt;/a>. El liderazgo de NumPy se ha comprometido firmemente a crear una comunidad abierta, inclusiva y positiva. Por favor, lee el &lt;a href="https://numpy.org/es/code-of-conduct/">Código de Conducta de NumPy&lt;/a> para obtener orientación sobre cómo interactuar con los demás de una manera que haga que la comunidad prospere.&lt;/p>
-&lt;p>Ofrecemos varios canales de comunicación para aprender, compartir conocimientos y conectarse con otros dentro de la comunidad de NumPy.&lt;/p></description></item><item><title>Contribuye a NumPy</title><link>https://numpy.org/es/contribute/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/es/contribute/</guid><description>&lt;p>¡El proyecto NumPy agradece tu experiencia y entusiasmo! Tus opciones no se limitan a la programación. Como puedes ver más abajo, existen muchas áreas en las que necesitamos &lt;strong>tu&lt;/strong> ayuda.&lt;/p>
-&lt;p>Si no estás seguro por dónde empezar o cómo encajan tus habilidades, &lt;em>¡acércate!&lt;/em> Puedes preguntar en la &lt;a href="https://mail.python.org/mailman/listinfo/numpy-discussion">lista de correos&lt;/a> o &lt;a href="http://github.com/numpy/numpy">GitHub&lt;/a> (abre una &lt;a href="https://github.com/numpy/numpy/issues">propuesta&lt;/a> o comenta en una relevante).&lt;/p>
-&lt;p>Estos son nuestros canales preferidos (el código abierto es abierto por naturaleza), pero si prefieres hablar de manera privada, contacta a nuestros coordinadores de la comunidad en &lt;a href="mailto:numpy-team@googlegroups.com">numpy-team@googlegroups.com&lt;/a> o en &lt;a href="https://numpy-team.slack.com">Slack&lt;/a> (escribe a &lt;a href="mailto:numpy-team@googlegroups.com">numpy-team@googlegroups.com&lt;/a> para recibir una invitación).&lt;/p></description></item><item><title>ENCUESTA DE LA COMUNIDAD NUMPY 2020</title><link>https://numpy.org/es/user-survey-2020/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/es/user-survey-2020/</guid><description>&lt;p>En 2020, el equipo de encuestas de NumPy, en asociación con estudiantes y profesores de un curso de Maestría en Metodología de Encuestas organizado conjuntamente por la Universidad de Michigan y la Universidad de Maryland, llevaron a cabo la primera encuesta oficial de la comunidad NumPy. Más de 1,200 usuarios de 75 países participaron para ayudarnos a proyectar un panorama de la comunidad NumPy y expresaron sus pensamientos sobre el futuro del proyecto.&lt;/p></description></item><item><title>ENCUESTAS DE USUARIOS DE NUMPY</title><link>https://numpy.org/es/user-surveys/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/es/user-surveys/</guid><description>&lt;p>&lt;strong>2020&lt;/strong> El equipo de encuestas de NumPy, en asociación con estudiantes y profesores de la Universidad de Michigan y de la Universidad de Maryland, realizó la primera encuesta oficial de la comunidad de NumPy. Encuentra los resultados de la encuesta &lt;a href="https://numpy.org/user-survey-2020/">aquí&lt;/a>.&lt;/p>
-&lt;p>&lt;strong>2021&lt;/strong> Los datos recolectados están siendo analizados actualmente.&lt;/p>
-&lt;p>Si tienes alguna pregunta o sugerencia sobre las encuestas pasadas o futuras, por favor abre una propuesta &lt;a href="https://github.com/numpy/numpy-surveys/issues">aquí&lt;/a>.&lt;/p></description></item><item><title>Equipos de NumPy</title><link>https://numpy.org/es/teams/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/es/teams/</guid><description>&lt;p>Somos un equipo internacional en una misión para apoyar a las comunidades científicas y de investigaciones alrededor del mundo, mediante la construcción de software de código abierto de calidad.
-¡&lt;a href="https://numpy.org/es/contribute/">Únete&lt;/a>!&lt;/p>
-&lt;h3 id="mantenedores">Mantenedores&lt;a class="headerlink" href="#mantenedores" title="Link to this heading">#&lt;/a>&lt;/h3>
-&lt;div class="sd-container-fluid sd-mb-4 false">
- &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-3 sd-g-md-4 sd-g-lg-5">
- &lt;div class="sd-col sd-d-flex-row">
+}&lt;/pre&gt;
+&lt;/div&gt;</description></item><item><title>Código de conducta de NumPy</title><link>https://numpy.org/es/code-of-conduct/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/es/code-of-conduct/</guid><description>&lt;h3 id="introducción"&gt;Introducción&lt;a class="headerlink" href="#introducción" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Este Código de Conducta aplica en todos los espacios gestionados por el proyecto NumPy, incluyendo todas las listas de correo públicas y privadas, gestores de incidencias, wikis, blogs, X (antes llamado Twitter) y cualquier otro canal de comunicación utilizado por nuestra comunidad. El proyecto NumPy no organiza eventos en persona; sin embargo, los eventos relacionados con nuestra comunidad deben tener un código de conducta similar a este.&lt;/p&gt;</description></item><item><title>Código de Conducta de NumPy - Cómo hacer el seguimiento de un informe</title><link>https://numpy.org/es/report-handling-manual/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/es/report-handling-manual/</guid><description>&lt;p&gt;Este es el manual que sigue el Comité de Código de Conducta de NumPy. Se utiliza cuando respondemos a un problema, para asegurarnos de que seamos consistentes y justos.&lt;/p&gt;
+&lt;p&gt;Hacer cumplir el &lt;a href="https://numpy.org/es/code-of-conduct/"&gt;Código de Conducta&lt;/a&gt; impacta a nuestra comunidad hoy y en el futuro. Es una acción que no tomamos a la ligera. Al revisar las medidas de cumplimiento, el Comité de Código de Conducta tendrá en cuenta los siguientes valores y directrices:&lt;/p&gt;</description></item><item><title>Computación con Arreglos</title><link>https://numpy.org/es/arraycomputing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/es/arraycomputing/</guid><description>&lt;p&gt;&lt;em&gt;La computación con arreglos es la base del cómputo estadístico, matemático y científico en varias aplicaciones contemporáneas de ciencia de datos y aplicaciones de analíticas, tales como la visualización de datos, el procesamiento digital de señales, el procesamiento de imágenes, la bioinformática, el aprendizaje automático, la inteligencia artificial, entre muchas otras.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;La manipulación y transformación de datos a gran escala depende de una computación con arreglos eficiente y de alto rendimiento. El lenguaje de elección para la analítica de datos, el aprendizaje automático y el cómputo numérico productivo es &lt;strong&gt;Python.&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Comunidad</title><link>https://numpy.org/es/community/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/es/community/</guid><description>&lt;p&gt;NumPy es un proyecto de código abierto impulsado por la comunidad y desarrollado por un grupo diverso de &lt;a href="https://numpy.org/es/teams/"&gt;colaboradores&lt;/a&gt;. El liderazgo de NumPy se ha comprometido firmemente a crear una comunidad abierta, inclusiva y positiva. Por favor, lee el &lt;a href="https://numpy.org/es/code-of-conduct/"&gt;Código de Conducta de NumPy&lt;/a&gt; para obtener orientación sobre cómo interactuar con los demás de una manera que haga que la comunidad prospere.&lt;/p&gt;
+&lt;p&gt;Ofrecemos varios canales de comunicación para aprender, compartir conocimientos y conectarse con otros dentro de la comunidad de NumPy.&lt;/p&gt;</description></item><item><title>Contribuye a NumPy</title><link>https://numpy.org/es/contribute/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/es/contribute/</guid><description>&lt;p&gt;¡El proyecto NumPy agradece tu experiencia y entusiasmo! Tus opciones no se limitan a la programación. Como puedes ver más abajo, existen muchas áreas en las que necesitamos &lt;strong&gt;tu&lt;/strong&gt; ayuda.&lt;/p&gt;
+&lt;p&gt;Si no estás seguro por dónde empezar o cómo encajan tus habilidades, &lt;em&gt;¡acércate!&lt;/em&gt; Puedes preguntar en la &lt;a href="https://mail.python.org/mailman/listinfo/numpy-discussion"&gt;lista de correos&lt;/a&gt; o &lt;a href="http://github.com/numpy/numpy"&gt;GitHub&lt;/a&gt; (abre una &lt;a href="https://github.com/numpy/numpy/issues"&gt;propuesta&lt;/a&gt; o comenta en una relevante).&lt;/p&gt;
+&lt;p&gt;Estos son nuestros canales preferidos (el código abierto es abierto por naturaleza), pero si prefieres hablar de manera privada, contacta a nuestros coordinadores de la comunidad en &lt;a href="mailto:numpy-team@googlegroups.com"&gt;numpy-team@googlegroups.com&lt;/a&gt; o en &lt;a href="https://numpy-team.slack.com"&gt;Slack&lt;/a&gt; (escribe a &lt;a href="mailto:numpy-team@googlegroups.com"&gt;numpy-team@googlegroups.com&lt;/a&gt; para recibir una invitación).&lt;/p&gt;</description></item><item><title>ENCUESTA DE LA COMUNIDAD NUMPY 2020</title><link>https://numpy.org/es/user-survey-2020/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/es/user-survey-2020/</guid><description>&lt;p&gt;En 2020, el equipo de encuestas de NumPy, en asociación con estudiantes y profesores de un curso de Maestría en Metodología de Encuestas organizado conjuntamente por la Universidad de Michigan y la Universidad de Maryland, llevaron a cabo la primera encuesta oficial de la comunidad NumPy. Más de 1,200 usuarios de 75 países participaron para ayudarnos a proyectar un panorama de la comunidad NumPy y expresaron sus pensamientos sobre el futuro del proyecto.&lt;/p&gt;</description></item><item><title>ENCUESTAS DE USUARIOS DE NUMPY</title><link>https://numpy.org/es/user-surveys/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/es/user-surveys/</guid><description>&lt;p&gt;&lt;strong&gt;2020&lt;/strong&gt; El equipo de encuestas de NumPy, en asociación con estudiantes y profesores de la Universidad de Michigan y de la Universidad de Maryland, realizó la primera encuesta oficial de la comunidad de NumPy. Encuentra los resultados de la encuesta &lt;a href="https://numpy.org/user-survey-2020/"&gt;aquí&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2021&lt;/strong&gt; Los datos recolectados están siendo analizados actualmente.&lt;/p&gt;
+&lt;p&gt;Si tienes alguna pregunta o sugerencia sobre las encuestas pasadas o futuras, por favor abre una propuesta &lt;a href="https://github.com/numpy/numpy-surveys/issues"&gt;aquí&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Equipos de NumPy</title><link>https://numpy.org/es/teams/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/es/teams/</guid><description>&lt;p&gt;Somos un equipo internacional en una misión para apoyar a las comunidades científicas y de investigaciones alrededor del mundo, mediante la construcción de software de código abierto de calidad.
+¡&lt;a href="https://numpy.org/es/contribute/"&gt;Únete&lt;/a&gt;!&lt;/p&gt;
+&lt;h3 id="mantenedores"&gt;Mantenedores&lt;a class="headerlink" href="#mantenedores" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="sd-container-fluid sd-mb-4 false"&gt;
+ &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-3 sd-g-md-4 sd-g-lg-5"&gt;
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/702934?u=a026c1b1117981cea46e56ba562f3e80dfa71329&amp;amp;v=4%22" alt="Avatar of Andrew Nelson">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/702934?u=a026c1b1117981cea46e56ba562f3e80dfa71329&amp;amp;v=4%22" alt="Avatar of Andrew Nelson"&gt;
 
 
 
 Andrew Nelson
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/andyfaff">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/andyfaff"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/43369155?u=1f1fcabf979a2f00f403c60b816ba9f573026181&amp;amp;v=4%22" alt="Avatar of Bas van Beek">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/43369155?u=1f1fcabf979a2f00f403c60b816ba9f573026181&amp;amp;v=4%22" alt="Avatar of Bas van Beek"&gt;
 
 
 
 Bas van Beek
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/BvB93">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/BvB93"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/77272?v=4%22" alt="Avatar of Charles Harris">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/77272?v=4%22" alt="Avatar of Charles Harris"&gt;
 
 
 
 Charles Harris
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/charris">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/charris"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/425260?v=4%22" alt="Avatar of Eric Wieser">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/425260?v=4%22" alt="Avatar of Eric Wieser"&gt;
 
 
 
 Eric Wieser
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/eric-wieser">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/eric-wieser"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/20969920?u=ec0e4d9dd70227549776ba8209f0e55a35d1fe84&amp;amp;v=4%22" alt="Avatar of Ganesh Kathiresan">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/20969920?u=ec0e4d9dd70227549776ba8209f0e55a35d1fe84&amp;amp;v=4%22" alt="Avatar of Ganesh Kathiresan"&gt;
 
 
 
 Ganesh Kathiresan
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/ganesh-k13">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/ganesh-k13"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/4336207?u=564d623a8c9d710c3520841b83458b0bf1eae010&amp;amp;v=4%22" alt="Avatar of Rohit Goswami">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/4336207?u=564d623a8c9d710c3520841b83458b0bf1eae010&amp;amp;v=4%22" alt="Avatar of Rohit Goswami"&gt;
 
 
 
 Rohit Goswami
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/HaoZeke">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/HaoZeke"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/67612?v=4%22" alt="Avatar of Matthew Brett">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/67612?v=4%22" alt="Avatar of Matthew Brett"&gt;
 
 
 
 Matthew Brett
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/matthew-brett">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/matthew-brett"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/823911?u=1dd52e6dcca6a7a35b6644935cdd33a6e166a596&amp;amp;v=4%22" alt="Avatar of Matti Picus">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/823911?u=1dd52e6dcca6a7a35b6644935cdd33a6e166a596&amp;amp;v=4%22" alt="Avatar of Matti Picus"&gt;
 
 
 
 Matti Picus
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/mattip">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/mattip"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/6570539?u=cfb3e218754e85c4fac18064d7cfdce0b67ddaa6&amp;amp;v=4%22" alt="Avatar of Matt Haberland">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/6570539?u=cfb3e218754e85c4fac18064d7cfdce0b67ddaa6&amp;amp;v=4%22" alt="Avatar of Matt Haberland"&gt;
 
 
 
 Matt Haberland
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/mdhaber">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/mdhaber"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/3949932?u=aacac68df60d2cf64c17c7e5aa17adf8b738aa7b&amp;amp;v=4%22" alt="Avatar of Melissa Weber Mendonça">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/3949932?u=aacac68df60d2cf64c17c7e5aa17adf8b738aa7b&amp;amp;v=4%22" alt="Avatar of Melissa Weber Mendonça"&gt;
 
 
 
 Melissa Weber Mendonça
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/melissawm">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/melissawm"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/2789820?v=4%22" alt="Avatar of Marten van Kerkwijk">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/2789820?v=4%22" alt="Avatar of Marten van Kerkwijk"&gt;
 
 
 
 Marten van Kerkwijk
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/mhvk">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/mhvk"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/4933431?u=933e774277f53e83ebb3d58dab9851c801fbfacd&amp;amp;v=4%22" alt="Avatar of Christopher Sidebottom">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/4933431?u=933e774277f53e83ebb3d58dab9851c801fbfacd&amp;amp;v=4%22" alt="Avatar of Christopher Sidebottom"&gt;
 
 
 
 Christopher Sidebottom
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/Mousius">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/Mousius"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/8431159?u=179d05b307b027da3360c213fcf4f585e1c6d7b9&amp;amp;v=4%22" alt="Avatar of Mateusz Sokół">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/8431159?u=179d05b307b027da3360c213fcf4f585e1c6d7b9&amp;amp;v=4%22" alt="Avatar of Mateusz Sokół"&gt;
 
 
 
 Mateusz Sokół
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/mtsokol">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/mtsokol"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/60316606?u=229ba03253068b0a4f206b0be08f7a9e76c832f1&amp;amp;v=4%22" alt="Avatar of Mukulika">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/60316606?u=229ba03253068b0a4f206b0be08f7a9e76c832f1&amp;amp;v=4%22" alt="Avatar of Mukulika"&gt;
 
 
 
 Mukulika
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/Mukulikaa">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/Mukulikaa"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/3126246?u=a3c7cd970c0e4cbc4498febe0de777a263c522c5&amp;amp;v=4%22" alt="Avatar of Nathan Goldbaum">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/3126246?u=a3c7cd970c0e4cbc4498febe0de777a263c522c5&amp;amp;v=4%22" alt="Avatar of Nathan Goldbaum"&gt;
 
 
 
 Nathan Goldbaum
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/ngoldbaum">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/ngoldbaum"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/402156?u=288a1f206a151f9e2b69f3c0ce11848d3381943e&amp;amp;v=4%22" alt="Avatar of Pearu Peterson">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/402156?u=288a1f206a151f9e2b69f3c0ce11848d3381943e&amp;amp;v=4%22" alt="Avatar of Pearu Peterson"&gt;
 
 
 
 Pearu Peterson
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/pearu">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/pearu"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/15134881?v=4%22" alt="Avatar of Josh Wilson">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/15134881?v=4%22" alt="Avatar of Josh Wilson"&gt;
 
 
 
 Josh Wilson
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/person142">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/person142"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/35046?v=4%22" alt="Avatar of Pauli Virtanen">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/35046?v=4%22" alt="Avatar of Pauli Virtanen"&gt;
 
 
 
 Pauli Virtanen
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/pv">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/pv"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/15245051?u=54810990f0fdb11ecaade02762c09d5549d72a11&amp;amp;v=4%22" alt="Avatar of Chunlin">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/15245051?u=54810990f0fdb11ecaade02762c09d5549d72a11&amp;amp;v=4%22" alt="Avatar of Chunlin"&gt;
 
 
 
 Chunlin
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/Qiyu8">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/Qiyu8"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/44766858?u=fcb771cdeac5320fa0c8f40db39c5afb071fdfb0&amp;amp;v=4%22" alt="Avatar of Raghuveer Devulapalli">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/44766858?u=fcb771cdeac5320fa0c8f40db39c5afb071fdfb0&amp;amp;v=4%22" alt="Avatar of Raghuveer Devulapalli"&gt;
 
 
 
 Raghuveer Devulapalli
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/r-devulap">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/r-devulap"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/98330?u=22a023f8d191ba200ab13d476c83860d015cc9fe&amp;amp;v=4%22" alt="Avatar of Ralf Gommers">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/98330?u=22a023f8d191ba200ab13d476c83860d015cc9fe&amp;amp;v=4%22" alt="Avatar of Ralf Gommers"&gt;
 
 
 
 Ralf Gommers
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/rgommers">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/rgommers"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/46135?u=305a96a4778daecacbc8ec97ac25a48099a239cc&amp;amp;v=4%22" alt="Avatar of Robert Kern">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/46135?u=305a96a4778daecacbc8ec97ac25a48099a239cc&amp;amp;v=4%22" alt="Avatar of Robert Kern"&gt;
 
 
 
 Robert Kern
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/rkern">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/rkern"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/1268991?u=974707b96081a9705f3a239c0773320f353ee02f&amp;amp;v=4%22" alt="Avatar of Ross Barnowski">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/1268991?u=974707b96081a9705f3a239c0773320f353ee02f&amp;amp;v=4%22" alt="Avatar of Ross Barnowski"&gt;
 
 
 
 Ross Barnowski
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/rossbar">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/rossbar"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/61977?v=4%22" alt="Avatar of Sebastian Berg">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/61977?v=4%22" alt="Avatar of Sebastian Berg"&gt;
 
 
 
 Sebastian Berg
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/seberg">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/seberg"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/12713707?u=5a3f6a8de4801d7878750cbd0bb2e0427bf0af0b&amp;amp;v=4%22" alt="Avatar of Sayed Adel">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/12713707?u=5a3f6a8de4801d7878750cbd0bb2e0427bf0af0b&amp;amp;v=4%22" alt="Avatar of Sayed Adel"&gt;
 
 
 
 Sayed Adel
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/seiko2plus">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/seiko2plus"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/1217238?u=b61e7e0085405ce6d7d53f8f39a1360ef9723f72&amp;amp;v=4%22" alt="Avatar of Stephan Hoyer">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/1217238?u=b61e7e0085405ce6d7d53f8f39a1360ef9723f72&amp;amp;v=4%22" alt="Avatar of Stephan Hoyer"&gt;
 
 
 
 Stephan Hoyer
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/shoyer">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/shoyer"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/45071?u=c779b5e06448fbc638bc987cdfe305c7f9a7175e&amp;amp;v=4%22" alt="Avatar of Stefan van der Walt">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/45071?u=c779b5e06448fbc638bc987cdfe305c7f9a7175e&amp;amp;v=4%22" alt="Avatar of Stefan van der Walt"&gt;
 
 
 
 Stefan van der Walt
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/stefanv">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/stefanv"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/7903078?u=2762d9ff13b992dc635f8f190a17f9a90cddfae1&amp;amp;v=4%22" alt="Avatar of Tyler Reddy">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/7903078?u=2762d9ff13b992dc635f8f190a17f9a90cddfae1&amp;amp;v=4%22" alt="Avatar of Tyler Reddy"&gt;
 
 
 
 Tyler Reddy
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/tylerjereddy">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/tylerjereddy"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/321463?v=4%22" alt="Avatar of Warren Weckesser">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/321463?v=4%22" alt="Avatar of Warren Weckesser"&gt;
 
 
 
 Warren Weckesser
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/WarrenWeckesser">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/WarrenWeckesser"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+&lt;/div&gt;
 
-&lt;h3 id="equipo-de-documentación">Equipo de documentación&lt;a class="headerlink" href="#equipo-de-documentación" title="Link to this heading">#&lt;/a>&lt;/h3>
-&lt;div class="sd-container-fluid sd-mb-4 false">
- &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-3 sd-g-md-4 sd-g-lg-5">
- &lt;div class="sd-col sd-d-flex-row">
+&lt;h3 id="equipo-de-documentación"&gt;Equipo de documentación&lt;a class="headerlink" href="#equipo-de-documentación" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="sd-container-fluid sd-mb-4 false"&gt;
+ &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-3 sd-g-md-4 sd-g-lg-5"&gt;
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/4336207?u=564d623a8c9d710c3520841b83458b0bf1eae010&amp;amp;v=4%22" alt="Avatar of Rohit Goswami">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/4336207?u=564d623a8c9d710c3520841b83458b0bf1eae010&amp;amp;v=4%22" alt="Avatar of Rohit Goswami"&gt;
 
 
 
 Rohit Goswami
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/HaoZeke">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/HaoZeke"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/43481325?u=8c0c0adbf3f2efd2cce72951d3554064c7bbfce3&amp;amp;v=4%22" alt="Avatar of Inessa Pawson">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/43481325?u=8c0c0adbf3f2efd2cce72951d3554064c7bbfce3&amp;amp;v=4%22" alt="Avatar of Inessa Pawson"&gt;
 
 
 
 Inessa Pawson
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/InessaPawson">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/InessaPawson"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/46167686?u=b5ca05a767012822d06b8bc16e3cd5ca0d1cafe9&amp;amp;v=4%22" alt="Avatar of Mars Lee">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/46167686?u=b5ca05a767012822d06b8bc16e3cd5ca0d1cafe9&amp;amp;v=4%22" alt="Avatar of Mars Lee"&gt;
 
 
 
 Mars Lee
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/MarsBarLee">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/MarsBarLee"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/823911?u=1dd52e6dcca6a7a35b6644935cdd33a6e166a596&amp;amp;v=4%22" alt="Avatar of Matti Picus">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/823911?u=1dd52e6dcca6a7a35b6644935cdd33a6e166a596&amp;amp;v=4%22" alt="Avatar of Matti Picus"&gt;
 
 
 
 Matti Picus
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/mattip">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/mattip"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/3949932?u=aacac68df60d2cf64c17c7e5aa17adf8b738aa7b&amp;amp;v=4%22" alt="Avatar of Melissa Weber Mendonça">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/3949932?u=aacac68df60d2cf64c17c7e5aa17adf8b738aa7b&amp;amp;v=4%22" alt="Avatar of Melissa Weber Mendonça"&gt;
 
 
 
 Melissa Weber Mendonça
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/melissawm">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/melissawm"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/60316606?u=229ba03253068b0a4f206b0be08f7a9e76c832f1&amp;amp;v=4%22" alt="Avatar of Mukulika">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/60316606?u=229ba03253068b0a4f206b0be08f7a9e76c832f1&amp;amp;v=4%22" alt="Avatar of Mukulika"&gt;
 
 
 
 Mukulika
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/Mukulikaa">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/Mukulikaa"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/1268991?u=974707b96081a9705f3a239c0773320f353ee02f&amp;amp;v=4%22" alt="Avatar of Ross Barnowski">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/1268991?u=974707b96081a9705f3a239c0773320f353ee02f&amp;amp;v=4%22" alt="Avatar of Ross Barnowski"&gt;
 
 
 
 Ross Barnowski
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/rossbar">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/rossbar"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+&lt;/div&gt;
 
-&lt;h3 id="equipo-de-la-página-web">Equipo de la página web&lt;a class="headerlink" href="#equipo-de-la-página-web" title="Link to this heading">#&lt;/a>&lt;/h3>
-&lt;div class="sd-container-fluid sd-mb-4 false">
- &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-3 sd-g-md-4 sd-g-lg-5">
- &lt;div class="sd-col sd-d-flex-row">
+&lt;h3 id="equipo-de-la-página-web"&gt;Equipo de la página web&lt;a class="headerlink" href="#equipo-de-la-página-web" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="sd-container-fluid sd-mb-4 false"&gt;
+ &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-3 sd-g-md-4 sd-g-lg-5"&gt;
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/43481325?u=8c0c0adbf3f2efd2cce72951d3554064c7bbfce3&amp;amp;v=4%22" alt="Avatar of Inessa Pawson">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/43481325?u=8c0c0adbf3f2efd2cce72951d3554064c7bbfce3&amp;amp;v=4" alt="Avatar of Inessa Pawson"&gt;
 
 
 
 Inessa Pawson
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/InessaPawson">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/InessaPawson"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/123428?v=4%22" alt="Avatar of Jarrod Millman">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/123428?v=4" alt="Avatar of Jarrod Millman"&gt;
 
 
 
 Jarrod Millman
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/jarrodmillman">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/jarrodmillman"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/3891660?u=5de0ba1f1adad6f041f6dde1affef5d05bbed80a&amp;amp;v=4%22" alt="Avatar of Joe LaChance">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/3891660?u=5de0ba1f1adad6f041f6dde1affef5d05bbed80a&amp;amp;v=4" alt="Avatar of Joe LaChance"&gt;
 
 
 
 Joe LaChance
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/joelachance">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/joelachance"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/46167686?u=b5ca05a767012822d06b8bc16e3cd5ca0d1cafe9&amp;amp;v=4%22" alt="Avatar of Mars Lee">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/46167686?u=b5ca05a767012822d06b8bc16e3cd5ca0d1cafe9&amp;amp;v=4" alt="Avatar of Mars Lee"&gt;
 
 
 
 Mars Lee
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/MarsBarLee">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/MarsBarLee"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/98330?u=22a023f8d191ba200ab13d476c83860d015cc9fe&amp;amp;v=4%22" alt="Avatar of Ralf Gommers">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/98330?u=22a023f8d191ba200ab13d476c83860d015cc9fe&amp;amp;v=4" alt="Avatar of Ralf Gommers"&gt;
 
 
 
 Ralf Gommers
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/rgommers">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/rgommers"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/5890484?u=feb15a24e010a434ded00e41d8bd030a2cc31bdb&amp;amp;v=4%22" alt="Avatar of shalz">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/5890484?u=feb15a24e010a434ded00e41d8bd030a2cc31bdb&amp;amp;v=4" alt="Avatar of shalz"&gt;
 
 
 
 shalz
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/shaloo">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/shaloo"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/5774448?u=af1d8beea7d3c37d064e0dcb42d96c41e1318934&amp;amp;v=4%22" alt="Avatar of Shekhar Prasad Rajak">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/5774448?u=af1d8beea7d3c37d064e0dcb42d96c41e1318934&amp;amp;v=4" alt="Avatar of Shekhar Prasad Rajak"&gt;
 
 
 
 Shekhar Prasad Rajak
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/Shekharrajak">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/Shekharrajak"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/45071?u=c779b5e06448fbc638bc987cdfe305c7f9a7175e&amp;amp;v=4%22" alt="Avatar of Stefan van der Walt">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/45071?u=c779b5e06448fbc638bc987cdfe305c7f9a7175e&amp;amp;v=4" alt="Avatar of Stefan van der Walt"&gt;
 
 
 
 Stefan van der Walt
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/stefanv">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/stefanv"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/1953382?u=5df9d41ad2a6d526e7daeec06225274905e7e660&amp;amp;v=4%22" alt="Avatar of Albert Steppi">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/1953382?u=5df9d41ad2a6d526e7daeec06225274905e7e660&amp;amp;v=4" alt="Avatar of Albert Steppi"&gt;
 
 
 
 Albert Steppi
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/steppi">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/steppi"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+&lt;/div&gt;
 
-&lt;h3 id="equipo-de-clasificación">Equipo de clasificación&lt;a class="headerlink" href="#equipo-de-clasificación" title="Link to this heading">#&lt;/a>&lt;/h3>
-&lt;div class="sd-container-fluid sd-mb-4 false">
- &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-3 sd-g-md-4 sd-g-lg-5">
- &lt;div class="sd-col sd-d-flex-row">
+&lt;h3 id="equipo-de-clasificación"&gt;Equipo de clasificación&lt;a class="headerlink" href="#equipo-de-clasificación" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="sd-container-fluid sd-mb-4 false"&gt;
+ &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-3 sd-g-md-4 sd-g-lg-5"&gt;
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/702934?u=a026c1b1117981cea46e56ba562f3e80dfa71329&amp;amp;v=4%22" alt="Avatar of Andrew Nelson">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/702934?u=a026c1b1117981cea46e56ba562f3e80dfa71329&amp;amp;v=4%22" alt="Avatar of Andrew Nelson"&gt;
 
 
 
 Andrew Nelson
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/andyfaff">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/andyfaff"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/1522319?v=4%22" alt="Avatar of Anirudh Subramanian">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/1522319?v=4%22" alt="Avatar of Anirudh Subramanian"&gt;
 
 
 
 Anirudh Subramanian
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/anirudh2290">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/anirudh2290"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/71486?u=cc88e2a4e4c6c496dcb9dd88cead5c0dab496c89&amp;amp;v=4%22" alt="Avatar of Aaron Meurer">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/71486?u=cc88e2a4e4c6c496dcb9dd88cead5c0dab496c89&amp;amp;v=4%22" alt="Avatar of Aaron Meurer"&gt;
 
 
 
 Aaron Meurer
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/asmeurer">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/asmeurer"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/3813847?v=4%22" alt="Avatar of Atsushi Sakai">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/3813847?v=4%22" alt="Avatar of Atsushi Sakai"&gt;
 
 
 
 Atsushi Sakai
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/AtsushiSakai">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/AtsushiSakai"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/6691888?v=4%22" alt="Avatar of Ben Nathanson">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/6691888?v=4%22" alt="Avatar of Ben Nathanson"&gt;
 
 
 
 Ben Nathanson
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/bjnath">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/bjnath"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/35413198?u=e67bd9ebc361fb207f914979d935fd1956eb626c&amp;amp;v=4%22" alt="Avatar of Anne Bonner">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/35413198?u=e67bd9ebc361fb207f914979d935fd1956eb626c&amp;amp;v=4%22" alt="Avatar of Anne Bonner"&gt;
 
 
 
 Anne Bonner
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/bonn0062">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/bonn0062"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/6788290?u=d9a388224b87d55106cb3e6199d02ebc1d8e0553&amp;amp;v=4%22" alt="Avatar of Brigitta Sipőcz">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/6788290?u=d9a388224b87d55106cb3e6199d02ebc1d8e0553&amp;amp;v=4%22" alt="Avatar of Brigitta Sipőcz"&gt;
 
 
 
 Brigitta Sipőcz
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/bsipocz">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/bsipocz"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/5476002?u=5352f057ef8cb5de29e4d2a9fa8b0d0f49580dc8&amp;amp;v=4%22" alt="Avatar of carlkl">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/5476002?u=5352f057ef8cb5de29e4d2a9fa8b0d0f49580dc8&amp;amp;v=4%22" alt="Avatar of carlkl"&gt;
 
 
 
 carlkl
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/carlkl">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/carlkl"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/11371428?u=9b425a337d076ec86b75ebc759724283f0970d9a&amp;amp;v=4%22" alt="Avatar of Ryan C Cooper">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/11371428?u=9b425a337d076ec86b75ebc759724283f0970d9a&amp;amp;v=4%22" alt="Avatar of Ryan C Cooper"&gt;
 
 
 
 Ryan C Cooper
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/cooperrc">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/cooperrc"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/36567889?u=cbc76d558d375ebafd4a05a505f500eb94e00611&amp;amp;v=4%22" alt="Avatar of ਗਗਨਦੀਪ ਸਿੰਘ (Gagandeep Singh)">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/36567889?u=cbc76d558d375ebafd4a05a505f500eb94e00611&amp;amp;v=4%22" alt="Avatar of ਗਗਨਦੀਪ ਸਿੰਘ (Gagandeep Singh)"&gt;
 
 
 
 ਗਗਨਦੀਪ ਸਿੰਘ (Gagandeep Singh)
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/czgdp1807">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/czgdp1807"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/2190658?u=b85e13f985d0bf87eeb3a7a146b61dcc9586019b&amp;amp;v=4%22" alt="Avatar of Hameer Abbasi">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/2190658?u=b85e13f985d0bf87eeb3a7a146b61dcc9586019b&amp;amp;v=4%22" alt="Avatar of Hameer Abbasi"&gt;
 
 
 
 Hameer Abbasi
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/hameerabbasi">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/hameerabbasi"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/43481325?u=8c0c0adbf3f2efd2cce72951d3554064c7bbfce3&amp;amp;v=4%22" alt="Avatar of Inessa Pawson">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/43481325?u=8c0c0adbf3f2efd2cce72951d3554064c7bbfce3&amp;amp;v=4%22" alt="Avatar of Inessa Pawson"&gt;
 
 
 
 Inessa Pawson
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/InessaPawson">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/InessaPawson"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/8078968?v=4%22" alt="Avatar of jbrockmendel">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/8078968?v=4%22" alt="Avatar of jbrockmendel"&gt;
 
 
 
 jbrockmendel
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/jbrockmendel">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/jbrockmendel"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/30074037?u=c2549c85c82266302c71aef5c20446871323d91b&amp;amp;v=4%22" alt="Avatar of Kai">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/30074037?u=c2549c85c82266302c71aef5c20446871323d91b&amp;amp;v=4%22" alt="Avatar of Kai"&gt;
 
 
 
 Kai
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/Kai-Striega">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/Kai-Striega"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/16046705?u=1bf01e87adb556503c1fe07789c194cc04d38490&amp;amp;v=4%22" alt="Avatar of Yuji Kanagawa">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/16046705?u=1bf01e87adb556503c1fe07789c194cc04d38490&amp;amp;v=4%22" alt="Avatar of Yuji Kanagawa"&gt;
 
 
 
 Yuji Kanagawa
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/kngwyu">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/kngwyu"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/22004158?u=2ebb3919ebaa3d7e0865ea5583032bc08bd0f526&amp;amp;v=4%22" alt="Avatar of Kriti Singh">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/22004158?u=2ebb3919ebaa3d7e0865ea5583032bc08bd0f526&amp;amp;v=4%22" alt="Avatar of Kriti Singh"&gt;
 
 
 
 Kriti Singh
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/kritisingh1">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/kritisingh1"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/149655?u=249f7995c486de232c34e7970fbea505f518a1be&amp;amp;v=4%22" alt="Avatar of Christopher Albert">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/149655?u=249f7995c486de232c34e7970fbea505f518a1be&amp;amp;v=4%22" alt="Avatar of Christopher Albert"&gt;
 
 
 
 Christopher Albert
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/krystophny">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/krystophny"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/20306270?u=235cdf82e88f76ba2f5f4c2d33fa392319c60ad1&amp;amp;v=4%22" alt="Avatar of Lysandros Nikolaou">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/20306270?u=235cdf82e88f76ba2f5f4c2d33fa392319c60ad1&amp;amp;v=4%22" alt="Avatar of Lysandros Nikolaou"&gt;
 
 
 
 Lysandros Nikolaou
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/lysnikolaou">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/lysnikolaou"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/34613774?u=61535ebfff07c68ea672cd8cd68c46187a38d3c1&amp;amp;v=4%22" alt="Avatar of Meekail Zain">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/34613774?u=61535ebfff07c68ea672cd8cd68c46187a38d3c1&amp;amp;v=4%22" alt="Avatar of Meekail Zain"&gt;
 
 
 
 Meekail Zain
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/Micky774">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/Micky774"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/4933431?u=933e774277f53e83ebb3d58dab9851c801fbfacd&amp;amp;v=4%22" alt="Avatar of Christopher Sidebottom">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/4933431?u=933e774277f53e83ebb3d58dab9851c801fbfacd&amp;amp;v=4%22" alt="Avatar of Christopher Sidebottom"&gt;
 
 
 
 Christopher Sidebottom
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/Mousius">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/Mousius"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/8431159?u=179d05b307b027da3360c213fcf4f585e1c6d7b9&amp;amp;v=4%22" alt="Avatar of Mateusz Sokół">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/8431159?u=179d05b307b027da3360c213fcf4f585e1c6d7b9&amp;amp;v=4%22" alt="Avatar of Mateusz Sokół"&gt;
 
 
 
 Mateusz Sokół
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/mtsokol">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/mtsokol"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/60316606?u=229ba03253068b0a4f206b0be08f7a9e76c832f1&amp;amp;v=4%22" alt="Avatar of Mukulika">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/60316606?u=229ba03253068b0a4f206b0be08f7a9e76c832f1&amp;amp;v=4%22" alt="Avatar of Mukulika"&gt;
 
 
 
 Mukulika
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/Mukulikaa">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/Mukulikaa"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/6564007?u=e5fb962de792bbce925c0c94fb7a748803c8bfa0&amp;amp;v=4%22" alt="Avatar of Noa Tamir">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/6564007?u=e5fb962de792bbce925c0c94fb7a748803c8bfa0&amp;amp;v=4%22" alt="Avatar of Noa Tamir"&gt;
 
 
 
 Noa Tamir
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/noatamir">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/noatamir"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/44766858?u=fcb771cdeac5320fa0c8f40db39c5afb071fdfb0&amp;amp;v=4%22" alt="Avatar of Raghuveer Devulapalli">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/44766858?u=fcb771cdeac5320fa0c8f40db39c5afb071fdfb0&amp;amp;v=4%22" alt="Avatar of Raghuveer Devulapalli"&gt;
 
 
 
 Raghuveer Devulapalli
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/r-devulap">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/r-devulap"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/5890484?u=feb15a24e010a434ded00e41d8bd030a2cc31bdb&amp;amp;v=4%22" alt="Avatar of shalz">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/5890484?u=feb15a24e010a434ded00e41d8bd030a2cc31bdb&amp;amp;v=4%22" alt="Avatar of shalz"&gt;
 
 
 
 shalz
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/shaloo">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/shaloo"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/55803680?u=bb727a0da1f33ed5f2feb58dc0333943430d2318&amp;amp;v=4%22" alt="Avatar of Tina Oberoi">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/55803680?u=bb727a0da1f33ed5f2feb58dc0333943430d2318&amp;amp;v=4%22" alt="Avatar of Tina Oberoi"&gt;
 
 
 
 Tina Oberoi
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/tinaoberoi">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/tinaoberoi"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/13260794?u=5421923c831b67c4ef290bbdeb31ebfbdd906abc&amp;amp;v=4%22" alt="Avatar of Rakesh Vasudevan">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/13260794?u=5421923c831b67c4ef290bbdeb31ebfbdd906abc&amp;amp;v=4%22" alt="Avatar of Rakesh Vasudevan"&gt;
 
 
 
 Rakesh Vasudevan
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/vrakesh">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/vrakesh"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/8103276?v=4%22" alt="Avatar of Zijie (ZJ) Poh">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/8103276?v=4%22" alt="Avatar of Zijie (ZJ) Poh"&gt;
 
 
 
 Zijie (ZJ) Poh
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/zjpoh">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/zjpoh"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+&lt;/div&gt;
 
-&lt;h3 id="equipo-de-encuestas">Equipo de encuestas&lt;a class="headerlink" href="#equipo-de-encuestas" title="Link to this heading">#&lt;/a>&lt;/h3>
-&lt;div class="sd-container-fluid sd-mb-4 false">
- &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-3 sd-g-md-4 sd-g-lg-5">
- &lt;div class="sd-col sd-d-flex-row">
+&lt;h3 id="equipo-de-encuestas"&gt;Equipo de encuestas&lt;a class="headerlink" href="#equipo-de-encuestas" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="sd-container-fluid sd-mb-4 false"&gt;
+ &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-3 sd-g-md-4 sd-g-lg-5"&gt;
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/43481325?u=8c0c0adbf3f2efd2cce72951d3554064c7bbfce3&amp;amp;v=4%22" alt="Avatar of Inessa Pawson">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/43481325?u=8c0c0adbf3f2efd2cce72951d3554064c7bbfce3&amp;amp;v=4%22" alt="Avatar of Inessa Pawson"&gt;
 
 
 
 Inessa Pawson
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/InessaPawson">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/InessaPawson"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/98330?u=22a023f8d191ba200ab13d476c83860d015cc9fe&amp;amp;v=4%22" alt="Avatar of Ralf Gommers">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/98330?u=22a023f8d191ba200ab13d476c83860d015cc9fe&amp;amp;v=4%22" alt="Avatar of Ralf Gommers"&gt;
 
 
 
 Ralf Gommers
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/rgommers">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/rgommers"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/1268991?u=974707b96081a9705f3a239c0773320f353ee02f&amp;amp;v=4%22" alt="Avatar of Ross Barnowski">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/1268991?u=974707b96081a9705f3a239c0773320f353ee02f&amp;amp;v=4%22" alt="Avatar of Ross Barnowski"&gt;
 
 
 
 Ross Barnowski
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/rossbar">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/rossbar"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+&lt;/div&gt;
 
-&lt;h3 id="mantenedores-eméritos">Mantenedores eméritos&lt;a class="headerlink" href="#mantenedores-eméritos" title="Link to this heading">#&lt;/a>&lt;/h3>
-&lt;div class="sd-container-fluid sd-mb-4 false">
- &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-3 sd-g-md-4 sd-g-lg-5">
- &lt;div class="sd-col sd-d-flex-row">
+&lt;h3 id="mantenedores-eméritos"&gt;Mantenedores eméritos&lt;a class="headerlink" href="#mantenedores-eméritos" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="sd-container-fluid sd-mb-4 false"&gt;
+ &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-3 sd-g-md-4 sd-g-lg-5"&gt;
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/9040124?v=4%22" alt="Avatar of Allan Haldane">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/9040124?v=4%22" alt="Avatar of Allan Haldane"&gt;
 
 
 
 Allan Haldane
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/ahaldane">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/ahaldane"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/20568?v=4%22" alt="Avatar of Ondřej Čertík">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/20568?v=4%22" alt="Avatar of Ondřej Čertík"&gt;
 
 
 
 Ondřej Čertík
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/certik">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/certik"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/25111?v=4%22" alt="Avatar of David Cournapeau">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/25111?v=4%22" alt="Avatar of David Cournapeau"&gt;
 
 
 
 David Cournapeau
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/cournape">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/cournape"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/3343990?v=4%22" alt="Avatar of Jaime">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/3343990?v=4%22" alt="Avatar of Jaime"&gt;
 
 
 
 Jaime
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/jaimefrio">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/jaimefrio"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/123428?v=4%22" alt="Avatar of Jarrod Millman">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/123428?v=4%22" alt="Avatar of Jarrod Millman"&gt;
 
 
 
 Jarrod Millman
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/jarrodmillman">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/jarrodmillman"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/542663?v=4%22" alt="Avatar of Julian Taylor">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/542663?v=4%22" alt="Avatar of Julian Taylor"&gt;
 
 
 
 Julian Taylor
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/juliantaylor">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/juliantaylor"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/399551?u=d4a592a0763568448a8eaa06b680ee9584a8c6e0&amp;amp;v=4%22" alt="Avatar of Mark Wiebe">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/399551?u=d4a592a0763568448a8eaa06b680ee9584a8c6e0&amp;amp;v=4%22" alt="Avatar of Mark Wiebe"&gt;
 
 
 
 Mark Wiebe
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/mwiebe">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/mwiebe"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/609896?u=935a2bf5f98be8c08d87eaac095f1f3bc3332490&amp;amp;v=4%22" alt="Avatar of Nathaniel J. Smith">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/609896?u=935a2bf5f98be8c08d87eaac095f1f3bc3332490&amp;amp;v=4%22" alt="Avatar of Nathaniel J. Smith"&gt;
 
 
 
 Nathaniel J. Smith
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/njsmith">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/njsmith"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;div class="sd-col sd-d-flex-row">
+ &lt;div class="sd-col sd-d-flex-row"&gt;
  
- &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center">
+ &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
  
- &lt;div class="sd-card-body">
- &lt;img src="https://avatars.githubusercontent.com/u/254880?v=4%22" alt="Avatar of Travis E. Oliphant">
+ &lt;div class="sd-card-body"&gt;
+ &lt;img src="https://avatars.githubusercontent.com/u/254880?v=4%22" alt="Avatar of Travis E. Oliphant"&gt;
 
 
 
 Travis E. Oliphant
- &lt;/div>
- &lt;a class="sd-stretched-link" href="https://github.com/teoliphant">&lt;/a>
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+ &lt;a class="sd-stretched-link" href="https://github.com/teoliphant"&gt;&lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
 
- &lt;/div>
-&lt;/div>
+ &lt;/div&gt;
+&lt;/div&gt;
 
-&lt;h1 id="gobernanza">Gobernanza&lt;a class="headerlink" href="#gobernanza" title="Link to this heading">#&lt;/a>&lt;/h1>
-&lt;p>Para la lista de personas del Consejo Directivo, por favor ve &lt;a href="https://numpy.org/about/">aquí&lt;/a>.&lt;/p></description></item><item><title>Estudio de caso: Análisis de críquet, ¡el cambio radical!</title><link>https://numpy.org/es/case-studies/cricket-analytics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/es/case-studies/cricket-analytics/</guid><description>&lt;figure class="align-default" id="id000">&lt;img src="https://numpy.org/images/content_images/cs/ipl-stadium.png" alt="Copa y estadio de la Premier League de Críquet de India" class="align-center">
-
-
-
-&lt;figcaption>&lt;strong class="caption-title">IPLT20, el festival de críquet más grande en India&lt;/strong>&lt;a class="headerlink" href="#id000" title="Link to this image">#&lt;/a>&lt;br>&lt;a href="https://unsplash.com/@aksh1802">(Créditos de imagen: IPLT20 (copa y logo) &amp;amp; Akash Yadav (estadio))&lt;/a>
-&lt;p>&lt;span class="caption-text">&lt;/span>
-&lt;/figcaption>
-&lt;/figure>
-
-&lt;blockquote cite="https://www.scoopwhoop.com/sports/ms-dhoni/">
- &lt;p> No juegas para el público, juegas para el país. 
-&lt;/p>
- &lt;p class="attribution">—M S Dhoni, &lt;em>Jugador Internacional de críquet, ex-capitán del equipo de India, juega para Chennai Super Kings en IPL&lt;/em>&lt;/p>
-&lt;/blockquote>
-
-&lt;h2 id="acerca-del-críquet">Acerca del críquet&lt;a class="headerlink" href="#acerca-del-críquet" title="Link to this heading">#&lt;/a>&lt;/h2>
-&lt;p>Sería una subestimación decir que a los indios les encanta el críquet. El juego se juega en casi todos los rincones de la India, rurales o urbanos, es popular entre los jóvenes y ancianos por igual, conectando miles de millones de personas en India como ningún otro deporte. El críquet disfruta de una gran atención mediática. Hay una cantidad importante de &lt;a href="https://www.statista.com/topics/4543/indian-premier-league-ipl/">dinero&lt;/a> y fama en juego. En los últimos años, la tecnología ha cambiado literalmente las reglas del juego. El público tiene muchas opciones para elegir entre streaming de medios, torneos, acceso asequible a la visualización de críquet en vivo desde dispositivos móviles y más.&lt;/p></description></item><item><title>Estudio de Caso: Descubrimiento de Ondas Gravitacionales</title><link>https://numpy.org/es/case-studies/gw-discov/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/es/case-studies/gw-discov/</guid><description>&lt;figure class="align-default" id="id000">&lt;img src="https://numpy.org/images/content_images/cs/gw_sxs_image.png" alt="coalescencia de un agujero negro binario generando ondas gravitacionales" class="align-center">
+&lt;h1 id="gobernanza"&gt;Gobernanza&lt;a class="headerlink" href="#gobernanza" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Para la lista de personas del Consejo Directivo, por favor ve &lt;a href="https://numpy.org/about/"&gt;aquí&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Estudio de caso: Análisis de críquet, ¡el cambio radical!</title><link>https://numpy.org/es/case-studies/cricket-analytics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/es/case-studies/cricket-analytics/</guid><description>&lt;figure class="align-default" id="id000"&gt;
+&lt;img src="https://numpy.org/images/content_images/cs/ipl-stadium.png" alt="Copa y estadio de la Premier League de Críquet de India" class="align-center"&gt;
 
 
 
-&lt;figcaption>&lt;strong class="caption-title">Ondas Gravitacionales&lt;/strong>&lt;a class="headerlink" href="#id000" title="Link to this image">#&lt;/a>&lt;br>&lt;a href="https://youtu.be/Zt8Z_uzG71o">(Créditos de imagen: El proyecto Simulación de Espacio-tiempos eXtreme (SXS) en LIGO)&lt;/a>
-&lt;p>&lt;span class="caption-text">&lt;/span>
-&lt;/figcaption>
-&lt;/figure>
+&lt;figcaption&gt;&lt;strong class="caption-title"&gt;IPLT20, el festival de críquet más grande en India&lt;/strong&gt;&lt;a class="headerlink" href="#id000" title="Link to this image"&gt;#&lt;/a&gt;&lt;br&gt;&lt;a href="https://unsplash.com/@aksh1802"&gt;(Créditos de imagen: IPLT20 (copa y logo) &amp;amp; Akash Yadav (estadio))&lt;/a&gt;
+&lt;p&gt;&lt;span class="caption-text"&gt;&lt;/span&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
 
-&lt;blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs">
- &lt;p> El ecosistema científico de Python es una infraestructura crítica para la investigación realizada en LIGO.
-&lt;/p>
- &lt;p class="attribution">—David Shoemaker, &lt;em>Colaboración científica LIGO&lt;/em>&lt;/p>
-&lt;/blockquote>
+&lt;blockquote cite="https://www.scoopwhoop.com/sports/ms-dhoni/"&gt;
+ &lt;p&gt; No juegas para el público, juegas para el país. 
+&lt;/p&gt;
+ &lt;p class="attribution"&gt;—M S Dhoni, &lt;em&gt;Jugador Internacional de críquet, ex-capitán del equipo de India, juega para Chennai Super Kings en IPL&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;h2 id="acerca-de-ondas-gravitacionaleshttpswwwnationalgeographiccomnews201710what-are-gravitational-waves-ligo-astronomy-science-y-ligohttpswwwligocaltechedu">Acerca de &lt;a href="https://www.nationalgeographic.com/news/2017/10/what-are-gravitational-waves-ligo-astronomy-science/">Ondas Gravitacionales&lt;/a> y &lt;a href="https://www.ligo.caltech.edu">LIGO&lt;/a>&lt;a class="headerlink" href="#acerca-de-ondas-gravitacionaleshttpswwwnationalgeographiccomnews201710what-are-gravitational-waves-ligo-astronomy-science-y-ligohttpswwwligocaltechedu" title="Link to this heading">#&lt;/a>&lt;/h2>
-&lt;p>Las ondas gravitacionales son ondulaciones en el tejido del espacio y el tiempo, generadas por cataclismos en el universo, tales como la colisión y fusión de dos agujeros negros o la coalescencia de estrellas binarias o supernovas. La observación de Ondas Gravitacionales no solo puede ayudar en el estudio de la gravedad, sino también en la comprensión de algunos de los fenómenos oscuros en el universo distante y su impacto.&lt;/p></description></item><item><title>Historia de NumPy</title><link>https://numpy.org/es/history/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/es/history/</guid><description>&lt;p>NumPy es una librería fundamental de Python que proporciona estructuras de datos de arreglos y rutinas numéricas rápidas relacionadas. Cuando se puso en marcha, la librería contaba con escasos fondos y la escribían principalmente estudiantes de posgrado, muchos de ellos sin formación en ciencias de la computación y, a menudo, sin la bendición de sus asesores. Imaginar siquiera que un pequeño grupo de estudiantes programadores &amp;ldquo;rebeldes&amp;rdquo; pudiera derribar el ecosistema de software de investigación, ya establecido y respaldado por millones en financiación y cientos de ingenieros altamente cualificados, era absurdo. Sin embargo, las motivaciones filosóficas detrás de la pila de herramientas totalmente abierta, en combinación con una comunidad entusiasta y amigable con un enfoque singular, han demostrado ser favorable a largo plazo. Hoy en día, científicos, ingenieros y muchos otros profesionales en todo el mundo confían en NumPy. Por ejemplo, los scripts publicados usados en el análisis de ondas gravitacionales importan NumPy, y el proyecto de imagen del agujero negro M87 cita directamente a NumPy.&lt;/p></description></item><item><title>Instalando NumPy</title><link>https://numpy.org/es/install/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/es/install/</guid><description>&lt;p>El único prerrequisito para instalar NumPy es Python. Si aún no tienes Python y quieres la forma más sencilla de comenzar, te recomendamos que uses la &lt;a href="https://www.anaconda.com/download">Distribución Anaconda&lt;/a> - incluye Python, NumPy y muchos otros paquetes comúnmente utilizados para la computación científica y la ciencia de datos.&lt;/p>
-&lt;p>NumPy se puede instalar con &lt;code>conda&lt;/code>, con &lt;code>pip&lt;/code>, con un gestor de paquetes en macOS y Linux, o &lt;a href="https://numpy.org/devdocs/building">a partir del código fuente&lt;/a>. Para instrucciones más detalladas, consulte nuestra &lt;a href="https://numpy.org/es/install/#python-numpy-install-guide">guía de instalación de Python y NumPy&lt;/a> a continuación.&lt;/p></description></item><item><title>Kit de prensa</title><link>https://numpy.org/es/press-kit/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/es/press-kit/</guid><description>&lt;p>Nos gustaría facilitarte el trabajo para incluir la identidad del proyecto NumPy en tu próximo documento académico, material de curso o presentación.&lt;/p>
-&lt;p>&lt;a href="https://github.com/numpy/numpy/tree/main/branding/logo">Aquí&lt;/a> encontrarás varias versiones en alta resolución del logo de NumPy. Ten en cuenta que al utilizar los recursos de numpy.org, aceptas el &lt;a href="https://numpy.org/es/code-of-conduct/">Código de Conducta de NumPy&lt;/a>.&lt;/p></description></item><item><title>Política de Privacidad</title><link>https://numpy.org/es/privacy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/es/privacy/</guid><description>&lt;p>&lt;strong>numpy.org&lt;/strong> está operado por &lt;a href="https://numfocus.org">NumFOCUS, Inc.&lt;/a>, el patrocinador fiscal del proyecto NumPy. Para ver la Política de Privacidad de este sitio web, por favor dirígete a &lt;a href="https://numfocus.org/privacy-policy">https://numfocus.org/privacy-policy&lt;/a>.&lt;/p>
-&lt;p>Si tienes alguna pregunta sobre la política o la recolección, uso y prácticas de divulgación de datos de NumFOCUS, por favor ponte en contacto con el personal de NumFOCUS en &lt;a href="mailto:privacy@numfocus.org">privacy@numfocus.org&lt;/a>.&lt;/p></description></item><item><title>Quiénes Somos</title><link>https://numpy.org/es/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/es/about/</guid><description>&lt;p>NumPy es un proyecto de código abierto cuyo objetivo es permitir la computación numérica en Python. Fue creado en el 2005, a partir de los primeros trabajos de las bibliotecas Numeric y Numarray. NumPy siempre será un software 100% de código abierto y de uso libre para todos. Fue liberado bajo los términos liberales de la &lt;a href="https://github.com/numpy/numpy/blob/main/LICENSE.txt">licencia BSD modificada&lt;/a>.&lt;/p>
-&lt;p>NumPy es desarrollado de forma abierta en GitHub, mediante el consenso de las comunidades NumPy y Python científico en general. Para más información sobre nuestro enfoque de gobernanza, por favor consulta nuestro &lt;a href="https://www.numpy.org/devdocs/dev/governance/index.html">Documento de Gobernanza&lt;/a>.&lt;/p></description></item><item><title>Terms of Use</title><link>https://numpy.org/es/terms/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/es/terms/</guid><description>&lt;p>&lt;em>Last updated January 4, 2020&lt;/em>&lt;/p>
-&lt;h2 id="agreement-to-terms">AGREEMENT TO TERMS&lt;a class="headerlink" href="#agreement-to-terms" title="Link to this heading">#&lt;/a>&lt;/h2>
-&lt;p>These Terms of Use constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and NumPy (&amp;quot;&lt;strong>Project&lt;/strong>&amp;quot;, “&lt;strong>we&lt;/strong>”, “&lt;strong>us&lt;/strong>”, or “&lt;strong>our&lt;/strong>”), concerning your access to and use of the numpy.org website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto (collectively, the “Site”). You agree that by accessing the Site, you have read, understood, and agreed to be bound by all of these Terms of Use. IF YOU DO NOT AGREE WITH ALL OF THESE TERMS OF USE, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SITE AND YOU MUST DISCONTINUE USE IMMEDIATELY.&lt;/p></description></item></channel></rss>
+&lt;h2 id="acerca-del-críquet"&gt;Acerca del críquet&lt;a class="headerlink" href="#acerca-del-críquet" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Sería una subestimación decir que a los indios les encanta el críquet. El juego se juega en casi todos los rincones de la India, rurales o urbanos, es popular entre los jóvenes y ancianos por igual, conectando miles de millones de personas en India como ningún otro deporte. El críquet disfruta de una gran atención mediática. Hay una cantidad importante de &lt;a href="https://www.statista.com/topics/4543/indian-premier-league-ipl/"&gt;dinero&lt;/a&gt; y fama en juego. En los últimos años, la tecnología ha cambiado literalmente las reglas del juego. El público tiene muchas opciones para elegir entre streaming de medios, torneos, acceso asequible a la visualización de críquet en vivo desde dispositivos móviles y más.&lt;/p&gt;</description></item><item><title>Estudio de Caso: Descubrimiento de Ondas Gravitacionales</title><link>https://numpy.org/es/case-studies/gw-discov/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/es/case-studies/gw-discov/</guid><description>&lt;figure class="align-default" id="id000"&gt;
+&lt;img src="https://numpy.org/images/content_images/cs/gw_sxs_image.png" alt="coalescencia de un agujero negro binario generando ondas gravitacionales" class="align-center"&gt;
+
+
+
+&lt;figcaption&gt;&lt;strong class="caption-title"&gt;Ondas Gravitacionales&lt;/strong&gt;&lt;a class="headerlink" href="#id000" title="Link to this image"&gt;#&lt;/a&gt;&lt;br&gt;&lt;a href="https://youtu.be/Zt8Z_uzG71o"&gt;(Créditos de imagen: El proyecto Simulación de Espacio-tiempos eXtreme (SXS) en LIGO)&lt;/a&gt;
+&lt;p&gt;&lt;span class="caption-text"&gt;&lt;/span&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs"&gt;
+ &lt;p&gt; El ecosistema científico de Python es una infraestructura crítica para la investigación realizada en LIGO.
+&lt;/p&gt;
+ &lt;p class="attribution"&gt;—David Shoemaker, &lt;em&gt;Colaboración científica LIGO&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id="acerca-de-ondas-gravitacionales-y-ligo"&gt;Acerca de &lt;a href="https://www.nationalgeographic.com/news/2017/10/what-are-gravitational-waves-ligo-astronomy-science/"&gt;Ondas Gravitacionales&lt;/a&gt; y &lt;a href="https://www.ligo.caltech.edu"&gt;LIGO&lt;/a&gt;&lt;a class="headerlink" href="#acerca-de-ondas-gravitacionales-y-ligo" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Las ondas gravitacionales son ondulaciones en el tejido del espacio y el tiempo, generadas por cataclismos en el universo, tales como la colisión y fusión de dos agujeros negros o la coalescencia de estrellas binarias o supernovas. La observación de Ondas Gravitacionales no solo puede ayudar en el estudio de la gravedad, sino también en la comprensión de algunos de los fenómenos oscuros en el universo distante y su impacto.&lt;/p&gt;</description></item><item><title>Historia de NumPy</title><link>https://numpy.org/es/history/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/es/history/</guid><description>&lt;p&gt;NumPy es una librería fundamental de Python que proporciona estructuras de datos de arreglos y rutinas numéricas rápidas relacionadas. Cuando se puso en marcha, la librería contaba con escasos fondos y la escribían principalmente estudiantes de posgrado, muchos de ellos sin formación en ciencias de la computación y, a menudo, sin la bendición de sus asesores. Imaginar siquiera que un pequeño grupo de estudiantes programadores &amp;ldquo;rebeldes&amp;rdquo; pudiera derribar el ecosistema de software de investigación, ya establecido y respaldado por millones en financiación y cientos de ingenieros altamente cualificados, era absurdo. Sin embargo, las motivaciones filosóficas detrás de la pila de herramientas totalmente abierta, en combinación con una comunidad entusiasta y amigable con un enfoque singular, han demostrado ser favorable a largo plazo. Hoy en día, científicos, ingenieros y muchos otros profesionales en todo el mundo confían en NumPy. Por ejemplo, los scripts publicados usados en el análisis de ondas gravitacionales importan NumPy, y el proyecto de imagen del agujero negro M87 cita directamente a NumPy.&lt;/p&gt;</description></item><item><title>Instalando NumPy</title><link>https://numpy.org/es/install/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/es/install/</guid><description>&lt;p&gt;El único prerrequisito para instalar NumPy es Python. Si aún no tienes Python y quieres la forma más sencilla de comenzar, te recomendamos que uses la &lt;a href="https://www.anaconda.com/download"&gt;Distribución Anaconda&lt;/a&gt; - incluye Python, NumPy y muchos otros paquetes comúnmente utilizados para la computación científica y la ciencia de datos.&lt;/p&gt;
+&lt;p&gt;NumPy se puede instalar con &lt;code&gt;conda&lt;/code&gt;, con &lt;code&gt;pip&lt;/code&gt;, con un gestor de paquetes en macOS y Linux, o &lt;a href="https://numpy.org/devdocs/building"&gt;a partir del código fuente&lt;/a&gt;. Para instrucciones más detalladas, consulte nuestra &lt;a href="https://numpy.org/es/install/#python-numpy-install-guide"&gt;guía de instalación de Python y NumPy&lt;/a&gt; a continuación.&lt;/p&gt;</description></item><item><title>Kit de prensa</title><link>https://numpy.org/es/press-kit/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/es/press-kit/</guid><description>&lt;p&gt;Nos gustaría facilitarte el trabajo para incluir la identidad del proyecto NumPy en tu próximo documento académico, material de curso o presentación.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/numpy/numpy/tree/main/branding/logo"&gt;Aquí&lt;/a&gt; encontrarás varias versiones en alta resolución del logo de NumPy. Ten en cuenta que al utilizar los recursos de numpy.org, aceptas el &lt;a href="https://numpy.org/es/code-of-conduct/"&gt;Código de Conducta de NumPy&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Política de Privacidad</title><link>https://numpy.org/es/privacy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/es/privacy/</guid><description>&lt;p&gt;&lt;strong&gt;numpy.org&lt;/strong&gt; está operado por &lt;a href="https://numfocus.org"&gt;NumFOCUS, Inc.&lt;/a&gt;, el patrocinador fiscal del proyecto NumPy. Para ver la Política de Privacidad de este sitio web, por favor dirígete a &lt;a href="https://numfocus.org/privacy-policy"&gt;https://numfocus.org/privacy-policy&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Si tienes alguna pregunta sobre la política o la recolección, uso y prácticas de divulgación de datos de NumFOCUS, por favor ponte en contacto con el personal de NumFOCUS en &lt;a href="mailto:privacy@numfocus.org"&gt;privacy@numfocus.org&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Quiénes Somos</title><link>https://numpy.org/es/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/es/about/</guid><description>&lt;p&gt;NumPy es un proyecto de código abierto cuyo objetivo es permitir la computación numérica en Python. Fue creado en el 2005, a partir de los primeros trabajos de las bibliotecas Numeric y Numarray. NumPy siempre será un software 100% de código abierto y de uso libre para todos. Fue liberado bajo los términos liberales de la &lt;a href="https://github.com/numpy/numpy/blob/main/LICENSE.txt"&gt;licencia BSD modificada&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;NumPy es desarrollado de forma abierta en GitHub, mediante el consenso de las comunidades NumPy y Python científico en general. Para más información sobre nuestro enfoque de gobernanza, por favor consulta nuestro &lt;a href="https://www.numpy.org/devdocs/dev/governance/index.html"&gt;Documento de Gobernanza&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Terms of Use</title><link>https://numpy.org/es/terms/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/es/terms/</guid><description>&lt;p&gt;&lt;em&gt;Last updated January 4, 2020&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="agreement-to-terms"&gt;AGREEMENT TO TERMS&lt;a class="headerlink" href="#agreement-to-terms" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;These Terms of Use constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and NumPy (&amp;quot;&lt;strong&gt;Project&lt;/strong&gt;&amp;quot;, “&lt;strong&gt;we&lt;/strong&gt;”, “&lt;strong&gt;us&lt;/strong&gt;”, or “&lt;strong&gt;our&lt;/strong&gt;”), concerning your access to and use of the numpy.org website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto (collectively, the “Site”). You agree that by accessing the Site, you have read, understood, and agreed to be bound by all of these Terms of Use. IF YOU DO NOT AGREE WITH ALL OF THESE TERMS OF USE, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SITE AND YOU MUST DISCONTINUE USE IMMEDIATELY.&lt;/p&gt;</description></item></channel></rss>
