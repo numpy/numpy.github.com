@@ -181,8 +181,7 @@ at the core of the NumPy project.&lt;/p&gt;</description></item><item><title>Obt
 &lt;p&gt;These Terms of Use constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and NumPy (&amp;quot;&lt;strong&gt;Project&lt;/strong&gt;&amp;quot;, “&lt;strong&gt;we&lt;/strong&gt;”, “&lt;strong&gt;us&lt;/strong&gt;”, or “&lt;strong&gt;our&lt;/strong&gt;”), concerning your access to and use of the numpy.org website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto (collectively, the “Site”). You agree that by accessing the Site, you have read, understood, and agreed to be bound by all of these Terms of Use. IF YOU DO NOT AGREE WITH ALL OF THESE TERMS OF USE, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SITE AND YOU MUST DISCONTINUE USE IMMEDIATELY.&lt;/p&gt;</description></item><item><title>Times NumPy</title><link>https://numpy.org/pt/teams/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/pt/teams/</guid><description>&lt;p&gt;Somos uma equipe internacional com a missão de apoiar comunidades científicas e de pesquisa em todo o mundo construindo software de código aberto de qualidade.
 &lt;a href="https://numpy.org/pt/contribute/"&gt;Junte-se a nós&lt;/a&gt;!&lt;/p&gt;
 &lt;h3 id="pessoas-mantenedoras"&gt;Pessoas Mantenedoras&lt;a class="headerlink" href="#pessoas-mantenedoras" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="sd-container-fluid sd-mb-4 false"&gt;
- &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-3 sd-g-md-4 sd-g-lg-5"&gt;
+&lt;div class="sd-container-fluid sd-mb-4 false"&gt;&lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
  &lt;div class="sd-col sd-d-flex-row"&gt;
  
  &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
@@ -622,8 +621,7 @@ Warren Weckesser
 &lt;/div&gt;
 
 &lt;h3 id="time-de-documentacão"&gt;Time de documentacão&lt;a class="headerlink" href="#time-de-documentacão" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="sd-container-fluid sd-mb-4 false"&gt;
- &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-3 sd-g-md-4 sd-g-lg-5"&gt;
+&lt;div class="sd-container-fluid sd-mb-4 false"&gt;&lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
  &lt;div class="sd-col sd-d-flex-row"&gt;
  
  &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
@@ -733,8 +731,7 @@ Ross Barnowski
 &lt;/div&gt;
 
 &lt;h3 id="time-web"&gt;Time Web&lt;a class="headerlink" href="#time-web" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="sd-container-fluid sd-mb-4 false"&gt;
- &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-3 sd-g-md-4 sd-g-lg-5"&gt;
+&lt;div class="sd-container-fluid sd-mb-4 false"&gt;&lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
  &lt;div class="sd-col sd-d-flex-row"&gt;
  
  &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
@@ -874,8 +871,7 @@ Albert Steppi
 &lt;/div&gt;
 
 &lt;h3 id="time-de-triagem"&gt;Time de Triagem&lt;a class="headerlink" href="#time-de-triagem" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="sd-container-fluid sd-mb-4 false"&gt;
- &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-3 sd-g-md-4 sd-g-lg-5"&gt;
+&lt;div class="sd-container-fluid sd-mb-4 false"&gt;&lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
  &lt;div class="sd-col sd-d-flex-row"&gt;
  
  &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
@@ -1300,8 +1296,7 @@ Zijie (ZJ) Poh
 &lt;/div&gt;
 
 &lt;h3 id="time-de-pesquisa"&gt;Time de Pesquisa&lt;a class="headerlink" href="#time-de-pesquisa" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="sd-container-fluid sd-mb-4 false"&gt;
- &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-3 sd-g-md-4 sd-g-lg-5"&gt;
+&lt;div class="sd-container-fluid sd-mb-4 false"&gt;&lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
  &lt;div class="sd-col sd-d-flex-row"&gt;
  
  &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
@@ -1351,8 +1346,7 @@ Ross Barnowski
 &lt;/div&gt;
 
 &lt;h3 id="time-de-traduções"&gt;Time de traduções&lt;a class="headerlink" href="#time-de-traduções" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="sd-container-fluid sd-mb-4 false"&gt;
- &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-3 sd-g-md-4 sd-g-lg-5"&gt;
+&lt;div class="sd-container-fluid sd-mb-4 false"&gt;&lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
  &lt;div class="sd-col sd-d-flex-row"&gt;
  
  &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
@@ -1507,8 +1501,7 @@ Saeed Foroutan (@SaeedForoutan)
 &lt;/div&gt;
 
 &lt;h3 id="mantenedores-eméritos"&gt;Mantenedores Eméritos&lt;a class="headerlink" href="#mantenedores-eméritos" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="sd-container-fluid sd-mb-4 false"&gt;
- &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-3 sd-g-md-4 sd-g-lg-5"&gt;
+&lt;div class="sd-container-fluid sd-mb-4 false"&gt;&lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
  &lt;div class="sd-col sd-d-flex-row"&gt;
  
  &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;

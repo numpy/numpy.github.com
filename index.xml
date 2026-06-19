@@ -237,8 +237,7 @@ at the core of the NumPy project.&lt;/p&gt;</description></item><item><title>Num
 communities worldwide by building quality, open-source software.
 &lt;a href="https://numpy.org/contribute/"&gt;Join us&lt;/a&gt;!&lt;/p&gt;
 &lt;h3 id="maintainers"&gt;Maintainers&lt;a class="headerlink" href="#maintainers" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="sd-container-fluid sd-mb-4 false"&gt;
- &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-3 sd-g-md-4 sd-g-lg-5"&gt;
+&lt;div class="sd-container-fluid sd-mb-4 false"&gt;&lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
  &lt;div class="sd-col sd-d-flex-row"&gt;
  
  &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
@@ -678,8 +677,7 @@ Warren Weckesser
 &lt;/div&gt;
 
 &lt;h3 id="docs-team"&gt;Docs team&lt;a class="headerlink" href="#docs-team" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="sd-container-fluid sd-mb-4 false"&gt;
- &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-3 sd-g-md-4 sd-g-lg-5"&gt;
+&lt;div class="sd-container-fluid sd-mb-4 false"&gt;&lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
  &lt;div class="sd-col sd-d-flex-row"&gt;
  
  &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
@@ -789,8 +787,7 @@ Ross Barnowski
 &lt;/div&gt;
 
 &lt;h3 id="web-team"&gt;Web team&lt;a class="headerlink" href="#web-team" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="sd-container-fluid sd-mb-4 false"&gt;
- &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-3 sd-g-md-4 sd-g-lg-5"&gt;
+&lt;div class="sd-container-fluid sd-mb-4 false"&gt;&lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
  &lt;div class="sd-col sd-d-flex-row"&gt;
  
  &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
@@ -930,8 +927,7 @@ Albert Steppi
 &lt;/div&gt;
 
 &lt;h3 id="triage-team"&gt;Triage team&lt;a class="headerlink" href="#triage-team" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="sd-container-fluid sd-mb-4 false"&gt;
- &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-3 sd-g-md-4 sd-g-lg-5"&gt;
+&lt;div class="sd-container-fluid sd-mb-4 false"&gt;&lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
  &lt;div class="sd-col sd-d-flex-row"&gt;
  
  &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
@@ -1356,8 +1352,7 @@ Zijie (ZJ) Poh
 &lt;/div&gt;
 
 &lt;h3 id="survey-team"&gt;Survey team&lt;a class="headerlink" href="#survey-team" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="sd-container-fluid sd-mb-4 false"&gt;
- &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-3 sd-g-md-4 sd-g-lg-5"&gt;
+&lt;div class="sd-container-fluid sd-mb-4 false"&gt;&lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
  &lt;div class="sd-col sd-d-flex-row"&gt;
  
  &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
@@ -1407,8 +1402,7 @@ Ross Barnowski
 &lt;/div&gt;
 
 &lt;h3 id="translations-team"&gt;Translations team&lt;a class="headerlink" href="#translations-team" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="sd-container-fluid sd-mb-4 false"&gt;
- &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-3 sd-g-md-4 sd-g-lg-5"&gt;
+&lt;div class="sd-container-fluid sd-mb-4 false"&gt;&lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
  &lt;div class="sd-col sd-d-flex-row"&gt;
  
  &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
@@ -1563,8 +1557,7 @@ Saeed Foroutan (@SaeedForoutan)
 &lt;/div&gt;
 
 &lt;h3 id="emeritus-maintainers"&gt;Emeritus maintainers&lt;a class="headerlink" href="#emeritus-maintainers" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="sd-container-fluid sd-mb-4 false"&gt;
- &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-3 sd-g-md-4 sd-g-lg-5"&gt;
+&lt;div class="sd-container-fluid sd-mb-4 false"&gt;&lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
  &lt;div class="sd-col sd-d-flex-row"&gt;
  
  &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;

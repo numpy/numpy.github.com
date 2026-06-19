@@ -100,8 +100,7 @@ Capturar imágenes del Agujero Negro M87 es como intentar ver algo que por defin
 &lt;p&gt;Si tienes alguna pregunta o sugerencia sobre las encuestas pasadas o futuras, por favor abre una propuesta &lt;a href="https://github.com/numpy/numpy-surveys/issues"&gt;aquí&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Equipos de NumPy</title><link>https://numpy.org/es/teams/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/es/teams/</guid><description>&lt;p&gt;Somos un equipo internacional en una misión para apoyar a las comunidades científicas y de investigaciones alrededor del mundo, mediante la construcción de software de código abierto de calidad.
 ¡&lt;a href="https://numpy.org/es/contribute/"&gt;Únete&lt;/a&gt;!&lt;/p&gt;
 &lt;h3 id="mantenedores"&gt;Mantenedores&lt;a class="headerlink" href="#mantenedores" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="sd-container-fluid sd-mb-4 false"&gt;
- &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-3 sd-g-md-4 sd-g-lg-5"&gt;
+&lt;div class="sd-container-fluid sd-mb-4 false"&gt;&lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
  &lt;div class="sd-col sd-d-flex-row"&gt;
  
  &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
@@ -541,8 +540,7 @@ Warren Weckesser
 &lt;/div&gt;
 
 &lt;h3 id="equipo-de-documentación"&gt;Equipo de documentación&lt;a class="headerlink" href="#equipo-de-documentación" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="sd-container-fluid sd-mb-4 false"&gt;
- &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-3 sd-g-md-4 sd-g-lg-5"&gt;
+&lt;div class="sd-container-fluid sd-mb-4 false"&gt;&lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
  &lt;div class="sd-col sd-d-flex-row"&gt;
  
  &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
@@ -652,8 +650,7 @@ Ross Barnowski
 &lt;/div&gt;
 
 &lt;h3 id="equipo-de-la-página-web"&gt;Equipo de la página web&lt;a class="headerlink" href="#equipo-de-la-página-web" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="sd-container-fluid sd-mb-4 false"&gt;
- &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-3 sd-g-md-4 sd-g-lg-5"&gt;
+&lt;div class="sd-container-fluid sd-mb-4 false"&gt;&lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
  &lt;div class="sd-col sd-d-flex-row"&gt;
  
  &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
@@ -793,8 +790,7 @@ Albert Steppi
 &lt;/div&gt;
 
 &lt;h3 id="equipo-de-clasificación"&gt;Equipo de clasificación&lt;a class="headerlink" href="#equipo-de-clasificación" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="sd-container-fluid sd-mb-4 false"&gt;
- &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-3 sd-g-md-4 sd-g-lg-5"&gt;
+&lt;div class="sd-container-fluid sd-mb-4 false"&gt;&lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
  &lt;div class="sd-col sd-d-flex-row"&gt;
  
  &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
@@ -1219,8 +1215,7 @@ Zijie (ZJ) Poh
 &lt;/div&gt;
 
 &lt;h3 id="equipo-de-encuestas"&gt;Equipo de encuestas&lt;a class="headerlink" href="#equipo-de-encuestas" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="sd-container-fluid sd-mb-4 false"&gt;
- &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-3 sd-g-md-4 sd-g-lg-5"&gt;
+&lt;div class="sd-container-fluid sd-mb-4 false"&gt;&lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
  &lt;div class="sd-col sd-d-flex-row"&gt;
  
  &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
@@ -1270,8 +1265,7 @@ Ross Barnowski
 &lt;/div&gt;
 
 &lt;h3 id="mantenedores-eméritos"&gt;Mantenedores eméritos&lt;a class="headerlink" href="#mantenedores-eméritos" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="sd-container-fluid sd-mb-4 false"&gt;
- &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-3 sd-g-md-4 sd-g-lg-5"&gt;
+&lt;div class="sd-container-fluid sd-mb-4 false"&gt;&lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
  &lt;div class="sd-col sd-d-flex-row"&gt;
  
  &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
