@@ -9,7 +9,8 @@
 &lt;/figure&gt;
 
 &lt;blockquote cite="https://news.harvard.edu/gazette/story/newsplus/harvard-researchers-awarded-czi-open-source-award/"&gt;
- &lt;p&gt; El software de código abierto está acelerando la biomedicina. DeepLabCut permite el análisis automatizado de video del comportamiento animal utilizando Aprendizaje Profundo. 
+ &lt;p&gt;
+El software de código abierto está acelerando la biomedicina. DeepLabCut permite el análisis automatizado de video del comportamiento animal utilizando Aprendizaje Profundo.
 &lt;/p&gt;
  &lt;p class="attribution"&gt;—Alexander Mathis, &lt;em&gt;Profesor Asistente, Escuela Politécnica Federal de Lausana&lt;/em&gt; (&lt;a href="https://www.epfl.ch/en/"&gt;EPFL&lt;/a&gt;)&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -27,7 +28,7 @@
 
 &lt;blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs"&gt;
  &lt;p&gt;
-Capturar imágenes del Agujero Negro M87 es como intentar ver algo que por definición es imposible de ver. 
+Capturar imágenes del Agujero Negro M87 es como intentar ver algo que por definición es imposible de ver.
 &lt;/p&gt;
  &lt;p class="attribution"&gt;—Katie Bouman, &lt;em&gt;Profesora Asistente, Ciencias de la Computación &amp;amp; Matemáticas, Caltech&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -44,13 +45,16 @@ Capturar imágenes del Agujero Negro M87 es como intentar ver algo que por defin
 &lt;/figure&gt;
 
 &lt;blockquote cite="https://www.scoopwhoop.com/sports/ms-dhoni/"&gt;
- &lt;p&gt; No juegas para el público, juegas para el país. 
+ &lt;p&gt;
+No juegas para el público, juegas para el país.
 &lt;/p&gt;
  &lt;p class="attribution"&gt;—M S Dhoni, &lt;em&gt;Jugador Internacional de críquet, ex-capitán del equipo de India, juega para Chennai Super Kings en IPL&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h2 id="acerca-del-críquet"&gt;Acerca del críquet&lt;a class="headerlink" href="#acerca-del-críquet" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Sería una subestimación decir que a los indios les encanta el críquet. El juego se juega en casi todos los rincones de la India, rurales o urbanos, es popular entre los jóvenes y ancianos por igual, conectando miles de millones de personas en India como ningún otro deporte. El críquet disfruta de una gran atención mediática. Hay una cantidad importante de &lt;a href="https://www.statista.com/topics/4543/indian-premier-league-ipl/"&gt;dinero&lt;/a&gt; y fama en juego. En los últimos años, la tecnología ha cambiado literalmente las reglas del juego. El público tiene muchas opciones para elegir entre streaming de medios, torneos, acceso asequible a la visualización de críquet en vivo desde dispositivos móviles y más.&lt;/p&gt;</description></item><item><title>Estudio de Caso: Descubrimiento de Ondas Gravitacionales</title><link>https://numpy.org/es/case-studies/gw-discov/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/es/case-studies/gw-discov/</guid><description>&lt;figure class="align-default" id="id000"&gt;
+&lt;p&gt;Sería una subestimación decir que a los indios les encanta el críquet. El juego se juega en casi todos los rincones de la India, rurales o urbanos, es popular entre los jóvenes y ancianos por igual, conectando miles de millones de personas en India como ningún otro deporte.
+El críquet disfruta de una gran atención mediática. Hay una cantidad importante de &lt;a href="https://www.statista.com/topics/4543/indian-premier-league-ipl/"&gt;dinero&lt;/a&gt; y fama en juego. En los últimos años, la tecnología ha cambiado literalmente las reglas del juego. El público tiene muchas opciones para elegir entre streaming de medios, torneos,
+acceso asequible a la visualización de críquet en vivo desde dispositivos móviles y más.&lt;/p&gt;</description></item><item><title>Estudio de Caso: Descubrimiento de Ondas Gravitacionales</title><link>https://numpy.org/es/case-studies/gw-discov/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/es/case-studies/gw-discov/</guid><description>&lt;figure class="align-default" id="id000"&gt;
 &lt;img src="https://numpy.org/images/content_images/cs/gw_sxs_image.png" alt="coalescencia de un agujero negro binario generando ondas gravitacionales" class="align-center"&gt;
 
 
@@ -61,10 +65,13 @@ Capturar imágenes del Agujero Negro M87 es como intentar ver algo que por defin
 &lt;/figure&gt;
 
 &lt;blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs"&gt;
- &lt;p&gt; El ecosistema científico de Python es una infraestructura crítica para la investigación realizada en LIGO.
+ &lt;p&gt;
+ El ecosistema científico de Python es una infraestructura crítica para la investigación realizada en LIGO.
 &lt;/p&gt;
  &lt;p class="attribution"&gt;—David Shoemaker, &lt;em&gt;Colaboración científica LIGO&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h2 id="acerca-de-ondas-gravitacionales-y-ligo"&gt;Acerca de &lt;a href="https://www.nationalgeographic.com/news/2017/10/what-are-gravitational-waves-ligo-astronomy-science/"&gt;Ondas Gravitacionales&lt;/a&gt; y &lt;a href="https://www.ligo.caltech.edu"&gt;LIGO&lt;/a&gt;&lt;a class="headerlink" href="#acerca-de-ondas-gravitacionales-y-ligo" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Las ondas gravitacionales son ondulaciones en el tejido del espacio y el tiempo, generadas por cataclismos en el universo, tales como la colisión y fusión de dos agujeros negros o la coalescencia de estrellas binarias o supernovas. La observación de Ondas Gravitacionales no solo puede ayudar en el estudio de la gravedad, sino también en la comprensión de algunos de los fenómenos oscuros en el universo distante y su impacto.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;Las ondas gravitacionales son ondulaciones en el tejido del espacio y el tiempo, generadas por
+cataclismos en el universo, tales como la colisión y fusión de dos agujeros
+negros o la coalescencia de estrellas binarias o supernovas. La observación de Ondas Gravitacionales no solo puede ayudar en el estudio de la gravedad, sino también en la comprensión de algunos de los fenómenos oscuros en el universo distante y su impacto.&lt;/p&gt;</description></item></channel></rss>
