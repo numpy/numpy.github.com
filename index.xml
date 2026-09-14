@@ -173,10 +173,13 @@ list&lt;/a&gt; or
 &lt;a href="http://github.com/numpy/numpy"&gt;GitHub&lt;/a&gt; (open an
 &lt;a href="https://github.com/numpy/numpy/issues"&gt;issue&lt;/a&gt; or comment on a relevant
 issue).&lt;/p&gt;
-&lt;p&gt;Those are our preferred channels (open source is open by nature), but
-if you prefer to talk privately, contact our community coordinators at
-&lt;a href="mailto:numpy-team@googlegroups.com"&gt;numpy-team@googlegroups.com&lt;/a&gt; or on &lt;a href="https://numpy-team.slack.com"&gt;Slack&lt;/a&gt;
-(write &lt;a href="mailto:numpy-team@googlegroups.com"&gt;numpy-team@googlegroups.com&lt;/a&gt; for an invite).&lt;/p&gt;</description></item><item><title>Get Help</title><link>https://numpy.org/gethelp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/gethelp/</guid><description>&lt;p&gt;&lt;strong&gt;Development issues:&lt;/strong&gt; For NumPy development-related matters (e.g., bug reports), please
+&lt;p&gt;Those are our preferred channels (open source is open by nature). We also
+recognize that reaching out in public can feel a little daunting,
+if you are new to the project or to open source. If you’d feel more comfortable
+starting with a private conversation, you are welcome to reach out to our
+active maintainers via &lt;a href="mailto:numpy-team@googlegroups.com"&gt;numpy-team@googlegroups.com&lt;/a&gt; or on
+&lt;a href="https://numpy-team.slack.com"&gt;Slack&lt;/a&gt;
+(ask for an invite via &lt;a href="mailto:numpy-team@googlegroups.com"&gt;numpy-team@googlegroups.com&lt;/a&gt;).&lt;/p&gt;</description></item><item><title>Get Help</title><link>https://numpy.org/gethelp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/gethelp/</guid><description>&lt;p&gt;&lt;strong&gt;Development issues:&lt;/strong&gt; For NumPy development-related matters (e.g., bug reports), please
 see &lt;a href="https://numpy.org/community/"&gt;Community&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;User questions:&lt;/strong&gt; The best way to get help is to post your question to a site
 like &lt;a href="http://stackoverflow.com/questions/tagged/numpy"&gt;StackOverflow&lt;/a&gt; or
