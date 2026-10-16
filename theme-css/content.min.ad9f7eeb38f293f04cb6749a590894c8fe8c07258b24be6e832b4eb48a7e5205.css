@@ -1,0 +1,1 @@
+.content-padding{display:flex;flex-wrap:nowrap;width:100%;max-width:var(--spht-page-width);margin:1em auto;padding:0 var(--spht-page-padding);gap:1.875rem}.content-padding.is-centered{justify-content:center}.content-container{flex-basis:70em;flex-shrink:1;flex-direction:column;padding:1rem 0;min-width:0}

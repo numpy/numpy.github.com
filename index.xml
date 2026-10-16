@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NumPy</title><link>https://numpy.org/</link><description>Recent content on NumPy</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sun, 21 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://numpy.org/index.xml" rel="self" type="application/rss+xml"/><item><title>News</title><link>https://numpy.org/news/</link><pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate><guid>https://numpy.org/news/</guid><description>&lt;h3 id="numpy-250-released"&gt;NumPy 2.5.0 released&lt;a class="headerlink" href="#numpy-250-released" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NumPy</title><link>https://numpy.org/</link><description>Recent content on NumPy</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 21 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://numpy.org/index.xml" rel="self" type="application/rss+xml"/><item><title>News</title><link>https://numpy.org/news/</link><pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate><guid>https://numpy.org/news/</guid><description>&lt;h3 id="numpy-250-released"&gt;NumPy 2.5.0 released&lt;a class="headerlink" href="#numpy-250-released" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;em&gt;21 Jun, 2026&lt;/em&gt; &amp;ndash; Numpy 2.5.0 is a transitional release. It drops support for
 Python 3.11, marking the end of distutils, and expires a large number of
 deprecations made in the 2.0.x release. It also improves free threading and
@@ -247,7 +247,8 @@ at the core of the NumPy project.&lt;/p&gt;</description></item><item><title>Num
 communities worldwide by building quality, open-source software.
 &lt;a href="https://numpy.org/contribute/"&gt;Join us&lt;/a&gt;!&lt;/p&gt;
 &lt;h3 id="maintainers"&gt;Maintainers&lt;a class="headerlink" href="#maintainers" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="sd-container-fluid sd-mb-4 false"&gt;&lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
+&lt;div class="sd-container-fluid sd-mb-4 false sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
+ &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
  &lt;div class="sd-col sd-d-flex-row"&gt;
  
  &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
@@ -687,7 +688,8 @@ Warren Weckesser
 &lt;/div&gt;
 
 &lt;h3 id="docs-team"&gt;Docs team&lt;a class="headerlink" href="#docs-team" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="sd-container-fluid sd-mb-4 false"&gt;&lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
+&lt;div class="sd-container-fluid sd-mb-4 false sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
+ &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
  &lt;div class="sd-col sd-d-flex-row"&gt;
  
  &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
@@ -797,7 +799,8 @@ Ross Barnowski
 &lt;/div&gt;
 
 &lt;h3 id="web-team"&gt;Web team&lt;a class="headerlink" href="#web-team" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="sd-container-fluid sd-mb-4 false"&gt;&lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
+&lt;div class="sd-container-fluid sd-mb-4 false sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
+ &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
  &lt;div class="sd-col sd-d-flex-row"&gt;
  
  &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
@@ -937,7 +940,8 @@ Albert Steppi
 &lt;/div&gt;
 
 &lt;h3 id="triage-team"&gt;Triage team&lt;a class="headerlink" href="#triage-team" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="sd-container-fluid sd-mb-4 false"&gt;&lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
+&lt;div class="sd-container-fluid sd-mb-4 false sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
+ &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
  &lt;div class="sd-col sd-d-flex-row"&gt;
  
  &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
@@ -1362,7 +1366,8 @@ Zijie (ZJ) Poh
 &lt;/div&gt;
 
 &lt;h3 id="survey-team"&gt;Survey team&lt;a class="headerlink" href="#survey-team" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="sd-container-fluid sd-mb-4 false"&gt;&lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
+&lt;div class="sd-container-fluid sd-mb-4 false sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
+ &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
  &lt;div class="sd-col sd-d-flex-row"&gt;
  
  &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
@@ -1412,7 +1417,8 @@ Ross Barnowski
 &lt;/div&gt;
 
 &lt;h3 id="translations-team"&gt;Translations team&lt;a class="headerlink" href="#translations-team" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="sd-container-fluid sd-mb-4 false"&gt;&lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
+&lt;div class="sd-container-fluid sd-mb-4 false sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
+ &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
  &lt;div class="sd-col sd-d-flex-row"&gt;
  
  &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
@@ -1567,7 +1573,8 @@ Saeed Foroutan (@SaeedForoutan)
 &lt;/div&gt;
 
 &lt;h3 id="emeritus-maintainers"&gt;Emeritus maintainers&lt;a class="headerlink" href="#emeritus-maintainers" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="sd-container-fluid sd-mb-4 false"&gt;&lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
+&lt;div class="sd-container-fluid sd-mb-4 false sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
+ &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
  &lt;div class="sd-col sd-d-flex-row"&gt;
  
  &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;

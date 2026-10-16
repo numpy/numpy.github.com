@@ -116,7 +116,8 @@ and data science.
 &lt;h3 id="過去の資料"&gt;過去の資料&lt;a class="headerlink" href="#過去の資料" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;a href="static/numeric-manual.pdf"&gt;&lt;em&gt;`Numeric&amp;rsquo;&lt;/em&gt; マニュアル&lt;/a&gt;のダウンロード&lt;/p&gt;</description></item><item><title>NumPy開発チーム</title><link>https://numpy.org/ja/teams/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://numpy.org/ja/teams/</guid><description>&lt;p&gt;私たちは、高品質のオープンソースソフトウェアを構築することで、世界中の科学・研究コミュニティをサポートすることを使命とする国際的なチームです。 是非&lt;a href="https://numpy.org/ja/contribute"&gt;参加してください&lt;/a&gt;!&lt;/p&gt;
 &lt;h3 id="maintainers"&gt;Maintainers&lt;a class="headerlink" href="#maintainers" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="sd-container-fluid sd-mb-4 false"&gt;&lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
+&lt;div class="sd-container-fluid sd-mb-4 false sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
+ &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
  &lt;div class="sd-col sd-d-flex-row"&gt;
  
  &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
@@ -556,7 +557,8 @@ Warren Weckesser
 &lt;/div&gt;
 
 &lt;h3 id="ドキュメントチーム"&gt;ドキュメントチーム&lt;a class="headerlink" href="#ドキュメントチーム" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="sd-container-fluid sd-mb-4 false"&gt;&lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
+&lt;div class="sd-container-fluid sd-mb-4 false sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
+ &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
  &lt;div class="sd-col sd-d-flex-row"&gt;
  
  &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
@@ -666,7 +668,8 @@ Ross Barnowski
 &lt;/div&gt;
 
 &lt;h3 id="webチーム"&gt;Webチーム&lt;a class="headerlink" href="#webチーム" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="sd-container-fluid sd-mb-4 false"&gt;&lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
+&lt;div class="sd-container-fluid sd-mb-4 false sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
+ &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
  &lt;div class="sd-col sd-d-flex-row"&gt;
  
  &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
@@ -806,7 +809,8 @@ Albert Steppi
 &lt;/div&gt;
 
 &lt;h3 id="トリアージチーム"&gt;トリアージチーム&lt;a class="headerlink" href="#トリアージチーム" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="sd-container-fluid sd-mb-4 false"&gt;&lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
+&lt;div class="sd-container-fluid sd-mb-4 false sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
+ &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
  &lt;div class="sd-col sd-d-flex-row"&gt;
  
  &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
@@ -1231,7 +1235,8 @@ Zijie (ZJ) Poh
 &lt;/div&gt;
 
 &lt;h3 id="アンケートチーム"&gt;アンケートチーム&lt;a class="headerlink" href="#アンケートチーム" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="sd-container-fluid sd-mb-4 false"&gt;&lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
+&lt;div class="sd-container-fluid sd-mb-4 false sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
+ &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
  &lt;div class="sd-col sd-d-flex-row"&gt;
  
  &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
@@ -1281,7 +1286,8 @@ Ross Barnowski
 &lt;/div&gt;
 
 &lt;h3 id="翻訳チーム"&gt;翻訳チーム&lt;a class="headerlink" href="#翻訳チーム" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="sd-container-fluid sd-mb-4 false"&gt;&lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
+&lt;div class="sd-container-fluid sd-mb-4 false sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
+ &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
  &lt;div class="sd-col sd-d-flex-row"&gt;
  
  &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
@@ -1436,7 +1442,8 @@ Saeed Foroutan (@SaeedForoutan)
 &lt;/div&gt;
 
 &lt;h3 id="名誉メンテナー"&gt;名誉メンテナー&lt;a class="headerlink" href="#名誉メンテナー" title="Link to this heading"&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="sd-container-fluid sd-mb-4 false"&gt;&lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
+&lt;div class="sd-container-fluid sd-mb-4 false sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
+ &lt;div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-3 sd-row-cols-md-4 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2"&gt;
  &lt;div class="sd-col sd-d-flex-row"&gt;
  
  &lt;div class="sd-card sd-w-100 sd-shadow-sm sd-card-hover text-center"&gt;
